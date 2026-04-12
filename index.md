@@ -1,8 +1,3 @@
----
-title: Wiki Chiki — Главная
-layout: home
----
-
 # Wiki Chiki
 
 База знаний: инфраструктура, менеджмент, LLM/агенты.
@@ -17,7 +12,15 @@ layout: home
 
 ## Менеджмент
 
-*Пока пусто. Дай первый источник — и я создам статьи.*
+| Статья | О чём |
+|--------|-------|
+| [Кайдзен](wiki/management/kaizen.md) | Философия непрерывного совершенствования, PDCA, genchi gembutsu |
+| [Toyota Production System](wiki/management/toyota-production-system.md) | 9 принципов TPS, JIT, SMED, Kanban |
+| [Муда](wiki/management/muda.md) | Три вида потерь: муда, мура, мури + 7 потерь с IT-параллелями |
+| [Poka-yoke и Andon](wiki/management/poka-yoke-andon.md) | Защита от дурака, система оповещения, karakuri |
+| [Метод 5 Why](wiki/management/5-why.md) | Поиск корневых причин через последовательные «почему?» |
+| [Диаграмма Исикавы](wiki/management/ishikawa-diagram.md) | Fishbone-диаграмма, анализ 6M, сюхари |
+| [Методология A3](wiki/management/a3-methodology.md) | Визуальный документ для принятия решений, 5S для IT |
 
 ## LLM и агенты
 
