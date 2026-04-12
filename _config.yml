@@ -1,0 +1,16 @@
+title: Wiki Chiki
+description: LLM-Powered Knowledge Base — Инфраструктура, Менеджмент, LLM/Агенты
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+defaults:
+  - scope:
+      path: "wiki"
+      type: "wiki"
+    values:
+      layout: "page"
