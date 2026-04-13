@@ -20,7 +20,7 @@
 
 ## [2026-04-13] ingest | Autoresearch + research org code
 - Создано: [[Autoresearch]], [[Research org code]]
-- Обновлено: `index.md`, `wiki/_index.md`, `wiki/_backlinks.json`
+- Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источники:
   - https://github.com/karpathy/autoresearch?tab=readme-ov-file
   - https://x.com/hooeem/status/2030720614752039185
@@ -30,7 +30,7 @@
 
 ## [2026-04-13] expand | Agentic research cluster
 - Создано: [[Nanochat]], [[Validation bits per byte]], [[Overnight experimentation]], [[Asynchronous research swarms]]
-- Обновлено: [[Autoresearch]], `index.md`, `wiki/_index.md`, `wiki/_backlinks.json`
+- Обновлено: [[Autoresearch]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источники:
   - https://github.com/karpathy/nanochat
   - https://x.com/karpathy/status/2030705271627284816
@@ -38,5 +38,5 @@
 ## [2026-04-13] refine | Sources restored + index reordered
 - Обновлено: все wiki-страницы получили явный блок `Источники` с внешними ссылками на первоисточники
 - Обновлено: `index.md` сначала был перестроен, затем переработан в карту областей знаний без искусственной пошаговости
-- Обновлено: добавлен публичный `wiki/master-index.md`, потому что `wiki/_index.md` давал 404 на GitHub Pages
+- Обновлено: добавлен `wiki/master-index.md` как единый мастер-индекс для GitHub Pages
 - Основание: source ids были сохранены в frontmatter и raw history, но не выводились на самих страницах
