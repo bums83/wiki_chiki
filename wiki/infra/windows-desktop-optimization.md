@@ -2,7 +2,7 @@
 title: Оптимизация рабочего стола Windows
 type: case-study
 created: 2026-04-12
-last_updated: 2026-04-12
+last_updated: 2026-04-13
 domain: infra
 related: ["[[Windows Shell]]", [[Легаси-железо]]"]
 sources: ["habr-994440"]
@@ -64,3 +64,7 @@ Segoe UI → Tahoma 8pt через реестр. MenuShowDelay = 400 для ол
 - Требует ручной настройки и VBS-скриптов
 - Часть утилит может вызывать ложные срабатывания антивирусов (UltraUXthemepatcher и аналоги лезут в системные ресурсы)
 - Поддерживаемость при обновлениях Windows — под вопросом
+
+## Источники
+
+- [Приручаем монстра: Как я пересадил Windows 10 на диету из Windows XP и сэкономил память](https://habr.com/ru/articles/994440/)

@@ -34,3 +34,8 @@
 - Источники:
   - https://github.com/karpathy/nanochat
   - https://x.com/karpathy/status/2030705271627284816
+
+## [2026-04-13] refine | Sources restored + index reordered
+- Обновлено: все wiki-страницы получили явный блок `Источники` с внешними ссылками на первоисточники
+- Обновлено: `index.md` перестроен из плоского списка в маршруты чтения по смыслу
+- Основание: source ids были сохранены в frontmatter и raw history, но не выводились на самих страницах

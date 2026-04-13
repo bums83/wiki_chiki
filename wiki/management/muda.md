@@ -2,7 +2,7 @@
 title: Муда
 type: concept
 created: 2026-04-12
-last_updated: 2026-04-12
+last_updated: 2026-04-13
 domain: management
 related: ["[[Кайдзен]]", "[[Toyota Production System]]"]
 sources: ["habr-297004", "habr-882102"]
@@ -47,3 +47,8 @@ sources: ["habr-297004", "habr-882102"]
 ## Связь с кайдзен
 
 [[Кайдзен]] избавляет от муда. [[Toyota Production System|TPS]] выстроена вокруг устранения всех трёх видов потерь.
+
+## Источники
+
+- [Кайдзен, путь к совершенству](https://habr.com/ru/articles/297004/)
+- [Как использовать японские подходы в IT. Часть 2: Кайдзен и гайдзины](https://habr.com/ru/companies/selectel/articles/882102/)

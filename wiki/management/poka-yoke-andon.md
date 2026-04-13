@@ -2,7 +2,7 @@
 title: Poka-yoke и Andon
 type: technology
 created: 2026-04-12
-last_updated: 2026-04-12
+last_updated: 2026-04-13
 domain: management
 related: ["[[Toyota Production System]]", "[[Кайдзен]]"]
 sources: ["habr-888486", "habr-878782"]
@@ -64,3 +64,8 @@ sources: ["habr-888486", "habr-878782"]
 - **Ценность** — сотрудник видит личную выгоду (меньше работать, меньше авралов)
 
 Перебор с контролем вреден: километры инструкций → саботаж вместо осознанного выполнения.
+
+## Источники
+
+- [Как использовать японские подходы в IT. Часть 3: защита от дурака](https://habr.com/ru/companies/selectel/articles/888486/)
+- [Как использовать японские подходы в IT. Часть 1: петля за петлей](https://habr.com/ru/companies/selectel/articles/878782/)

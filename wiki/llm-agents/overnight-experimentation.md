@@ -58,3 +58,8 @@ sources: ["github-karpathy-autoresearch", "github-karpathy-nanochat"]
 ## Практический вывод
 
 `Overnight experimentation` — это не магия и не «автономный учёный». Это способ конвертировать idle compute и агентный труд в аккуратный поток проверенных микроулучшений.
+
+## Источники
+
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch?tab=readme-ov-file)
+- [karpathy/nanochat](https://github.com/karpathy/nanochat)

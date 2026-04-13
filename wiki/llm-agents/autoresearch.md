@@ -99,3 +99,10 @@ README заявляет ориентир порядка **~12 экспериме
 **человек задаёт систему поиска, агент исполняет и накапливает улучшения.**
 
 Если эта модель закрепится, следующим объектом оптимизации станет уже не только `train.py`, а сама конструкция research-процесса.
+
+## Источники
+
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch?tab=readme-ov-file)
+- [Karpathy on autoresearch packaging](https://x.com/karpathy/status/2029701092347630069)
+- [Karpathy on autoresearch results transfer](https://x.com/karpathy/status/2031135152349524125)
+- [Dummy's Guide to autoresearch](https://x.com/hooeem/status/2030720614752039185)

@@ -56,3 +56,7 @@ sources: ["github-karpathy-nanochat"]
 ## Практический вывод
 
 `nanochat` полезно понимать как **базовую лабораторию**, а `autoresearch` — как её автоматизированного исследователя.
+
+## Источники
+
+- [karpathy/nanochat](https://github.com/karpathy/nanochat)

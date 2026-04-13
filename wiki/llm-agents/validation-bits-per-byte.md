@@ -38,3 +38,8 @@ sources: ["github-karpathy-nanochat", "github-karpathy-autoresearch"]
 ## Практический вывод
 
 Для автономных research-loop'ов `val_bpb` полезна как **локальный навигатор поиска**. Но итоговую ценность всё равно нужно подтверждать более верхнеуровневыми метриками и реальными тестами.
+
+## Источники
+
+- [karpathy/nanochat](https://github.com/karpathy/nanochat)
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch?tab=readme-ov-file)

@@ -48,3 +48,8 @@ sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 ## Вывод
 
 `Research org code` — полезная рамка для понимания agentic tooling. Настоящая ценность появляется не тогда, когда агент просто «умеет кодить», а когда человек умеет спроектировать для него среду поиска.
+
+## Источники
+
+- [karpathy/autoresearch](https://github.com/karpathy/autoresearch?tab=readme-ov-file)
+- [Karpathy on autoresearch packaging](https://x.com/karpathy/status/2029701092347630069)

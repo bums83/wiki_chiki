@@ -2,7 +2,7 @@
 title: Метод 5 Why
 type: practice
 created: 2026-04-12
-last_updated: 2026-04-12
+last_updated: 2026-04-13
 domain: management
 related: ["[[Диаграмма Исикавы]]", "[[Кайдзен]]", "[[Toyota Production System]]"]
 sources: ["habr-897854", "habr-878782"]
@@ -56,6 +56,11 @@ sources: ["habr-897854", "habr-878782"]
 ## Когда остановиться
 
 Важно вовремя остановить цепочку «почему». Если дошли до «Большой взрыв» — зашли слишком далеко. Корневая причина должна быть в зоне контроля команды.
+
+## Источники
+
+- [Как использовать японские подходы в IT. Часть 4: почему?](https://habr.com/ru/companies/selectel/articles/897854/)
+- [Как использовать японские подходы в IT. Часть 1: петля за петлей](https://habr.com/ru/companies/selectel/articles/878782/)
 
 ## См. также
 

@@ -49,3 +49,8 @@ Karpathy сравнивает это с `SETI@home style` моделью и фо
 ## Практический вывод
 
 `Asynchronous research swarms` — это естественное продолжение agentic research. Как только одиночный loop начинает работать, почти неизбежно возникает желание превратить его в распределённую исследовательскую фабрику.
+
+## Источники
+
+- [Karpathy on asynchronous collaborative autoresearch](https://x.com/karpathy/status/2030705271627284816)
+- [Karpathy on autoresearch packaging](https://x.com/karpathy/status/2029701092347630069)

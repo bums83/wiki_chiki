@@ -1,38 +1,71 @@
 # Wiki Chiki
 
-База знаний: инфраструктура, менеджмент, LLM/агенты.
+База знаний не по тегам, а по смысловым маршрутам.
 
-## Инфраструктура
+Если нужен полный перечень статей, он лежит в [мастер-индексе](wiki/_index.md). Эта страница, наоборот, должна отвечать на вопрос: **с чего читать и в каком порядке**.
 
-| Статья | О чём |
-|--------|-------|
-| [Windows Shell](wiki/infra/windows-shell.md) | Компоненты оболочки Windows, потребление ресурсов, альтернативы |
-| [Оптимизация рабочего стола Windows](wiki/infra/windows-desktop-optimization.md) | Кейс: замена тяжёлых компонентов Win10, 70 МБ вместо 300+ |
-| [Легаси-железо](wiki/infra/legacy-hardware.md) | Стратегии продления жизни старого оборудования |
+## Маршрут 1. Менеджмент и улучшение процессов
 
-## Менеджмент
+Логика маршрута: сначала система, потом философия улучшений, потом инструменты диагностики и внедрения.
 
-| Статья | О чём |
-|--------|-------|
-| [Кайдзен](wiki/management/kaizen.md) | Философия непрерывного совершенствования, PDCA, genchi gembutsu |
-| [Toyota Production System](wiki/management/toyota-production-system.md) | 9 принципов TPS, JIT, SMED, Kanban |
-| [Муда](wiki/management/muda.md) | Три вида потерь: муда, мура, мури + 7 потерь с IT-параллелями |
-| [Poka-yoke и Andon](wiki/management/poka-yoke-andon.md) | Защита от дурака, система оповещения, karakuri |
-| [Метод 5 Why](wiki/management/5-why.md) | Поиск корневых причин через последовательные «почему?» |
-| [Диаграмма Исикавы](wiki/management/ishikawa-diagram.md) | Fishbone-диаграмма, анализ 6M, сюхари |
-| [Методология A3](wiki/management/a3-methodology.md) | Визуальный документ для принятия решений, 5S для IT |
+| Шаг | Статья | Зачем читать |
+|-----|--------|--------------|
+| 1 | [Toyota Production System](wiki/management/toyota-production-system.md) | Базовая система координат: откуда вообще взялись TPS, JIT, Kanban, Jidoka, Kaizen |
+| 2 | [Кайдзен](wiki/management/kaizen.md) | Понять философию непрерывного улучшения и почему процесс важнее разовых побед |
+| 3 | [Муда](wiki/management/muda.md) | Научиться видеть потери: что в работе реально не создаёт ценность |
+| 4 | [Метод 5 Why](wiki/management/5-why.md) | Разбирать инциденты и проблемы до корневой причины, а не чинить симптомы |
+| 5 | [Диаграмма Исикавы](wiki/management/ishikawa-diagram.md) | Расширять анализ: не одна причина, а карта возможных причин по системе |
+| 6 | [Poka-yoke и Andon](wiki/management/poka-yoke-andon.md) | Перейти от анализа к защите процесса: сигнализация, error-proofing, автоматизация |
+| 7 | [Методология A3](wiki/management/a3-methodology.md) | Упаковать проблему, причины и решение в нормальный управленческий документ |
 
-## LLM и агенты
+**Коротко:**
+- TPS даёт каркас
+- Кайдзен задаёт культуру
+- Муда показывает, что убирать
+- 5 Why и Исикава объясняют, как разбирать проблемы
+- Poka-yoke/Andon и A3 переводят анализ в действие
 
-| Статья | О чём |
-|--------|-------|
-| [Autoresearch](wiki/llm-agents/autoresearch.md) | Single-GPU framework для автономного research-цикла: агент меняет `train.py`, человек задаёт `program.md` |
-| [Research org code](wiki/llm-agents/research-org-code.md) | Идея проектирования исследовательской организации через prompt/policy layer |
-| [Nanochat](wiki/llm-agents/nanochat.md) | Базовый LLM training harness Карпаты, из которого вырос autoresearch |
-| [Validation bits per byte](wiki/llm-agents/validation-bits-per-byte.md) | Метрика `val_bpb` для быстрых и сравнительно честных research-сравнений |
-| [Overnight experimentation](wiki/llm-agents/overnight-experimentation.md) | Ночной режим пакетных агентных экспериментов |
-| [Asynchronous research swarms](wiki/llm-agents/asynchronous-research-swarms.md) | Переход от одного автономного исследователя к распределённому сообществу агентов |
+## Маршрут 2. LLM и агентный research
+
+Логика маршрута: сначала базовая training-лаборатория, потом метрика, потом автономный цикл, потом организационный и swarm-уровень.
+
+| Шаг | Статья | Зачем читать |
+|-----|--------|--------------|
+| 1 | [Nanochat](wiki/llm-agents/nanochat.md) | Понять базовый training harness, из которого вырос весь дальнейший кластер |
+| 2 | [Validation bits per byte](wiki/llm-agents/validation-bits-per-byte.md) | Понять, по какой метрике агент вообще понимает, стало лучше или хуже |
+| 3 | [Autoresearch](wiki/llm-agents/autoresearch.md) | Центральная статья кластера: автономный research-loop на одном GPU |
+| 4 | [Overnight experimentation](wiki/llm-agents/overnight-experimentation.md) | Operational pattern: как превращать ночь и compute в поток микроэкспериментов |
+| 5 | [Research org code](wiki/llm-agents/research-org-code.md) | Сдвиг уровня абстракции: человек пишет не код модели, а код исследовательской организации |
+| 6 | [Asynchronous research swarms](wiki/llm-agents/asynchronous-research-swarms.md) | Следующий шаг: от одного агента к распределённому research community |
+
+**Коротко:**
+- Nanochat даёт лабораторию
+- `val_bpb` даёт линейку измерения
+- Autoresearch даёт автономный loop
+- Overnight experimentation даёт режим работы
+- Research org code даёт новый интерфейс управления
+- Swarms показывают, куда это масштабируется дальше
+
+## Маршрут 3. Инфраструктура и продление жизни легаси
+
+Логика маршрута: сначала понять, когда легаси вообще имеет смысл спасать, потом разобрать устройство оболочки, потом посмотреть живой кейс оптимизации.
+
+| Шаг | Статья | Зачем читать |
+|-----|--------|--------------|
+| 1 | [Легаси-железо](wiki/infra/legacy-hardware.md) | Понять, когда старую машину стоит спасать, а когда проще заменить |
+| 2 | [Windows Shell](wiki/infra/windows-shell.md) | Разобрать, из чего состоит Windows shell и где он съедает ресурсы |
+| 3 | [Оптимизация рабочего стола Windows](wiki/infra/windows-desktop-optimization.md) | Посмотреть прикладной кейс модульной замены тяжёлых компонентов |
+
+## Если читать только по одной статье
+
+- Для менеджмента: [Кайдзен](wiki/management/kaizen.md)
+- Для LLM/агентов: [Autoresearch](wiki/llm-agents/autoresearch.md)
+- Для инфраструктуры: [Оптимизация рабочего стола Windows](wiki/infra/windows-desktop-optimization.md)
+
+## Полный список
+
+- [Мастер-индекс статей](wiki/_index.md)
 
 ---
 
-Как добавить знания: отправь URL, файл или текст — я обработаю и обновлю wiki.
+Как пополнять wiki: пришли URL, текст или файл. Я извлеку суть, встрою в существующий кластер и обновлю маршруты, если знание меняет общую карту.

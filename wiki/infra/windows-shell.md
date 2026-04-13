@@ -2,7 +2,7 @@
 title: Windows Shell
 type: technology
 created: 2026-04-12
-last_updated: 2026-04-12
+last_updated: 2026-04-13
 domain: infra
 related: ["[[Оптимизация рабочего стола Windows]]", "[[Легаси-железо]]"]
 sources: ["habr-994440"]
@@ -34,6 +34,10 @@ Shell Windows можно заменить целиком или модульно
 - **BB4Win / LiteStep** — полностью кастомные shell (старые)
 
 Модульный подход (замена отдельных компонентов) проще в поддержке и стабильнее, чем полная замена explorer.exe.
+
+## Источники
+
+- [Приручаем монстра: Как я пересадил Windows 10 на диету из Windows XP и сэкономил память](https://habr.com/ru/articles/994440/)
 
 ## См. также
 

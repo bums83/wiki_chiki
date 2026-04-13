@@ -2,7 +2,7 @@
 title: Методология A3
 type: practice
 created: 2026-04-12
-last_updated: 2026-04-12
+last_updated: 2026-04-13
 domain: management
 related: ["[[Toyota Production System]]", "[[Кайдзен]]", "[[Диаграмма Исикавы]]"]
 sources: ["habr-914098"]
@@ -70,3 +70,7 @@ sources: ["habr-914098"]
 | Seiso | Бэкапы, cron-очистка логов |
 | Seiketsu | Все микросервисы описаны в Wiki |
 | Shitsuke | Изменения → Git + Wiki, сборки задокументированы |
+
+## Источники
+
+- [Как использовать японские подходы в IT. Часть 6: покажи и расскажи](https://habr.com/ru/companies/selectel/articles/914098/)
