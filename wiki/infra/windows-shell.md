@@ -41,4 +41,4 @@ Shell Windows можно заменить целиком или модульно
 
 ## См. также
 
-- [Оптимизация рабочего стола Windows]({{ '/wiki/infra/windows-desktop-optimization/' | relative_url }}) — практический кейс замены компонентов
+- [Оптимизация рабочего стола Windows]({{ '/wiki/infra/windows-desktop-optimization' | relative_url }}) — практический кейс замены компонентов

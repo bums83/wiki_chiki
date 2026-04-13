@@ -10,7 +10,7 @@ sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 
 # Research org code
 
-Идея, появляющаяся вокруг [Autoresearch]({{ '/wiki/llm-agents/autoresearch/' | relative_url }}): исследователь всё меньше пишет training code сам и всё больше пишет **код исследовательской организации**.
+Идея, появляющаяся вокруг [Autoresearch]({{ '/wiki/llm-agents/autoresearch' | relative_url }}): исследователь всё меньше пишет training code сам и всё больше пишет **код исследовательской организации**.
 
 ## Суть
 

@@ -51,5 +51,6 @@
 ## [2026-04-13] fix | Make published links baseurl-aware
 - Исправлено: публичные ссылки больше не используют жёсткий абсолютный путь `/wiki/...`
 - Исправлено: ссылки теперь рендерятся через `relative_url`, чтобы работать на GitHub Pages project site
+- Исправлено: убран хвостовой `/` в URL статей, потому что текущий Pages site отдаёт страницы как `/wiki/.../slug`, а не `/wiki/.../slug/`
 - Обновлено: `_config.yml` получил `baseurl: "/wiki_chiki"`
 - Обновлено: `scripts/resolve_wikilinks.py` теперь генерирует baseurl-aware ссылки

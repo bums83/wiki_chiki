@@ -10,7 +10,7 @@ sources: ["habr-888486", "habr-878782"]
 
 # Poka-yoke и Andon
 
-Два механизма контроля качества из [TPS]({{ '/wiki/management/toyota-production-system/' | relative_url }}): предотвращение ошибок и сигнализация о проблемах.
+Два механизма контроля качества из [TPS]({{ '/wiki/management/toyota-production-system' | relative_url }}): предотвращение ошибок и сигнализация о проблемах.
 
 ## Andon (Андон)
 
