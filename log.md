@@ -27,3 +27,10 @@
   - https://x.com/karpathy/status/2029701092347630069
   - https://x.com/karpathy/status/2031135152349524125
 - Примечание: X-посты не отдались напрямую через fetch, поэтому для них использованы поисковые сниппеты как вспомогательный источник контекста.
+
+## [2026-04-13] expand | Agentic research cluster
+- Создано: [[Nanochat]], [[Validation bits per byte]], [[Overnight experimentation]], [[Asynchronous research swarms]]
+- Обновлено: [[Autoresearch]], `index.md`, `wiki/_index.md`, `wiki/_backlinks.json`
+- Источники:
+  - https://github.com/karpathy/nanochat
+  - https://x.com/karpathy/status/2030705271627284816

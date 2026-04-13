@@ -77,3 +77,27 @@
 - **domain:** llm-agents
 - **summary:** Подход, где человек проектирует исследовательскую организацию через prompt/policy layer, а агент исполняет search loop
 - **also:** program.md, agentic research, prompt as policy, research organization
+
+### [[Nanochat]]
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Минималистичный LLM training harness Карпаты: один dial сложности, speedrun до GPT-2, база для autoresearch
+- **also:** nanochat, GPT-2 speedrun, CORE, llm harness
+
+### [[Validation bits per byte]]
+- **type:** concept
+- **domain:** llm-agents
+- **summary:** Исследовательская метрика качества `val_bpb`, удобная для быстрых сравнений между токенизаторами и архитектурами
+- **also:** val_bpb, bits per byte, validation metric, bpb
+
+### [[Overnight experimentation]]
+- **type:** practice
+- **domain:** llm-agents
+- **summary:** Режим, в котором агент прогоняет серию коротких экспериментов ночью, а человек утром получает журнал и лучшие изменения
+- **also:** overnight loop, autonomous experiments, sleep while it runs
+
+### [[Asynchronous research swarms]]
+- **type:** concept
+- **domain:** llm-agents
+- **summary:** Следующий шаг после одиночного autoresearch: множество агентов асинхронно исследуют гипотезы параллельно
+- **also:** agent swarms, parallel research, distributed research community

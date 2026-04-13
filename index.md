@@ -28,6 +28,10 @@
 |--------|-------|
 | [Autoresearch](wiki/llm-agents/autoresearch.md) | Single-GPU framework для автономного research-цикла: агент меняет `train.py`, человек задаёт `program.md` |
 | [Research org code](wiki/llm-agents/research-org-code.md) | Идея проектирования исследовательской организации через prompt/policy layer |
+| [Nanochat](wiki/llm-agents/nanochat.md) | Базовый LLM training harness Карпаты, из которого вырос autoresearch |
+| [Validation bits per byte](wiki/llm-agents/validation-bits-per-byte.md) | Метрика `val_bpb` для быстрых и сравнительно честных research-сравнений |
+| [Overnight experimentation](wiki/llm-agents/overnight-experimentation.md) | Ночной режим пакетных агентных экспериментов |
+| [Asynchronous research swarms](wiki/llm-agents/asynchronous-research-swarms.md) | Переход от одного автономного исследователя к распределённому сообществу агентов |
 
 ---
 
