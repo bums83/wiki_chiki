@@ -2,7 +2,7 @@
 id: doc-vibe-coder-50-prompts
 date: 2026-04-13
 source_type: doc
-source_url: attachment:50_промптов---fa9b0596-6cf1-48b7-a354-acc4d05f0cc5.pdf
+source_url: https://bums83.github.io/wiki_chiki/assets/vibe-coder-50-prompts.pdf
 title: Библиотека вайб-кодера: 50 промптов
 domain: llm-agents
 tags: [vibe-coding, prompting, agentic-development, cursor, claude, n8n]

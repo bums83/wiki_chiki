@@ -180,4 +180,4 @@ sources: ["doc-vibe-coder-50-prompts"]
 
 ## Источники
 
-- Приложенный PDF: «Библиотека вайб-кодера: 50 промптов»
+- [Библиотека вайб-кодера: 50 промптов (PDF)]({{ '/assets/vibe-coder-50-prompts.pdf' | relative_url }})
