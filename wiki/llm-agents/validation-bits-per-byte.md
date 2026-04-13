@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-13
 last_updated: 2026-04-13
 domain: llm-agents
-related: ["[[Nanochat]]", "[[Autoresearch]]"]
+related: ["Nanochat", "Autoresearch"]
 sources: ["github-karpathy-nanochat", "github-karpathy-autoresearch"]
 ---
 
@@ -22,7 +22,7 @@ sources: ["github-karpathy-nanochat", "github-karpathy-autoresearch"]
 
 - **ниже — лучше**;
 - падение `val_bpb` означает, что модель лучше кодирует/предсказывает текст на валидации;
-- в `[[Autoresearch]]` именно по этой метрике агент решает, стало изменение лучше или хуже.
+- в [Autoresearch](/wiki/llm-agents/autoresearch/) именно по этой метрике агент решает, стало изменение лучше или хуже.
 
 ## Почему это важно для agentic research
 

@@ -20,6 +20,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Resolve wiki links
+        run: python3 scripts/resolve_wikilinks.py
       - uses: actions/jekyll-build-pages@v1
         with:
           source: .

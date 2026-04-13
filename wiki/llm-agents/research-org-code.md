@@ -4,13 +4,13 @@ type: concept
 created: 2026-04-13
 last_updated: 2026-04-13
 domain: llm-agents
-related: ["[[Autoresearch]]"]
+related: ["Autoresearch"]
 sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 ---
 
 # Research org code
 
-Идея, появляющаяся вокруг `[[Autoresearch]]`: исследователь всё меньше пишет training code сам и всё больше пишет **код исследовательской организации**.
+Идея, появляющаяся вокруг [Autoresearch](/wiki/llm-agents/autoresearch/): исследователь всё меньше пишет training code сам и всё больше пишет **код исследовательской организации**.
 
 ## Суть
 

@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-12
 last_updated: 2026-04-13
 domain: management
-related: ["[[Кайдзен]]", "[[Toyota Production System]]"]
+related: ["Кайдзен", "Toyota Production System"]
 sources: ["habr-297004", "habr-882102"]
 ---
 
@@ -46,7 +46,7 @@ sources: ["habr-297004", "habr-882102"]
 
 ## Связь с кайдзен
 
-[[Кайдзен]] избавляет от муда. [[Toyota Production System|TPS]] выстроена вокруг устранения всех трёх видов потерь.
+[Кайдзен](/wiki/management/kaizen/) избавляет от муда. [TPS](/wiki/management/toyota-production-system/) выстроена вокруг устранения всех трёх видов потерь.
 
 ## Источники
 

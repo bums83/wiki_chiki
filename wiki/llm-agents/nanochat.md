@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-13
 last_updated: 2026-04-13
 domain: llm-agents
-related: ["[[Autoresearch]]", "[[Validation bits per byte]]", "[[Overnight experimentation]]"]
+related: ["Autoresearch", "Validation bits per byte", "Overnight experimentation"]
 sources: ["github-karpathy-nanochat"]
 ---
 
@@ -43,7 +43,7 @@ sources: ["github-karpathy-nanochat"]
 Вокруг проекта построен режим `GPT-2 speedrun` — гонка за минимальное wall-clock время, необходимое чтобы обогнать GPT-2 по метрике CORE.
 
 Для этого обычно смотрят на:
-- [[Validation bits per byte]] (`val_bpb`),
+- [Validation bits per byte](/wiki/llm-agents/validation-bits-per-byte/) (`val_bpb`),
 - DCLM CORE score,
 - throughput,
 - VRAM utilization,
@@ -51,7 +51,7 @@ sources: ["github-karpathy-nanochat"]
 
 ## Связь с autoresearch
 
-`[[Autoresearch]]` — это по сути выделенный из `nanochat` автономный research-loop. Если `nanochat` — это общий research harness, то `autoresearch` — это агентная надстройка для автоматического поиска улучшений внутри этого контура.
+[Autoresearch](/wiki/llm-agents/autoresearch/) — это по сути выделенный из `nanochat` автономный research-loop. Если `nanochat` — это общий research harness, то `autoresearch` — это агентная надстройка для автоматического поиска улучшений внутри этого контура.
 
 ## Практический вывод
 

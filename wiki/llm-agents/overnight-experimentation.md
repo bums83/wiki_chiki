@@ -4,7 +4,7 @@ type: practice
 created: 2026-04-13
 last_updated: 2026-04-13
 domain: llm-agents
-related: ["[[Autoresearch]]", "[[Nanochat]]", "[[Validation bits per byte]]"]
+related: ["Autoresearch", "Nanochat", "Validation bits per byte"]
 sources: ["github-karpathy-autoresearch", "github-karpathy-nanochat"]
 ---
 
@@ -43,10 +43,10 @@ sources: ["github-karpathy-autoresearch", "github-karpathy-nanochat"]
 Ночной цикл полезен только если соблюдены три условия:
 
 ### 1. Узкий search space
-Агент не должен менять всё подряд. В `[[Autoresearch]]` для этого выделен один целевой файл.
+Агент не должен менять всё подряд. В [Autoresearch](/wiki/llm-agents/autoresearch/) для этого выделен один целевой файл.
 
 ### 2. Быстрая метрика
-Нужна короткая, дешёвая и стабильная оценка, например [[Validation bits per byte]].
+Нужна короткая, дешёвая и стабильная оценка, например [Validation bits per byte](/wiki/llm-agents/validation-bits-per-byte/).
 
 ### 3. Жёсткая дисциплина принятия изменений
 Нужен критерий keep/discard. Иначе утром будет не research log, а свалка случайных мутаций.

@@ -4,13 +4,13 @@ type: concept
 created: 2026-04-13
 last_updated: 2026-04-13
 domain: llm-agents
-related: ["[[Autoresearch]]", "[[Research org code]]", "[[Overnight experimentation]]"]
+related: ["Autoresearch", "Research org code", "Overnight experimentation"]
 sources: ["x-karpathy-2030705271627284816", "x-karpathy-2029701092347630069"]
 ---
 
 # Asynchronous research swarms
 
-Идея следующего шага после `[[Autoresearch]]`: не один агент последовательно ведёт одну ветку поиска, а множество агентов асинхронно исследуют пространство изменений параллельно.
+Идея следующего шага после [Autoresearch](/wiki/llm-agents/autoresearch/): не один агент последовательно ведёт одну ветку поиска, а множество агентов асинхронно исследуют пространство изменений параллельно.
 
 ## Базовый переход
 
@@ -44,7 +44,7 @@ Karpathy сравнивает это с `SETI@home style` моделью и фо
 
 ## Роль research org code
 
-Здесь особенно важен `[[Research org code]]`: правила ветвления, приоритеты, критерии отбора, механика слияния и логирования становятся не побочной деталью, а центром всей системы.
+Здесь особенно важен [Research org code](/wiki/llm-agents/research-org-code/): правила ветвления, приоритеты, критерии отбора, механика слияния и логирования становятся не побочной деталью, а центром всей системы.
 
 ## Практический вывод
 

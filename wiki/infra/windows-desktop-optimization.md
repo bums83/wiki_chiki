@@ -4,7 +4,7 @@ type: case-study
 created: 2026-04-12
 last_updated: 2026-04-13
 domain: infra
-related: ["[[Windows Shell]]", [[Легаси-железо]]"]
+related: ["Windows Shell", "Легаси-железо"]
 sources: ["habr-994440"]
 ---
 

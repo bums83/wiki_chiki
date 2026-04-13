@@ -4,13 +4,13 @@ type: technology
 created: 2026-04-12
 last_updated: 2026-04-13
 domain: management
-related: ["[[Toyota Production System]]", "[[Кайдзен]]"]
+related: ["Toyota Production System", "Кайдзен"]
 sources: ["habr-888486", "habr-878782"]
 ---
 
 # Poka-yoke и Andon
 
-Два механизма контроля качества из [[Toyota Production System|TPS]]: предотвращение ошибок и сигнализация о проблемах.
+Два механизма контроля качества из [TPS](/wiki/management/toyota-production-system/): предотвращение ошибок и сигнализация о проблемах.
 
 ## Andon (Андон)
 

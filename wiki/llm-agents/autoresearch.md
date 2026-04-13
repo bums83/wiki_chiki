@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-13
 last_updated: 2026-04-13
 domain: llm-agents
-related: ["[[Research org code]]", "[[Nanochat]]", "[[Validation bits per byte]]", "[[Overnight experimentation]]", "[[Asynchronous research swarms]]"]
+related: ["Research org code", "Nanochat", "Validation bits per byte", "Overnight experimentation", "Asynchronous research swarms"]
 sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069", "x-karpathy-2031135152349524125", "x-hooeem-2030720614752039185"]
 ---
 
@@ -87,10 +87,10 @@ README заявляет ориентир порядка **~12 экспериме
 
 `autoresearch` лучше понимать не изолированно, а как часть более широкого кластера:
 
-- [[Nanochat]] — базовый training harness;
-- [[Validation bits per byte]] — быстрая метрика обратной связи;
-- [[Overnight experimentation]] — operational pattern пакетного ночного поиска;
-- [[Asynchronous research swarms]] — следующий шаг от одного агента к распределённому research community.
+- [Nanochat](/wiki/llm-agents/nanochat/) — базовый training harness;
+- [Validation bits per byte](/wiki/llm-agents/validation-bits-per-byte/) — быстрая метрика обратной связи;
+- [Overnight experimentation](/wiki/llm-agents/overnight-experimentation/) — operational pattern пакетного ночного поиска;
+- [Asynchronous research swarms](/wiki/llm-agents/asynchronous-research-swarms/) — следующий шаг от одного агента к распределённому research community.
 
 ## Практический вывод
 

@@ -48,13 +48,14 @@ SCHEMA.md         # Этот файл — инструкции для LLM
    ```
 4. Обработать: прочитать entry, найти релевантные статьи в `master-index.md`, обновить или создать статьи
 5. Обновить `master-index.md` и `_backlinks.json`
-6. Записать в `log.md`
+6. Перед коммитом прогнать `python3 scripts/resolve_wikilinks.py`
+7. Записать в `log.md`
 
 ### Query
 
 1. Прочитать `master-index.md`
 2. Найти релевантные статьи
-3. Пройти по `[[wikilinks]]` на глубину 2-3 при необходимости
+3. Пройти по внутренним ссылкам на глубину 2-3 при необходимости
 4. Синтезировать ответ с цитированием статей
 5. Не модифицировать wiki при query
 
@@ -77,7 +78,7 @@ type: technology | concept | practice | comparison | guide | case-study
 created: YYYY-MM-DD
 last_updated: YYYY-MM-DD
 domain: infra | management | llm-agents
-related: ["[[Другая статья]]", "[[Ещё одна]]"]
+related: ["Другая статья", "Ещё одна"]
 sources: ["entry-id-1", "entry-id-2"]
 ---
 
@@ -108,7 +109,7 @@ sources: ["entry-id-1", "entry-id-2"]
 
 ### Связи
 
-- Используй `[[wikilinks]]` между статьями
+- В опубликованном wiki используй обычные Markdown-ссылки с public URL, не Obsidian `[[wikilinks]]`
 - Минимум 2 исходящих ссылки на статью
 - Не создавай stub без 3+ содержательных предложений
 - Каждая статья должна иметь точку: не "вот факты", а "что это значит и зачем"
@@ -126,7 +127,7 @@ sources: ["entry-id-1", "entry-id-2"]
 
 Формат каждой записи:
 ```markdown
-### [[Название статьи]]
+### [Название статьи](/wiki/domain/slug/)
 - **type:** technology
 - **domain:** infra
 - **summary:** Одно предложение — о чём статья
