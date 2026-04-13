@@ -63,3 +63,17 @@
 - **domain:** management
 - **summary:** Визуальный документ для принятия решений: структура из 8 блоков, альтернатива презентациям
 - **also:** A3, Toyota A3, A3 report, P3.Express, 5S
+
+## LLM и агенты
+
+### [[Autoresearch]]
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Минималистичный single-GPU framework Карпаты для автономных research-циклов, где человек программирует `program.md`, а агент меняет `train.py`
+- **also:** autoresearch, nanochat, autonomous research, overnight experiments, karpathy
+
+### [[Research org code]]
+- **type:** concept
+- **domain:** llm-agents
+- **summary:** Подход, где человек проектирует исследовательскую организацию через prompt/policy layer, а агент исполняет search loop
+- **also:** program.md, agentic research, prompt as policy, research organization

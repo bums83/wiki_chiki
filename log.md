@@ -17,3 +17,13 @@
   - https://habr.com/ru/companies/selectel/articles/897854/ (Японские подходы. Часть 4)
   - https://habr.com/ru/companies/selectel/articles/909404/ (Японские подходы. Часть 5)
   - https://habr.com/ru/companies/selectel/articles/914098/ (Японские подходы. Часть 6)
+
+## [2026-04-13] ingest | Autoresearch + research org code
+- Создано: [[Autoresearch]], [[Research org code]]
+- Обновлено: `index.md`, `wiki/_index.md`, `wiki/_backlinks.json`
+- Источники:
+  - https://github.com/karpathy/autoresearch?tab=readme-ov-file
+  - https://x.com/hooeem/status/2030720614752039185
+  - https://x.com/karpathy/status/2029701092347630069
+  - https://x.com/karpathy/status/2031135152349524125
+- Примечание: X-посты не отдались напрямую через fetch, поэтому для них использованы поисковые сниппеты как вспомогательный источник контекста.

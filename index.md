@@ -24,7 +24,10 @@
 
 ## LLM и агенты
 
-*Пока пусто. Дай первый источник — и я создам статьи.*
+| Статья | О чём |
+|--------|-------|
+| [Autoresearch](wiki/llm-agents/autoresearch.md) | Single-GPU framework для автономного research-цикла: агент меняет `train.py`, человек задаёт `program.md` |
+| [Research org code](wiki/llm-agents/research-org-code.md) | Идея проектирования исследовательской организации через prompt/policy layer |
 
 ---
 
