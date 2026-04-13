@@ -1,5 +1,6 @@
 title: Wiki Chiki
 description: LLM-Powered Knowledge Base — Инфраструктура, Менеджмент, LLM/Агенты
+baseurl: "/wiki_chiki"
 theme: minima
 markdown: kramdown
 kramdown:

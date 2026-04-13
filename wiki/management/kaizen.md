@@ -56,6 +56,6 @@ sources: ["habr-297004", "habr-547592", "habr-882102"]
 
 ## См. также
 
-- [Toyota Production System](/wiki/management/toyota-production-system/) — система, в которой кайдзен — один из принципов
-- [Муда](/wiki/management/muda/) — потери, от которых кайдзен избавляет
-- [Метод 5 Why](/wiki/management/5-why/) — инструмент поиска корневых причин для улучшений
+- [Toyota Production System]({{ '/wiki/management/toyota-production-system/' | relative_url }}) — система, в которой кайдзен — один из принципов
+- [Муда]({{ '/wiki/management/muda/' | relative_url }}) — потери, от которых кайдзен избавляет
+- [Метод 5 Why]({{ '/wiki/management/5-why/' | relative_url }}) — инструмент поиска корневых причин для улучшений

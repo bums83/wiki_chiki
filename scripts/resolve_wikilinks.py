@@ -12,7 +12,8 @@ TITLE_RE = re.compile(r"^title:\s*(.+?)\s*$", re.M)
 RELATED_RE = re.compile(r"^related:\s*\[(.*?)\]\s*$", re.M)
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
 MARKDOWN_MD_LINK_RE = re.compile(r"\((wiki/[^)]+?)\.md\)")
-BACKTICKED_LINK_RE = re.compile(r"`(\[[^`]+\]\(/wiki/[^`]+\))`")
+PUBLIC_ABSOLUTE_LINK_RE = re.compile(r"\]\(/(wiki/[^)]+/)\)")
+BACKTICKED_LINK_RE = re.compile(r"`(\[[^`]+\]\((?:/wiki/|\{\{.*?relative_url.*?\}\})\))`")
 
 
 def build_title_map() -> dict[str, str]:
@@ -27,7 +28,7 @@ def build_title_map() -> dict[str, str]:
             continue
         title = title_match.group(1).strip().strip('"').strip("'")
         rel = path.relative_to(ROOT).as_posix()
-        title_to_url[title] = "/" + rel[:-3] + "/"
+        title_to_url[title] = rel[:-3] + "/"
     return title_to_url
 
 
@@ -39,10 +40,11 @@ def rewrite_body(body: str, title_to_url: dict[str, str], unresolved: set[str]) 
         if not url:
             unresolved.add(target)
             return match.group(0)
-        return f"[{label}]({url})"
+        return f"[{label}]({{{{ '/{url}' | relative_url }}}})"
 
     body = WIKILINK_RE.sub(replace_wikilink, body)
-    body = MARKDOWN_MD_LINK_RE.sub(lambda m: f"(/" + m.group(1).rstrip("/") + "/)", body)
+    body = MARKDOWN_MD_LINK_RE.sub(lambda m: "({{ '/" + m.group(1).rstrip("/") + "/' | relative_url }})", body)
+    body = PUBLIC_ABSOLUTE_LINK_RE.sub(lambda m: "]({{ '/" + m.group(1).lstrip("/") + "' | relative_url }})", body)
     body = BACKTICKED_LINK_RE.sub(r"\1", body)
     return body
 

@@ -87,10 +87,10 @@ README заявляет ориентир порядка **~12 экспериме
 
 `autoresearch` лучше понимать не изолированно, а как часть более широкого кластера:
 
-- [Nanochat](/wiki/llm-agents/nanochat/) — базовый training harness;
-- [Validation bits per byte](/wiki/llm-agents/validation-bits-per-byte/) — быстрая метрика обратной связи;
-- [Overnight experimentation](/wiki/llm-agents/overnight-experimentation/) — operational pattern пакетного ночного поиска;
-- [Asynchronous research swarms](/wiki/llm-agents/asynchronous-research-swarms/) — следующий шаг от одного агента к распределённому research community.
+- [Nanochat]({{ '/wiki/llm-agents/nanochat/' | relative_url }}) — базовый training harness;
+- [Validation bits per byte]({{ '/wiki/llm-agents/validation-bits-per-byte/' | relative_url }}) — быстрая метрика обратной связи;
+- [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation/' | relative_url }}) — operational pattern пакетного ночного поиска;
+- [Asynchronous research swarms]({{ '/wiki/llm-agents/asynchronous-research-swarms/' | relative_url }}) — следующий шаг от одного агента к распределённому research community.
 
 ## Практический вывод
 

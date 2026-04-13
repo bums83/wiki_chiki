@@ -46,7 +46,7 @@ sources: ["habr-297004", "habr-882102"]
 
 ## Связь с кайдзен
 
-[Кайдзен](/wiki/management/kaizen/) избавляет от муда. [TPS](/wiki/management/toyota-production-system/) выстроена вокруг устранения всех трёх видов потерь.
+[Кайдзен]({{ '/wiki/management/kaizen/' | relative_url }}) избавляет от муда. [TPS]({{ '/wiki/management/toyota-production-system/' | relative_url }}) выстроена вокруг устранения всех трёх видов потерь.
 
 ## Источники
 

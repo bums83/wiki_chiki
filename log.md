@@ -42,8 +42,14 @@
 - Основание: source ids были сохранены в frontmatter и raw history, но не выводились на самих страницах
 
 ## [2026-04-13] fix | Resolve broken Obsidian-style links
-- Обновлено: все видимые `[[...]]` в `wiki/` и `index.md` переведены в обычные Markdown-ссылки с public URL
+- Обновлено: все видимые `[[...]]` в `wiki/` и `index.md` переведены в обычные Markdown-ссылки
 - Обновлено: `related:` в frontmatter нормализован до обычных названий статей
 - Добавлено: `scripts/resolve_wikilinks.py` для автоматической нормализации ссылок
 - Обновлено: GitHub Pages workflow теперь прогоняет нормализацию перед сборкой
 - Обновлено: `SCHEMA.md` теперь запрещает Obsidian-синтаксис в опубликованных страницах
+
+## [2026-04-13] fix | Make published links baseurl-aware
+- Исправлено: публичные ссылки больше не используют жёсткий абсолютный путь `/wiki/...`
+- Исправлено: ссылки теперь рендерятся через `relative_url`, чтобы работать на GitHub Pages project site
+- Обновлено: `_config.yml` получил `baseurl: "/wiki_chiki"`
+- Обновлено: `scripts/resolve_wikilinks.py` теперь генерирует baseurl-aware ссылки

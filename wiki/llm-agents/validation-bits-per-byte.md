@@ -22,7 +22,7 @@ sources: ["github-karpathy-nanochat", "github-karpathy-autoresearch"]
 
 - **ниже — лучше**;
 - падение `val_bpb` означает, что модель лучше кодирует/предсказывает текст на валидации;
-- в [Autoresearch](/wiki/llm-agents/autoresearch/) именно по этой метрике агент решает, стало изменение лучше или хуже.
+- в [Autoresearch]({{ '/wiki/llm-agents/autoresearch/' | relative_url }}) именно по этой метрике агент решает, стало изменение лучше или хуже.
 
 ## Почему это важно для agentic research
 
