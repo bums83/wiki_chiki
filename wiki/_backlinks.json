@@ -1,0 +1,171 @@
+{
+  "5-why.md": {
+    "outgoing": [
+      "Toyota Production System",
+      "Диаграмма Исикавы",
+      "Кайдзен"
+    ],
+    "incoming": [
+      "Диаграмма Исикавы",
+      "Кайдзен"
+    ]
+  },
+  "a3-methodology.md": {
+    "outgoing": [
+      "Кайдзен",
+      "Диаграмма Исикавы"
+    ],
+    "incoming": [
+      "Диаграмма Исикавы",
+      "Toyota Production System"
+    ]
+  },
+  "asynchronous-research-swarms.md": {
+    "outgoing": [
+      "Autoresearch",
+      "Research org code"
+    ],
+    "incoming": [
+      "Autoresearch"
+    ]
+  },
+  "autoresearch.md": {
+    "outgoing": [
+      "Nanochat",
+      "Validation bits per byte",
+      "Overnight experimentation",
+      "Asynchronous research swarms"
+    ],
+    "incoming": [
+      "Research org code",
+      "Вайб-кодинг",
+      "Nanochat",
+      "Validation bits per byte",
+      "Asynchronous research swarms",
+      "Overnight experimentation"
+    ]
+  },
+  "ishikawa-diagram.md": {
+    "outgoing": [
+      "Метод 5 Why",
+      "Методология A3"
+    ],
+    "incoming": [
+      "Методология A3",
+      "Метод 5 Why"
+    ]
+  },
+  "kaizen.md": {
+    "outgoing": [
+      "Toyota Production System",
+      "Муда",
+      "Метод 5 Why"
+    ],
+    "incoming": [
+      "Методология A3",
+      "Муда",
+      "Toyota Production System",
+      "Метод 5 Why"
+    ]
+  },
+  "legacy-hardware.md": {
+    "outgoing": [
+      "Оптимизация рабочего стола Windows"
+    ],
+    "incoming": []
+  },
+  "muda.md": {
+    "outgoing": [
+      "Кайдзен",
+      "Toyota Production System"
+    ],
+    "incoming": [
+      "Кайдзен",
+      "Toyota Production System"
+    ]
+  },
+  "nanochat.md": {
+    "outgoing": [
+      "Validation bits per byte",
+      "Autoresearch"
+    ],
+    "incoming": [
+      "Autoresearch"
+    ]
+  },
+  "overnight-experimentation.md": {
+    "outgoing": [
+      "Autoresearch",
+      "Validation bits per byte"
+    ],
+    "incoming": [
+      "Autoresearch",
+      "Вайб-кодинг"
+    ]
+  },
+  "poka-yoke-andon.md": {
+    "outgoing": [
+      "Toyota Production System"
+    ],
+    "incoming": [
+      "Toyota Production System"
+    ]
+  },
+  "research-org-code.md": {
+    "outgoing": [
+      "Autoresearch",
+      "Вайб-кодинг"
+    ],
+    "incoming": [
+      "Вайб-кодинг",
+      "Asynchronous research swarms"
+    ]
+  },
+  "toyota-production-system.md": {
+    "outgoing": [
+      "Методология A3",
+      "Кайдзен",
+      "Poka-yoke и Andon",
+      "Муда"
+    ],
+    "incoming": [
+      "Муда",
+      "Кайдзен",
+      "Poka-yoke и Andon",
+      "Метод 5 Why"
+    ]
+  },
+  "validation-bits-per-byte.md": {
+    "outgoing": [
+      "Autoresearch"
+    ],
+    "incoming": [
+      "Autoresearch",
+      "Nanochat",
+      "Overnight experimentation"
+    ]
+  },
+  "vibe-coding.md": {
+    "outgoing": [
+      "Research org code",
+      "Overnight experimentation",
+      "Autoresearch"
+    ],
+    "incoming": [
+      "Research org code"
+    ]
+  },
+  "windows-desktop-optimization.md": {
+    "outgoing": [],
+    "incoming": [
+      "Windows Shell",
+      "Легаси-железо"
+    ]
+  },
+  "windows-shell.md": {
+    "outgoing": [
+      "Оптимизация рабочего стола Windows"
+    ],
+    "incoming": []
+  }
+}

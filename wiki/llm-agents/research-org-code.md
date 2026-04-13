@@ -4,7 +4,7 @@ type: concept
 created: 2026-04-13
 last_updated: 2026-04-13
 domain: llm-agents
-related: ["Autoresearch"]
+related: ["Autoresearch", "Вайб-кодинг"]
 sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 ---
 
@@ -44,6 +44,14 @@ sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 - как он должен интерпретировать улучшение,
 - как оформлять шаги,
 - когда считать эксперимент удачным.
+
+## Прикладной аналог
+
+В software engineering близкую логику можно увидеть в [Вайб-кодинге]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}): там человек тоже перестаёт быть только исполнителем и начинает проектировать рамки, playbook-и и порядок работы агента.
+
+Разница в области применения:
+- `research org code` управляет исследовательским loop;
+- `vibe coding` управляет прикладной разработкой, рефакторингом и интеграциями.
 
 ## Вывод
 

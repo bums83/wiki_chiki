@@ -78,6 +78,12 @@
 - **summary:** Подход, где человек проектирует исследовательскую организацию через prompt/policy layer, а агент исполняет search loop
 - **also:** program.md, agentic research, prompt as policy, research organization
 
+### [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }})
+- **type:** practice
+- **domain:** llm-agents
+- **summary:** Практика AI-assisted разработки, где человек управляет агентом через ограничения, контекст, этапы работы и критерии приёмки
+- **also:** vibe coding, вайб-кодинг, prompt library, cursor prompts, agentic development
+
 ### [Nanochat]({{ '/wiki/llm-agents/nanochat' | relative_url }})
 - **type:** technology
 - **domain:** llm-agents

@@ -33,6 +33,7 @@ layout: home
 |--------|-------|
 | [Autoresearch]({{ '/wiki/llm-agents/autoresearch' | relative_url }}) | Single-GPU framework для автономного research-цикла: агент меняет `train.py`, человек задаёт `program.md` |
 | [Research org code]({{ '/wiki/llm-agents/research-org-code' | relative_url }}) | Идея проектирования исследовательской организации через prompt/policy layer |
+| [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) | Практика разработки, где человек управляет агентом через рамки, контекст и stage-specific промпты |
 | [Nanochat]({{ '/wiki/llm-agents/nanochat' | relative_url }}) | Базовый LLM training harness Карпаты, из которого вырос autoresearch |
 | [Validation bits per byte]({{ '/wiki/llm-agents/validation-bits-per-byte' | relative_url }}) | Метрика `val_bpb` для быстрых и сравнительно честных research-сравнений |
 | [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }}) | Ночной режим пакетных агентных экспериментов |
