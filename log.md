@@ -35,9 +35,8 @@
   - https://github.com/karpathy/nanochat
   - https://x.com/karpathy/status/2030705271627284816
 
-## [2026-04-13] refine | Sources restored + public knowledge map
+## [2026-04-13] refine | Sources restored + homepage simplified
 - Обновлено: все wiki-страницы получили явный блок `Источники` с внешними ссылками на первоисточники
-- Обновлено: `index.md` переработан из каталога в knowledge map с явными межкластерными связями
-- Обновлено: на публичной карте `[[wikilinks]]` заменены на обычные markdown-ссылки
+- Обновлено: `index.md` возвращён к простому плоскому виду: раздел → статья → краткое описание
 - Обновлено: добавлен `wiki/master-index.md` как единый мастер-индекс для GitHub Pages
 - Основание: source ids были сохранены в frontmatter и raw history, но не выводились на самих страницах
