@@ -26,6 +26,7 @@ layout: home
 | [Метод 5 Why]({{ '/wiki/management/5-why' | relative_url }}) | Поиск корневых причин через последовательные «почему?» |
 | [Диаграмма Исикавы]({{ '/wiki/management/ishikawa-diagram' | relative_url }}) | Fishbone-диаграмма, анализ 6M, сюхари |
 | [Методология A3]({{ '/wiki/management/a3-methodology' | relative_url }}) | Визуальный документ для принятия решений, 5S для IT |
+| [Неогностицизм]({{ '/wiki/management/neognosticism' | relative_url }}) | Конец трудового договора: AGI, цифровая дистилляция, парадокс добросовестности |
 
 ## LLM и агенты
 

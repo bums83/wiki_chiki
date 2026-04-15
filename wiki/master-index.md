@@ -58,6 +58,12 @@
 - **summary:** Fishbone-диаграмма для визуализации причин проблемы, анализ 6M, сюхари
 - **also:** Ishikawa, рыбьи кости, fishbone, 6M, сюхари, shuhari
 
+### [Неогностицизм]({{ '/wiki/management/neognosticism' | relative_url }})
+- **type:** essay-analysis
+- **domain:** management
+- **summary:** Конец 250-летнего договора «труд=ценность», AGI как готовая функция, инструменты цифровой дистилляции и парадокс добросовестности
+- **also:** AGI, digital clone, colleague.skill, AI policy, future of work, civilization shift
+
 ### [Методология A3]({{ '/wiki/management/a3-methodology' | relative_url }})
 - **type:** practice
 - **domain:** management
