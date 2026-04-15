@@ -9,6 +9,11 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:path/
+exclude:
+  - raw/
+  - tmp/
+  - SCHEMA.md
+  - log.md
 defaults:
   - scope:
       path: "wiki"
