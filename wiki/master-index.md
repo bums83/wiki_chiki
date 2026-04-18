@@ -102,6 +102,12 @@
 - **summary:** Исследовательская метрика качества `val_bpb`, удобная для быстрых сравнений между токенизаторами и архитектурами
 - **also:** val_bpb, bits per byte, validation metric, bpb
 
+### [HyperFrames]({{ '/wiki/llm-agents/hyperframes' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** HTML-ориентированный video framework для AI-агентов, где сцены, анимации и тайминг описываются через HTML, CSS, JavaScript и data-атрибуты
+- **also:** hyperframes, html video, agentic video, heygen, gsap video
+
 ### [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }})
 - **type:** practice
 - **domain:** llm-agents
