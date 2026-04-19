@@ -54,6 +54,7 @@ layout: home
 | Telegram Client Operator | В очереди | OpenClaw | MTProto-слой для чтения диалогов, тем, сообщений и поиска внутри агентных сценариев |
 | Antfarm | В очереди | OpenClaw | Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций |
 | ServiceDesk Plus Operator | В очереди | OpenClaw | Локальный toolkit для отчетов, triage и category-check по ManageEngine ServiceDesk Plus |
+| Grizzly SMS MCP | В очереди | OpenClaw | MCP для SMS verification через API-провайдера, полезен для разрешенных registration/login workflow с подтверждением номера |
 
 ## Полный список
 

@@ -75,3 +75,4 @@
   - Telegram Client Operator
   - Antfarm
   - ServiceDesk Plus Operator
+  - Grizzly SMS MCP

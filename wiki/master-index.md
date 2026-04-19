@@ -153,3 +153,9 @@
 - **tag:** OpenClaw
 - **summary:** Локальный toolkit для отчетов, triage и category-check по ManageEngine ServiceDesk Plus внутри OpenClaw-сценариев
 - **also:** servicedesk plus operator, manageengine, ticket triage, category validation, openclaw tool
+
+#### Grizzly SMS MCP
+- **status:** backlog
+- **tag:** OpenClaw
+- **summary:** MCP для SMS verification через API-провайдера, полезен для разрешенных registration/login workflow с подтверждением номера и автоматизацией через OpenClaw
+- **also:** grizzly sms, grizzlysms, sms verification, phone verification, otp mcp, openclaw registration workflow
