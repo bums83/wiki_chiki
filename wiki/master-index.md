@@ -119,3 +119,11 @@
 - **domain:** llm-agents
 - **summary:** Следующий шаг после одиночного autoresearch: множество агентов асинхронно исследуют гипотезы параллельно
 - **also:** agent swarms, parallel research, distributed research community
+
+## Tools
+
+### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Portable Windows-обвязка вокруг VoxCPM2 с TTS, voice cloning, voice design и авто-пайплайном обучения LoRA из видео или аудио
+- **also:** voxcpm2, voxcpm2 portable, tts, voice cloning, lora voice training, local voice tool

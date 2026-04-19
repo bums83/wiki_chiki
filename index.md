@@ -5,7 +5,7 @@ layout: home
 
 # Wiki Chiki
 
-База знаний: инфраструктура, менеджмент, LLM/агенты.
+База знаний: инфраструктура, менеджмент, LLM/агенты, tools.
 
 ## Инфраструктура
 
@@ -39,6 +39,12 @@ layout: home
 | [Validation bits per byte]({{ '/wiki/llm-agents/validation-bits-per-byte' | relative_url }}) | Метрика `val_bpb` для быстрых и сравнительно честных research-сравнений |
 | [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }}) | Ночной режим пакетных агентных экспериментов |
 | [Asynchronous research swarms]({{ '/wiki/llm-agents/asynchronous-research-swarms' | relative_url }}) | Переход от одного автономного исследователя к распределённому сообществу агентов |
+
+## Tools
+
+| Статья | О чём |
+|--------|-------|
+| [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |
 
 ## Полный список
 

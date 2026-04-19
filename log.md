@@ -59,3 +59,10 @@
 - Создано: [[Вайб-кодинг]], `raw/entries/2026-04-13_vibe-coder-50-prompts.md`
 - Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: приложенный PDF `50_промптов---fa9b0596-6cf1-48b7-a354-acc4d05f0cc5.pdf`
+
+## [2026-04-19] ingest | VoxCPM2 Portable
+- Создано: [[VoxCPM2 Portable]], `raw/entries/2026-04-19_voxcpm2-portable-github.md`
+- Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источники:
+  - https://github.com/timoncool/VoxCPM2_portable
+  - forwarded Telegram post from channel `НЕЙРО-СОФТ ● РЕПАКИ И ПОРТАТИВКИ` with screenshots and video clips

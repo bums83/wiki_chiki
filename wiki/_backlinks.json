@@ -16,8 +16,9 @@
       "Диаграмма Исикавы"
     ],
     "incoming": [
+      "Toyota Production System",
       "Диаграмма Исикавы",
-      "Toyota Production System"
+      "Неогностицизм"
     ]
   },
   "asynchronous-research-swarms.md": {
@@ -37,12 +38,21 @@
       "Asynchronous research swarms"
     ],
     "incoming": [
-      "Research org code",
-      "Вайб-кодинг",
-      "Nanochat",
-      "Validation bits per byte",
       "Asynchronous research swarms",
-      "Overnight experimentation"
+      "Nanochat",
+      "Overnight experimentation",
+      "Research org code",
+      "Validation bits per byte",
+      "Вайб-кодинг"
+    ]
+  },
+  "hyperframes.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "Research org code"
+    ],
+    "incoming": [
+      "VoxCPM2 Portable"
     ]
   },
   "ishikawa-diagram.md": {
@@ -51,8 +61,8 @@
       "Методология A3"
     ],
     "incoming": [
-      "Методология A3",
-      "Метод 5 Why"
+      "Метод 5 Why",
+      "Методология A3"
     ]
   },
   "kaizen.md": {
@@ -62,10 +72,11 @@
       "Метод 5 Why"
     ],
     "incoming": [
+      "Toyota Production System",
+      "Метод 5 Why",
       "Методология A3",
       "Муда",
-      "Toyota Production System",
-      "Метод 5 Why"
+      "Неогностицизм"
     ]
   },
   "legacy-hardware.md": {
@@ -80,8 +91,9 @@
       "Toyota Production System"
     ],
     "incoming": [
+      "Toyota Production System",
       "Кайдзен",
-      "Toyota Production System"
+      "Неогностицизм"
     ]
   },
   "nanochat.md": {
@@ -92,6 +104,14 @@
     "incoming": [
       "Autoresearch"
     ]
+  },
+  "neognosticism.md": {
+    "outgoing": [
+      "Кайдзен",
+      "Муда",
+      "Методология A3"
+    ],
+    "incoming": []
   },
   "overnight-experimentation.md": {
     "outgoing": [
@@ -117,8 +137,9 @@
       "Вайб-кодинг"
     ],
     "incoming": [
-      "Вайб-кодинг",
-      "Asynchronous research swarms"
+      "Asynchronous research swarms",
+      "HyperFrames",
+      "Вайб-кодинг"
     ]
   },
   "toyota-production-system.md": {
@@ -129,10 +150,10 @@
       "Муда"
     ],
     "incoming": [
-      "Муда",
-      "Кайдзен",
       "Poka-yoke и Andon",
-      "Метод 5 Why"
+      "Кайдзен",
+      "Метод 5 Why",
+      "Муда"
     ]
   },
   "validation-bits-per-byte.md": {
@@ -152,8 +173,17 @@
       "Autoresearch"
     ],
     "incoming": [
-      "Research org code"
+      "HyperFrames",
+      "Research org code",
+      "VoxCPM2 Portable"
     ]
+  },
+  "voxcpm2-portable.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "HyperFrames"
+    ],
+    "incoming": []
   },
   "windows-desktop-optimization.md": {
     "outgoing": [],
