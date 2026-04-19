@@ -66,3 +66,12 @@
 - Источники:
   - https://github.com/timoncool/VoxCPM2_portable
   - forwarded Telegram post from channel `НЕЙРО-СОФТ ● РЕПАКИ И ПОРТАТИВКИ` with screenshots and video clips
+
+## [2026-04-19] curate | Tools backlog with OpenClaw tag
+- Обновлено: `index.md`, `wiki/master-index.md`
+- Добавлено: список возможных tools-статей с явной пометкой `OpenClaw`
+- Backlog:
+  - MCPorter
+  - Telegram Client Operator
+  - Antfarm
+  - ServiceDesk Plus Operator

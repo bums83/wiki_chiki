@@ -46,6 +46,15 @@ layout: home
 |--------|-------|
 | [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |
 
+### Возможные статьи
+
+| Tool | Статус | Пометка | О чём |
+|------|--------|---------|-------|
+| MCPorter | В очереди | OpenClaw | CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools, отладка интеграций |
+| Telegram Client Operator | В очереди | OpenClaw | MTProto-слой для чтения диалогов, тем, сообщений и поиска внутри агентных сценариев |
+| Antfarm | В очереди | OpenClaw | Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций |
+| ServiceDesk Plus Operator | В очереди | OpenClaw | Локальный toolkit для отчетов, triage и category-check по ManageEngine ServiceDesk Plus |
+
 ## Полный список
 
 - [Мастер-индекс статей]({{ '/wiki/master-index' | relative_url }})

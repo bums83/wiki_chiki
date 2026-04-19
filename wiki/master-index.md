@@ -127,3 +127,29 @@
 - **domain:** tools
 - **summary:** Portable Windows-обвязка вокруг VoxCPM2 с TTS, voice cloning, voice design и авто-пайплайном обучения LoRA из видео или аудио
 - **also:** voxcpm2, voxcpm2 portable, tts, voice cloning, lora voice training, local voice tool
+
+### Возможные статьи
+
+#### MCPorter
+- **status:** backlog
+- **tag:** OpenClaw
+- **summary:** CLI-оператор для MCP-серверов: настройка, auth, вызовы tools и отладка интеграций
+- **also:** mcporter, mcp cli, mcp server tools, openclaw integration
+
+#### Telegram Client Operator
+- **status:** backlog
+- **tag:** OpenClaw
+- **summary:** MTProto-слой для чтения Telegram-диалогов, тем, сообщений и поиска внутри агентных сценариев
+- **also:** telegram client operator, mtproto, telegram dialogs, forum topics, agentic chat reading
+
+#### Antfarm
+- **status:** backlog
+- **tag:** OpenClaw
+- **summary:** Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций и self-advancing цепочек
+- **also:** antfarm, workflows, cron orchestration, agent jobs, openclaw workflows
+
+#### ServiceDesk Plus Operator
+- **status:** backlog
+- **tag:** OpenClaw
+- **summary:** Локальный toolkit для отчетов, triage и category-check по ManageEngine ServiceDesk Plus внутри OpenClaw-сценариев
+- **also:** servicedesk plus operator, manageengine, ticket triage, category validation, openclaw tool
