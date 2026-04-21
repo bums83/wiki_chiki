@@ -76,3 +76,10 @@
   - Antfarm
   - ServiceDesk Plus Operator
   - Grizzly SMS MCP
+
+## [2026-04-21] ingest | PostgreSQL + VectorChord = Гибридный поиск. Часть 2. Безоблачная
+- Создано: `raw/entries/2026-04-21_postgresql-vectorchord-hybrid-search-part-2.md`
+- Обновлено: [[PostgreSQL + VectorChord, часть 2]], `wiki/_backlinks.json`
+- Источники:
+  - https://habr.com/ru/articles/1024818/
+  - https://habr.com/ru/articles/1024810/

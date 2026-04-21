@@ -197,5 +197,21 @@
       "Оптимизация рабочего стола Windows"
     ],
     "incoming": []
+  },
+  "postgresql-vectorchord-hybrid-search-part-1.md": {
+    "outgoing": [
+      "PostgreSQL + VectorChord, часть 2"
+    ],
+    "incoming": [
+      "PostgreSQL + VectorChord, часть 2"
+    ]
+  },
+  "postgresql-vectorchord-hybrid-search-part-2.md": {
+    "outgoing": [
+      "PostgreSQL + VectorChord, часть 1"
+    ],
+    "incoming": [
+      "PostgreSQL + VectorChord, часть 1"
+    ]
   }
 }
