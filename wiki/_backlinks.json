@@ -198,20 +198,11 @@
     ],
     "incoming": []
   },
-  "postgresql-vectorchord-hybrid-search-part-1.md": {
+  "postgresql-vectorchord-hybrid-search.md": {
     "outgoing": [
-      "PostgreSQL + VectorChord, часть 2"
+      "Windows Shell",
+      "Оптимизация рабочего стола Windows"
     ],
-    "incoming": [
-      "PostgreSQL + VectorChord, часть 2"
-    ]
-  },
-  "postgresql-vectorchord-hybrid-search-part-2.md": {
-    "outgoing": [
-      "PostgreSQL + VectorChord, часть 1"
-    ],
-    "incoming": [
-      "PostgreSQL + VectorChord, часть 1"
-    ]
+    "incoming": []
   }
 }

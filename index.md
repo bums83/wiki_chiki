@@ -14,8 +14,7 @@ layout: home
 | [Windows Shell]({{ '/wiki/infra/windows-shell' | relative_url }}) | Компоненты оболочки Windows, потребление ресурсов, альтернативы |
 | [Оптимизация рабочего стола Windows]({{ '/wiki/infra/windows-desktop-optimization' | relative_url }}) | Кейс: замена тяжёлых компонентов Win10, 70 МБ вместо 300+ |
 | [Легаси-железо]({{ '/wiki/infra/legacy-hardware' | relative_url }}) | Стратегии продления жизни старого оборудования |
-| [PostgreSQL + VectorChord, часть 1]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search-part-1' | relative_url }}) | Конспект первой части: база, таблицы, VechordRegistry, CRUD-пайплайны и hybrid search |
-| [PostgreSQL + VectorChord, часть 2]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search-part-2' | relative_url }}) | Конспект второй части: локальные embeddings, reranker, semantic chunking и offline retrieval |
+| [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}) | Единая статья про локальный hybrid retrieval на PostgreSQL и VectorChord: модель данных, пайплайны, hybrid search, локальные embeddings, reranker и semantic chunking |
 
 ## Менеджмент
 

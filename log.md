@@ -83,3 +83,11 @@
 - Источники:
   - https://habr.com/ru/articles/1024818/
   - https://habr.com/ru/articles/1024810/
+
+## [2026-04-21] refactor | PostgreSQL + VectorChord merged into one wiki article
+- Создано: [[PostgreSQL + VectorChord]]
+- Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Убрано из навигации: разбиение на `часть 1` и `часть 2`
+- Источники:
+  - https://habr.com/ru/articles/1024810/
+  - https://habr.com/ru/articles/1024818/

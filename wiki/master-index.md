@@ -20,17 +20,11 @@
 - **summary:** Стратегии продления жизни старого оборудования
 - **also:** legacy hardware, старое железо
 
-### [PostgreSQL + VectorChord, часть 1]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search-part-1' | relative_url }})
+### [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }})
 - **type:** technology
 - **domain:** infra
-- **summary:** Конспект первой части статьи про локальную инфраструктуру гибридного поиска на PostgreSQL и VectorChord: таблицы, registry, CRUD-пайплайны и hybrid search
-- **also:** PostgreSQL, VectorChord, hybrid search, vechord, RAG, bm25, vector search
-
-### [PostgreSQL + VectorChord, часть 2]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search-part-2' | relative_url }})
-- **type:** technology
-- **domain:** infra
-- **summary:** Конспект второй части статьи: локальные Jina embeddings, neural reranker, semantic chunking и усиление offline retrieval-контура без облачных API
-- **also:** PostgreSQL, VectorChord, Jina, llama.cpp, reranker, chonkie, hybrid search
+- **summary:** Цельная статья про локальный hybrid retrieval на PostgreSQL и VectorChord: модель данных, VechordRegistry, CRUD-пайплайны, hybrid search, локальные embeddings, neural reranker и semantic chunking
+- **also:** PostgreSQL, VectorChord, hybrid search, vechord, RAG, bm25, vector search, Jina, llama.cpp, reranker, chonkie
 
 ## Менеджмент
 
