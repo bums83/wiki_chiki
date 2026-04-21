@@ -20,6 +20,18 @@
 - **summary:** Стратегии продления жизни старого оборудования
 - **also:** legacy hardware, старое железо
 
+### [PostgreSQL + VectorChord, часть 1]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search-part-1' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** Конспект первой части статьи про локальную инфраструктуру гибридного поиска на PostgreSQL и VectorChord: таблицы, registry, CRUD-пайплайны и hybrid search
+- **also:** PostgreSQL, VectorChord, hybrid search, vechord, RAG, bm25, vector search
+
+### [PostgreSQL + VectorChord, часть 2]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search-part-2' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** Конспект второй части статьи: локальные Jina embeddings, neural reranker, semantic chunking и усиление offline retrieval-контура без облачных API
+- **also:** PostgreSQL, VectorChord, Jina, llama.cpp, reranker, chonkie, hybrid search
+
 ## Менеджмент
 
 ### [Кайдзен]({{ '/wiki/management/kaizen' | relative_url }})
@@ -128,34 +140,32 @@
 - **summary:** Portable Windows-обвязка вокруг VoxCPM2 с TTS, voice cloning, voice design и авто-пайплайном обучения LoRA из видео или аудио
 - **also:** voxcpm2, voxcpm2 portable, tts, voice cloning, lora voice training, local voice tool
 
-### Возможные статьи
-
-#### MCPorter
-- **status:** backlog
-- **tag:** OpenClaw
-- **summary:** CLI-оператор для MCP-серверов: настройка, auth, вызовы tools и отладка интеграций
+### [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций
 - **also:** mcporter, mcp cli, mcp server tools, openclaw integration
 
-#### Telegram Client Operator
-- **status:** backlog
-- **tag:** OpenClaw
+### [Telegram Client Operator]({{ '/wiki/tools/telegram-client-operator' | relative_url }})
+- **type:** technology
+- **domain:** tools
 - **summary:** MTProto-слой для чтения Telegram-диалогов, тем, сообщений и поиска внутри агентных сценариев
 - **also:** telegram client operator, mtproto, telegram dialogs, forum topics, agentic chat reading
 
-#### Antfarm
-- **status:** backlog
-- **tag:** OpenClaw
+### [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }})
+- **type:** technology
+- **domain:** tools
 - **summary:** Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций и self-advancing цепочек
 - **also:** antfarm, workflows, cron orchestration, agent jobs, openclaw workflows
 
-#### ServiceDesk Plus Operator
-- **status:** backlog
-- **tag:** OpenClaw
-- **summary:** Локальный toolkit для отчетов, triage и category-check по ManageEngine ServiceDesk Plus внутри OpenClaw-сценариев
+### [ServiceDesk Plus Operator]({{ '/wiki/tools/servicedesk-plus-operator' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Локальный toolkit для отчётов, triage и category-check по ManageEngine ServiceDesk Plus внутри агентных сценариев
 - **also:** servicedesk plus operator, manageengine, ticket triage, category validation, openclaw tool
 
-#### Grizzly SMS MCP
-- **status:** backlog
-- **tag:** OpenClaw
-- **summary:** MCP для SMS verification через API-провайдера, полезен для разрешенных registration/login workflow с подтверждением номера и автоматизацией через OpenClaw
+### [Grizzly SMS MCP]({{ '/wiki/tools/grizzly-sms-mcp' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** MCP-обёртка для SMS verification через API-провайдера внутри допустимых registration/login workflow
 - **also:** grizzly sms, grizzlysms, sms verification, phone verification, otp mcp, openclaw registration workflow

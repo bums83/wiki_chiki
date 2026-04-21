@@ -14,6 +14,8 @@ layout: home
 | [Windows Shell]({{ '/wiki/infra/windows-shell' | relative_url }}) | Компоненты оболочки Windows, потребление ресурсов, альтернативы |
 | [Оптимизация рабочего стола Windows]({{ '/wiki/infra/windows-desktop-optimization' | relative_url }}) | Кейс: замена тяжёлых компонентов Win10, 70 МБ вместо 300+ |
 | [Легаси-железо]({{ '/wiki/infra/legacy-hardware' | relative_url }}) | Стратегии продления жизни старого оборудования |
+| [PostgreSQL + VectorChord, часть 1]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search-part-1' | relative_url }}) | Конспект первой части: база, таблицы, VechordRegistry, CRUD-пайплайны и hybrid search |
+| [PostgreSQL + VectorChord, часть 2]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search-part-2' | relative_url }}) | Конспект второй части: локальные embeddings, reranker, semantic chunking и offline retrieval |
 
 ## Менеджмент
 
@@ -45,16 +47,11 @@ layout: home
 | Статья | О чём |
 |--------|-------|
 | [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |
-
-### Возможные статьи
-
-| Tool | Статус | Пометка | О чём |
-|------|--------|---------|-------|
-| MCPorter | В очереди | OpenClaw | CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools, отладка интеграций |
-| Telegram Client Operator | В очереди | OpenClaw | MTProto-слой для чтения диалогов, тем, сообщений и поиска внутри агентных сценариев |
-| Antfarm | В очереди | OpenClaw | Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций |
-| ServiceDesk Plus Operator | В очереди | OpenClaw | Локальный toolkit для отчетов, triage и category-check по ManageEngine ServiceDesk Plus |
-| Grizzly SMS MCP | В очереди | OpenClaw | MCP для SMS verification через API-провайдера, полезен для разрешенных registration/login workflow с подтверждением номера |
+| [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}) | CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций |
+| [Telegram Client Operator]({{ '/wiki/tools/telegram-client-operator' | relative_url }}) | MTProto-слой для чтения диалогов, тем, сообщений и поиска внутри агентных сценариев |
+| [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) | Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций и self-advancing цепочек |
+| [ServiceDesk Plus Operator]({{ '/wiki/tools/servicedesk-plus-operator' | relative_url }}) | Локальный toolkit для отчётов, triage и category-check по ManageEngine ServiceDesk Plus |
+| [Grizzly SMS MCP]({{ '/wiki/tools/grizzly-sms-mcp' | relative_url }}) | MCP-обёртка для SMS verification через API-провайдера внутри допустимых registration/login workflow |
 
 ## Полный список
 
