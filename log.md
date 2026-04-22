@@ -103,3 +103,7 @@
 - Источники:
   - https://github.com/directus/directus
   - https://docs.directus.io
+
+## [2026-04-22] cleanup | Strengthen graph links around database and tools articles
+- Обновлено: [[PostgreSQL + VectorChord]], [[Directus]], [[MCPorter]], [[Antfarm]], `wiki/_backlinks.json`
+- Основание: убрать слабую и нерелевантную связность, встроить статьи про базы и tool/platform слой в более осмысленный knowledge graph

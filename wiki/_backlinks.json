@@ -200,17 +200,50 @@
   },
   "postgresql-vectorchord-hybrid-search.md": {
     "outgoing": [
-      "Windows Shell",
-      "Оптимизация рабочего стола Windows"
+      "Directus",
+      "MCPorter",
+      "Antfarm"
     ],
-    "incoming": []
+    "incoming": [
+      "Directus",
+      "MCPorter",
+      "Antfarm"
+    ]
   },
   "directus.md": {
     "outgoing": [
+      "PostgreSQL + VectorChord",
       "MCPorter",
-      "Antfarm",
       "ServiceDesk Plus Operator"
     ],
-    "incoming": []
+    "incoming": [
+      "PostgreSQL + VectorChord"
+    ]
+  },
+  "mcporter.md": {
+    "outgoing": [
+      "Telegram Client Operator",
+      "Antfarm",
+      "Вайб-кодинг",
+      "PostgreSQL + VectorChord"
+    ],
+    "incoming": [
+      "Directus",
+      "PostgreSQL + VectorChord",
+      "Antfarm"
+    ]
+  },
+  "antfarm.md": {
+    "outgoing": [
+      "Autoresearch",
+      "MCPorter",
+      "ServiceDesk Plus Operator",
+      "PostgreSQL + VectorChord"
+    ],
+    "incoming": [
+      "Directus",
+      "MCPorter",
+      "PostgreSQL + VectorChord"
+    ]
   }
 }

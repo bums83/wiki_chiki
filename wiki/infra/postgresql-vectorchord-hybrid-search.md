@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-21
 last_updated: 2026-04-21
 domain: infra
-related: ["Windows Shell", "Оптимизация рабочего стола Windows"]
+related: ["Directus", "MCPorter", "Antfarm"]
 sources: ["habr-postgresql-vectorchord-hybrid-search-part-1", "habr-postgresql-vectorchord-hybrid-search-part-2"]
 ---
 
@@ -41,6 +41,8 @@ sources: ["habr-postgresql-vectorchord-hybrid-search-part-1", "habr-postgresql-v
 - расширения и токенизаторы создаются в одном operational path,
 - таблицы можно неймспейсить через `namespace`,
 - инфраструктура легче переносится между окружениями.
+
+По классу задачи это близко к системам, которые строят backend и operational layer поверх SQL. В отличие от [Directus]({{ '/wiki/tools/directus' | relative_url }}), здесь фокус не на admin UI и API над таблицами, а на retrieval-контурах, chunk storage и поисковой логике внутри одной базы.
 
 ## Модель данных
 
@@ -87,6 +89,8 @@ sources: ["habr-postgresql-vectorchord-hybrid-search-part-1", "habr-postgresql-v
 - pipeline execution.
 
 За счёт этого логика приложения получается компактнее. Вместо ручного glue-кода вокруг SQL возникает единый слой, который держит data model и retrieval operations вместе.
+
+По operational-смыслу это родственно инструментам вроде [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}), где важен не только доступ к системе, но и аккуратный служебный слой вокруг неё. Только здесь объектом управления становится не набор внешних integrations, а retrieval-инфраструктура поверх PostgreSQL.
 
 ## Пайплайн работы с документами
 
@@ -230,6 +234,8 @@ sources: ["habr-postgresql-vectorchord-hybrid-search-part-1", "habr-postgresql-v
 Если задача проще, такой стек может быть тяжёлым.
 
 Если же нужен именно offline retrieval с перспективой роста, это уже выглядит как нормальная база, а не просто демо.
+
+Если такой стек становится частью длинного data pipeline, его удобно рассматривать рядом с [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}), где многошаговые workflow могут использовать retrieval как один из устойчивых этапов общей автоматизации.
 
 ## Вывод
 
