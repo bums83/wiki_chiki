@@ -43,6 +43,8 @@ layout: home
 
 ## Tools
 
+- [Раздел Tools]({{ '/wiki/tools/' | relative_url }})
+
 | Статья | О чём |
 |--------|-------|
 | [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |

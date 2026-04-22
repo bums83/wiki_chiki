@@ -91,3 +91,8 @@
 - Источники:
   - https://habr.com/ru/articles/1024810/
   - https://habr.com/ru/articles/1024818/
+
+## [2026-04-22] structure | Added dedicated Tools section
+- Создано: `wiki/tools/_index.md`
+- Обновлено: `index.md`, `wiki/master-index.md`
+- Основание: оформить `tools` как явный раздел wiki, а не только как список статей на главной
