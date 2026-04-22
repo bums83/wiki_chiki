@@ -128,12 +128,6 @@
 
 ## Tools
 
-### [Tools]({{ '/wiki/tools' | relative_url }})
-- **type:** index
-- **domain:** tools
-- **summary:** Раздел со статьями про инструменты, operator-слои, CLI-утилиты и workflow-capabilities вокруг агентных и операционных сценариев
-- **also:** tools, operators, cli, workflow tools
-
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})
 - **type:** technology
 - **domain:** tools
