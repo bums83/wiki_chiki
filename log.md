@@ -96,3 +96,10 @@
 - Создано: `wiki/tools/_index.md`
 - Обновлено: `index.md`, `wiki/master-index.md`
 - Основание: оформить `tools` как явный раздел wiki, а не только как список статей на главной
+
+## [2026-04-22] ingest | Directus
+- Создано: `raw/entries/2026-04-22_directus-github.md`, [[Directus]]
+- Обновлено: `wiki/tools/_index.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источники:
+  - https://github.com/directus/directus
+  - https://docs.directus.io

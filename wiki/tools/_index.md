@@ -19,6 +19,7 @@ layout: page
 | [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) | Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций и self-advancing цепочек |
 | [ServiceDesk Plus Operator]({{ '/wiki/tools/servicedesk-plus-operator' | relative_url }}) | Локальный toolkit для отчётов, triage и category-check по ManageEngine ServiceDesk Plus |
 | [Grizzly SMS MCP]({{ '/wiki/tools/grizzly-sms-mcp' | relative_url }}) | MCP-обёртка для SMS verification через API-провайдера внутри допустимых registration/login workflow |
+| [Directus]({{ '/wiki/tools/directus' | relative_url }}) | Платформа, которая накладывает REST/GraphQL API и админку поверх SQL-базы без переноса данных в собственную CMS-модель |
 
 ## Что сюда попадает
 

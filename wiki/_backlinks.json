@@ -204,5 +204,13 @@
       "Оптимизация рабочего стола Windows"
     ],
     "incoming": []
+  },
+  "directus.md": {
+    "outgoing": [
+      "MCPorter",
+      "Antfarm",
+      "ServiceDesk Plus Operator"
+    ],
+    "incoming": []
   }
 }

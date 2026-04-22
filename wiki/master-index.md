@@ -128,7 +128,7 @@
 
 ## Tools
 
-### [Tools]({{ '/wiki/tools/' | relative_url }})
+### [Tools]({{ '/wiki/tools' | relative_url }})
 - **type:** index
 - **domain:** tools
 - **summary:** Раздел со статьями про инструменты, operator-слои, CLI-утилиты и workflow-capabilities вокруг агентных и операционных сценариев
@@ -169,3 +169,9 @@
 - **domain:** tools
 - **summary:** MCP-обёртка для SMS verification через API-провайдера внутри допустимых registration/login workflow
 - **also:** grizzly sms, grizzlysms, sms verification, phone verification, otp mcp, openclaw registration workflow
+
+### [Directus]({{ '/wiki/tools/directus' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Платформа, которая превращает существующую SQL-базу в backend-слой с REST/GraphQL API, админкой, auth и automation-возможностями без жёсткого vendor lock-in по данным
+- **also:** directus, headless cms, sql backend, admin panel, graphql, rest api, database mirroring
