@@ -39,6 +39,8 @@ sources: ["github-karpathy-nanochat", "github-karpathy-autoresearch"]
 
 Для автономных research-loop'ов `val_bpb` полезна как **локальный навигатор поиска**. Но итоговую ценность всё равно нужно подтверждать более верхнеуровневыми метриками и реальными тестами.
 
+Эта метрика особенно осмысленна в паре с [Nanochat]({{ '/wiki/llm-agents/nanochat' | relative_url }}) как базовым harness и с [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }}) как operational pattern, где нужен быстрый и стабильный критерий keep/discard для большого числа коротких прогонов.
+
 ## Источники
 
 - [karpathy/nanochat](https://github.com/karpathy/nanochat)

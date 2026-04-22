@@ -107,3 +107,7 @@
 ## [2026-04-22] cleanup | Strengthen graph links around database and tools articles
 - Обновлено: [[PostgreSQL + VectorChord]], [[Directus]], [[MCPorter]], [[Antfarm]], `wiki/_backlinks.json`
 - Основание: убрать слабую и нерелевантную связность, встроить статьи про базы и tool/platform слой в более осмысленный knowledge graph
+
+## [2026-04-22] cleanup | Full graph pass across current wiki articles
+- Обновлено: [[Windows Shell]], [[Оптимизация рабочего стола Windows]], [[Легаси-железо]], [[Poka-yoke и Andon]], [[Неогностицизм]], [[Validation bits per byte]], [[VoxCPM2 Portable]], `wiki/_backlinks.json`
+- Основание: убрать orphan и weak-link узлы, усилить смысловые связи внутри infra, management, llm-agents и tools кластеров

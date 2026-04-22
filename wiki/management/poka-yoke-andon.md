@@ -10,7 +10,7 @@ sources: ["habr-888486", "habr-878782"]
 
 # Poka-yoke и Andon
 
-Два механизма контроля качества из [TPS]({{ '/wiki/management/toyota-production-system' | relative_url }}): предотвращение ошибок и сигнализация о проблемах.
+Два механизма контроля качества из [TPS]({{ '/wiki/management/toyota-production-system' | relative_url }}): предотвращение ошибок и сигнализация о проблемах. Они хорошо дополняют [Кайдзен]({{ '/wiki/management/kaizen' | relative_url }}) как практический слой внедрения улучшений и связаны с [Муда]({{ '/wiki/management/muda' | relative_url }}) как способ убирать потери через устранение дефектов и задержек.
 
 ## Andon (Андон)
 
@@ -64,6 +64,12 @@ sources: ["habr-888486", "habr-878782"]
 - **Ценность** — сотрудник видит личную выгоду (меньше работать, меньше авралов)
 
 Перебор с контролем вреден: километры инструкций → саботаж вместо осознанного выполнения.
+
+## См. также
+
+- [Toyota Production System]({{ '/wiki/management/toyota-production-system' | relative_url }}) — общий каркас, из которого выросли andon и poka-yoke
+- [Кайдзен]({{ '/wiki/management/kaizen' | relative_url }}) — культура постоянного улучшения, в которой такие механизмы приживаются
+- [Муда]({{ '/wiki/management/muda' | relative_url }}) — типы потерь, которые эти механизмы помогают сокращать
 
 ## Источники
 

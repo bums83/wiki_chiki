@@ -81,9 +81,13 @@
   },
   "legacy-hardware.md": {
     "outgoing": [
+      "Windows Shell",
       "Оптимизация рабочего стола Windows"
     ],
-    "incoming": []
+    "incoming": [
+      "Windows Shell",
+      "Оптимизация рабочего стола Windows"
+    ]
   },
   "muda.md": {
     "outgoing": [
@@ -109,7 +113,9 @@
     "outgoing": [
       "Кайдзен",
       "Муда",
-      "Методология A3"
+      "Методология A3",
+      "Вайб-кодинг",
+      "Autoresearch"
     ],
     "incoming": []
   },
@@ -125,7 +131,9 @@
   },
   "poka-yoke-andon.md": {
     "outgoing": [
-      "Toyota Production System"
+      "Toyota Production System",
+      "Кайдзен",
+      "Муда"
     ],
     "incoming": [
       "Toyota Production System"
@@ -158,7 +166,9 @@
   },
   "validation-bits-per-byte.md": {
     "outgoing": [
-      "Autoresearch"
+      "Autoresearch",
+      "Nanochat",
+      "Overnight experimentation"
     ],
     "incoming": [
       "Autoresearch",
@@ -181,12 +191,16 @@
   "voxcpm2-portable.md": {
     "outgoing": [
       "Вайб-кодинг",
-      "HyperFrames"
+      "HyperFrames",
+      "Antfarm"
     ],
     "incoming": []
   },
   "windows-desktop-optimization.md": {
-    "outgoing": [],
+    "outgoing": [
+      "Windows Shell",
+      "Легаси-железо"
+    ],
     "incoming": [
       "Windows Shell",
       "Легаси-железо"
@@ -194,9 +208,13 @@
   },
   "windows-shell.md": {
     "outgoing": [
-      "Оптимизация рабочего стола Windows"
+      "Оптимизация рабочего стола Windows",
+      "Легаси-железо"
     ],
-    "incoming": []
+    "incoming": [
+      "Легаси-железо",
+      "Оптимизация рабочего стола Windows"
+    ]
   },
   "postgresql-vectorchord-hybrid-search.md": {
     "outgoing": [
