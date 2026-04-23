@@ -263,5 +263,12 @@
       "MCPorter",
       "PostgreSQL + VectorChord"
     ]
+  },
+  "openai-privacy-filter.md": {
+    "outgoing": [
+      "Directus",
+      "PostgreSQL + VectorChord"
+    ],
+    "incoming": []
   }
 }

@@ -169,3 +169,9 @@
 - **domain:** tools
 - **summary:** Платформа, которая превращает существующую SQL-базу в backend-слой с REST/GraphQL API, админкой, auth и automation-возможностями без жёсткого vendor lock-in по данным
 - **also:** directus, headless cms, sql backend, admin panel, graphql, rest api, database mirroring
+
+### [OpenAI Privacy Filter]({{ '/wiki/tools/openai-privacy-filter' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Open-source модель для обнаружения и маскировки PII в тексте: имена, адреса, email, телефоны, API-ключи
+- **also:** privacy filter, pii detection, data masking, openai, data protection

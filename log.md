@@ -111,3 +111,8 @@
 ## [2026-04-22] cleanup | Full graph pass across current wiki articles
 - Обновлено: [[Windows Shell]], [[Оптимизация рабочего стола Windows]], [[Легаси-железо]], [[Poka-yoke и Andon]], [[Неогностицизм]], [[Validation bits per byte]], [[VoxCPM2 Portable]], `wiki/_backlinks.json`
 - Основание: убрать orphan и weak-link узлы, усилить смысловые связи внутри infra, management, llm-agents и tools кластеров
+
+## [2026-04-23] ingest | OpenAI Privacy Filter
+- Создано: `raw/entries/2026-04-23_openai-privacy-filter.md`, [[OpenAI Privacy Filter]]
+- Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: Telegram post from user, репозиторий https://github.com/openai/privacy-filter
