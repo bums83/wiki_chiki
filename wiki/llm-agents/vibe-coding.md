@@ -165,6 +165,8 @@ sources: ["doc-vibe-coder-50-prompts"]
 
 Разница в том, что `autoresearch` заточен под research loop, а `vibe coding` — под прикладную разработку и интеграции.
 
+В этом смысле полезно смотреть и на [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}): если `вaйб-кодинг` описывает discipline постановки задач агенту, то prompts.chat показывает, как prompt patterns могут превращаться в общую библиотеку и reusable operational asset.
+
 ## Практический вывод
 
 `Вайб-кодинг` полезен как дисциплина постановки задач агенту, а не как обещание «сделать приложение по вайбу».

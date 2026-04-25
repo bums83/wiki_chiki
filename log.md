@@ -116,3 +116,8 @@
 - Создано: `raw/entries/2026-04-23_openai-privacy-filter.md`, [[OpenAI Privacy Filter]]
 - Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: Telegram post from user, репозиторий https://github.com/openai/privacy-filter
+
+## [2026-04-25] ingest | Prompts.chat
+- Создано: `raw/entries/2026-04-25_prompts-chat-github.md`, [[Prompts.chat]]
+- Обновлено: [[Вайб-кодинг]], [[Research org code]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/f/prompts.chat

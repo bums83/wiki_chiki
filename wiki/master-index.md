@@ -126,6 +126,12 @@
 - **summary:** Следующий шаг после одиночного autoresearch: множество агентов асинхронно исследуют гипотезы параллельно
 - **also:** agent swarms, parallel research, distributed research community
 
+### [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Open-source prompt library и prompt tooling layer: библиотека промптов, dataset, self-hosting и MCP-интеграция
+- **also:** prompts.chat, awesome chatgpt prompts, prompt library, prompt engineering, mcp prompt server
+
 ## Tools
 
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})

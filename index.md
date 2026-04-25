@@ -40,6 +40,7 @@ layout: home
 | [Validation bits per byte]({{ '/wiki/llm-agents/validation-bits-per-byte' | relative_url }}) | Метрика `val_bpb` для быстрых и сравнительно честных research-сравнений |
 | [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }}) | Ночной режим пакетных агентных экспериментов |
 | [Asynchronous research swarms]({{ '/wiki/llm-agents/asynchronous-research-swarms' | relative_url }}) | Переход от одного автономного исследователя к распределённому сообществу агентов |
+| [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}) | Open-source prompt library и prompt tooling layer с self-hosting, dataset и MCP-интеграцией |
 
 ## Tools
 

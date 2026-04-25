@@ -142,12 +142,14 @@
   "research-org-code.md": {
     "outgoing": [
       "Autoresearch",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Prompts.chat"
     ],
     "incoming": [
       "Asynchronous research swarms",
       "HyperFrames",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Prompts.chat"
     ]
   },
   "toyota-production-system.md": {
@@ -180,12 +182,14 @@
     "outgoing": [
       "Research org code",
       "Overnight experimentation",
-      "Autoresearch"
+      "Autoresearch",
+      "Prompts.chat"
     ],
     "incoming": [
       "HyperFrames",
       "Research org code",
-      "VoxCPM2 Portable"
+      "VoxCPM2 Portable",
+      "Prompts.chat"
     ]
   },
   "voxcpm2-portable.md": {
@@ -270,5 +274,16 @@
       "PostgreSQL + VectorChord"
     ],
     "incoming": []
+  },
+  "prompts-chat.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "Research org code",
+      "MCPorter"
+    ],
+    "incoming": [
+      "Вайб-кодинг",
+      "Research org code"
+    ]
   }
 }
