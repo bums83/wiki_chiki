@@ -183,13 +183,15 @@
       "Research org code",
       "Overnight experimentation",
       "Autoresearch",
-      "Prompts.chat"
+      "Prompts.chat",
+      "Evolve"
     ],
     "incoming": [
       "HyperFrames",
       "Research org code",
       "VoxCPM2 Portable",
-      "Prompts.chat"
+      "Prompts.chat",
+      "Evolve"
     ]
   },
   "voxcpm2-portable.md": {
@@ -279,11 +281,23 @@
     "outgoing": [
       "Вайб-кодинг",
       "Research org code",
-      "MCPorter"
+      "MCPorter",
+      "Evolve"
     ],
     "incoming": [
       "Вайб-кодинг",
-      "Research org code"
+      "Research org code",
+      "Evolve"
+    ]
+  },
+  "evolve.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "Research org code",
+      "Prompts.chat"
+    ],
+    "incoming": [
+      "Вайб-кодинг"
     ]
   }
 }

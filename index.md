@@ -41,6 +41,7 @@ layout: home
 | [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }}) | Ночной режим пакетных агентных экспериментов |
 | [Asynchronous research swarms]({{ '/wiki/llm-agents/asynchronous-research-swarms' | relative_url }}) | Переход от одного автономного исследователя к распределённому сообществу агентов |
 | [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}) | Open-source prompt library и prompt tooling layer с self-hosting, dataset и MCP-интеграцией |
+| [Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }}) | Пассивное A/B-тестирование AI-ассистентов в фоне: эмпирический подбор лучшего промпта и модели |
 
 ## Tools
 

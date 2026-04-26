@@ -132,6 +132,12 @@
 - **summary:** Open-source prompt library и prompt tooling layer: библиотека промптов, dataset, self-hosting и MCP-интеграция
 - **also:** prompts.chat, awesome chatgpt prompts, prompt library, prompt engineering, mcp prompt server
 
+### [Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Пассивный A/B-тестирование AI-ассистентов в фоне реальных сессий: эмпирический подбор лучшего промпта, модели и провайдера для Claude Code, Cursor и Aider
+- **also:** evolve, a-b testing, prompt optimization, ai coding, claude code, cursor, aider
+
 ## Tools
 
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})

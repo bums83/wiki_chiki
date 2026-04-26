@@ -121,3 +121,8 @@
 - Создано: `raw/entries/2026-04-25_prompts-chat-github.md`, [[Prompts.chat]]
 - Обновлено: [[Вайб-кодинг]], [[Research org code]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/f/prompts.chat
+
+## [2026-04-26] ingest | Evolve
+- Создано: [[Evolve]]
+- Обновлено: [[Вайб-кодинг]], [[Prompts.chat]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: forwarded Telegram post from channel `Only GitHub`, https://github.com/Frostbyte-Devs/evolve
