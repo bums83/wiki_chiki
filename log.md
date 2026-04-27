@@ -126,3 +126,8 @@
 - Создано: [[Evolve]]
 - Обновлено: [[Вайб-кодинг]], [[Prompts.chat]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: forwarded Telegram post from channel `Only GitHub`, https://github.com/Frostbyte-Devs/evolve
+
+## [2026-04-27] ingest | PowerInfer
+- Создано: `raw/entries/2026-04-27_powerinfer-tiiny-ai.md`, [[PowerInfer]]
+- Обновлено: [[PostgreSQL + VectorChord]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/Tiiny-AI/PowerInfer

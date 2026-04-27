@@ -26,6 +26,12 @@
 - **summary:** Цельная статья про локальный hybrid retrieval на PostgreSQL и VectorChord: модель данных, VechordRegistry, CRUD-пайплайны, hybrid search, локальные embeddings, neural reranker и semantic chunking
 - **also:** PostgreSQL, VectorChord, hybrid search, vechord, RAG, bm25, vector search, Jina, llama.cpp, reranker, chonkie
 
+### [PowerInfer]({{ '/wiki/infra/powerinfer' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** High-speed LLM inference engine для локального развёртывания больших моделей на consumer GPU: sparse activation, hot/cold нейроны, до 11x быстрее llama.cpp
+- **also:** powerinfer, llm inference, local llm, sparse activation, gpu optimization, llm serving
+
 ## Менеджмент
 
 ### [Кайдзен]({{ '/wiki/management/kaizen' | relative_url }})

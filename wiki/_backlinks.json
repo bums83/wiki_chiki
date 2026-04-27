@@ -226,12 +226,14 @@
     "outgoing": [
       "Directus",
       "MCPorter",
-      "Antfarm"
+      "Antfarm",
+      "PowerInfer"
     ],
     "incoming": [
       "Directus",
       "MCPorter",
-      "Antfarm"
+      "Antfarm",
+      "PowerInfer"
     ]
   },
   "directus.md": {
@@ -298,6 +300,14 @@
     ],
     "incoming": [
       "Вайб-кодинг"
+    ]
+  },
+  "powerinfer.md": {
+    "outgoing": [
+      "PostgreSQL + VectorChord"
+    ],
+    "incoming": [
+      "PostgreSQL + VectorChord"
     ]
   }
 }
