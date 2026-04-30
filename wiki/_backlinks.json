@@ -24,7 +24,8 @@
   "asynchronous-research-swarms.md": {
     "outgoing": [
       "Autoresearch",
-      "Research org code"
+      "Research org code",
+      "ThreatSwarm"
     ],
     "incoming": [
       "Autoresearch"
@@ -308,7 +309,8 @@
     "outgoing": [
       "Вайб-кодинг",
       "Research org code",
-      "Prompts.chat"
+      "Prompts.chat",
+      "ThreatSwarm"
     ],
     "incoming": [
       "Вайб-кодинг"
@@ -320,6 +322,17 @@
     ],
     "incoming": [
       "PostgreSQL + VectorChord"
+    ]
+  },
+  "threatswarm.md": {
+    "outgoing": [
+      "Asynchronous research swarms",
+      "Evolve",
+      "Research org code"
+    ],
+    "incoming": [
+      "Asynchronous research swarms",
+      "Evolve"
     ]
   }
 }

@@ -144,6 +144,12 @@
 - **summary:** Пассивный A/B-тестирование AI-ассистентов в фоне реальных сессий: эмпирический подбор лучшего промпта, модели и провайдера для Claude Code, Cursor и Aider
 - **also:** evolve, a-b testing, prompt optimization, ai coding, claude code, cursor, aider
 
+### [ThreatSwarm]({{ '/wiki/llm-agents/threatswarm' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Claude Code plugin с 27 AI-агентами для полной автоматизации пентеста: разведка, эксплуатация, закрепление, расследование и CVSS-отчёт
+- **also:** threatswarm, pentest, ai agents, cybersecurity, claude code, autonomous security
+
 ## Tools
 
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})

@@ -136,3 +136,8 @@
 - Создано: [[Mermaid]]
 - Обновлено: [[Вайб-кодинг]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: Telegram post from user
+
+## [2026-04-30] ingest | ThreatSwarm
+- Создано: [[ThreatSwarm]]
+- Обновлено: [[Asynchronous research swarms]], [[Evolve]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: forwarded Telegram post from channel `Only Hack`, https://github.com/mukul975/Threatswarm
