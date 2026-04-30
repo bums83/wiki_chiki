@@ -131,3 +131,8 @@
 - Создано: `raw/entries/2026-04-27_powerinfer-tiiny-ai.md`, [[PowerInfer]]
 - Обновлено: [[PostgreSQL + VectorChord]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/Tiiny-AI/PowerInfer
+
+## [2026-04-30] ingest | Mermaid
+- Создано: [[Mermaid]]
+- Обновлено: [[Вайб-кодинг]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: Telegram post from user

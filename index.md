@@ -56,6 +56,7 @@ layout: home
 | [Grizzly SMS MCP]({{ '/wiki/tools/grizzly-sms-mcp' | relative_url }}) | MCP-обёртка для SMS verification через API-провайдера внутри допустимых registration/login workflow |
 | [Directus]({{ '/wiki/tools/directus' | relative_url }}) | Платформа, которая накладывает REST/GraphQL API и админку поверх SQL-базы без переноса данных в собственную CMS-модель |
 | [OpenAI Privacy Filter]({{ '/wiki/tools/openai-privacy-filter' | relative_url }}) | Open-source модель для обнаружения и маскировки PII в тексте |
+| [Mermaid]({{ '/wiki/tools/mermaid' | relative_url }}) | Open-source инструмент для создания диаграмм и блок-схем из текстового описания: LLM-friendly, Git-версионирование, 21 тип диаграмм |
 
 ## Полный список
 

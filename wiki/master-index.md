@@ -193,3 +193,9 @@
 - **domain:** tools
 - **summary:** Open-source модель для обнаружения и маскировки PII в тексте: имена, адреса, email, телефоны, API-ключи
 - **also:** privacy filter, pii detection, data masking, openai, data protection
+
+### [Mermaid]({{ '/wiki/tools/mermaid' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Open-source инструмент для создания диаграмм из текстового описания: flowchart, sequence, Gantt, ER и другие типы — LLM-friendly, встраивается в Markdown
+- **also:** mermaid, diagrams, flowcharts, documentation, technical graphics, mermaid diagrams

@@ -184,14 +184,16 @@
       "Overnight experimentation",
       "Autoresearch",
       "Prompts.chat",
-      "Evolve"
+      "Evolve",
+      "Mermaid"
     ],
     "incoming": [
       "HyperFrames",
       "Research org code",
       "VoxCPM2 Portable",
       "Prompts.chat",
-      "Evolve"
+      "Evolve",
+      "Mermaid"
     ]
   },
   "voxcpm2-portable.md": {
@@ -202,7 +204,17 @@
     ],
     "incoming": []
   },
-  "windows-desktop-optimization.md": {
+  "mermaid.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "Диаграмма Исикавы",
+      "Методология A3"
+    ],
+    "incoming": [
+      "Вайб-кодинг"
+    ]
+  }
+}  "windows-desktop-optimization.md": {
     "outgoing": [
       "Windows Shell",
       "Легаси-железо"
