@@ -150,6 +150,12 @@
 - **summary:** Claude Code plugin с 27 AI-агентами для полной автоматизации пентеста: разведка, эксплуатация, закрепление, расследование и CVSS-отчёт
 - **also:** threatswarm, pentest, ai agents, cybersecurity, claude code, autonomous security
 
+### [Claude-OSINT]({{ '/wiki/llm-agents/claude-osint' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** SKILL.md-набор для LLM с 90+ OSINT-модулями, 48 паттернами поиска секретов и 80+ dorks для профессиональных расследований
+- **also:** claude-osint, osint, llm skills, cybersecurity, reconnaissance, bug bounty
+
 ## Tools
 
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})

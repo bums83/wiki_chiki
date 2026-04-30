@@ -44,6 +44,7 @@ layout: home
 | [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}) | Open-source prompt library и prompt tooling layer с self-hosting, dataset и MCP-интеграцией |
 | [Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }}) | Пассивное A/B-тестирование AI-ассистентов в фоне: эмпирический подбор лучшего промпта и модели |
 | [ThreatSwarm]({{ '/wiki/llm-agents/threatswarm' | relative_url }}) | Claude Code plugin с 27 AI-агентами для полной автоматизации пентеста: разведка → эксплуатация → закрепление → отчёт |
+| [Claude-OSINT]({{ '/wiki/llm-agents/claude-osint' | relative_url }}) | SKILL.md-набор для LLM с 90+ OSINT-модулями, 48 паттернами поиска секретов и 80+ dorks для профессиональных расследований |
 
 ## Tools
 

@@ -328,11 +328,22 @@
     "outgoing": [
       "Asynchronous research swarms",
       "Evolve",
-      "Research org code"
+      "Research org code",
+      "Claude-OSINT"
     ],
     "incoming": [
       "Asynchronous research swarms",
       "Evolve"
+    ]
+  },
+  "claude-osint.md": {
+    "outgoing": [
+      "ThreatSwarm",
+      "Evolve",
+      "Research org code"
+    ],
+    "incoming": [
+      "ThreatSwarm"
     ]
   }
 }
