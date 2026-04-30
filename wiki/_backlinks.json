@@ -297,12 +297,14 @@
       "Вайб-кодинг",
       "Research org code",
       "MCPorter",
-      "Evolve"
+      "Evolve",
+      "Prompt Master"
     ],
     "incoming": [
       "Вайб-кодинг",
       "Research org code",
-      "Evolve"
+      "Evolve",
+      "Prompt Master"
     ]
   },
   "evolve.md": {
@@ -344,6 +346,16 @@
     ],
     "incoming": [
       "ThreatSwarm"
+    ]
+  },
+  "prompt-master.md": {
+    "outgoing": [
+      "Prompts.chat",
+      "Вайб-кодинг",
+      "Evolve"
+    ],
+    "incoming": [
+      "Prompts.chat"
     ]
   }
 }

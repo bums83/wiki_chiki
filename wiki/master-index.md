@@ -156,6 +156,12 @@
 - **summary:** SKILL.md-набор для LLM с 90+ OSINT-модулями, 48 паттернами поиска секретов и 80+ dorks для профессиональных расследований
 - **also:** claude-osint, osint, llm skills, cybersecurity, reconnaissance, bug bounty
 
+### [Prompt Master]({{ '/wiki/llm-agents/prompt-master' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Claude skill для генерации оптимизированных промптов под 20+ AI-инструментов: Midjourney, Cursor, ChatGPT, Gemini, Stable Diffusion и другие
+- **also:** prompt master, prompt engineering, claude skills, ai tools, prompt generation
+
 ## Tools
 
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})

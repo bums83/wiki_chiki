@@ -146,3 +146,8 @@
 - Создано: [[Claude-OSINT]]
 - Обновлено: [[ThreatSwarm]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: forwarded Telegram post from channel `Only GitHub`, https://github.com/elementalsouls/Claude-OSINT
+
+## [2026-04-30] ingest | Prompt Master
+- Создано: [[Prompt Master]]
+- Обновлено: [[Prompts.chat]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: forwarded Telegram post from channel `Only GitHub`, https://github.com/nidhinjs/prompt-master
