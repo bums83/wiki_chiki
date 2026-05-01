@@ -38,6 +38,12 @@
 - **summary:** CLI proxy для сокращения потребления токенов LLM на 60-90% при dev-командах: smart filtering, grouping, truncation, deduplication
 - **also:** rtk, token saving, llm optimization, cli proxy, development tooling
 
+### [PocketBase]({{ '/wiki/infra/pocketbase' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** Open-source бэкенд на Go в одном файле: SQLite realtime, авторизация, файловый storage, админ-панель и REST API — для быстрых прототипов
+- **also:** pocketbase, go backend, sqlite realtime, single binary, backend constructor, prototyping
+
 ## Менеджмент
 
 ### [Кайдзен]({{ '/wiki/management/kaizen' | relative_url }})

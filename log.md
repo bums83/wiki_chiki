@@ -162,3 +162,7 @@
 - Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: forwarded from channel `Teamlead Good Reads` (Egor Tolstoy), https://x.com/augmentcode/status/2047164534310494709
 - Обогащено: best practices с agentsmd.io, Augment guidelines docs
+## [2026-05-01] ingest | PocketBase
+- Создано: [[PocketBase]]
+- Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: forwarded from channel `Only GitHub`, https://github.com/pocketbase/pocketbase

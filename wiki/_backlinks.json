@@ -231,6 +231,17 @@
     "outgoing": [
       "PowerInfer"
     ],
+    "incoming": [
+      "PocketBase"
+    ]
+  },
+  "pocketbase.md": {
+    "outgoing": [
+      "Directus",
+      "PowerInfer",
+      "RTK",
+      "Вайб-кодинг"
+    ],
     "incoming": []
   },
   "windows-shell.md": {
