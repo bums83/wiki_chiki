@@ -16,6 +16,7 @@ layout: home
 | [Легаси-железо]({{ '/wiki/infra/legacy-hardware' | relative_url }}) | Стратегии продления жизни старого оборудования |
 | [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}) | Единая статья про локальный hybrid retrieval на PostgreSQL и VectorChord: модель данных, пайплайны, hybrid search, локальные embeddings, reranker и semantic chunking |
 | [PowerInfer]({{ '/wiki/infra/powerinfer' | relative_url }}) | High-speed LLM inference engine для локального запуска больших моделей на обычном GPU: sparse activation, hot/cold нейроны, до 11x быстрее llama.cpp |
+| [RTK]({{ '/wiki/infra/rtk' | relative_url }}) | CLI proxy, который сокращает потребление токенов LLM на 60-90% при dev-командах: smart filtering, grouping, truncation, deduplication |
 
 ## Менеджмент
 

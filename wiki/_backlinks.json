@@ -225,6 +225,12 @@
       "Легаси-железо"
     ]
   },
+  "rtk.md": {
+    "outgoing": [
+      "PowerInfer"
+    ],
+    "incoming": []
+  },
   "windows-shell.md": {
     "outgoing": [
       "Оптимизация рабочего стола Windows",

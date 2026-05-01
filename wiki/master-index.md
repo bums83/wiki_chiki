@@ -32,6 +32,12 @@
 - **summary:** High-speed LLM inference engine для локального развёртывания больших моделей на consumer GPU: sparse activation, hot/cold нейроны, до 11x быстрее llama.cpp
 - **also:** powerinfer, llm inference, local llm, sparse activation, gpu optimization, llm serving
 
+### [RTK]({{ '/wiki/infra/rtk' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** CLI proxy для сокращения потребления токенов LLM на 60-90% при dev-командах: smart filtering, grouping, truncation, deduplication
+- **also:** rtk, token saving, llm optimization, cli proxy, development tooling
+
 ## Менеджмент
 
 ### [Кайдзен]({{ '/wiki/management/kaizen' | relative_url }})

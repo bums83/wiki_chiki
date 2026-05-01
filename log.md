@@ -151,3 +151,8 @@
 - Создано: [[Prompt Master]]
 - Обновлено: [[Prompts.chat]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: forwarded Telegram post from channel `Only GitHub`, https://github.com/nidhinjs/prompt-master
+
+## [2026-05-01] ingest | RTK
+- Создано: [[RTK]]
+- Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/rtk-ai/rtk
