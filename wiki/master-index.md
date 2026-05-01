@@ -168,6 +168,12 @@
 - **summary:** Claude skill для генерации оптимизированных промптов под 20+ AI-инструментов: Midjourney, Cursor, ChatGPT, Gemini, Stable Diffusion и другие
 - **also:** prompt master, prompt engineering, claude skills, ai tools, prompt generation
 
+### [Agents.md]({{ '/wiki/llm-agents/agents-md' | relative_url }})
+- **type:** best practices
+- **domain:** llm-agents
+- **summary:** Best practices для написания Agents.md файлов: progressive disclosure, decision tables, numbered steps, dos/donts pairs, file-scoped commands, safety boundaries
+- **also:** agents.md, claude.md, ai coding standards, team lead, coding guidelines, augments
+
 ## Tools
 
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})

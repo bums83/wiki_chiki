@@ -47,6 +47,7 @@ layout: home
 | [ThreatSwarm]({{ '/wiki/llm-agents/threatswarm' | relative_url }}) | Claude Code plugin с 27 AI-агентами для полной автоматизации пентеста: разведка → эксплуатация → закрепление → отчёт |
 | [Claude-OSINT]({{ '/wiki/llm-agents/claude-osint' | relative_url }}) | SKILL.md-набор для LLM с 90+ OSINT-модулями, 48 паттернами поиска секретов и 80+ dorks для профессиональных расследований |
 | [Prompt Master]({{ '/wiki/llm-agents/prompt-master' | relative_url }}) | Claude skill для генерации оптимизированных промптов под 20+ AI-инструментов: Midjourney, Cursor, ChatGPT, Gemini и другие |
+| [Agents.md]({{ '/wiki/llm-agents/agents-md' | relative_url }}) | Best practices для написания Agents.md файлов: progressive disclosure, decision tables, numbered steps, dos/donts pairs, file-scoped commands, safety boundaries |
 
 ## Tools
 

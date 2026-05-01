@@ -186,7 +186,8 @@
       "Autoresearch",
       "Prompts.chat",
       "Evolve",
-      "Mermaid"
+      "Mermaid",
+      "Agents.md"
     ],
     "incoming": [
       "HyperFrames",
@@ -194,7 +195,8 @@
       "VoxCPM2 Portable",
       "Prompts.chat",
       "Evolve",
-      "Mermaid"
+      "Mermaid",
+      "Agents.md"
     ]
   },
   "voxcpm2-portable.md": {
@@ -363,5 +365,16 @@
     "incoming": [
       "Prompts.chat"
     ]
-  }
+  },
+  "agents-md.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "Evolve",
+      "Prompt Master",
+      "CLAUDE.md"
+    ],
+    "incoming": [
+      "Вайб-кодинг"
+    ]
+    }
 }
