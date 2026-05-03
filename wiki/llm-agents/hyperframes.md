@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-18
 last_updated: 2026-04-18
 domain: llm-agents
-related: ["Вайб-кодинг", "Research org code"]
+related: ["Вайб-кодинг", "Research org code", "Penpot"]
 sources: ["telegraph-hyperframes-open-source-2026-04-17", "github-heygen-hyperframes"]
 ---
 
@@ -70,6 +70,8 @@ HyperFrames хорошо стыкуется с логикой [Вайб-коди
 Разница в том, что артефакт здесь не backend или UI, а видео.
 
 Это также близко к [Research org code]({{ '/wiki/llm-agents/research-org-code' | relative_url }}): важна не только генерация кода, но и вся операционная оболочка вокруг неё, то есть формат сцены, правила тайминга, структура пайплайна и рендер.
+
+Для продуктовых команд это ещё и мост к дизайн-среде: [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) может быть местом, где собирают UI-систему и экраны, а HyperFrames — местом, где из кодоподобных артефактов строят объясняющие ролики, демо и motion-сцены поверх того же design-to-code мышления.
 
 ## Практический смысл
 

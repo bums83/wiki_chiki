@@ -1,44 +1,14 @@
 {
-  "5-why.md": {
-    "outgoing": [
-      "Toyota Production System",
-      "Диаграмма Исикавы",
-      "Кайдзен"
-    ],
-    "incoming": [
-      "Диаграмма Исикавы",
-      "Кайдзен"
-    ]
-  },
-  "a3-methodology.md": {
-    "outgoing": [
-      "Кайдзен",
-      "Диаграмма Исикавы"
-    ],
-    "incoming": [
-      "Toyota Production System",
-      "Диаграмма Исикавы",
-      "Неогностицизм"
-    ]
-  },
-  "asynchronous-research-swarms.md": {
-    "outgoing": [
-      "Autoresearch",
-      "Research org code",
-      "ThreatSwarm"
-    ],
-    "incoming": [
-      "Autoresearch"
-    ]
-  },
   "autoresearch.md": {
     "outgoing": [
+      "Research org code",
       "Nanochat",
       "Validation bits per byte",
       "Overnight experimentation",
       "Asynchronous research swarms"
     ],
     "incoming": [
+      "Antfarm",
       "Asynchronous research swarms",
       "Nanochat",
       "Overnight experimentation",
@@ -47,47 +17,186 @@
       "Вайб-кодинг"
     ]
   },
+  "research-org-code.md": {
+    "outgoing": [
+      "Autoresearch",
+      "Вайб-кодинг"
+    ],
+    "incoming": [
+      "Asynchronous research swarms",
+      "Autoresearch",
+      "Claude-OSINT",
+      "Evolve",
+      "HyperFrames",
+      "Prompts.chat",
+      "ThreatSwarm",
+      "Вайб-кодинг"
+    ]
+  },
+  "vibe-coding.md": {
+    "outgoing": [
+      "Research org code",
+      "Overnight experimentation",
+      "Autoresearch"
+    ],
+    "incoming": [
+      "Agents.md",
+      "Evolve",
+      "HyperFrames",
+      "MCPorter",
+      "Mermaid",
+      "Penpot",
+      "PocketBase",
+      "Prompt Master",
+      "Prompts.chat",
+      "RTK",
+      "Research org code",
+      "VoxCPM2 Portable"
+    ]
+  },
+  "prompts-chat.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "Research org code",
+      "MCPorter"
+    ],
+    "incoming": [
+      "Evolve",
+      "Prompt Master"
+    ]
+  },
+  "nanochat.md": {
+    "outgoing": [
+      "Autoresearch",
+      "Validation bits per byte",
+      "Overnight experimentation"
+    ],
+    "incoming": [
+      "Autoresearch",
+      "Overnight experimentation",
+      "Validation bits per byte"
+    ]
+  },
+  "evolve.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "Research org code",
+      "Prompts.chat"
+    ],
+    "incoming": [
+      "Agents.md",
+      "Claude-OSINT",
+      "Prompt Master",
+      "ThreatSwarm"
+    ]
+  },
+  "validation-bits-per-byte.md": {
+    "outgoing": [
+      "Nanochat",
+      "Autoresearch"
+    ],
+    "incoming": [
+      "Autoresearch",
+      "Nanochat",
+      "Overnight experimentation"
+    ]
+  },
+  "claude-osint.md": {
+    "outgoing": [
+      "ThreatSwarm",
+      "Evolve",
+      "Research org code"
+    ],
+    "incoming": []
+  },
+  "agents-md.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "Evolve",
+      "Prompt Master",
+      "CLAUDE.md"
+    ],
+    "incoming": []
+  },
   "hyperframes.md": {
     "outgoing": [
       "Вайб-кодинг",
+      "Research org code",
+      "Penpot"
+    ],
+    "incoming": [
+      "Penpot",
+      "VoxCPM2 Portable"
+    ]
+  },
+  "asynchronous-research-swarms.md": {
+    "outgoing": [
+      "Autoresearch",
+      "Research org code",
+      "Overnight experimentation"
+    ],
+    "incoming": [
+      "Autoresearch",
+      "Telegram Client Operator",
+      "ThreatSwarm"
+    ]
+  },
+  "overnight-experimentation.md": {
+    "outgoing": [
+      "Autoresearch",
+      "Nanochat",
+      "Validation bits per byte"
+    ],
+    "incoming": [
+      "Asynchronous research swarms",
+      "Autoresearch",
+      "Nanochat",
+      "Вайб-кодинг"
+    ]
+  },
+  "threatswarm.md": {
+    "outgoing": [
+      "Asynchronous research swarms",
+      "Evolve",
       "Research org code"
     ],
     "incoming": [
-      "VoxCPM2 Portable"
+      "Claude-OSINT"
+    ]
+  },
+  "prompt-master.md": {
+    "outgoing": [
+      "Prompts.chat",
+      "Вайб-кодинг",
+      "Evolve"
+    ],
+    "incoming": [
+      "Agents.md"
+    ]
+  },
+  "a3-methodology.md": {
+    "outgoing": [
+      "Toyota Production System",
+      "Кайдзен",
+      "Диаграмма Исикавы"
+    ],
+    "incoming": [
+      "Mermaid",
+      "Диаграмма Исикавы",
+      "Кайдзен",
+      "Неогностицизм"
     ]
   },
   "ishikawa-diagram.md": {
     "outgoing": [
       "Метод 5 Why",
+      "Toyota Production System",
       "Методология A3"
     ],
     "incoming": [
+      "Mermaid",
       "Метод 5 Why",
       "Методология A3"
-    ]
-  },
-  "kaizen.md": {
-    "outgoing": [
-      "Toyota Production System",
-      "Муда",
-      "Метод 5 Why"
-    ],
-    "incoming": [
-      "Toyota Production System",
-      "Метод 5 Why",
-      "Методология A3",
-      "Муда",
-      "Неогностицизм"
-    ]
-  },
-  "legacy-hardware.md": {
-    "outgoing": [
-      "Windows Shell",
-      "Оптимизация рабочего стола Windows"
-    ],
-    "incoming": [
-      "Windows Shell",
-      "Оптимизация рабочего стола Windows"
     ]
   },
   "muda.md": {
@@ -101,148 +210,173 @@
       "Неогностицизм"
     ]
   },
-  "nanochat.md": {
-    "outgoing": [
-      "Validation bits per byte",
-      "Autoresearch"
-    ],
-    "incoming": [
-      "Autoresearch"
-    ]
-  },
   "neognosticism.md": {
     "outgoing": [
       "Кайдзен",
       "Муда",
-      "Методология A3",
-      "Вайб-кодинг",
-      "Autoresearch"
+      "Методология A3"
     ],
     "incoming": []
   },
-  "overnight-experimentation.md": {
+  "kaizen.md": {
     "outgoing": [
-      "Autoresearch",
-      "Validation bits per byte"
+      "Toyota Production System",
+      "Муда",
+      "Метод 5 Why",
+      "Методология A3"
     ],
     "incoming": [
-      "Autoresearch",
-      "Вайб-кодинг"
+      "Poka-yoke и Andon",
+      "Toyota Production System",
+      "Метод 5 Why",
+      "Методология A3",
+      "Муда",
+      "Неогностицизм"
     ]
   },
   "poka-yoke-andon.md": {
     "outgoing": [
       "Toyota Production System",
-      "Кайдзен",
-      "Муда"
+      "Кайдзен"
     ],
     "incoming": [
+      "Grizzly SMS MCP",
       "Toyota Production System"
-    ]
-  },
-  "research-org-code.md": {
-    "outgoing": [
-      "Autoresearch",
-      "Вайб-кодинг",
-      "Prompts.chat"
-    ],
-    "incoming": [
-      "Asynchronous research swarms",
-      "HyperFrames",
-      "Вайб-кодинг",
-      "Prompts.chat"
     ]
   },
   "toyota-production-system.md": {
     "outgoing": [
-      "Методология A3",
       "Кайдзен",
       "Poka-yoke и Andon",
       "Муда"
     ],
     "incoming": [
       "Poka-yoke и Andon",
+      "Диаграмма Исикавы",
       "Кайдзен",
       "Метод 5 Why",
+      "Методология A3",
       "Муда"
     ]
   },
-  "validation-bits-per-byte.md": {
+  "5-why.md": {
     "outgoing": [
-      "Autoresearch",
-      "Nanochat",
-      "Overnight experimentation"
+      "Диаграмма Исикавы",
+      "Кайдзен",
+      "Toyota Production System"
     ],
     "incoming": [
-      "Autoresearch",
-      "Nanochat",
-      "Overnight experimentation"
+      "ServiceDesk Plus Operator",
+      "Диаграмма Исикавы",
+      "Кайдзен"
     ]
-  },
-  "vibe-coding.md": {
-    "outgoing": [
-      "Research org code",
-      "Overnight experimentation",
-      "Autoresearch",
-      "Prompts.chat",
-      "Evolve",
-      "Mermaid",
-      "Agents.md"
-    ],
-    "incoming": [
-      "HyperFrames",
-      "Research org code",
-      "VoxCPM2 Portable",
-      "Prompts.chat",
-      "Evolve",
-      "Mermaid",
-      "Agents.md"
-    ]
-  },
-  "voxcpm2-portable.md": {
-    "outgoing": [
-      "Вайб-кодинг",
-      "HyperFrames",
-      "Antfarm"
-    ],
-    "incoming": []
   },
   "mermaid.md": {
     "outgoing": [
       "Вайб-кодинг",
       "Диаграмма Исикавы",
-      "Методология A3"
+      "Методология A3",
+      "Penpot"
     ],
     "incoming": [
-      "Вайб-кодинг"
-    ]
-  }
-}  "windows-desktop-optimization.md": {
-    "outgoing": [
-      "Windows Shell",
-      "Легаси-железо"
-    ],
-    "incoming": [
-      "Windows Shell",
-      "Легаси-железо"
+      "Penpot"
     ]
   },
-  "rtk.md": {
+  "grizzly-sms-mcp.md": {
     "outgoing": [
-      "PowerInfer"
-    ],
-    "incoming": [
-      "PocketBase"
-    ]
-  },
-  "pocketbase.md": {
-    "outgoing": [
-      "Directus",
-      "PowerInfer",
-      "RTK",
-      "Вайб-кодинг"
+      "MCPorter",
+      "Telegram Client Operator",
+      "Poka-yoke и Andon"
     ],
     "incoming": []
+  },
+  "antfarm.md": {
+    "outgoing": [
+      "Autoresearch",
+      "MCPorter",
+      "ServiceDesk Plus Operator"
+    ],
+    "incoming": [
+      "MCPorter",
+      "PostgreSQL + VectorChord",
+      "ServiceDesk Plus Operator",
+      "Telegram Client Operator"
+    ]
+  },
+  "voxcpm2-portable.md": {
+    "outgoing": [
+      "Вайб-кодинг",
+      "HyperFrames"
+    ],
+    "incoming": []
+  },
+  "penpot.md": {
+    "outgoing": [
+      "Mermaid",
+      "HyperFrames",
+      "Вайб-кодинг"
+    ],
+    "incoming": [
+      "HyperFrames",
+      "Mermaid"
+    ]
+  },
+  "openai-privacy-filter.md": {
+    "outgoing": [
+      "Directus",
+      "PostgreSQL + VectorChord"
+    ],
+    "incoming": []
+  },
+  "mcporter.md": {
+    "outgoing": [
+      "Telegram Client Operator",
+      "Antfarm",
+      "Вайб-кодинг"
+    ],
+    "incoming": [
+      "Antfarm",
+      "Directus",
+      "Grizzly SMS MCP",
+      "PostgreSQL + VectorChord",
+      "Prompts.chat",
+      "ServiceDesk Plus Operator",
+      "Telegram Client Operator"
+    ]
+  },
+  "servicedesk-plus-operator.md": {
+    "outgoing": [
+      "Antfarm",
+      "MCPorter",
+      "Метод 5 Why"
+    ],
+    "incoming": [
+      "Antfarm",
+      "Directus"
+    ]
+  },
+  "directus.md": {
+    "outgoing": [
+      "PostgreSQL + VectorChord",
+      "MCPorter",
+      "ServiceDesk Plus Operator"
+    ],
+    "incoming": [
+      "OpenAI Privacy Filter",
+      "PocketBase",
+      "PostgreSQL + VectorChord"
+    ]
+  },
+  "telegram-client-operator.md": {
+    "outgoing": [
+      "MCPorter",
+      "Antfarm",
+      "Asynchronous research swarms"
+    ],
+    "incoming": [
+      "Grizzly SMS MCP",
+      "MCPorter"
+    ]
   },
   "windows-shell.md": {
     "outgoing": [
@@ -254,87 +388,54 @@
       "Оптимизация рабочего стола Windows"
     ]
   },
+  "pocketbase.md": {
+    "outgoing": [
+      "Directus",
+      "PowerInfer",
+      "RTK",
+      "Вайб-кодинг"
+    ],
+    "incoming": []
+  },
   "postgresql-vectorchord-hybrid-search.md": {
     "outgoing": [
       "Directus",
       "MCPorter",
-      "Antfarm",
-      "PowerInfer"
-    ],
-    "incoming": [
-      "Directus",
-      "MCPorter",
-      "Antfarm",
-      "PowerInfer"
-    ]
-  },
-  "directus.md": {
-    "outgoing": [
-      "PostgreSQL + VectorChord",
-      "MCPorter",
-      "ServiceDesk Plus Operator"
-    ],
-    "incoming": [
-      "PostgreSQL + VectorChord"
-    ]
-  },
-  "mcporter.md": {
-    "outgoing": [
-      "Telegram Client Operator",
-      "Antfarm",
-      "Вайб-кодинг",
-      "PostgreSQL + VectorChord"
-    ],
-    "incoming": [
-      "Directus",
-      "PostgreSQL + VectorChord",
       "Antfarm"
-    ]
-  },
-  "antfarm.md": {
-    "outgoing": [
-      "Autoresearch",
-      "MCPorter",
-      "ServiceDesk Plus Operator",
-      "PostgreSQL + VectorChord"
     ],
     "incoming": [
       "Directus",
-      "MCPorter",
-      "PostgreSQL + VectorChord"
+      "OpenAI Privacy Filter",
+      "PowerInfer"
     ]
   },
-  "openai-privacy-filter.md": {
+  "windows-desktop-optimization.md": {
     "outgoing": [
-      "Directus",
-      "PostgreSQL + VectorChord"
-    ],
-    "incoming": []
-  },
-  "prompts-chat.md": {
-    "outgoing": [
-      "Вайб-кодинг",
-      "Research org code",
-      "MCPorter",
-      "Evolve",
-      "Prompt Master"
+      "Windows Shell",
+      "Легаси-железо"
     ],
     "incoming": [
-      "Вайб-кодинг",
-      "Research org code",
-      "Evolve",
-      "Prompt Master"
+      "Windows Shell",
+      "Легаси-железо"
     ]
   },
-  "evolve.md": {
+  "rtk.md": {
     "outgoing": [
-      "Вайб-кодинг",
-      "Research org code",
-      "Prompts.chat",
-      "ThreatSwarm"
-    ],
-    "incoming": [
+      "PowerInfer",
       "Вайб-кодинг"
+    ],
+    "incoming": [
+      "PocketBase"
+    ]
+  },
+  "legacy-hardware.md": {
+    "outgoing": [
+      "Windows Shell",
+      "Оптимизация рабочего стола Windows"
+    ],
+    "incoming": [
+      "Windows Shell",
+      "Оптимизация рабочего стола Windows"
     ]
   },
   "powerinfer.md": {
@@ -342,50 +443,8 @@
       "PostgreSQL + VectorChord"
     ],
     "incoming": [
-      "PostgreSQL + VectorChord"
+      "PocketBase",
+      "RTK"
     ]
-  },
-  "threatswarm.md": {
-    "outgoing": [
-      "Asynchronous research swarms",
-      "Evolve",
-      "Research org code",
-      "Claude-OSINT"
-    ],
-    "incoming": [
-      "Asynchronous research swarms",
-      "Evolve"
-    ]
-  },
-  "claude-osint.md": {
-    "outgoing": [
-      "ThreatSwarm",
-      "Evolve",
-      "Research org code"
-    ],
-    "incoming": [
-      "ThreatSwarm"
-    ]
-  },
-  "prompt-master.md": {
-    "outgoing": [
-      "Prompts.chat",
-      "Вайб-кодинг",
-      "Evolve"
-    ],
-    "incoming": [
-      "Prompts.chat"
-    ]
-  },
-  "agents-md.md": {
-    "outgoing": [
-      "Вайб-кодинг",
-      "Evolve",
-      "Prompt Master",
-      "CLAUDE.md"
-    ],
-    "incoming": [
-      "Вайб-кодинг"
-    ]
-    }
+  }
 }

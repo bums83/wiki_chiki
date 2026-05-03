@@ -235,3 +235,9 @@
 - **domain:** tools
 - **summary:** Open-source инструмент для создания диаграмм из текстового описания: flowchart, sequence, Gantt, ER и другие типы — LLM-friendly, встраивается в Markdown
 - **also:** mermaid, diagrams, flowcharts, documentation, technical graphics, mermaid diagrams
+
+### [Penpot]({{ '/wiki/tools/penpot' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, collaboration, design systems, design tokens и работа через открытые стандарты
+- **also:** penpot, open-source figma alternative, ui ux design, self-hosted design tool, design tokens, design to code

@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-30
 last_updated: 2026-04-30
 domain: tools
-related: ["Вайб-кодинг", "Диаграмма Исикавы", "Методология A3"]
+related: ["Вайб-кодинг", "Диаграмма Исикавы", "Методология A3", "Penpot"]
 tags: ["diagrams", "flowcharts", "mermaid", "documentation", "technical-graphics"]
 sources: ["mermaideditor-com-2026-04-30"]
 ---
@@ -75,6 +75,10 @@ Mermaid естественно дополняет несколько уже су
 - [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) — LLM может генерировать Mermaid-код, что делает визуальную документацию частью agentic workflow
 - [Диаграмма Исикавы]({{ '/wiki/management/ishikawa-diagram' | relative_url }}) — Mermaid умеет рисовать fishbone-диаграммы, хотя и не является специализированным инструментом для 6M-анализа
 - [Методология A3]({{ '/wiki/management/a3-methodology' | relative_url }}) — A3-отчёты можно иллюстрировать через Mermaid-диаграммы
+
+## Связь с design workflow
+
+Для UI/UX-команд Mermaid не заменяет полноценный визуальный редактор, но хорошо дополняет [Penpot]({{ '/wiki/tools/penpot' | relative_url }}): в Penpot проектируют интерфейсы и design system, а в Mermaid фиксируют процессы, user flows, архитектурные схемы и сопроводительную документацию рядом с кодом.
 
 ## Редакторы
 

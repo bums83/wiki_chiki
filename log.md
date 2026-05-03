@@ -166,3 +166,11 @@
 - Создано: [[PocketBase]]
 - Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: forwarded from channel `Only GitHub`, https://github.com/pocketbase/pocketbase
+
+## [2026-05-03] ingest | Penpot
+- Создано: `raw/entries/2026-05-03_penpot-github.md`, [[Penpot]]
+- Обновлено: [[Mermaid]], [[HyperFrames]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источники:
+  - https://github.com/penpot/penpot
+  - forwarded Telegram post from channel `Only GitHub`
+
