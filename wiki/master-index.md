@@ -44,6 +44,12 @@
 - **summary:** Open-source бэкенд на Go в одном файле: SQLite realtime, авторизация, файловый storage, админ-панель и REST API — для быстрых прототипов
 - **also:** pocketbase, go backend, sqlite realtime, single binary, backend constructor, prototyping
 
+### [SurrealDB]({{ '/wiki/infra/surrealdb' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** Multi-model database на Rust: document, graph, relational, time-series, geospatial и key-value модели с realtime, hybrid search и BaaS-подобным backend layer
+- **also:** surrealdb, database, graph db, document db, realtime, multi-model, backend
+
 ## Менеджмент
 
 ### [Кайдзен]({{ '/wiki/management/kaizen' | relative_url }})

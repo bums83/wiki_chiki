@@ -407,7 +407,9 @@
       "RTK",
       "Вайб-кодинг"
     ],
-    "incoming": []
+    "incoming": [
+      "SurrealDB"
+    ]
   },
   "postgresql-vectorchord-hybrid-search.md": {
     "outgoing": [
@@ -418,8 +420,17 @@
     "incoming": [
       "Directus",
       "OpenAI Privacy Filter",
-      "PowerInfer"
+      "PowerInfer",
+      "SurrealDB"
     ]
+  },
+  "surrealdb.md": {
+    "outgoing": [
+      "PostgreSQL + VectorChord",
+      "Directus",
+      "PocketBase"
+    ],
+    "incoming": []
   },
   "windows-desktop-optimization.md": {
     "outgoing": [
