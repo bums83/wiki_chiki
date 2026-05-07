@@ -42,6 +42,7 @@
     "incoming": [
       "Agents.md",
       "Evolve",
+      "GitNexus",
       "HyperFrames",
       "MCPorter",
       "Mermaid",
@@ -116,7 +117,9 @@
       "Prompt Master",
       "CLAUDE.md"
     ],
-    "incoming": []
+    "incoming": [
+      "GitNexus"
+    ]
   },
   "hyperframes.md": {
     "outgoing": [
@@ -173,6 +176,14 @@
     "incoming": [
       "Agents.md"
     ]
+  },
+  "gitnexus.md": {
+    "outgoing": [
+      "MCPorter",
+      "Вайб-кодинг",
+      "Agents.md"
+    ],
+    "incoming": []
   },
   "a3-methodology.md": {
     "outgoing": [
@@ -337,6 +348,7 @@
     "incoming": [
       "Antfarm",
       "Directus",
+      "GitNexus",
       "Grizzly SMS MCP",
       "PostgreSQL + VectorChord",
       "Prompts.chat",

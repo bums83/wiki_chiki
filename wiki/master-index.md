@@ -236,6 +236,12 @@
 - **summary:** Open-source инструмент для создания диаграмм из текстового описания: flowchart, sequence, Gantt, ER и другие типы — LLM-friendly, встраивается в Markdown
 - **also:** mermaid, diagrams, flowcharts, documentation, technical graphics, mermaid diagrams
 
+### [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Client-side code intelligence engine и knowledge graph creator для репозиториев: CLI + MCP, Web UI, Graph RAG Agent и bridge mode для локального индекса
+- **also:** gitnexus, knowledge graph, mcp, code intelligence, agents, cli, web ui
+
 ### [Penpot]({{ '/wiki/tools/penpot' | relative_url }})
 - **type:** technology
 - **domain:** tools

@@ -63,6 +63,7 @@ layout: home
 | [Directus]({{ '/wiki/tools/directus' | relative_url }}) | Платформа, которая накладывает REST/GraphQL API и админку поверх SQL-базы без переноса данных в собственную CMS-модель |
 | [OpenAI Privacy Filter]({{ '/wiki/tools/openai-privacy-filter' | relative_url }}) | Open-source модель для обнаружения и маскировки PII в тексте |
 | [Mermaid]({{ '/wiki/tools/mermaid' | relative_url }}) | Open-source инструмент для создания диаграмм и блок-схем из текстового описания: LLM-friendly, Git-версионирование, 21 тип диаграмм |
+| [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }}) | Client-side code intelligence engine и knowledge graph creator для репозиториев: CLI + MCP, Web UI, Graph RAG Agent и bridge mode |
 | [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) | Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, открытые стандарты, design tokens, collaboration и design-to-code handoff |
 
 ## Полный список
