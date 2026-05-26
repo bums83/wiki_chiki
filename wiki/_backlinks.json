@@ -59,11 +59,13 @@
     "outgoing": [
       "Вайб-кодинг",
       "Research org code",
-      "MCPorter"
+      "MCPorter",
+      "Tolaria"
     ],
     "incoming": [
       "Evolve",
-      "Prompt Master"
+      "Prompt Master",
+      "Tolaria"
     ]
   },
   "nanochat.md": {
@@ -115,10 +117,12 @@
       "Вайб-кодинг",
       "Evolve",
       "Prompt Master",
-      "CLAUDE.md"
+      "CLAUDE.md",
+      "Tolaria"
     ],
     "incoming": [
-      "GitNexus"
+      "GitNexus",
+      "Tolaria"
     ]
   },
   "hyperframes.md": {
@@ -181,9 +185,12 @@
     "outgoing": [
       "MCPorter",
       "Вайб-кодинг",
-      "Agents.md"
+      "Agents.md",
+      "Tolaria"
     ],
-    "incoming": []
+    "incoming": [
+      "Tolaria"
+    ]
   },
   "a3-methodology.md": {
     "outgoing": [
@@ -468,6 +475,18 @@
     "incoming": [
       "PocketBase",
       "RTK"
+    ]
+  },
+  "tolaria.md": {
+    "outgoing": [
+      "Agents.md",
+      "GitNexus",
+      "Prompts.chat"
+    ],
+    "incoming": [
+      "Agents.md",
+      "GitNexus",
+      "Prompts.chat"
     ]
   }
 }

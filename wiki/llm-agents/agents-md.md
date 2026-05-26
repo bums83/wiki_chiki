@@ -2,9 +2,9 @@
 title: Agents.md
 type: best practices
 created: 2026-05-01
-last_updated: 2026-05-01
+last_updated: 2026-05-26
 domain: llm-agents
-related: ["Вайб-кодинг", "Evolve", "Prompt Master", "CLAUDE.md"]
+related: ["Вайб-кодинг", "Evolve", "Prompt Master", "CLAUDE.md", "Tolaria"]
 tags: ["ai-coding", "team-lead", "coding-standards", "prompting", "development-tooling"]
 sources: ["augmentcode-2026-05-01", "agentsmd-io-2026-05-01"]
 ---
@@ -14,6 +14,8 @@ sources: ["augmentcode-2026-05-01", "agentsmd-io-2026-05-01"]
 `Agents.md` — markdown-файл с правилами, рекомендациями и ограничениями для AI coding-агентов. Служит постоянным контекстом, который подсказывает агенту стандарты кодовой базы, архитектурные паттерны и воркфлоу. Это зона ответственности тимлида.
 
 Agents.md стал де-факто открытым стандартом, принятым более чем 20 000 репозиториями. В августе 2025 года формат формализовали совместно OpenAI, Google, Cursor, Factory и Sourcegraph. Поддерживается напрямую в Augment, Cursor, Claude Code (через CLAUDE.md) и других IDE.
+
+Инструменты вроде [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}) используют близкую идею на уровне knowledge vault: markdown-база остаётся читаемой для людей, но одновременно получает agent-friendly файл правил и контекста.
 
 ## Зачем нужен
 

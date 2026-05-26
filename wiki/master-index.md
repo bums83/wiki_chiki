@@ -248,6 +248,12 @@
 - **summary:** Client-side code intelligence engine и knowledge graph creator для репозиториев: CLI + MCP, Web UI, Graph RAG Agent и bridge mode для локального индекса
 - **also:** gitnexus, knowledge graph, mcp, code intelligence, agents, cli, web ui
 
+### [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Desktop-приложение для markdown knowledge bases: files-first, git-first, offline-first vaults, YAML frontmatter и AI-friendly контекст для людей и агентов
+- **also:** tolaria, markdown knowledge base, second brain, git-first notes, offline-first, ai context
+
 ### [Penpot]({{ '/wiki/tools/penpot' | relative_url }})
 - **type:** technology
 - **domain:** tools

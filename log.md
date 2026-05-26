@@ -174,3 +174,21 @@
   - https://github.com/penpot/penpot
   - forwarded Telegram post from channel `Only GitHub`
 
+## 2026-05-26 ingest | Tolaria
+
+Source: https://github.com/refactoringhq/tolaria
+
+Created:
+- `raw/entries/2026-05-26_tolaria-github.md`
+- `wiki/tools/tolaria.md`
+
+Updated:
+- `wiki/master-index.md`
+- `index.md`
+- `wiki/_backlinks.json`
+- `wiki/tools/gitnexus.md`
+- `wiki/llm-agents/prompts-chat.md`
+- `wiki/llm-agents/agents-md.md`
+- `TAGS.md`
+
+Notes: added Tolaria as files-first/git-first/offline-first markdown knowledge base for AI-friendly personal and team context.

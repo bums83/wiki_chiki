@@ -88,3 +88,7 @@
 - sms-verification
 - directus
 - openclaw
+- markdown
+- knowledge-base
+- git
+- offline-first
