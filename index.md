@@ -67,6 +67,8 @@ layout: home
 | [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }}) | Client-side code intelligence engine и knowledge graph creator для репозиториев: CLI + MCP, Web UI, Graph RAG Agent и bridge mode |
 | [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}) | Desktop-приложение для markdown knowledge bases: files-first, git-first, offline-first vaults и AI-friendly контекст для людей и агентов |
 | [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) | Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, открытые стандарты, design tokens, collaboration и design-to-code handoff |
+| [Trench]({{ '/wiki/tools/trench' | relative_url }}) | Self-hosted event analytics infrastructure на Kafka, ClickHouse и Node.js; подходит как журнал событий для проверки сигналов и outcome-аналитики |
+| [Валидация торговых сигналов]({{ '/wiki/tools/trading-signal-validation' | relative_url }}) | Framework для классификации Telegram crypto-сигналов, проверки по Bybit каждые 2 часа и накопления статистики качества источников |
 
 ## Полный список
 

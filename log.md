@@ -192,3 +192,20 @@ Updated:
 - `TAGS.md`
 
 Notes: added Tolaria as files-first/git-first/offline-first markdown knowledge base for AI-friendly personal and team context.
+## [2026-05-27] ingest | Trench + стратегия валидации торговых сигналов
+
+Source:
+- https://github.com/frigadehq/trench
+- текущая постановка задачи crypto Telegram monitoring
+
+Created:
+- `raw/entries/2026-05-27_trench-github.md`
+- `raw/entries/2026-05-27_trading-signal-validation-strategy.md`
+- `wiki/tools/trench.md`
+- `wiki/tools/trading-signal-validation.md`
+
+Updated:
+- `wiki/master-index.md`
+- `index.md`
+- `wiki/tools/directus.md`
+- `wiki/_backlinks.json`

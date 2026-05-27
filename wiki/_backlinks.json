@@ -297,7 +297,8 @@
       "Penpot"
     ],
     "incoming": [
-      "Penpot"
+      "Penpot",
+      "Валидация торговых сигналов"
     ]
   },
   "grizzly-sms-mcp.md": {
@@ -318,7 +319,8 @@
       "MCPorter",
       "PostgreSQL + VectorChord",
       "ServiceDesk Plus Operator",
-      "Telegram Client Operator"
+      "Telegram Client Operator",
+      "Валидация торговых сигналов"
     ]
   },
   "voxcpm2-portable.md": {
@@ -378,7 +380,8 @@
     "outgoing": [
       "PostgreSQL + VectorChord",
       "MCPorter",
-      "ServiceDesk Plus Operator"
+      "ServiceDesk Plus Operator",
+      "Trench"
     ],
     "incoming": [
       "OpenAI Privacy Filter",
@@ -394,7 +397,8 @@
     ],
     "incoming": [
       "Grizzly SMS MCP",
-      "MCPorter"
+      "MCPorter",
+      "Валидация торговых сигналов"
     ]
   },
   "windows-shell.md": {
@@ -428,7 +432,8 @@
       "Directus",
       "OpenAI Privacy Filter",
       "PowerInfer",
-      "SurrealDB"
+      "SurrealDB",
+      "Trench"
     ]
   },
   "surrealdb.md": {
@@ -487,6 +492,28 @@
       "Agents.md",
       "GitNexus",
       "Prompts.chat"
+    ]
+  },
+  "trench.md": {
+    "outgoing": [
+      "Валидация торговых сигналов",
+      "Directus",
+      "PostgreSQL + VectorChord"
+    ],
+    "incoming": [
+      "Directus",
+      "Валидация торговых сигналов"
+    ]
+  },
+  "trading-signal-validation.md": {
+    "outgoing": [
+      "Trench",
+      "Telegram Client Operator",
+      "Antfarm",
+      "Mermaid"
+    ],
+    "incoming": [
+      "Trench"
     ]
   }
 }

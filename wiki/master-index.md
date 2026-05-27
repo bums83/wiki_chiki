@@ -259,3 +259,15 @@
 - **domain:** tools
 - **summary:** Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, collaboration, design systems, design tokens и работа через открытые стандарты
 - **also:** penpot, open-source figma alternative, ui ux design, self-hosted design tool, design tokens, design to code
+
+### [Trench]({{ '/wiki/tools/trench' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Self-hosted event analytics infrastructure на Kafka, ClickHouse и Node.js для записи событий, real-time queries и data products; применим как журнал валидации торговых сигналов
+- **also:** trench, event analytics, clickhouse, kafka, product analytics, signal validation
+
+### [Валидация торговых сигналов]({{ '/wiki/tools/trading-signal-validation' | relative_url }})
+- **type:** practice
+- **domain:** tools
+- **summary:** Operational framework для классификации Telegram crypto-сигналов, проверки по Bybit каждые 2 часа и накопления статистики качества источников
+- **also:** crypto signals, telegram monitoring, bybit validation, scalp, swing, market context
