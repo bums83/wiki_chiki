@@ -4,7 +4,7 @@ type: technology
 created: 2026-05-27
 last_updated: 2026-05-27
 domain: tools
-related: ["Валидация торговых сигналов", "Directus", "PostgreSQL + VectorChord", "Telegram Client Operator"]
+related: ["Directus", "PostgreSQL + VectorChord", "Telegram Client Operator"]
 sources: ["github-frigadehq-trench-2026-05-27"]
 tags: ["tools", "database", "backend", "api-platform", "monitoring"]
 ---
@@ -50,39 +50,9 @@ Trench хорошо ложится на сценарии:
 
 Для agentic workflow это особенно интересно: агент может писать каждое наблюдение, решение, проверку или outcome как событие, а затем строить статистику качества по истории.
 
-## Применение для валидации торговых сигналов
+## Agentic event logging
 
-Trench может быть событийной базой для [Валидации торговых сигналов]({{ '/wiki/tools/trading-signal-validation' | relative_url }}). Вместо того чтобы хранить сигналы только как текстовые заметки, каждую стадию можно записывать отдельным событием:
-
-- `signal_detected` — найден Telegram-пост, извлечены тикер, направление, entry, stop, targets, horizon;
-- `signal_classified` — сигнал отнесён к полноценному сетапу, неполному сигналу или market context;
-- `exchange_snapshot` — зафиксированы цена, funding, volume, open interest и ликвидность на Bybit;
-- `validation_check` — проверка через 2 часа: достигнут entry, stop, target, invalidation или всё ещё pending;
-- `signal_outcome` — итоговая метка: win, loss, partial, expired, ignored, not-on-bybit.
-
-Такой event log позволяет считать качество каналов, авторов и типов сетапов не по впечатлению, а по воспроизводимой статистике.
-
-## Минимальный data contract
-
-Для crypto-signal validation полезно договориться о стабильной схеме `properties`:
-
-```json
-{
-  "symbol": "BTCUSDT",
-  "venue": "bybit",
-  "source_channel": "telegram-channel-name",
-  "signal_type": "full_setup | partial_signal | market_context",
-  "horizon": "scalp | intraday | swing",
-  "direction": "long | short | neutral",
-  "entry": 68000,
-  "stop": 66500,
-  "targets": [69000, 70500],
-  "status": "pending | triggered | hit_target | hit_stop | expired | ignored",
-  "confidence_notes": "text extracted from validation logic"
-}
-```
-
-Стабильная схема важнее красивой панели: если события записаны одинаково, их можно анализировать SQL-запросами, выгружать в отчёты и подключать к downstream-автоматизациям.
+Для agentic workflow Trench может быть журналом фактов: наблюдение, решение, проверка и результат записываются как отдельные события. Это полезно для последующей аналитики качества процессов, но конкретную предметную схему нужно проектировать отдельно под задачу.
 
 ## Ограничения
 

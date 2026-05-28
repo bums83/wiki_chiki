@@ -209,3 +209,8 @@ Updated:
 - `index.md`
 - `wiki/tools/directus.md`
 - `wiki/_backlinks.json`
+
+## [2026-05-28] delete | Валидация торговых сигналов
+- Удалено: `wiki/tools/trading-signal-validation.md`, `raw/entries/2026-05-27_trading-signal-validation-strategy.md`
+- Обновлено: `index.md`, `wiki/master-index.md`, `wiki/tools/trench.md`, `wiki/_backlinks.json`
+- Основание: пользователь попросил удалить последнюю статью
