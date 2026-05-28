@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-21
 last_updated: 2026-04-21
 domain: tools
-related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг"]
+related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget"]
 sources: ["workspace-tools-md-2026-04-21"]
 ---
 
@@ -22,6 +22,8 @@ sources: ["workspace-tools-md-2026-04-21"]
 - что именно сломалось: транспорт, схема, авторизация или сам handler.
 
 `MCPorter` закрывает именно этот операционный слой.
+
+В соседнем классе CLI-операторов находится [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}): он решает не MCP-transport, а браузерные действия LLM-агента через session id, snapshot refs и JSON-контракт.
 
 ## Что это за класс инструмента
 

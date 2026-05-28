@@ -118,11 +118,13 @@
       "Evolve",
       "Prompt Master",
       "CLAUDE.md",
-      "Tolaria"
+      "Tolaria",
+      "agent-aget"
     ],
     "incoming": [
       "GitNexus",
-      "Tolaria"
+      "Tolaria",
+      "agent-aget"
     ]
   },
   "hyperframes.md": {
@@ -186,10 +188,12 @@
       "MCPorter",
       "Вайб-кодинг",
       "Agents.md",
-      "Tolaria"
+      "Tolaria",
+      "agent-aget"
     ],
     "incoming": [
-      "Tolaria"
+      "Tolaria",
+      "agent-aget"
     ]
   },
   "a3-methodology.md": {
@@ -312,13 +316,15 @@
     "outgoing": [
       "Autoresearch",
       "MCPorter",
-      "ServiceDesk Plus Operator"
+      "ServiceDesk Plus Operator",
+      "agent-aget"
     ],
     "incoming": [
       "MCPorter",
       "PostgreSQL + VectorChord",
       "ServiceDesk Plus Operator",
-      "Telegram Client Operator"
+      "Telegram Client Operator",
+      "agent-aget"
     ]
   },
   "voxcpm2-portable.md": {
@@ -350,7 +356,8 @@
     "outgoing": [
       "Telegram Client Operator",
       "Antfarm",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "agent-aget"
     ],
     "incoming": [
       "Antfarm",
@@ -360,7 +367,8 @@
       "PostgreSQL + VectorChord",
       "Prompts.chat",
       "ServiceDesk Plus Operator",
-      "Telegram Client Operator"
+      "Telegram Client Operator",
+      "agent-aget"
     ]
   },
   "servicedesk-plus-operator.md": {
@@ -498,6 +506,20 @@
     ],
     "incoming": [
       "Directus"
+    ]
+  },
+  "agent-aget.md": {
+    "outgoing": [
+      "Agents.md",
+      "MCPorter",
+      "Antfarm",
+      "GitNexus"
+    ],
+    "incoming": [
+      "Agents.md",
+      "MCPorter",
+      "Antfarm",
+      "GitNexus"
     ]
   }
 }

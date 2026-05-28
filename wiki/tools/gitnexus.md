@@ -4,7 +4,7 @@ type: technology
 created: 2026-05-07
 last_updated: 2026-05-26
 domain: tools
-related: ["MCPorter", "Вайб-кодинг", "Agents.md", "Tolaria"]
+related: ["MCPorter", "Вайб-кодинг", "Agents.md", "Tolaria", "agent-aget"]
 tags: ["gitnexus", "knowledge-graph", "mcp", "code-intelligence", "agents", "cli", "web-ui"]
 sources: ["github-gitnexus-abhigyanpatwari-2026-05-07"]
 ---
@@ -64,6 +64,8 @@ GitNexus хорошо подходит для:
 GitNexus особенно хорошо ложится на практики, описанные в [Agents.md]({{ '/wiki/llm-agents/agents-md' | relative_url }}): он помогает репозиторию стать более навигируемым для AI-агентов и поддерживает контекстные файлы уровня проекта.
 
 С [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}) связь соседняя, но не дублирующая: Tolaria управляет markdown knowledge base и процедурами, а GitNexus строит graph-представление самой кодовой базы.
+
+С [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) связь на уровне agent tooling: GitNexus даёт агенту структурированное понимание репозитория, а agent-aget даёт переносимый CLI-доступ к браузерным действиям.
 
 ## Ограничения
 

@@ -265,3 +265,9 @@
 - **domain:** tools
 - **summary:** Self-hosted event analytics infrastructure на Kafka, ClickHouse и Node.js для записи событий, real-time queries и data products; применим как журнал валидации торговых сигналов
 - **also:** trench, event analytics, clickhouse, kafka, product analytics, signal validation
+
+### [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** CLI-помощник для браузерных сценариев LLM-агентов: управляемый stealth Chromium, локальные сессии, snapshot refs, batch-команды и JSON-контракт для terminal agents
+- **also:** aget, browser workflow, llm agents, cli automation, cloakbrowser, json contract

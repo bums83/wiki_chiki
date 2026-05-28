@@ -68,6 +68,7 @@ layout: home
 | [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}) | Desktop-приложение для markdown knowledge bases: files-first, git-first, offline-first vaults и AI-friendly контекст для людей и агентов |
 | [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) | Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, открытые стандарты, design tokens, collaboration и design-to-code handoff |
 | [Trench]({{ '/wiki/tools/trench' | relative_url }}) | Self-hosted event analytics infrastructure на Kafka, ClickHouse и Node.js; подходит как журнал событий для проверки сигналов и outcome-аналитики |
+| [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) | CLI-помощник для браузерных сценариев LLM-агентов: stealth Chromium, локальные сессии, snapshot refs, batch-команды и JSON-ответы |
 
 ## Полный список
 

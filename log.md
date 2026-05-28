@@ -214,3 +214,8 @@ Updated:
 - Удалено: `wiki/tools/trading-signal-validation.md`, `raw/entries/2026-05-27_trading-signal-validation-strategy.md`
 - Обновлено: `index.md`, `wiki/master-index.md`, `wiki/tools/trench.md`, `wiki/_backlinks.json`
 - Основание: пользователь попросил удалить последнюю статью
+
+## [2026-05-28] ingest | agent-aget
+- Создано: `raw/entries/2026-05-28_agent-aget-github.md`, [[agent-aget]]
+- Обновлено: [[Agents.md]], [[MCPorter]], [[Antfarm]], [[GitNexus]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/izzzzzi/agent-aget
