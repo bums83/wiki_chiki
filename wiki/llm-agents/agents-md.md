@@ -4,7 +4,7 @@ type: best practices
 created: 2026-05-01
 last_updated: 2026-05-28
 domain: llm-agents
-related: ["Вайб-кодинг", "Evolve", "Prompt Master", "CLAUDE.md", "Tolaria", "agent-aget"]
+related: ["Вайб-кодинг", "Evolve", "Prompt Master", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie"]
 tags: ["ai-coding", "team-lead", "coding-standards", "prompting", "development-tooling"]
 sources: ["augmentcode-2026-05-01", "agentsmd-io-2026-05-01"]
 ---
@@ -18,6 +18,8 @@ Agents.md стал де-факто открытым стандартом, при
 Инструменты вроде [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}) используют близкую идею на уровне knowledge vault: markdown-база остаётся читаемой для людей, но одновременно получает agent-friendly файл правил и контекста.
 
 Для browser-workflow такая же дисциплина проявляется в [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}): агент получает короткий playbook, session id, snapshot refs и JSON-ответы вместо неформального ручного управления браузером.
+
+Для review-workflow похожий подход реализует [Magpie]({{ '/wiki/tools/magpie' | relative_url }}): правила reviewers, analyzer, summarizer и contextGatherer описываются в конфиге, а сам PR review превращается в повторяемый debate pipeline.
 
 ## Зачем нужен
 

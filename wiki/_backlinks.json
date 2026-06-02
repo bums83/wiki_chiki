@@ -84,13 +84,15 @@
     "outgoing": [
       "Вайб-кодинг",
       "Research org code",
-      "Prompts.chat"
+      "Prompts.chat",
+      "Magpie"
     ],
     "incoming": [
       "Agents.md",
       "Claude-OSINT",
       "Prompt Master",
-      "ThreatSwarm"
+      "ThreatSwarm",
+      "Magpie"
     ]
   },
   "validation-bits-per-byte.md": {
@@ -119,12 +121,14 @@
       "Prompt Master",
       "CLAUDE.md",
       "Tolaria",
-      "agent-aget"
+      "agent-aget",
+      "Magpie"
     ],
     "incoming": [
       "GitNexus",
       "Tolaria",
-      "agent-aget"
+      "agent-aget",
+      "Magpie"
     ]
   },
   "hyperframes.md": {
@@ -189,11 +193,13 @@
       "Вайб-кодинг",
       "Agents.md",
       "Tolaria",
-      "agent-aget"
+      "agent-aget",
+      "Magpie"
     ],
     "incoming": [
       "Tolaria",
-      "agent-aget"
+      "agent-aget",
+      "Magpie"
     ]
   },
   "a3-methodology.md": {
@@ -513,13 +519,30 @@
       "Agents.md",
       "MCPorter",
       "Antfarm",
-      "GitNexus"
+      "GitNexus",
+      "Magpie"
     ],
     "incoming": [
       "Agents.md",
       "MCPorter",
       "Antfarm",
-      "GitNexus"
+      "GitNexus",
+      "Magpie"
+    ]
+  },
+  "magpie.md": {
+    "outgoing": [
+      "Agents.md",
+      "Evolve",
+      "GitNexus",
+      "agent-aget",
+      "MCPorter"
+    ],
+    "incoming": [
+      "Evolve",
+      "Agents.md",
+      "GitNexus",
+      "agent-aget"
     ]
   }
 }

@@ -2,9 +2,9 @@
 title: Evolve
 type: technology
 created: 2026-04-26
-last_updated: 2026-04-26
+last_updated: 2026-06-02
 domain: llm-agents
-related: ["Вайб-кодинг", "Research org code", "Prompts.chat"]
+related: ["Вайб-кодинг", "Research org code", "Prompts.chat", "Magpie"]
 tags: ["a-b-testing", "prompt-optimization", "ai-coding", "claude-code", "cursor"]
 sources: ["onlygithub-evolve-2026-04-26"]
 ---
@@ -75,6 +75,7 @@ Evolve естественно дополняет уже существующие
 - [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) — здесь человек ставит рамки агенту, но не имеет обратной связи; Evolve даёт эмпирический feedback loop.
 - [Research org code]({{ '/wiki/llm-agents/research-org-code' | relative_url }}) — здесь идея в том, что человек проектирует среду агента; Evolve добавляет способ измерить, насколько удачно.
 - [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}) — это про накопление и переиспользование промптов; Evolve про проверку, какой из них реально работает.
+- [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) — соседний multi-AI подход: не пассивное A/B-тестирование сессий, а явный adversarial debate нескольких reviewers вокруг PR или технического вопроса.
 
 ## Ограничения
 

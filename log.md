@@ -219,3 +219,8 @@ Updated:
 - Создано: `raw/entries/2026-05-28_agent-aget-github.md`, [[agent-aget]]
 - Обновлено: [[Agents.md]], [[MCPorter]], [[Antfarm]], [[GitNexus]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/izzzzzi/agent-aget
+
+## [2026-06-02] ingest | Magpie
+- Создано: `raw/entries/2026-06-02_magpie-github.md`, [[Magpie]]
+- Обновлено: [[Evolve]], [[Agents.md]], [[GitNexus]], [[agent-aget]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/liliu-z/magpie

@@ -271,3 +271,9 @@
 - **domain:** tools
 - **summary:** CLI-помощник для браузерных сценариев LLM-агентов: управляемый stealth Chromium, локальные сессии, snapshot refs, batch-команды и JSON-контракт для terminal agents
 - **also:** aget, browser workflow, llm agents, cli automation, cloakbrowser, json contract
+
+### [Magpie]({{ '/wiki/tools/magpie' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Multi-AI adversarial PR review tool: несколько AI-reviewers параллельно спорят о PR, а code-aware verifier проверяет findings по реальной кодовой базе
+- **also:** magpie, adversarial review, code review, pr review, cli reviewers, verify audit
