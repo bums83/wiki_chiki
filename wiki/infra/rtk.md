@@ -2,9 +2,9 @@
 title: RTK
 type: technology
 created: 2026-05-01
-last_updated: 2026-05-01
+last_updated: 2026-06-05
 domain: infra
-related: ["PowerInfer", "Вайб-кодинг"]
+related: ["PowerInfer", "Вайб-кодинг", "Tokentap"]
 tags: ["llm-optimization", "token-saving", "cli-proxy", "development-tooling"]
 sources: ["github-rtk-ai-rtk-2026-05-01"]
 ---
@@ -84,6 +84,8 @@ RTK работает с локальными LLM-инструментами, ч�
 ### Совместимость с LLM-оптимизацией
 
 В контексте [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) RTK добавляет ещё один слой эффективности: помимо правильной постановки задач агенту, вы ещё и оптимизируете сам контекстный поток.
+
+[Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) находится рядом, но решает обратную задачу: RTK уменьшает и структурирует token load до передачи в LLM, а Tokentap наблюдает фактический LLM API traffic, token usage и context-window pressure во время сессии.
 
 ## Ограничения
 

@@ -4,7 +4,7 @@ type: technology
 created: 2026-05-28
 last_updated: 2026-05-28
 domain: tools
-related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie"]
+related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie", "Tokentap"]
 sources: ["github-izzzzzi-agent-aget-2026-05-28"]
 tags: ["tools", "cli", "agents", "automation", "workflow"]
 ---
@@ -86,6 +86,8 @@ tags: ["tools", "cli", "agents", "automation", "workflow"]
 Stealth Chromium помогает с совместимостью сайтов, но не отменяет необходимость соблюдать правила сервисов и не превращает browser automation в универсальный обход ограничений.
 
 [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) показывает похожий CLI-first подход для code review: вместо браузерной сессии он упаковывает multi-AI PR review в команды, конфиг и структурированный pipeline.
+
+[Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) дополняет этот CLI-first слой наблюдаемостью: через локальный proxy он показывает token usage и сохраняет prompt archive для LLM CLI sessions.
 
 ## Практический вывод
 

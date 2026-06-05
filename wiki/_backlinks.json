@@ -85,14 +85,16 @@
       "Вайб-кодинг",
       "Research org code",
       "Prompts.chat",
-      "Magpie"
+      "Magpie",
+      "Tokentap"
     ],
     "incoming": [
       "Agents.md",
       "Claude-OSINT",
       "Prompt Master",
       "ThreatSwarm",
-      "Magpie"
+      "Magpie",
+      "Tokentap"
     ]
   },
   "validation-bits-per-byte.md": {
@@ -468,10 +470,12 @@
   "rtk.md": {
     "outgoing": [
       "PowerInfer",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Tokentap"
     ],
     "incoming": [
-      "PocketBase"
+      "PocketBase",
+      "Tokentap"
     ]
   },
   "legacy-hardware.md": {
@@ -520,14 +524,16 @@
       "MCPorter",
       "Antfarm",
       "GitNexus",
-      "Magpie"
+      "Magpie",
+      "Tokentap"
     ],
     "incoming": [
       "Agents.md",
       "MCPorter",
       "Antfarm",
       "GitNexus",
-      "Magpie"
+      "Magpie",
+      "Tokentap"
     ]
   },
   "magpie.md": {
@@ -536,13 +542,30 @@
       "Evolve",
       "GitNexus",
       "agent-aget",
-      "MCPorter"
+      "MCPorter",
+      "Tokentap"
     ],
     "incoming": [
       "Evolve",
       "Agents.md",
       "GitNexus",
-      "agent-aget"
+      "agent-aget",
+      "Tokentap"
+    ]
+  },
+  "tokentap.md": {
+    "outgoing": [
+      "agent-aget",
+      "Magpie",
+      "RTK",
+      "Evolve",
+      "Agents.md"
+    ],
+    "incoming": [
+      "agent-aget",
+      "Magpie",
+      "RTK",
+      "Evolve"
     ]
   }
 }

@@ -224,3 +224,8 @@ Updated:
 - Создано: `raw/entries/2026-06-02_magpie-github.md`, [[Magpie]]
 - Обновлено: [[Evolve]], [[Agents.md]], [[GitNexus]], [[agent-aget]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/liliu-z/magpie
+
+## [2026-06-05] ingest | Tokentap
+- Создано: `raw/entries/2026-06-05_tokentap-github.md`, [[Tokentap]]
+- Обновлено: [[agent-aget]], [[Magpie]], [[RTK]], [[Evolve]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/jmuncor/tokentap

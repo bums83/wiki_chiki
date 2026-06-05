@@ -4,7 +4,7 @@ type: technology
 created: 2026-06-02
 last_updated: 2026-06-02
 domain: tools
-related: ["Agents.md", "Evolve", "GitNexus", "agent-aget", "MCPorter"]
+related: ["Agents.md", "Evolve", "GitNexus", "agent-aget", "MCPorter", "Tokentap"]
 sources: ["github-liliu-z-magpie-2026-06-02"]
 tags: ["tools", "cli", "agents", "automation", "workflow"]
 ---
@@ -78,6 +78,8 @@ magpie discuss "Should we use microservices or monolith?"
 В более автоматизированных сценариях Magpie может быть review step внутри CI, bot flow или agent workflow. Флаги `--no-post`, `--no-conclusion`, `--fail-fast`, `--plan-only`, `--skip-context`, `--reviewers` и `--all` позволяют переключать режим между интерактивным ревью, ботом и диагностическим запуском.
 
 В связке с [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) и другими CLI capabilities Magpie показывает общий паттерн: агентный workflow становится надёжнее, когда сложные действия упакованы в инструмент с явными командами, форматами вывода и режимами восстановления.
+
+[Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) добавляет к таким CLI workflows слой наблюдаемости: сколько токенов ушло в reviewers или coding agents, насколько заполнено context window и какие prompts реально были отправлены.
 
 ## Ограничения
 

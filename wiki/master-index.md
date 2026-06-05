@@ -277,3 +277,9 @@
 - **domain:** tools
 - **summary:** Multi-AI adversarial PR review tool: несколько AI-reviewers параллельно спорят о PR, а code-aware verifier проверяет findings по реальной кодовой базе
 - **also:** magpie, adversarial review, code review, pr review, cli reviewers, verify audit
+
+### [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Token tracker для LLM CLI tools: локальный proxy, live terminal dashboard, context-window fuel gauge и prompt archive в markdown/JSON
+- **also:** tokentap, token tracking, llm observability, prompt archive, cli proxy, context window
