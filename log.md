@@ -229,3 +229,8 @@ Updated:
 - Создано: `raw/entries/2026-06-05_tokentap-github.md`, [[Tokentap]]
 - Обновлено: [[agent-aget]], [[Magpie]], [[RTK]], [[Evolve]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/jmuncor/tokentap
+
+## [2026-06-05] ingest | OculiX
+- Создано: `raw/entries/2026-06-05_oculix-github.md`, [[OculiX]]
+- Обновлено: [[agent-aget]], [[Antfarm]], [[Mermaid]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/oculix-org/Oculix

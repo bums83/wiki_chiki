@@ -2,9 +2,9 @@
 title: Mermaid
 type: technology
 created: 2026-04-30
-last_updated: 2026-04-30
+last_updated: 2026-06-05
 domain: tools
-related: ["Вайб-кодинг", "Диаграмма Исикавы", "Методология A3", "Penpot"]
+related: ["Вайб-кодинг", "Диаграмма Исикавы", "Методология A3", "Penpot", "OculiX"]
 tags: ["diagrams", "flowcharts", "mermaid", "documentation", "technical-graphics"]
 sources: ["mermaideditor-com-2026-04-30"]
 ---
@@ -79,6 +79,8 @@ Mermaid естественно дополняет несколько уже су
 ## Связь с design workflow
 
 Для UI/UX-команд Mermaid не заменяет полноценный визуальный редактор, но хорошо дополняет [Penpot]({{ '/wiki/tools/penpot' | relative_url }}): в Penpot проектируют интерфейсы и design system, а в Mermaid фиксируют процессы, user flows, архитектурные схемы и сопроводительную документацию рядом с кодом.
+
+[OculiX]({{ '/wiki/tools/oculix' | relative_url }}) даёт пример сценариев, где диаграммы особенно полезны: visual automation flows с несколькими GUI, ожиданиями, remote sessions и fallback-ветками удобнее проектировать и документировать через sequence или flowchart diagrams.
 
 ## Редакторы
 

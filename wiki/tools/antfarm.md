@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-21
 last_updated: 2026-04-21
 domain: tools
-related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget"]
+related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX"]
 sources: ["workspace-tools-md-antfarm-2026-04-21"]
 ---
 
@@ -62,6 +62,7 @@ sources: ["workspace-tools-md-antfarm-2026-04-21"]
 - цепочка research → summary → publish,
 - triage большого объёма тикетов,
 - browser workflow через [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) как отдельный исполняемый шаг,
+- visual GUI automation через [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) для desktop, remote desktop или canvas-like интерфейсов,
 - периодические проверки с разной логикой по итогам предыдущего шага,
 - автоматизации, которые живут часами или днями.
 

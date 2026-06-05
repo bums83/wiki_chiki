@@ -71,6 +71,7 @@ layout: home
 | [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) | CLI-помощник для браузерных сценариев LLM-агентов: stealth Chromium, локальные сессии, snapshot refs, batch-команды и JSON-ответы |
 | [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) | Multi-AI adversarial PR review tool: параллельные AI-reviewers, debate rounds и code-aware verify+audit для PR findings |
 | [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) | Token tracker для LLM CLI tools: proxy, live dashboard, context-window fuel gauge и prompt archive в markdown/JSON |
+| [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) | Visual automation IDE/runtime: GUI-автоматизация по screenshots, OpenCV matching, OCR, VNC/remote desktop и JVM scripting |
 
 ## Полный список
 

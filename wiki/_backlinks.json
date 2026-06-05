@@ -306,10 +306,12 @@
       "Вайб-кодинг",
       "Диаграмма Исикавы",
       "Методология A3",
-      "Penpot"
+      "Penpot",
+      "OculiX"
     ],
     "incoming": [
-      "Penpot"
+      "Penpot",
+      "OculiX"
     ]
   },
   "grizzly-sms-mcp.md": {
@@ -325,14 +327,16 @@
       "Autoresearch",
       "MCPorter",
       "ServiceDesk Plus Operator",
-      "agent-aget"
+      "agent-aget",
+      "OculiX"
     ],
     "incoming": [
       "MCPorter",
       "PostgreSQL + VectorChord",
       "ServiceDesk Plus Operator",
       "Telegram Client Operator",
-      "agent-aget"
+      "agent-aget",
+      "OculiX"
     ]
   },
   "voxcpm2-portable.md": {
@@ -525,7 +529,8 @@
       "Antfarm",
       "GitNexus",
       "Magpie",
-      "Tokentap"
+      "Tokentap",
+      "OculiX"
     ],
     "incoming": [
       "Agents.md",
@@ -533,7 +538,8 @@
       "Antfarm",
       "GitNexus",
       "Magpie",
-      "Tokentap"
+      "Tokentap",
+      "OculiX"
     ]
   },
   "magpie.md": {
@@ -566,6 +572,19 @@
       "Magpie",
       "RTK",
       "Evolve"
+    ]
+  },
+  "oculix.md": {
+    "outgoing": [
+      "agent-aget",
+      "Antfarm",
+      "Mermaid",
+      "MCPorter"
+    ],
+    "incoming": [
+      "agent-aget",
+      "Antfarm",
+      "Mermaid"
     ]
   }
 }

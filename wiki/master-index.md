@@ -283,3 +283,9 @@
 - **domain:** tools
 - **summary:** Token tracker для LLM CLI tools: локальный proxy, live terminal dashboard, context-window fuel gauge и prompt archive в markdown/JSON
 - **also:** tokentap, token tracking, llm observability, prompt archive, cli proxy, context window
+
+### [OculiX]({{ '/wiki/tools/oculix' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Visual automation IDE/runtime: автоматизация GUI по screenshots, OpenCV template matching, OCR, VNC/remote desktop и Jython/JVM scripting
+- **also:** oculix, visual automation, rpa, computer vision, ocr, sikulix, gui automation

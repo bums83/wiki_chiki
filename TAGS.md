@@ -92,3 +92,5 @@
 - knowledge-base
 - git
 - offline-first
+- computer-vision
+- ocr
