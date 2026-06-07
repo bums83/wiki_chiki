@@ -234,3 +234,9 @@ Updated:
 - Создано: `raw/entries/2026-06-05_oculix-github.md`, [[OculiX]]
 - Обновлено: [[agent-aget]], [[Antfarm]], [[Mermaid]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/oculix-org/Oculix
+
+
+## [2026-06-07] ingest | OpenScreen
+- Создано: `raw/entries/2026-06-07_openscreen-github.md`, [[OpenScreen]]
+- Обновлено: [[HyperFrames]], [[Penpot]], [[Mermaid]], [[OculiX]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/siddharthvaddem/openscreen

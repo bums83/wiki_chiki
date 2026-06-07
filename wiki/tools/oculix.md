@@ -2,9 +2,9 @@
 title: OculiX
 type: technology
 created: 2026-06-05
-last_updated: 2026-06-05
+last_updated: 2026-06-07
 domain: tools
-related: ["agent-aget", "Antfarm", "Mermaid", "MCPorter"]
+related: ["agent-aget", "Antfarm", "Mermaid", "MCPorter", "OpenScreen"]
 sources: ["github-oculix-org-oculix-2026-06-05"]
 tags: ["tools", "automation", "workflow", "computer-vision", "ocr"]
 ---
@@ -68,7 +68,7 @@ OculiX подходит для:
 
 По README, OculiX позиционируется рядом с RPA и visual automation tools вроде UiPath и Eggplant, но отличается MIT-лицензией, local/self-hosted model и cross-platform запуском. В отличие от UiPath, он не опирается прежде всего на UI selectors; в отличие от обычного browser automation, он работает с любым экраном, включая native apps и виртуальные рабочие столы.
 
-С [Mermaid]({{ '/wiki/tools/mermaid' | relative_url }}) связь прикладная: visual automation workflows часто полезно документировать как sequence/flow diagrams, особенно когда один сценарий управляет несколькими приложениями, удалёнными экранами и условиями ожидания.
+С [Mermaid]({{ '/wiki/tools/mermaid' | relative_url }}) связь прикладная: visual automation workflows часто полезно документировать как sequence/flow diagrams, особенно когда один сценарий управляет несколькими приложениями, удалёнными экранами и условиями ожидания. [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }}) дополняет этот слой как recorder/editor: OculiX может исполнять GUI-сценарий, а OpenScreen — сохранить результат как демо или evidence video.
 
 ## Ограничения и осторожность
 

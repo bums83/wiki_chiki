@@ -90,6 +90,9 @@
 - openclaw
 - markdown
 - knowledge-base
+- video
+- screen-recording
+- open-source
 - git
 - offline-first
 - computer-vision

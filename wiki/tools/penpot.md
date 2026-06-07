@@ -2,9 +2,9 @@
 title: Penpot
 type: technology
 created: 2026-05-03
-last_updated: 2026-05-03
+last_updated: 2026-06-07
 domain: tools
-related: ["Mermaid", "HyperFrames", "Вайб-кодинг"]
+related: ["Mermaid", "HyperFrames", "OpenScreen", "Вайб-кодинг"]
 tags: ["tools", "automation", "docker"]
 sources: ["github-penpot-penpot-2026-05-03"]
 ---
@@ -51,7 +51,7 @@ Penpot занимает нишу между классическими browser-b
 - inspect-слой и handoff проще встроить в инженерный workflow,
 - дизайн легче трактовать как структуру, совместимую с кодом и автоматизацией.
 
-В этом месте Penpot хорошо сочетается с [HyperFrames]({{ '/wiki/llm-agents/hyperframes' | relative_url }}), где HTML/CSS/JS тоже используются как рабочий слой для агентных мультимедийных артефактов, и с [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}), где важна среда, в которой артефакт легче итеративно собирать, обсуждать и передавать между человеком и агентом.
+В этом месте Penpot хорошо сочетается с [HyperFrames]({{ '/wiki/llm-agents/hyperframes' | relative_url }}), где HTML/CSS/JS тоже используются как рабочий слой для агентных мультимедийных артефактов, и с [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}), где важна среда, в которой артефакт легче итеративно собирать, обсуждать и передавать между человеком и агентом. Для внешней демонстрации готового UI рядом стоит [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }}): Penpot помогает спроектировать продуктовый flow, а OpenScreen — показать его в polished видео.
 
 ## Design systems, tokens и automation layer
 

@@ -72,6 +72,7 @@ layout: home
 | [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) | Multi-AI adversarial PR review tool: параллельные AI-reviewers, debate rounds и code-aware verify+audit для PR findings |
 | [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) | Token tracker для LLM CLI tools: proxy, live dashboard, context-window fuel gauge и prompt archive в markdown/JSON |
 | [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) | Visual automation IDE/runtime: GUI-автоматизация по screenshots, OpenCV matching, OCR, VNC/remote desktop и JVM scripting |
+| [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }}) | Open-source recorder/editor для polished product demos: screen/window capture, webcam PiP, auto-zooms, cursor effects, captions, annotations и MP4/GIF export |
 
 ## Полный список
 

@@ -137,11 +137,13 @@
     "outgoing": [
       "Вайб-кодинг",
       "Research org code",
-      "Penpot"
+      "Penpot",
+      "OpenScreen"
     ],
     "incoming": [
       "Penpot",
-      "VoxCPM2 Portable"
+      "VoxCPM2 Portable",
+      "OpenScreen"
     ]
   },
   "asynchronous-research-swarms.md": {
@@ -307,11 +309,13 @@
       "Диаграмма Исикавы",
       "Методология A3",
       "Penpot",
-      "OculiX"
+      "OculiX",
+      "OpenScreen"
     ],
     "incoming": [
       "Penpot",
-      "OculiX"
+      "OculiX",
+      "OpenScreen"
     ]
   },
   "grizzly-sms-mcp.md": {
@@ -350,11 +354,13 @@
     "outgoing": [
       "Mermaid",
       "HyperFrames",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "OpenScreen"
     ],
     "incoming": [
       "HyperFrames",
-      "Mermaid"
+      "Mermaid",
+      "OpenScreen"
     ]
   },
   "openai-privacy-filter.md": {
@@ -579,12 +585,28 @@
       "agent-aget",
       "Antfarm",
       "Mermaid",
-      "MCPorter"
+      "MCPorter",
+      "OpenScreen"
     ],
     "incoming": [
       "agent-aget",
       "Antfarm",
-      "Mermaid"
+      "Mermaid",
+      "OpenScreen"
+    ]
+  },
+  "openscreen.md": {
+    "outgoing": [
+      "HyperFrames",
+      "Penpot",
+      "Mermaid",
+      "OculiX"
+    ],
+    "incoming": [
+      "HyperFrames",
+      "Penpot",
+      "Mermaid",
+      "OculiX"
     ]
   }
 }

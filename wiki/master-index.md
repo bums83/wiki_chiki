@@ -289,3 +289,9 @@
 - **domain:** tools
 - **summary:** Visual automation IDE/runtime: автоматизация GUI по screenshots, OpenCV template matching, OCR, VNC/remote desktop и Jython/JVM scripting
 - **also:** oculix, visual automation, rpa, computer vision, ocr, sikulix, gui automation
+
+### [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Open-source recorder/editor для polished product demos: screen/window capture, webcam PiP, auto-zooms, cursor effects, captions, annotations и MP4/GIF export
+- **also:** openscreen, screen studio alternative, screen recording, product demo, video editor, electron recorder
