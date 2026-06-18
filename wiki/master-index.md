@@ -230,6 +230,12 @@
 - **summary:** Платформа, которая превращает существующую SQL-базу в backend-слой с REST/GraphQL API, админкой, auth и automation-возможностями без жёсткого vendor lock-in по данным
 - **also:** directus, headless cms, sql backend, admin panel, graphql, rest api, database mirroring
 
+### [Teable]({{ '/wiki/tools/teable' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Open-source no-code Postgres/Airtable alternative: spreadsheet-like UI, realtime collaboration, Grid/Form/Kanban/Gallery/Calendar views, plugins, SQL query и self-hosted Docker deployment
+- **also:** teable, airtable alternative, no-code postgres, spreadsheet database, collaborative database, self-hosted airtable
+
 ### [OpenAI Privacy Filter]({{ '/wiki/tools/openai-privacy-filter' | relative_url }})
 - **type:** technology
 - **domain:** tools

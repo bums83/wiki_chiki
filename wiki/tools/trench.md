@@ -2,9 +2,9 @@
 title: Trench
 type: technology
 created: 2026-05-27
-last_updated: 2026-05-27
+last_updated: 2026-06-18
 domain: tools
-related: ["Directus", "PostgreSQL + VectorChord", "Telegram Client Operator"]
+related: ["Directus", "Teable", "PostgreSQL + VectorChord", "Telegram Client Operator"]
 sources: ["github-frigadehq-trench-2026-05-27"]
 tags: ["tools", "database", "backend", "api-platform", "monitoring"]
 ---
@@ -33,7 +33,7 @@ Trench принимает события через API, совместимый 
 
 Связка Kafka + ClickHouse делает Trench подходящим для высокочастотных event streams. Kafka помогает принять поток и развязать производителей от потребителей, а ClickHouse даёт быстрые аналитические запросы по большим объёмам событий.
 
-Поэтому Trench стоит рядом не с CMS и no-code backend в узком смысле, а с инфраструктурой продуктовой аналитики, observability и event-driven data products. Внутри wiki его полезно сравнивать с [Directus]({{ '/wiki/tools/directus' | relative_url }}): Directus даёт управляемый CRUD/API слой поверх SQL, а Trench — append-only событийный слой для аналитики.
+Поэтому Trench стоит рядом не с CMS и no-code backend в узком смысле, а с инфраструктурой продуктовой аналитики, observability и event-driven data products. Внутри wiki его полезно сравнивать с [Directus]({{ '/wiki/tools/directus' | relative_url }}) и [Teable]({{ '/wiki/tools/teable' | relative_url }}): Directus даёт управляемый CRUD/API слой поверх SQL, Teable — spreadsheet-like операционный UI на PostgreSQL, а Trench — append-only событийный слой для аналитики.
 
 С [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}) связь другая: VectorChord-подход закрывает retrieval/search и embeddings, а Trench может быть источником событий, из которых затем строятся аналитика, выборки или RAG-контекст.
 

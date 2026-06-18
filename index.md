@@ -62,6 +62,7 @@ layout: home
 | [ServiceDesk Plus Operator]({{ '/wiki/tools/servicedesk-plus-operator' | relative_url }}) | Локальный toolkit для отчётов, triage и category-check по ManageEngine ServiceDesk Plus |
 | [Grizzly SMS MCP]({{ '/wiki/tools/grizzly-sms-mcp' | relative_url }}) | MCP-обёртка для SMS verification через API-провайдера внутри допустимых registration/login workflow |
 | [Directus]({{ '/wiki/tools/directus' | relative_url }}) | Платформа, которая накладывает REST/GraphQL API и админку поверх SQL-базы без переноса данных в собственную CMS-модель |
+| [Teable]({{ '/wiki/tools/teable' | relative_url }}) | Open-source no-code Postgres/Airtable alternative: spreadsheet-like UI, realtime collaboration, multiple views, plugins, SQL query и self-hosted Docker deployment |
 | [OpenAI Privacy Filter]({{ '/wiki/tools/openai-privacy-filter' | relative_url }}) | Open-source модель для обнаружения и маскировки PII в тексте |
 | [Mermaid]({{ '/wiki/tools/mermaid' | relative_url }}) | Open-source инструмент для создания диаграмм и блок-схем из текстового описания: LLM-friendly, Git-версионирование, 21 тип диаграмм |
 | [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }}) | Client-side code intelligence engine и knowledge graph creator для репозиториев: CLI + MCP, Web UI, Graph RAG Agent и bridge mode |

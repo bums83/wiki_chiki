@@ -2,9 +2,9 @@
 title: Directus
 type: technology
 created: 2026-04-22
-last_updated: 2026-05-27
+last_updated: 2026-06-18
 domain: tools
-related: ["PostgreSQL + VectorChord", "MCPorter", "ServiceDesk Plus Operator", "Trench"]
+related: ["PostgreSQL + VectorChord", "MCPorter", "ServiceDesk Plus Operator", "Trench", "Teable"]
 sources: ["github-directus-directus-2026-04-22"]
 ---
 
@@ -98,7 +98,7 @@ Directus выгоден там, где все эти слои нужны быс�
 
 В этом смысле Directus, это не только API-generator, но и operational UI layer над данными.
 
-С [Trench]({{ '/wiki/tools/trench' | relative_url }}) граница проходит по типу данных: Directus удобен для управляемых сущностей и админских CRUD-сценариев, а Trench — для append-only event streams и аналитики событий. В одной системе Directus может быть панелью управления справочниками, а Trench — журналом фактов и действий.
+С [Trench]({{ '/wiki/tools/trench' | relative_url }}) граница проходит по типу данных: Directus удобен для управляемых сущностей и админских CRUD-сценариев, а Trench — для append-only event streams и аналитики событий. В одной системе Directus может быть панелью управления справочниками, а Trench — журналом фактов и действий. [Teable]({{ '/wiki/tools/teable' | relative_url }}) находится рядом, но делает другой акцент: не API/admin слой поверх произвольной SQL-схемы, а spreadsheet-like no-code приложение на PostgreSQL для командной работы с операционными таблицами.
 
 С инженерной точки зрения Directus стоит рядом с [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}), но решает другую задачу. Там база используется как основа retrieval и search-инфраструктуры, а здесь как основа управляемого backend и admin-платформы поверх SQL.
 

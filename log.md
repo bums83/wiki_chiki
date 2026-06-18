@@ -240,3 +240,8 @@ Updated:
 - Создано: `raw/entries/2026-06-07_openscreen-github.md`, [[OpenScreen]]
 - Обновлено: [[HyperFrames]], [[Penpot]], [[Mermaid]], [[OculiX]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/siddharthvaddem/openscreen
+
+## [2026-06-18] ingest | Teable
+- Создано: `raw/entries/2026-06-18_teable-github.md`, [[Teable]]
+- Обновлено: [[Directus]], [[PocketBase]], [[SurrealDB]], [[Trench]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/teableio/teable
