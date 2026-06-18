@@ -2,9 +2,9 @@
 title: Prompts.chat
 type: technology
 created: 2026-04-25
-last_updated: 2026-05-26
+last_updated: 2026-06-18
 domain: llm-agents
-related: ["Вайб-кодинг", "Research org code", "MCPorter", "Tolaria"]
+related: ["Вайб-кодинг", "Research org code", "Academic Research Skills", "MCPorter", "Tolaria"]
 tags: ["prompt-engineering", "prompt-library", "mcp", "llm-tooling"]
 sources: ["github-f-prompts-chat-2026-04-25"]
 ---
@@ -69,6 +69,8 @@ sources: ["github-f-prompts-chat-2026-04-25"]
 По смыслу это уже соседняя зона с [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}): там описан операторный слой вокруг MCP-серверов, а здесь появляется конкретный MCP-compatible knowledge source для prompt retrieval и повторного использования.
 
 Для приватных prompt/procedure libraries похожую роль может играть [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}): там фокус не на публичном каталоге промптов, а на markdown vault с Git-историей, offline-first хранением и AI-friendly контекстом.
+
+[Academic Research Skills]({{ '/wiki/llm-agents/academic-research-skills' | relative_url }}) — соседний пример более жёсткой упаковки prompt knowledge: не каталог промптов, а installable skill suite с командами, ролями, checkpoint-ами и integrity gates для академического workflow.
 
 ## Практические сценарии
 

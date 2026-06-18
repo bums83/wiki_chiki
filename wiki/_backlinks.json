@@ -8,6 +8,7 @@
       "Asynchronous research swarms"
     ],
     "incoming": [
+      "Academic Research Skills",
       "Antfarm",
       "Asynchronous research swarms",
       "Nanochat",
@@ -20,9 +21,11 @@
   "research-org-code.md": {
     "outgoing": [
       "Autoresearch",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Academic Research Skills"
     ],
     "incoming": [
+      "Academic Research Skills",
       "Asynchronous research swarms",
       "Autoresearch",
       "Claude-OSINT",
@@ -59,13 +62,28 @@
     "outgoing": [
       "Вайб-кодинг",
       "Research org code",
+      "Academic Research Skills",
       "MCPorter",
       "Tolaria"
     ],
     "incoming": [
+      "Academic Research Skills",
       "Evolve",
       "Prompt Master",
       "Tolaria"
+    ]
+  },
+  "academic-research-skills.md": {
+    "outgoing": [
+      "Research org code",
+      "Prompts.chat",
+      "Agents.md",
+      "Autoresearch"
+    ],
+    "incoming": [
+      "Research org code",
+      "Prompts.chat",
+      "Agents.md"
     ]
   },
   "nanochat.md": {
@@ -121,12 +139,14 @@
       "Вайб-кодинг",
       "Evolve",
       "Prompt Master",
+      "Academic Research Skills",
       "CLAUDE.md",
       "Tolaria",
       "agent-aget",
       "Magpie"
     ],
     "incoming": [
+      "Academic Research Skills",
       "GitNexus",
       "Tolaria",
       "agent-aget",

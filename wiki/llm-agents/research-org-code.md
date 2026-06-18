@@ -2,9 +2,9 @@
 title: Research org code
 type: concept
 created: 2026-04-13
-last_updated: 2026-04-13
+last_updated: 2026-06-18
 domain: llm-agents
-related: ["Autoresearch", "Вайб-кодинг"]
+related: ["Autoresearch", "Вайб-кодинг", "Academic Research Skills"]
 sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 ---
 
@@ -54,6 +54,8 @@ sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 - `vibe coding` управляет прикладной разработкой, рефакторингом и интеграциями.
 
 Практически рядом с этой идеей стоит и [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}), но с другим акцентом: не на исследовательской организации как таковой, а на накоплении prompt knowledge в виде библиотеки, dataset и integration layer.
+
+[Academic Research Skills]({{ '/wiki/llm-agents/academic-research-skills' | relative_url }}) показывает более формализованный вариант той же логики для академической работы: не один `program.md`, а набор skills, modes, gates и artifacts, где человек остаётся владельцем исследовательских решений.
 
 ## Вывод
 

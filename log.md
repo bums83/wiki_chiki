@@ -245,3 +245,8 @@ Updated:
 - Создано: `raw/entries/2026-06-18_teable-github.md`, [[Teable]]
 - Обновлено: [[Directus]], [[PocketBase]], [[SurrealDB]], [[Trench]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/teableio/teable
+
+## [2026-06-18] ingest | Academic Research Skills
+- Создано: `raw/entries/2026-06-18_academic-research-skills-github.md`, [[Academic Research Skills]]
+- Обновлено: [[Research org code]], [[Prompts.chat]], [[Agents.md]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/Imbad0202/academic-research-skills

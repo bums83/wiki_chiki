@@ -156,6 +156,12 @@
 - **summary:** Open-source prompt library и prompt tooling layer: библиотека промптов, dataset, self-hosting и MCP-интеграция
 - **also:** prompts.chat, awesome chatgpt prompts, prompt library, prompt engineering, mcp prompt server
 
+### [Academic Research Skills]({{ '/wiki/llm-agents/academic-research-skills' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Claude Code skill suite for academic research workflows: deep research, paper writing, peer review, revision, integrity gates, citation checks and final formatting with human checkpoints
+- **also:** academic research skills, ARS, Claude Code skills, academic writing, peer review, citation checking
+
 ### [Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }})
 - **type:** technology
 - **domain:** llm-agents
