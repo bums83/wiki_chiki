@@ -250,3 +250,8 @@ Updated:
 - Создано: `raw/entries/2026-06-18_academic-research-skills-github.md`, [[Academic Research Skills]]
 - Обновлено: [[Research org code]], [[Prompts.chat]], [[Agents.md]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/Imbad0202/academic-research-skills
+
+## [2026-06-18] refresh | agent-aget
+- Создано: `raw/entries/2026-06-18_agent-aget-refresh-github.md`
+- Обновлено: [[agent-aget]], `index.md`, `wiki/master-index.md`
+- Источник: https://github.com/izzzzzi/agent-aget

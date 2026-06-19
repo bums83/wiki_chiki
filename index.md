@@ -70,7 +70,7 @@ layout: home
 | [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}) | Desktop-приложение для markdown knowledge bases: files-first, git-first, offline-first vaults и AI-friendly контекст для людей и агентов |
 | [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) | Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, открытые стандарты, design tokens, collaboration и design-to-code handoff |
 | [Trench]({{ '/wiki/tools/trench' | relative_url }}) | Self-hosted event analytics infrastructure на Kafka, ClickHouse и Node.js; подходит как журнал событий для проверки сигналов и outcome-аналитики |
-| [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) | CLI-помощник для браузерных сценариев LLM-агентов: stealth Chromium, локальные сессии, snapshot refs, batch-команды и JSON-ответы |
+| [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) | CLI-помощник для браузерных сценариев LLM-агентов: stealth Chromium, persistent profiles/cookies, device emulation, snapshot refs, batch-команды и JSON-ответы |
 | [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) | Multi-AI adversarial PR review tool: параллельные AI-reviewers, debate rounds и code-aware verify+audit для PR findings |
 | [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) | Token tracker для LLM CLI tools: proxy, live dashboard, context-window fuel gauge и prompt archive в markdown/JSON |
 | [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) | Visual automation IDE/runtime: GUI-автоматизация по screenshots, OpenCV matching, OCR, VNC/remote desktop и JVM scripting |

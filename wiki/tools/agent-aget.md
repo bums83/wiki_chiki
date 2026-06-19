@@ -2,10 +2,10 @@
 title: agent-aget
 type: technology
 created: 2026-05-28
-last_updated: 2026-05-28
+last_updated: 2026-06-18
 domain: tools
 related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie", "Tokentap", "OculiX"]
-sources: ["github-izzzzzi-agent-aget-2026-05-28"]
+sources: ["github-izzzzzi-agent-aget-2026-05-28", "github-izzzzzi-agent-aget-refresh-2026-06-18"]
 tags: ["tools", "cli", "agents", "automation", "workflow"]
 ---
 
@@ -23,7 +23,13 @@ tags: ["tools", "cli", "agents", "automation", "workflow"]
 - прочитать страницу как текст через `page read`;
 - получить accessibility/snapshot refs вроде `@e1` и `@i1`;
 - кликать, заполнять поля, нажимать клавиши и ждать текст;
+- выбирать опции, чекать/анчекать checkbox/radio, проверять состояние элементов через `page is`;
+- делать hover/focus, загружать файлы, принимать/отклонять browser dialogs;
+- запускать JS fallback через `page js`, если refs и CSS-селекторы не сработали;
 - делать screenshots, scroll, `get` URL/text и выполнять batch-сценарии;
+- открывать mobile/tablet-страницы через согласованный `--device mobile|tablet`;
+- инжектить cookies из Netscape-файла или inline-строки;
+- создавать persistent profiles для переиспользования cookies, localStorage и сессионных данных;
 - закрывать сессии и диагностировать установку через `aget doctor`.
 
 Ключевой момент — JSON-контракт. Операционные команды выводят один JSON-объект в stdout, а ошибки имеют структурированный вид с `ok:false`, `code`, `message` и `details`. Это снижает неоднозначность для LLM-агента: результат можно парсить, передавать между шагами и использовать как состояние workflow.
@@ -42,18 +48,22 @@ tags: ["tools", "cli", "agents", "automation", "workflow"]
 
 Такой порядок делает инструмент полезным и в локальной разработке, и на агентных хостах, где браузер может быть предустановлен или, наоборот, должен жить в изолированном cache.
 
+Свежие версии добавляют ещё два важных runtime-слоя. Первый — named profiles: `aget profile create/list/show/delete`, затем `aget open URL --profile NAME`. Это даёт агенту воспроизводимый способ работать с авторизованными сайтами без постоянного повторного логина. Второй — device emulation через `--device mobile` и `--device tablet`, где viewport, user-agent и touch-поведение согласованы между собой.
+
 ## Как агент использует workflow
 
 Типовой цикл выглядит так:
 
 1. `aget open URL -n NAME` создаёт сессию и возвращает `sid`;
 2. агент читает страницу через `aget page read -s SID --limit 80` или делает `page snapshot`;
-3. действия выполняются через refs (`click`, `fill`, `press`) либо CSS-селекторы;
-4. ожидания и проверки делаются командами `wait`, `get`, `scroll`, `screenshot`;
+3. действия выполняются через refs (`click`, `fill`, `select`, `check`, `press`) либо CSS-селекторы;
+4. ожидания и проверки делаются командами `wait`, `get`, `is`, `scroll`, `screenshot`;
 5. многошаговый сценарий можно отправить в `aget batch -s SID --stdin`;
 6. после завершения агент закрывает сессию через `aget session close -s SID`.
 
 Это хорошо сочетается с практиками из [Agents.md]({{ '/wiki/llm-agents/agents-md' | relative_url }}): вместо длинной неформальной инструкции агент получает короткий стабильный playbook и команды, которые возвращают предсказуемый формат.
+
+В репозитории этот playbook вынесен в `AGENT_INSTRUCTIONS.md` и доступен из CLI через `aget prompt` / `aget agent-instructions`. Это снижает стоимость внедрения: агенту не нужно читать весь README, достаточно получить компактный набор команд, правил безопасности и fallback-порядок.
 
 ## Отличие от MCP и встроенных browser tools
 
@@ -78,7 +88,9 @@ tags: ["tools", "cli", "agents", "automation", "workflow"]
 Браузерная автоматизация остаётся чувствительной к состоянию страницы, fingerprinting, сессиям и приватным данным. Поэтому важно:
 
 - не смешивать `sid` разных задач;
+- не использовать один persistent profile в двух сессиях одновременно;
 - не печатать в логи cookies, tokens и приватные данные из форм;
+- не хранить inline cookies в истории shell, если данные чувствительные;
 - закрывать сессии после работы;
 - использовать screenshot только когда текстового чтения недостаточно;
 - запускать `aget doctor`, если проблема похожа на runtime/browser failure, а не на ошибку сценария.

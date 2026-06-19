@@ -281,8 +281,8 @@
 ### [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }})
 - **type:** technology
 - **domain:** tools
-- **summary:** CLI-помощник для браузерных сценариев LLM-агентов: управляемый stealth Chromium, локальные сессии, snapshot refs, batch-команды и JSON-контракт для terminal agents
-- **also:** aget, browser workflow, llm agents, cli automation, cloakbrowser, json contract
+- **summary:** CLI-помощник для браузерных сценариев LLM-агентов: stealth Chromium/CloakBrowser, persistent profiles, cookies, device emulation, snapshot refs, batch-команды и JSON-контракт для terminal agents
+- **also:** aget, browser workflow, llm agents, cli automation, cloakbrowser, json contract, persistent browser profiles
 
 ### [Magpie]({{ '/wiki/tools/magpie' | relative_url }})
 - **type:** technology
