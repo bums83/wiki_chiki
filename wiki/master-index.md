@@ -162,6 +162,12 @@
 - **summary:** Claude Code skill suite for academic research workflows: deep research, paper writing, peer review, revision, integrity gates, citation checks and final formatting with human checkpoints
 - **also:** academic research skills, ARS, Claude Code skills, academic writing, peer review, citation checking
 
+### [The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Large cross-functional AI-agent roster: 232 Markdown agent personas across 16 divisions, with install/convert tooling for Claude Code, Cursor, OpenClaw, Codex, Gemini CLI, OpenCode and other runtimes
+- **also:** agency agents, the agency, ai agent library, claude agents, multi-agent roster, NEXUS
+
 ### [Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }})
 - **type:** technology
 - **domain:** llm-agents

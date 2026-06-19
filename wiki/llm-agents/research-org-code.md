@@ -2,9 +2,9 @@
 title: Research org code
 type: concept
 created: 2026-04-13
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 domain: llm-agents
-related: ["Autoresearch", "Вайб-кодинг", "Academic Research Skills"]
+related: ["Autoresearch", "Вайб-кодинг", "Academic Research Skills", "The Agency / Agency Agents"]
 sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 ---
 
@@ -56,6 +56,8 @@ sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 Практически рядом с этой идеей стоит и [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}), но с другим акцентом: не на исследовательской организации как таковой, а на накоплении prompt knowledge в виде библиотеки, dataset и integration layer.
 
 [Academic Research Skills]({{ '/wiki/llm-agents/academic-research-skills' | relative_url }}) показывает более формализованный вариант той же логики для академической работы: не один `program.md`, а набор skills, modes, gates и artifacts, где человек остаётся владельцем исследовательских решений.
+
+[The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }}) расширяет эту идею в сторону готовой агентной организации: каталог ролей, divisions, installers и NEXUS-playbooks задаёт структуру команды, а не только отдельные prompt patterns.
 
 ## Вывод
 

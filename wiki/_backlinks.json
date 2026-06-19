@@ -22,7 +22,8 @@
     "outgoing": [
       "Autoresearch",
       "Вайб-кодинг",
-      "Academic Research Skills"
+      "Academic Research Skills",
+      "The Agency / Agency Agents"
     ],
     "incoming": [
       "Academic Research Skills",
@@ -33,7 +34,8 @@
       "HyperFrames",
       "Prompts.chat",
       "ThreatSwarm",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "The Agency / Agency Agents"
     ]
   },
   "vibe-coding.md": {
@@ -70,7 +72,8 @@
       "Academic Research Skills",
       "Evolve",
       "Prompt Master",
-      "Tolaria"
+      "Tolaria",
+      "The Agency / Agency Agents"
     ]
   },
   "academic-research-skills.md": {
@@ -78,12 +81,29 @@
       "Research org code",
       "Prompts.chat",
       "Agents.md",
+      "The Agency / Agency Agents",
       "Autoresearch"
     ],
     "incoming": [
       "Research org code",
       "Prompts.chat",
-      "Agents.md"
+      "Agents.md",
+      "The Agency / Agency Agents"
+    ]
+  },
+  "agency-agents.md": {
+    "outgoing": [
+      "Agents.md",
+      "Academic Research Skills",
+      "Research org code",
+      "Prompt Master",
+      "Prompts.chat"
+    ],
+    "incoming": [
+      "Agents.md",
+      "Academic Research Skills",
+      "Research org code",
+      "Prompt Master"
     ]
   },
   "nanochat.md": {
@@ -140,6 +160,7 @@
       "Evolve",
       "Prompt Master",
       "Academic Research Skills",
+      "The Agency / Agency Agents",
       "CLAUDE.md",
       "Tolaria",
       "agent-aget",
@@ -150,7 +171,8 @@
       "GitNexus",
       "Tolaria",
       "agent-aget",
-      "Magpie"
+      "Magpie",
+      "The Agency / Agency Agents"
     ]
   },
   "hyperframes.md": {
@@ -205,10 +227,12 @@
     "outgoing": [
       "Prompts.chat",
       "Вайб-кодинг",
-      "Evolve"
+      "Evolve",
+      "The Agency / Agency Agents"
     ],
     "incoming": [
-      "Agents.md"
+      "Agents.md",
+      "The Agency / Agency Agents"
     ]
   },
   "gitnexus.md": {

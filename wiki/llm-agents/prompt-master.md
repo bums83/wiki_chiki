@@ -2,9 +2,9 @@
 title: Prompt Master
 type: technology
 created: 2026-04-30
-last_updated: 2026-04-30
+last_updated: 2026-06-19
 domain: llm-agents
-related: ["Prompts.chat", "Вайб-кодинг", "Evolve"]
+related: ["Prompts.chat", "Вайб-кодинг", "Evolve", "The Agency / Agency Agents"]
 tags: ["prompt-engineering", "claude-skills", "ai-tools", "prompt-generation"]
 sources: ["onlygithub-prompt-master-2026-04-30"]
 ---
@@ -56,6 +56,7 @@ Prompt Master логично дополняет уже существующие 
 - [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}) — Prompts.chat это библиотека готовых промптов, Prompt Master это генератор новых промптов. Вместе покрывают и хранение, и создание.
 - [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) — Prompt Master генерирует промпты, вайб-кодинг описывает практику их использования. Генерация → применение.
 - [Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }}) — Prompt Master создаёт промпт, Evolve проверяет его эффективность эмпирически.
+- [The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }}) — не генератор промптов, а каталог готовых agent personas; его можно использовать как источник ролевых шаблонов для дальнейшей настройки.
 
 ## Ограничения
 

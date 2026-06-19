@@ -260,3 +260,8 @@ Updated:
 - Создано: `raw/entries/2026-06-19_assh-github.md`, [[ASSH]]
 - Обновлено: [[MCPorter]], [[Antfarm]], [[OculiX]], [[agent-aget]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/moul/assh
+
+## [2026-06-19] ingest | The Agency / Agency Agents
+- Создано: `raw/entries/2026-06-19_agency-agents-github.md`, [[The Agency / Agency Agents]]
+- Обновлено: [[Agents.md]], [[Academic Research Skills]], [[Research org code]], [[Prompt Master]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/msitarzewski/agency-agents

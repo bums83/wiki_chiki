@@ -2,9 +2,9 @@
 title: Agents.md
 type: best practices
 created: 2026-05-01
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 domain: llm-agents
-related: ["Вайб-кодинг", "Evolve", "Prompt Master", "Academic Research Skills", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie"]
+related: ["Вайб-кодинг", "Evolve", "Prompt Master", "Academic Research Skills", "The Agency / Agency Agents", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie"]
 tags: ["ai-coding", "team-lead", "coding-standards", "prompting", "development-tooling"]
 sources: ["augmentcode-2026-05-01", "agentsmd-io-2026-05-01"]
 ---
@@ -22,6 +22,8 @@ Agents.md стал де-факто открытым стандартом, при
 Для review-workflow похожий подход реализует [Magpie]({{ '/wiki/tools/magpie' | relative_url }}): правила reviewers, analyzer, summarizer и contextGatherer описываются в конфиге, а сам PR review превращается в повторяемый debate pipeline.
 
 В академическом домене ту же идею развивает [Academic Research Skills]({{ '/wiki/llm-agents/academic-research-skills' | relative_url }}): reusable instructions упакованы не в один файл правил, а в Claude Code skills, команды, reference docs, templates и gate protocols.
+
+[The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }}) показывает соседний масштаб: не один `Agents.md` для репозитория, а каталог готовых agent personas, которые можно устанавливать в разные agentic runtimes.
 
 ## Зачем нужен
 

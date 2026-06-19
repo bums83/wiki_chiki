@@ -2,9 +2,9 @@
 title: Academic Research Skills
 type: technology
 created: 2026-06-18
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 domain: llm-agents
-related: ["Research org code", "Prompts.chat", "Agents.md", "Autoresearch"]
+related: ["Research org code", "Prompts.chat", "Agents.md", "The Agency / Agency Agents", "Autoresearch"]
 sources: ["github-imbad0202-academic-research-skills-2026-06-18"]
 tags: ["llm", "agents", "prompt-engineering", "eval", "workflow", "research"]
 ---
@@ -79,6 +79,8 @@ ARS also illustrates the same discipline described in [Agents.md]({{ '/wiki/llm-
 - ARS packages a domain workflow as installable Claude Code skills, commands, agents, references, templates and checks.
 
 This is the skill-pattern version of repository rules: a controlled instruction tree with progressive disclosure and task-specific entrypoints.
+
+[The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }}) занимает более широкий слой: там нет одного academic workflow, зато есть большой cross-functional roster ролей и convert/install tooling для разных agent runtimes.
 
 ## Boundaries and license
 
