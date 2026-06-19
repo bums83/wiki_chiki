@@ -255,3 +255,8 @@ Updated:
 - Создано: `raw/entries/2026-06-18_agent-aget-refresh-github.md`
 - Обновлено: [[agent-aget]], `index.md`, `wiki/master-index.md`
 - Источник: https://github.com/izzzzzi/agent-aget
+
+## [2026-06-19] ingest | ASSH
+- Создано: `raw/entries/2026-06-19_assh-github.md`, [[ASSH]]
+- Обновлено: [[MCPorter]], [[Antfarm]], [[OculiX]], [[agent-aget]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/moul/assh

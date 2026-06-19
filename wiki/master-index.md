@@ -206,6 +206,12 @@
 - **summary:** CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций
 - **also:** mcporter, mcp cli, mcp server tools, openclaw integration
 
+### [ASSH]({{ '/wiki/tools/assh' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Advanced SSH config manager/wrapper: YAML-модель для ~/.ssh/config, aliases, gateway chains, templates, hooks, Graphviz, JSON output и control sockets
+- **also:** assh, advanced ssh config, ssh proxycommand, bastion hosts, jump hosts, ssh gateways
+
 ### [Telegram Client Operator]({{ '/wiki/tools/telegram-client-operator' | relative_url }})
 - **type:** technology
 - **domain:** tools

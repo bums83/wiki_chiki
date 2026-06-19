@@ -352,9 +352,11 @@
       "MCPorter",
       "ServiceDesk Plus Operator",
       "agent-aget",
-      "OculiX"
+      "OculiX",
+      "ASSH"
     ],
     "incoming": [
+      "ASSH",
       "MCPorter",
       "PostgreSQL + VectorChord",
       "ServiceDesk Plus Operator",
@@ -395,9 +397,11 @@
       "Telegram Client Operator",
       "Antfarm",
       "Вайб-кодинг",
-      "agent-aget"
+      "agent-aget",
+      "ASSH"
     ],
     "incoming": [
+      "ASSH",
       "Antfarm",
       "Directus",
       "GitNexus",
@@ -565,9 +569,11 @@
       "GitNexus",
       "Magpie",
       "Tokentap",
-      "OculiX"
+      "OculiX",
+      "ASSH"
     ],
     "incoming": [
+      "ASSH",
       "Agents.md",
       "MCPorter",
       "Antfarm",
@@ -615,13 +621,29 @@
       "Antfarm",
       "Mermaid",
       "MCPorter",
-      "OpenScreen"
+      "OpenScreen",
+      "ASSH"
     ],
     "incoming": [
+      "ASSH",
       "agent-aget",
       "Antfarm",
       "Mermaid",
       "OpenScreen"
+    ]
+  },
+  "assh.md": {
+    "outgoing": [
+      "MCPorter",
+      "Antfarm",
+      "OculiX",
+      "agent-aget"
+    ],
+    "incoming": [
+      "MCPorter",
+      "Antfarm",
+      "OculiX",
+      "agent-aget"
     ]
   },
   "teable.md": {

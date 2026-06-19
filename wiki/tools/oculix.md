@@ -2,9 +2,9 @@
 title: OculiX
 type: technology
 created: 2026-06-05
-last_updated: 2026-06-07
+last_updated: 2026-06-19
 domain: tools
-related: ["agent-aget", "Antfarm", "Mermaid", "MCPorter", "OpenScreen"]
+related: ["agent-aget", "Antfarm", "Mermaid", "MCPorter", "OpenScreen", "ASSH"]
 sources: ["github-oculix-org-oculix-2026-06-05"]
 tags: ["tools", "automation", "workflow", "computer-vision", "ocr"]
 ---
@@ -44,6 +44,8 @@ OculiX продолжает lineage Sikuli / SikuliX и даёт пользов�
 - PaddleOCR как opt-in HTTP server для multilingual и CJK workloads.
 
 Для удалённых окружений есть full VNC stack: `VNCScreen`, `VNCRobot`, X keysym mapping и thread-safe parallel sessions. Также есть native SSH tunneling через `SSHTunnel` на JSch, чтобы открывать tunnels из Java без внешних shell wrappers.
+
+Если remote automation зависит от сложных SSH маршрутов, [ASSH]({{ '/wiki/tools/assh' | relative_url }}) закрывает нижний слой: aliases, gateway chains, bastion hosts и генерацию `~/.ssh/config`, а OculiX уже работает с видимым удалённым экраном.
 
 ## Runtime и языки
 
