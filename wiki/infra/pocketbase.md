@@ -2,9 +2,9 @@
 title: PocketBase
 type: technology
 created: 2026-05-01
-last_updated: 2026-06-18
+last_updated: 2026-06-21
 domain: infra
-related: ["Directus", "Teable", "PowerInfer", "RTK", "Вайб-кодинг"]
+related: ["Directus", "Teable", "Coolify", "PowerInfer", "RTK", "Вайб-кодинг"]
 tags: ["backend", "go", "sqlite", "realtime", "open-source", "prototyping"]
 sources: ["github-pocketbase-pocketbase-2026-05-01"]
 ---
@@ -145,6 +145,7 @@ onRecordCreateRequest((e) => {
 - [RTK]({{ '/wiki/infra/rtk' | relative_url }}) — оптимизация контекста при работе с PocketBase API из AI-coding инструментов
 - [Directus]({{ '/wiki/tools/directus' | relative_url }}) — альтернатива с более богатым REST/GraphQL, но без realtime из коробки
 - [Teable]({{ '/wiki/tools/teable' | relative_url }}) — более тяжёлый no-code Postgres/Airtable-like слой, когда нужна командная таблица с views и self-hosted database stack
+- [Coolify]({{ '/wiki/tools/coolify' | relative_url }}) — deployment/control plane для запуска PocketBase-подобных single-service backends, databases и compose-сервисов на своих Docker-хостах
 - [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) — PocketBase удобен для быстрого прототипирования AI-фич: собрал схему, описал API-контракт, отдал агенту
 
 ## Ресурсы

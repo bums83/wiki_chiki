@@ -2,9 +2,9 @@
 title: Teable
 type: technology
 created: 2026-06-18
-last_updated: 2026-06-18
+last_updated: 2026-06-21
 domain: tools
-related: ["Directus", "PocketBase", "SurrealDB", "Trench"]
+related: ["Directus", "PocketBase", "SurrealDB", "Trench", "Coolify"]
 sources: ["github-teableio-teable-2026-06-18"]
 tags: ["tools", "database", "backend", "api-platform", "admin-panel", "postgresql"]
 ---
@@ -69,6 +69,8 @@ Teable полезен для:
 - прототипов data-driven приложений, которые потенциально должны вырасти до более серьёзной архитектуры.
 
 С [Trench]({{ '/wiki/tools/trench' | relative_url }}) граница простая: Teable управляет сущностями и таблицами, а Trench пишет append-only events и аналитику. В одной системе Teable может быть операционным UI, а Trench — журналом действий и outcome-аналитикой.
+
+[Coolify]({{ '/wiki/tools/coolify' | relative_url }}) закрывает соседний deployment layer: Teable — приложение/операционная база, а Coolify — self-hosted PaaS, через который такие Postgres-backed сервисы можно разворачивать и обслуживать на собственных серверах.
 
 ## Лицензия и editions
 

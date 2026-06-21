@@ -386,7 +386,8 @@
       "ServiceDesk Plus Operator",
       "Telegram Client Operator",
       "agent-aget",
-      "OculiX"
+      "OculiX",
+      "Coolify"
     ]
   },
   "voxcpm2-portable.md": {
@@ -454,13 +455,15 @@
       "MCPorter",
       "ServiceDesk Plus Operator",
       "Trench",
-      "Teable"
+      "Teable",
+      "Coolify"
     ],
     "incoming": [
       "OpenAI Privacy Filter",
       "PocketBase",
       "PostgreSQL + VectorChord",
-      "Teable"
+      "Teable",
+      "Coolify"
     ]
   },
   "telegram-client-operator.md": {
@@ -490,11 +493,13 @@
       "Teable",
       "PowerInfer",
       "RTK",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Coolify"
     ],
     "incoming": [
       "SurrealDB",
-      "Teable"
+      "Teable",
+      "Coolify"
     ]
   },
   "postgresql-vectorchord-hybrid-search.md": {
@@ -661,13 +666,15 @@
       "MCPorter",
       "Antfarm",
       "OculiX",
-      "agent-aget"
+      "agent-aget",
+      "Coolify"
     ],
     "incoming": [
       "MCPorter",
       "Antfarm",
       "OculiX",
-      "agent-aget"
+      "agent-aget",
+      "Coolify"
     ]
   },
   "teable.md": {
@@ -675,13 +682,15 @@
       "Directus",
       "PocketBase",
       "SurrealDB",
-      "Trench"
+      "Trench",
+      "Coolify"
     ],
     "incoming": [
       "Directus",
       "PocketBase",
       "SurrealDB",
-      "Trench"
+      "Trench",
+      "Coolify"
     ]
   },
   "openscreen.md": {
@@ -696,6 +705,21 @@
       "Penpot",
       "Mermaid",
       "OculiX"
+    ]
+  },
+  "coolify.md": {
+    "outgoing": [
+      "Directus",
+      "Teable",
+      "PocketBase",
+      "ASSH",
+      "Antfarm"
+    ],
+    "incoming": [
+      "Directus",
+      "Teable",
+      "PocketBase",
+      "ASSH"
     ]
   }
 }

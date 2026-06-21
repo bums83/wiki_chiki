@@ -265,3 +265,8 @@ Updated:
 - Создано: `raw/entries/2026-06-19_agency-agents-github.md`, [[The Agency / Agency Agents]]
 - Обновлено: [[Agents.md]], [[Academic Research Skills]], [[Research org code]], [[Prompt Master]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/msitarzewski/agency-agents
+
+## [2026-06-21] ingest | Coolify
+- Создано: `raw/entries/2026-06-21_coolify-github.md`, [[Coolify]]
+- Обновлено: [[Directus]], [[Teable]], [[PocketBase]], [[ASSH]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/coollabsio/coolify

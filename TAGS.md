@@ -93,6 +93,9 @@
 - video
 - screen-recording
 - open-source
+- self-hosted
+- paas
+- deployment
 - git
 - offline-first
 - computer-vision

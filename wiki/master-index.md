@@ -218,6 +218,12 @@
 - **summary:** Advanced SSH config manager/wrapper: YAML-модель для ~/.ssh/config, aliases, gateway chains, templates, hooks, Graphviz, JSON output и control sockets
 - **also:** assh, advanced ssh config, ssh proxycommand, bastion hosts, jump hosts, ssh gateways
 
+### [Coolify]({{ '/wiki/tools/coolify' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Self-hosted PaaS/control plane: деплой приложений, баз данных и 280+ Docker Compose сервисов на своих серверах через SSH/Docker, с proxy, backups, notifications и terminal/logs слой
+- **also:** coolify, self-hosted paas, heroku alternative, vercel alternative, netlify alternative, docker deployment, compose services
+
 ### [Telegram Client Operator]({{ '/wiki/tools/telegram-client-operator' | relative_url }})
 - **type:** technology
 - **domain:** tools
