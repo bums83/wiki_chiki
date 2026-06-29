@@ -218,6 +218,12 @@
 - **summary:** Advanced SSH config manager/wrapper: YAML-модель для ~/.ssh/config, aliases, gateway chains, templates, hooks, Graphviz, JSON output и control sockets
 - **also:** assh, advanced ssh config, ssh proxycommand, bastion hosts, jump hosts, ssh gateways
 
+### [cmux-ssh-here]({{ '/wiki/tools/cmux-ssh-here' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Одноразовый token-auth SSH-сервер для LAN: `npx` запуск, cmux/ssh deep links, QR, token rotation, PTY/SFTP и shell без постоянного sshd
+- **also:** cmux-ssh-here, cmux, temporary ssh server, token auth ssh, lan shell, disposable ssh
+
 ### [Coolify]({{ '/wiki/tools/coolify' | relative_url }})
 - **type:** technology
 - **domain:** tools

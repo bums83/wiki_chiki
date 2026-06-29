@@ -60,6 +60,7 @@ layout: home
 | [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |
 | [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}) | CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций |
 | [ASSH]({{ '/wiki/tools/assh' | relative_url }}) | Advanced SSH config manager: YAML для `~/.ssh/config`, aliases, gateway chains, hooks, Graphviz и control sockets |
+| [cmux-ssh-here]({{ '/wiki/tools/cmux-ssh-here' | relative_url }}) | Одноразовый token-auth SSH-сервер для LAN: `npx` запуск, cmux/ssh ссылки, QR, auto-rotation token и shell без постоянного sshd |
 | [Coolify]({{ '/wiki/tools/coolify' | relative_url }}) | Self-hosted PaaS/control plane: деплой приложений, баз данных и 280+ Docker Compose сервисов на своих серверах через SSH/Docker |
 | [Telegram Client Operator]({{ '/wiki/tools/telegram-client-operator' | relative_url }}) | MTProto-слой для чтения диалогов, тем, сообщений и поиска внутри агентных сценариев |
 | [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) | Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций и self-advancing цепочек |

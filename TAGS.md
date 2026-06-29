@@ -39,6 +39,7 @@
 - windows
 - linux
 - shell
+- ssh
 - hardware
 - legacy-hardware
 - database

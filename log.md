@@ -270,3 +270,9 @@ Updated:
 - Создано: `raw/entries/2026-06-21_coolify-github.md`, [[Coolify]]
 - Обновлено: [[Directus]], [[Teable]], [[PocketBase]], [[ASSH]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/coollabsio/coolify
+
+## [2026-06-29] ingest | cmux-ssh-here
+- Создано: `raw/entries/2026-06-29_cmux-ssh-here-telegram.md`, [[cmux-ssh-here]]
+- Обновлено: [[ASSH]], [[Coolify]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://t.me/deksden_notes/909
+- Дополнительный источник: https://github.com/viktor-silakov/cmux-ssh-here

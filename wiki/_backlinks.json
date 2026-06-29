@@ -609,7 +609,8 @@
       "GitNexus",
       "Magpie",
       "Tokentap",
-      "OculiX"
+      "OculiX",
+      "cmux-ssh-here"
     ]
   },
   "magpie.md": {
@@ -658,7 +659,8 @@
       "agent-aget",
       "Antfarm",
       "Mermaid",
-      "OpenScreen"
+      "OpenScreen",
+      "cmux-ssh-here"
     ]
   },
   "assh.md": {
@@ -667,14 +669,16 @@
       "Antfarm",
       "OculiX",
       "agent-aget",
-      "Coolify"
+      "Coolify",
+      "cmux-ssh-here"
     ],
     "incoming": [
       "MCPorter",
       "Antfarm",
       "OculiX",
       "agent-aget",
-      "Coolify"
+      "Coolify",
+      "cmux-ssh-here"
     ]
   },
   "teable.md": {
@@ -713,13 +717,27 @@
       "Teable",
       "PocketBase",
       "ASSH",
-      "Antfarm"
+      "Antfarm",
+      "cmux-ssh-here"
     ],
     "incoming": [
       "Directus",
       "Teable",
       "PocketBase",
-      "ASSH"
+      "ASSH",
+      "cmux-ssh-here"
+    ]
+  },
+  "cmux-ssh-here.md": {
+    "outgoing": [
+      "ASSH",
+      "Coolify",
+      "OculiX",
+      "agent-aget"
+    ],
+    "incoming": [
+      "ASSH",
+      "Coolify"
     ]
   }
 }

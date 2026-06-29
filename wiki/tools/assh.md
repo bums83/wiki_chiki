@@ -2,9 +2,9 @@
 title: ASSH
 type: technology
 created: 2026-06-19
-last_updated: 2026-06-21
+last_updated: 2026-06-29
 domain: tools
-related: ["MCPorter", "Antfarm", "OculiX", "agent-aget", "Coolify"]
+related: ["MCPorter", "Antfarm", "OculiX", "agent-aget", "Coolify", "cmux-ssh-here"]
 sources: ["github-moul-assh-2026-06-19"]
 tags: ["tools", "cli", "automation", "shell", "linux"]
 ---
@@ -111,6 +111,8 @@ ASSH полезен, когда:
 С [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) связь практическая: OculiX описывает visual automation через удалённые/VNC-сессии и SSH tunneling, а ASSH решает нижний слой SSH-маршрутов, aliases и gateway-конфигурации. С [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) связь по CLI-first подходу: оба превращают сложную capability в повторяемые команды, которые можно безопаснее передать человеку, скрипту или агенту.
 
 [Coolify]({{ '/wiki/tools/coolify' | relative_url }}) использует SSH в другом масштабе: не как локальный config wrapper, а как transport к серверам, на которых запускаются Docker resources. Поэтому для Coolify важны те же базовые вещи — ключи, bastion routes, fallback-доступ и предсказуемая SSH-топология.
+
+[cmux-ssh-here]({{ '/wiki/tools/cmux-ssh-here' | relative_url }}) показывает противоположный полюс SSH-практики: не постоянный inventory и не `~/.ssh/config`, а одноразовый token-auth SSH endpoint в локальной сети. ASSH нужен для устойчивых маршрутов, cmux-ssh-here — для временного shell-доступа без поднятого `sshd`.
 
 ## Ограничения и осторожность
 

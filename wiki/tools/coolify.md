@@ -2,9 +2,9 @@
 title: Coolify
 type: technology
 created: 2026-06-21
-last_updated: 2026-06-21
+last_updated: 2026-06-29
 domain: tools
-related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm"]
+related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here"]
 sources: ["github-coollabsio-coolify-2026-06-21"]
 tags: ["tools", "docker", "self-hosted", "paas", "deployment", "backend"]
 ---
@@ -62,7 +62,7 @@ Coolify удобно ставить рядом с [Directus]({{ '/wiki/tools/dir
 
 ## SSH и серверный контур
 
-Так как Coolify управляет внешними серверами через SSH, он концептуально пересекается с [ASSH]({{ '/wiki/tools/assh' | relative_url }}). ASSH стабилизирует локальную SSH-конфигурацию, aliases и gateway chains; Coolify использует SSH как operational transport для управления remote Docker hosts.
+Так как Coolify управляет внешними серверами через SSH, он концептуально пересекается с [ASSH]({{ '/wiki/tools/assh' | relative_url }}). ASSH стабилизирует локальную SSH-конфигурацию, aliases и gateway chains; Coolify использует SSH как operational transport для управления remote Docker hosts. [cmux-ssh-here]({{ '/wiki/tools/cmux-ssh-here' | relative_url }}) закрывает другой SSH-сценарий: не управление серверным парком, а временный token-auth shell в локальной сети без постоянного `sshd`.
 
 Это важная граница: Coolify упрощает деплой, но не отменяет дисциплину вокруг SSH keys, bastion routes, firewall, Docker daemon, backups и monitoring. Если серверный доступ хаотичен, PaaS-панель только частично скрывает проблему.
 
