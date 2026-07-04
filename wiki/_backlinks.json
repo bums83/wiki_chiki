@@ -57,7 +57,8 @@
       "Prompts.chat",
       "RTK",
       "Research org code",
-      "VoxCPM2 Portable"
+      "VoxCPM2 Portable",
+      "Video Summary"
     ]
   },
   "prompts-chat.md": {
@@ -180,12 +181,14 @@
       "Вайб-кодинг",
       "Research org code",
       "Penpot",
-      "OpenScreen"
+      "OpenScreen",
+      "Video Summary"
     ],
     "incoming": [
       "Penpot",
       "VoxCPM2 Portable",
-      "OpenScreen"
+      "OpenScreen",
+      "Video Summary"
     ]
   },
   "asynchronous-research-swarms.md": {
@@ -393,9 +396,12 @@
   "voxcpm2-portable.md": {
     "outgoing": [
       "Вайб-кодинг",
-      "HyperFrames"
+      "HyperFrames",
+      "Video Summary"
     ],
-    "incoming": []
+    "incoming": [
+      "Video Summary"
+    ]
   },
   "penpot.md": {
     "outgoing": [
@@ -702,13 +708,15 @@
       "HyperFrames",
       "Penpot",
       "Mermaid",
-      "OculiX"
+      "OculiX",
+      "Video Summary"
     ],
     "incoming": [
       "HyperFrames",
       "Penpot",
       "Mermaid",
-      "OculiX"
+      "OculiX",
+      "Video Summary"
     ]
   },
   "coolify.md": {
@@ -738,6 +746,19 @@
     "incoming": [
       "ASSH",
       "Coolify"
+    ]
+  },
+  "video-summary.md": {
+    "outgoing": [
+      "HyperFrames",
+      "OpenScreen",
+      "VoxCPM2 Portable",
+      "Вайб-кодинг"
+    ],
+    "incoming": [
+      "HyperFrames",
+      "OpenScreen",
+      "VoxCPM2 Portable"
     ]
   }
 }

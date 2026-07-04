@@ -138,6 +138,12 @@
 - **summary:** HTML-ориентированный video framework для AI-агентов, где сцены, анимации и тайминг описываются через HTML, CSS, JavaScript и data-атрибуты
 - **also:** hyperframes, html video, agentic video, heygen, gsap video
 
+### [Video Summary]({{ '/wiki/llm-agents/video-summary' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Hermes Agent skill/tool для коротких вертикальных видео-обзоров: текст/PDF/URL → LLM JSON-сценарий → Pillow-кадры → посценовый TTS → FFmpeg MP4
+- **also:** video summary, notebooklm short video overviews, hermes skill, tts video, ffmpeg, pillow, gtts
+
 ### [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }})
 - **type:** practice
 - **domain:** llm-agents

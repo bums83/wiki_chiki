@@ -2,9 +2,9 @@
 title: OpenScreen
 type: technology
 created: 2026-06-07
-last_updated: 2026-06-07
+last_updated: 2026-07-04
 domain: tools
-related: ["HyperFrames", "Penpot", "Mermaid", "OculiX"]
+related: ["HyperFrames", "Video Summary", "Penpot", "Mermaid", "OculiX"]
 sources: ["github-siddharthvaddem-openscreen-2026-06-07"]
 tags: ["tools", "video", "screen-recording", "workflow", "open-source"]
 ---
@@ -69,7 +69,7 @@ OpenScreen полезен для:
 - open-source проектов, которым нужны красивые демо без подписки на закрытый SaaS;
 - команд, где видео должно оставаться локальным артефактом, а не загружаться в облачный editor.
 
-Связь с [HyperFrames]({{ '/wiki/llm-agents/hyperframes' | relative_url }}) прямая, но по разные стороны production model: HyperFrames описывает видео как HTML/CSS/JS composition для агентного рендера, а OpenScreen начинается с реальной записи экрана и даёт человеку GUI-редактор для превращения записи в polished demo.
+Связь с [HyperFrames]({{ '/wiki/llm-agents/hyperframes' | relative_url }}) прямая, но по разные стороны production model: HyperFrames описывает видео как HTML/CSS/JS composition для агентного рендера, а OpenScreen начинается с реальной записи экрана и даёт человеку GUI-редактор для превращения записи в polished demo. [Video Summary]({{ '/wiki/llm-agents/video-summary' | relative_url }}) закрывает ещё один соседний сценарий: не запись продукта, а генерацию короткого объясняющего ролика из текста/PDF/URL через LLM-сценарий, TTS и FFmpeg.
 
 С [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) OpenScreen пересекается в product/design workflow: Penpot помогает проектировать интерфейс и handoff, а OpenScreen — показывать готовый продукт, фичу или flow в видеоформате.
 

@@ -2,9 +2,9 @@
 title: VoxCPM2 Portable
 type: technology
 created: 2026-04-19
-last_updated: 2026-04-19
+last_updated: 2026-07-04
 domain: tools
-related: ["Вайб-кодинг", "HyperFrames"]
+related: ["Вайб-кодинг", "HyperFrames", "Video Summary"]
 sources: ["github-timoncool-voxcpm2-portable-2026-04-19"]
 ---
 
@@ -86,7 +86,7 @@ CPU-only режим заявлен, но сам источник предупр�
 
 Это хороший пример того, как сложный мультимедийный стек упаковывают в прикладной продукт.
 
-В этом смысле проект перекликается с [HyperFrames]({{ '/wiki/llm-agents/hyperframes' | relative_url }}): ценность не только в модели как таковой, а в интерфейсе и пайплайне, которые делают технологию операбельной.
+В этом смысле проект перекликается с [HyperFrames]({{ '/wiki/llm-agents/hyperframes' | relative_url }}): ценность не только в модели как таковой, а в интерфейсе и пайплайне, которые делают технологию операбельной. [Video Summary]({{ '/wiki/llm-agents/video-summary' | relative_url }}) использует TTS уже как один шаг в более узком pipeline: LLM-сценарий → слайды → озвучка → MP4.
 
 ## Где стоит сохранять трезвость
 

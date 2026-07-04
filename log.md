@@ -276,3 +276,9 @@ Updated:
 - Обновлено: [[ASSH]], [[Coolify]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://t.me/deksden_notes/909
 - Дополнительный источник: https://github.com/viktor-silakov/cmux-ssh-here
+
+## [2026-07-04] ingest | Video Summary
+- Создано: `raw/entries/2026-07-04_video-summary-github.md`, [[Video Summary]]
+- Сохранена копия репозитория: `raw/sources/github/NiiyazG/video-summary/` + `video-summary.source-metadata.json`
+- Обновлено: [[HyperFrames]], [[OpenScreen]], [[VoxCPM2 Portable]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/NiiyazG/video-summary
