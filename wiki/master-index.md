@@ -144,6 +144,12 @@
 - **summary:** Hermes Agent skill/tool для коротких вертикальных видео-обзоров: текст/PDF/URL → LLM JSON-сценарий → Pillow-кадры → посценовый TTS → FFmpeg MP4
 - **also:** video summary, notebooklm short video overviews, hermes skill, tts video, ffmpeg, pillow, gtts
 
+### [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Self-hosted Firecracker microVM-компьютеры для AI-агентов: disposable Linux machines with shell, desktop/VNC, MCP tools, fork/snapshot и preview URLs
+- **also:** boring computers, firecracker microvm, ai computers, computer-use agents, sandbox, mcp server, disposable vm
+
 ### [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }})
 - **type:** practice
 - **domain:** llm-agents

@@ -2,9 +2,9 @@
 title: MCPorter
 type: technology
 created: 2026-04-21
-last_updated: 2026-06-19
+last_updated: 2026-07-13
 domain: tools
-related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH"]
+related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers"]
 sources: ["workspace-tools-md-2026-04-21"]
 ---
 
@@ -21,7 +21,7 @@ sources: ["workspace-tools-md-2026-04-21"]
 - какие tools реально экспортируются,
 - что именно сломалось: транспорт, схема, авторизация или сам handler.
 
-`MCPorter` закрывает именно этот операционный слой.
+`MCPorter` закрывает именно этот операционный слой. Например, [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) публикует MCP server, через который AI clients могут запускать disposable microVM-компьютеры; такой integration surface нужно уметь проверять отдельно от полного agent loop.
 
 В соседнем классе CLI-операторов находится [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}): он решает не MCP-transport, а браузерные действия LLM-агента через session id, snapshot refs и JSON-контракт.
 

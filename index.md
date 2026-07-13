@@ -42,6 +42,7 @@ layout: home
 | [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) | Практика разработки, где человек управляет агентом через рамки, контекст и stage-specific промпты |
 | [Nanochat]({{ '/wiki/llm-agents/nanochat' | relative_url }}) | Базовый LLM training harness Карпаты, из которого вырос autoresearch |
 | [Video Summary]({{ '/wiki/llm-agents/video-summary' | relative_url }}) | Hermes Agent skill/tool для коротких вертикальных видео-обзоров: источник → JSON-сценарий → Pillow-кадры → TTS → FFmpeg MP4 |
+| [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) | Self-hosted Firecracker microVM-компьютеры для AI-агентов: shell, desktop/VNC, MCP, fork/snapshot и disposable execution substrate |
 | [Validation bits per byte]({{ '/wiki/llm-agents/validation-bits-per-byte' | relative_url }}) | Метрика `val_bpb` для быстрых и сравнительно честных research-сравнений |
 | [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }}) | Ночной режим пакетных агентных экспериментов |
 | [Asynchronous research swarms]({{ '/wiki/llm-agents/asynchronous-research-swarms' | relative_url }}) | Переход от одного автономного исследователя к распределённому сообществу агентов |

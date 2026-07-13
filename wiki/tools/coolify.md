@@ -2,9 +2,9 @@
 title: Coolify
 type: technology
 created: 2026-06-21
-last_updated: 2026-06-29
+last_updated: 2026-07-13
 domain: tools
-related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here"]
+related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers"]
 sources: ["github-coollabsio-coolify-2026-06-21"]
 tags: ["tools", "docker", "self-hosted", "paas", "deployment", "backend"]
 ---
@@ -77,7 +77,7 @@ Coolify полезен, когда нужно:
 - сохранить больше контроля над конфигурацией, volumes и окружением;
 - развернуть внутренние tools вроде Directus/Teable/Gitea/Grafana/Immich без отдельного платформенного проекта под каждый сервис.
 
-Для длинных операционных процессов Coolify может быть deployment target внутри [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) или другого workflow engine: workflow решает, что и когда выкатывать, а Coolify держит инфраструктурный слой приложений и сервисов.
+Для длинных операционных процессов Coolify может быть deployment target внутри [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) или другого workflow engine: workflow решает, что и когда выкатывать, а Coolify держит инфраструктурный слой приложений и сервисов. [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) похож по self-hosted/control-plane ответственности, но управляет не приложениями, а disposable Firecracker microVM-компьютерами для AI-агентов.
 
 ## Ограничения
 

@@ -2,9 +2,9 @@
 title: Antfarm
 type: technology
 created: 2026-04-21
-last_updated: 2026-06-19
+last_updated: 2026-07-13
 domain: tools
-related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX", "ASSH"]
+related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX", "ASSH", "Boring Computers"]
 sources: ["workspace-tools-md-antfarm-2026-04-21"]
 ---
 
@@ -63,6 +63,7 @@ sources: ["workspace-tools-md-antfarm-2026-04-21"]
 - triage большого объёма тикетов,
 - browser workflow через [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) как отдельный исполняемый шаг,
 - visual GUI automation через [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) для desktop, remote desktop или canvas-like интерфейсов,
+- disposable execution environment через [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}), когда шагу нужен отдельный Linux computer с shell/browser/desktop,
 - SSH-доступ через [ASSH]({{ '/wiki/tools/assh' | relative_url }}) как устойчивый слой aliases, gateways и bastion routes,
 - периодические проверки с разной логикой по итогам предыдущего шага,
 - автоматизации, которые живут часами или днями.

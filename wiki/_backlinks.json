@@ -380,7 +380,8 @@
       "ServiceDesk Plus Operator",
       "agent-aget",
       "OculiX",
-      "ASSH"
+      "ASSH",
+      "Boring Computers"
     ],
     "incoming": [
       "ASSH",
@@ -429,7 +430,8 @@
       "Antfarm",
       "Вайб-кодинг",
       "agent-aget",
-      "ASSH"
+      "ASSH",
+      "Boring Computers"
     ],
     "incoming": [
       "ASSH",
@@ -605,7 +607,8 @@
       "Magpie",
       "Tokentap",
       "OculiX",
-      "ASSH"
+      "ASSH",
+      "Boring Computers"
     ],
     "incoming": [
       "ASSH",
@@ -658,7 +661,8 @@
       "Mermaid",
       "MCPorter",
       "OpenScreen",
-      "ASSH"
+      "ASSH",
+      "Boring Computers"
     ],
     "incoming": [
       "ASSH",
@@ -726,7 +730,8 @@
       "PocketBase",
       "ASSH",
       "Antfarm",
-      "cmux-ssh-here"
+      "cmux-ssh-here",
+      "Boring Computers"
     ],
     "incoming": [
       "Directus",
@@ -759,6 +764,22 @@
       "HyperFrames",
       "OpenScreen",
       "VoxCPM2 Portable"
+    ]
+  },
+  "boring-computers.md": {
+    "outgoing": [
+      "OculiX",
+      "agent-aget",
+      "MCPorter",
+      "Coolify",
+      "Antfarm"
+    ],
+    "incoming": [
+      "OculiX",
+      "agent-aget",
+      "MCPorter",
+      "Coolify",
+      "Antfarm"
     ]
   }
 }

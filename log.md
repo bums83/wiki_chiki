@@ -282,3 +282,8 @@ Updated:
 - Сохранена копия репозитория: `raw/sources/github/NiiyazG/video-summary/` + `video-summary.source-metadata.json`
 - Обновлено: [[HyperFrames]], [[OpenScreen]], [[VoxCPM2 Portable]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/NiiyazG/video-summary
+
+## [2026-07-13] ingest | Boring Computers
+- Создано: `raw/entries/2026-07-13_boring-computers-github.md`, [[Boring Computers]]
+- Обновлено: [[OculiX]], [[agent-aget]], [[MCPorter]], [[Coolify]], [[Antfarm]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/michaelshimeles/boring-computers

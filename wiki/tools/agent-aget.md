@@ -2,9 +2,9 @@
 title: agent-aget
 type: technology
 created: 2026-05-28
-last_updated: 2026-06-18
+last_updated: 2026-07-13
 domain: tools
-related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie", "Tokentap", "OculiX", "ASSH"]
+related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie", "Tokentap", "OculiX", "ASSH", "Boring Computers"]
 sources: ["github-izzzzzi-agent-aget-2026-05-28", "github-izzzzzi-agent-aget-refresh-2026-06-18"]
 tags: ["tools", "cli", "agents", "automation", "workflow"]
 ---
@@ -101,7 +101,7 @@ Stealth Chromium помогает с совместимостью сайтов, 
 
 [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) дополняет этот CLI-first слой наблюдаемостью: через локальный proxy он показывает token usage и сохраняет prompt archive для LLM CLI sessions.
 
-[OculiX]({{ '/wiki/tools/oculix' | relative_url }}) находится рядом по задаче automation, но шире по поверхности: он автоматизирует не только браузер, а любой видимый GUI через screenshots, OCR и visual matching.
+[OculiX]({{ '/wiki/tools/oculix' | relative_url }}) находится рядом по задаче automation, но шире по поверхности: он автоматизирует не только браузер, а любой видимый GUI через screenshots, OCR и visual matching. [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) решает ещё более нижний слой: выделяет агенту disposable Linux computer с browser/terminal/desktop, внутри которого browser automation через `aget` может быть одним из шагов.
 
 [ASSH]({{ '/wiki/tools/assh' | relative_url }}) находится рядом как ещё один CLI-first capability: он не управляет браузером, но даёт агентным и ops-сценариям воспроизводимый SSH-доступ через aliases, gateways и сгенерированный `~/.ssh/config`.
 
