@@ -2,9 +2,9 @@
 title: OpenAI Privacy Filter
 type: technology
 created: 2026-04-23
-last_updated: 2026-04-23
+last_updated: 2026-07-27
 domain: tools
-related: ["Directus", "PostgreSQL + VectorChord"]
+related: ["Directus", "PostgreSQL + VectorChord", "humanizer-ru"]
 tags: ["privacy", "pii", "data-protection", "openai"]
 sources: ["openai-privacy-filter-2026-04-23"]
 ---
@@ -57,6 +57,8 @@ Privacy Filter логично встраивается в tools-кластер:
 
 - [Directus]({{ '/wiki/tools/directus' | relative_url }}) — платформа для управления данными с API-слоем. Privacy Filter может быть частью пайплайна обработки данных перед их загрузкой в Directus.
 - [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}) — система для локального hybrid retrieval. При работе с чувствительными документами Privacy Filter может использоваться на этапе ingestion для маскировки PII перед индексацией.
+
+[humanizer-ru]({{ '/wiki/llm-agents/humanizer-ru' | relative_url }}) работает с другой частью text hygiene: выявляет style/chatbot artefacts и контролирует, чтобы редактура не добавила факты. Privacy Filter решает PII-задачу. В pipeline перед внешней LLM их можно сочетать, но ни один из инструментов не доказывает авторство текста и не заменяет source verification.
 
 ## Ограничения
 

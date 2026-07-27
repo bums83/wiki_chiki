@@ -2,9 +2,9 @@
 title: Agents.md
 type: best practices
 created: 2026-05-01
-last_updated: 2026-06-19
+last_updated: 2026-07-27
 domain: llm-agents
-related: ["Вайб-кодинг", "Evolve", "Prompt Master", "Academic Research Skills", "The Agency / Agency Agents", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie"]
+related: ["Вайб-кодинг", "Evolve", "Prompt Master", "Academic Research Skills", "The Agency / Agency Agents", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie", "humanizer-ru"]
 tags: ["ai-coding", "team-lead", "coding-standards", "prompting", "development-tooling"]
 sources: ["augmentcode-2026-05-01", "agentsmd-io-2026-05-01"]
 ---
@@ -24,6 +24,8 @@ Agents.md стал де-факто открытым стандартом, при
 В академическом домене ту же идею развивает [Academic Research Skills]({{ '/wiki/llm-agents/academic-research-skills' | relative_url }}): reusable instructions упакованы не в один файл правил, а в Claude Code skills, команды, reference docs, templates и gate protocols.
 
 [The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }}) показывает соседний масштаб: не один `Agents.md` для репозитория, а каталог готовых agent personas, которые можно устанавливать в разные agentic runtimes.
+
+[humanizer-ru]({{ '/wiki/llm-agents/humanizer-ru' | relative_url }}) — прикладной пример progressive disclosure вне coding: короткий SKILL.md хранит decision tree и границы безопасности, а pattern catalog, false positives, examples и validators лежат в отдельных файлах. Агент получает только нужный слой правил, не весь справочник сразу.
 
 ## Зачем нужен
 

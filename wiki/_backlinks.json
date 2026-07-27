@@ -83,7 +83,8 @@
       "Prompts.chat",
       "Agents.md",
       "The Agency / Agency Agents",
-      "Autoresearch"
+      "Autoresearch",
+      "humanizer-ru"
     ],
     "incoming": [
       "Research org code",
@@ -165,7 +166,8 @@
       "CLAUDE.md",
       "Tolaria",
       "agent-aget",
-      "Magpie"
+      "Magpie",
+      "humanizer-ru"
     ],
     "incoming": [
       "Academic Research Skills",
@@ -231,7 +233,8 @@
       "Prompts.chat",
       "Вайб-кодинг",
       "Evolve",
-      "The Agency / Agency Agents"
+      "The Agency / Agency Agents",
+      "humanizer-ru"
     ],
     "incoming": [
       "Agents.md",
@@ -421,7 +424,8 @@
   "openai-privacy-filter.md": {
     "outgoing": [
       "Directus",
-      "PostgreSQL + VectorChord"
+      "PostgreSQL + VectorChord",
+      "humanizer-ru"
     ],
     "incoming": []
   },
@@ -801,6 +805,20 @@
       "Teable",
       "Coolify",
       "Antfarm"
+    ]
+  },
+  "humanizer-ru.md": {
+    "outgoing": [
+      "Prompt Master",
+      "Agents.md",
+      "Academic Research Skills",
+      "OpenAI Privacy Filter"
+    ],
+    "incoming": [
+      "Prompt Master",
+      "Agents.md",
+      "Academic Research Skills",
+      "OpenAI Privacy Filter"
     ]
   }
 }

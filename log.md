@@ -293,3 +293,10 @@ Updated:
 - Сохранена копия репозитория: `raw/sources/github/Vladimir-Human/ru-marketplace-mcp/` + `ru-marketplace-mcp.source-metadata.json`
 - Обновлено: [[MCPorter]], [[Trench]], [[Teable]], [[Coolify]], [[Antfarm]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/Vladimir-Human/ru-marketplace-mcp
+
+## [2026-07-27] ingest | humanizer-ru
+- Создано: `raw/entries/2026-07-27_humanizer-ru-github.md`, [[humanizer-ru]]
+- Сохранена копия репозитория: `raw/sources/github/Vladimir-Human/humanizer-ru/` + `humanizer-ru.source-metadata.json`
+- Обновлено: [[Prompt Master]], [[Agents.md]], [[Academic Research Skills]], [[OpenAI Privacy Filter]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Верифицированы: полный offline validation sequence; `blind_eval` selftest 27/27; deterministic release archive
+- Источник: https://github.com/Vladimir-Human/humanizer-ru

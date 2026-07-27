@@ -1,0 +1,38 @@
+{
+  "source_url": "https://github.com/Vladimir-Human/humanizer-ru",
+  "copied_at": "2026-07-27T10:24:27+04:00",
+  "branch": "main",
+  "commit": "3d58df3564810acfc634310d09fdfa205b9d9647",
+  "copy_kind": "working-tree snapshot without nested .git",
+  "excluded": [
+    ".git/",
+    ".venv/",
+    "venv/",
+    "node_modules/",
+    "__pycache__/",
+    ".pytest_cache/",
+    ".mypy_cache/",
+    "dist/",
+    "build/",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "verification": {
+    "commands": [
+      "python3 scripts/check_spec.py SKILL.md --strict --expect-dir humanizer-ru",
+      "python3 scripts/check_budget.py SKILL.md --expect-dir humanizer-ru",
+      "python3 scripts/check_docs.py",
+      "python3 scripts/check_markers.py --parity",
+      "python3 scripts/check_examples.py",
+      "python3 scripts/check_corpus.py",
+      "python3 scripts/check_fixture_sources.py research/fixtures/marker-sources.json",
+      "python3 eval/run_eval.py",
+      "python3 eval/blind_eval.py --selftest",
+      "python3 scripts/check_release.py --root . --build dist/humanizer-ru.zip",
+      "python3 scripts/check_release.py --verify dist/humanizer-ru.zip"
+    ],
+    "result": "all passed; blind_eval selftest 27/27; release archive verified",
+    "release_archive_sha256": "6e4dcb4d6c0302ef62f7e001e325babe6d7d0a3a95ae1f9fee38118be64a1e2c",
+    "non_fatal_warnings": "check_fixture_sources.py reported two intentionally repeated source URLs; evidence gate closed 14/14"
+  }
+}

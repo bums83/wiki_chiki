@@ -204,6 +204,12 @@
 - **summary:** Claude skill для генерации оптимизированных промптов под 20+ AI-инструментов: Midjourney, Cursor, ChatGPT, Gemini, Stable Diffusion и другие
 - **also:** prompt master, prompt engineering, claude skills, ai tools, prompt generation
 
+### [humanizer-ru]({{ '/wiki/llm-agents/humanizer-ru' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Agent Skill для проверки и явной правки русской прозы: 37 паттернов, class A/B chatbot artefacts, границы ложных срабатываний, no-new-facts policy и offline eval/validators
+- **also:** humanizer-ru, russian ai writing, humanize text, ai cleanup, style markers, chatbot artifacts, false positives
+
 ### [Agents.md]({{ '/wiki/llm-agents/agents-md' | relative_url }})
 - **type:** best practices
 - **domain:** llm-agents

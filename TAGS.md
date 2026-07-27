@@ -70,6 +70,7 @@
 - eval
 - fine-tuning
 - workflow
+- writing
 - automation
 - research
 - mcp
