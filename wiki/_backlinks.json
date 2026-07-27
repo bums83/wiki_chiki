@@ -381,7 +381,8 @@
       "agent-aget",
       "OculiX",
       "ASSH",
-      "Boring Computers"
+      "Boring Computers",
+      "ru-marketplace-mcp"
     ],
     "incoming": [
       "ASSH",
@@ -431,7 +432,8 @@
       "Вайб-кодинг",
       "agent-aget",
       "ASSH",
-      "Boring Computers"
+      "Boring Computers",
+      "ru-marketplace-mcp"
     ],
     "incoming": [
       "ASSH",
@@ -591,7 +593,8 @@
     "outgoing": [
       "Directus",
       "Teable",
-      "PostgreSQL + VectorChord"
+      "PostgreSQL + VectorChord",
+      "ru-marketplace-mcp"
     ],
     "incoming": [
       "Directus",
@@ -697,7 +700,8 @@
       "PocketBase",
       "SurrealDB",
       "Trench",
-      "Coolify"
+      "Coolify",
+      "ru-marketplace-mcp"
     ],
     "incoming": [
       "Directus",
@@ -731,7 +735,8 @@
       "ASSH",
       "Antfarm",
       "cmux-ssh-here",
-      "Boring Computers"
+      "Boring Computers",
+      "ru-marketplace-mcp"
     ],
     "incoming": [
       "Directus",
@@ -778,6 +783,22 @@
       "OculiX",
       "agent-aget",
       "MCPorter",
+      "Coolify",
+      "Antfarm"
+    ]
+  },
+  "ru-marketplace-mcp.md": {
+    "outgoing": [
+      "MCPorter",
+      "Trench",
+      "Teable",
+      "Coolify",
+      "Antfarm"
+    ],
+    "incoming": [
+      "MCPorter",
+      "Trench",
+      "Teable",
       "Coolify",
       "Antfarm"
     ]

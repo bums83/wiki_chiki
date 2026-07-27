@@ -2,9 +2,9 @@
 title: Antfarm
 type: technology
 created: 2026-04-21
-last_updated: 2026-07-13
+last_updated: 2026-07-27
 domain: tools
-related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX", "ASSH", "Boring Computers"]
+related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX", "ASSH", "Boring Computers", "ru-marketplace-mcp"]
 sources: ["workspace-tools-md-antfarm-2026-04-21"]
 ---
 
@@ -111,6 +111,8 @@ sources: ["workspace-tools-md-antfarm-2026-04-21"]
 - желание превратить ручную агентную рутину в устойчивый pipeline.
 
 Это особенно уместно для внутренней операционки, отчётности, research-конвейеров и длинных административных процессов.
+
+[ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) подходит как data-gathering step: scheduler запускает compare/selfcheck, сохраняет `complete` и source outcomes, а дальнейший шаг решает, повторять ли timeout, ждать rate limit или помечать parser drift для ремонта. Это лучше, чем cron, который молча записывает частичный результат как полноценный price check.
 
 ## Ограничения
 

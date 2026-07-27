@@ -61,6 +61,7 @@ layout: home
 |--------|-------|
 | [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |
 | [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}) | CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций |
+| [ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) | Read-only MCP-серверы для WB, Ozon, Яндекс Маркета и Детского мира: цены, наличие, отзывы и честное cross-marketplace сравнение |
 | [ASSH]({{ '/wiki/tools/assh' | relative_url }}) | Advanced SSH config manager: YAML для `~/.ssh/config`, aliases, gateway chains, hooks, Graphviz и control sockets |
 | [cmux-ssh-here]({{ '/wiki/tools/cmux-ssh-here' | relative_url }}) | Одноразовый token-auth SSH-сервер для LAN: `npx` запуск, cmux/ssh ссылки, QR, auto-rotation token и shell без постоянного sshd |
 | [Coolify]({{ '/wiki/tools/coolify' | relative_url }}) | Self-hosted PaaS/control plane: деплой приложений, баз данных и 280+ Docker Compose сервисов на своих серверах через SSH/Docker |

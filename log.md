@@ -287,3 +287,9 @@ Updated:
 - Создано: `raw/entries/2026-07-13_boring-computers-github.md`, [[Boring Computers]]
 - Обновлено: [[OculiX]], [[agent-aget]], [[MCPorter]], [[Coolify]], [[Antfarm]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/michaelshimeles/boring-computers
+
+## [2026-07-27] ingest | ru-marketplace-mcp
+- Создано: `raw/entries/2026-07-27_ru-marketplace-mcp-github.md`, [[ru-marketplace-mcp]]
+- Сохранена копия репозитория: `raw/sources/github/Vladimir-Human/ru-marketplace-mcp/` + `ru-marketplace-mcp.source-metadata.json`
+- Обновлено: [[MCPorter]], [[Trench]], [[Teable]], [[Coolify]], [[Antfarm]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/Vladimir-Human/ru-marketplace-mcp

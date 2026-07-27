@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
+  "copied_at": "2026-07-27T09:08:13+04:00",
+  "branch": "main",
+  "commit": "4a4aef9d8473f40c2cb2b79c93e7347869be1501",
+  "copy_kind": "working-tree snapshot without nested .git",
+  "excluded": [
+    ".git/",
+    ".venv/",
+    "__pycache__/",
+    ".pytest_cache/",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "verification": {
+    "command": "uv run pytest -q -m \"not live and not cdp\"",
+    "result": "406 passed in 4.48s"
+  }
+}

@@ -224,6 +224,12 @@
 - **summary:** CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций
 - **also:** mcporter, mcp cli, mcp server tools, openclaw integration
 
+### [ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Read-only MCP servers для российских маркетплейсов: Wildberries, Ozon, Яндекс Маркет и Детский мир; цены, наличие, отзывы, seller data и cross-marketplace comparison с partial-result semantics
+- **also:** ru-marketplace-mcp, russian marketplaces, wildberries mcp, ozon mcp, yandex market mcp, price comparison, selfcheck, parser drift
+
 ### [ASSH]({{ '/wiki/tools/assh' | relative_url }})
 - **type:** technology
 - **domain:** tools

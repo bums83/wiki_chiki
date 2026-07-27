@@ -2,9 +2,9 @@
 title: Trench
 type: technology
 created: 2026-05-27
-last_updated: 2026-06-18
+last_updated: 2026-07-27
 domain: tools
-related: ["Directus", "Teable", "PostgreSQL + VectorChord", "Telegram Client Operator"]
+related: ["Directus", "Teable", "PostgreSQL + VectorChord", "Telegram Client Operator", "ru-marketplace-mcp"]
 sources: ["github-frigadehq-trench-2026-05-27"]
 tags: ["tools", "database", "backend", "api-platform", "monitoring"]
 ---
@@ -53,6 +53,10 @@ Trench хорошо ложится на сценарии:
 ## Agentic event logging
 
 Для agentic workflow Trench может быть журналом фактов: наблюдение, решение, проверка и результат записываются как отдельные события. Это полезно для последующей аналитики качества процессов, но конкретную предметную схему нужно проектировать отдельно под задачу.
+
+## Marketplace observations
+
+[ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) может быть upstream source для таких событий: query, marketplace, регион, price, stock, timestamp, `complete` и source outcome. Trench не должен подменять MCP fetcher; он нужен, чтобы сохранить последовательность наблюдений и отличить реальное движение цены от временного `blocked`/`timeout`/`parser_drift`.
 
 ## Ограничения
 

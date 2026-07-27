@@ -2,9 +2,9 @@
 title: MCPorter
 type: technology
 created: 2026-04-21
-last_updated: 2026-07-13
+last_updated: 2026-07-27
 domain: tools
-related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers"]
+related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp"]
 sources: ["workspace-tools-md-2026-04-21"]
 ---
 
@@ -26,6 +26,8 @@ sources: ["workspace-tools-md-2026-04-21"]
 В соседнем классе CLI-операторов находится [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}): он решает не MCP-transport, а браузерные действия LLM-агента через session id, snapshot refs и JSON-контракт.
 
 Для SSH-доступа похожую operator-layer роль играет [ASSH]({{ '/wiki/tools/assh' | relative_url }}): он не работает с MCP, но делает управляемыми SSH aliases, gateways, `ProxyCommand`, hooks и итоговый `~/.ssh/config`.
+
+[ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) — ещё один практический пример: пять независимых stdio MCP servers, общая runtime policy и source-specific errors. В такой связке MCPorter полезен до подключения к агенту: проверить transport, список tools и то, что диагностика не попала в JSON-RPC stdout.
 
 ## Что это за класс инструмента
 

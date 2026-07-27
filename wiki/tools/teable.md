@@ -2,9 +2,9 @@
 title: Teable
 type: technology
 created: 2026-06-18
-last_updated: 2026-06-21
+last_updated: 2026-07-27
 domain: tools
-related: ["Directus", "PocketBase", "SurrealDB", "Trench", "Coolify"]
+related: ["Directus", "PocketBase", "SurrealDB", "Trench", "Coolify", "ru-marketplace-mcp"]
 sources: ["github-teableio-teable-2026-06-18"]
 tags: ["tools", "database", "backend", "api-platform", "admin-panel", "postgresql"]
 ---
@@ -71,6 +71,10 @@ Teable полезен для:
 С [Trench]({{ '/wiki/tools/trench' | relative_url }}) граница простая: Teable управляет сущностями и таблицами, а Trench пишет append-only events и аналитику. В одной системе Teable может быть операционным UI, а Trench — журналом действий и outcome-аналитикой.
 
 [Coolify]({{ '/wiki/tools/coolify' | relative_url }}) закрывает соседний deployment layer: Teable — приложение/операционная база, а Coolify — self-hosted PaaS, через который такие Postgres-backed сервисы можно разворачивать и обслуживать на собственных серверах.
+
+## Marketplace snapshots
+
+[ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) даёт live observations по ценам, наличию и seller data, но сам не хранит историю. Teable может быть ручным operational UI для проверенных SKU, регионов, product URLs и price snapshots; тогда agentic fetcher пишет факты, а человек видит сравнимую таблицу без смешения разных моделей товаров.
 
 ## Лицензия и editions
 

@@ -79,6 +79,8 @@
 ## Tools / Platforms
 
 - tools
+- marketplace
+- price-comparison
 - operator
 - cli
 - telegram
