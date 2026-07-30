@@ -2,9 +2,9 @@
 title: Video Summary
 type: technology
 created: 2026-07-04
-last_updated: 2026-07-04
+last_updated: 2026-07-30
 domain: llm-agents
-related: ["HyperFrames", "OpenScreen", "VoxCPM2 Portable", "Вайб-кодинг"]
+related: ["HyperFrames", "OpenScreen", "VoxCPM2 Portable", "Вайб-кодинг", "Cobalt"]
 sources: ["github-niiyazg-video-summary-2026-07-04"]
 tags: ["llm", "video", "tts", "automation", "workflow"]
 ---
@@ -95,6 +95,8 @@ Video Summary полезен для:
 - agentic content workflows, где нужно не просто пересказать источник, а собрать файл.
 
 Это хорошо ложится в практику [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}): человек задаёт формат, ограничения и критерии, агент генерирует сценарий и исполняет pipeline до готового артефакта.
+
+[Cobalt]({{ '/wiki/tools/cobalt' | relative_url }}) может предоставить локальный файл свободно доступного публичного видео для отдельного transcript/extraction шага, но не является входом Video Summary сам по себе: текущий Video Summary начинается с текста, URL/PDF и готового JSON-сценария. Между ними нужен явный слой извлечения содержания и проверка прав на использование media.
 
 ## Ограничения и риски
 

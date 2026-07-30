@@ -2,9 +2,9 @@
 title: Coolify
 type: technology
 created: 2026-06-21
-last_updated: 2026-07-27
+last_updated: 2026-07-30
 domain: tools
-related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers", "ru-marketplace-mcp"]
+related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers", "ru-marketplace-mcp", "Cobalt"]
 sources: ["github-coollabsio-coolify-2026-06-21"]
 tags: ["tools", "docker", "self-hosted", "paas", "deployment", "backend"]
 ---
@@ -80,6 +80,8 @@ Coolify полезен, когда нужно:
 Для длинных операционных процессов Coolify может быть deployment target внутри [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) или другого workflow engine: workflow решает, что и когда выкатывать, а Coolify держит инфраструктурный слой приложений и сервисов. [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) похож по self-hosted/control-plane ответственности, но управляет не приложениями, а disposable Firecracker microVM-компьютерами для AI-агентов.
 
 [ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) можно развернуть как private HTTP MCP stack через Docker/Compose, но это не повод открывать scraper port напрямую: у серверов нет встроенной auth. Coolify может держать app/process layer, а reverse proxy и network policy должны оставлять MCP endpoint за authentication и rate limits.
+
+[Cobalt]({{ '/wiki/tools/cobalt' | relative_url }}) — ещё один уместный private Docker workload: Coolify может держать container/proxy/deployment lifecycle, но API нельзя открывать бездумно. Cobalt defaults к широкому listen/CORS и требует отдельно настроить reverse proxy, rate limits, Turnstile/API keys, secrets и cookies policy.
 
 ## Ограничения
 

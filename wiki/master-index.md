@@ -355,3 +355,9 @@
 - **domain:** tools
 - **summary:** Open-source recorder/editor для polished product demos: screen/window capture, webcam PiP, auto-zooms, cursor effects, captions, annotations и MP4/GIF export
 - **also:** openscreen, screen studio alternative, screen recording, product demo, video editor, electron recorder
+
+### [Cobalt]({{ '/wiki/tools/cobalt' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Self-hosted processing API и static web client для сохранения свободно доступных публичных media links: redirect/tunnel/local processing/picker, Docker deployment, short-lived stream state, rate limits и optional access controls
+- **also:** cobalt, cobalt.tools, media downloader, video downloader, self-hosted downloader, media tunnel, ffmpeg proxy, public media

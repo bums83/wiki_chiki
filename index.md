@@ -83,6 +83,7 @@ layout: home
 | [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) | Token tracker для LLM CLI tools: proxy, live dashboard, context-window fuel gauge и prompt archive в markdown/JSON |
 | [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) | Visual automation IDE/runtime: GUI-автоматизация по screenshots, OpenCV matching, OCR, VNC/remote desktop и JVM scripting |
 | [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }}) | Open-source recorder/editor для polished product demos: screen/window capture, webcam PiP, auto-zooms, cursor effects, captions, annotations и MP4/GIF export |
+| [Cobalt]({{ '/wiki/tools/cobalt' | relative_url }}) | Self-hosted media downloader для свободно доступного публичного контента: API с redirect/tunnel/local processing, Svelte frontend, Docker, rate limits и access controls |
 
 ## Полный список
 

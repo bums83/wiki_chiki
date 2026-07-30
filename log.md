@@ -300,3 +300,9 @@ Updated:
 - Обновлено: [[Prompt Master]], [[Agents.md]], [[Academic Research Skills]], [[OpenAI Privacy Filter]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Верифицированы: полный offline validation sequence; `blind_eval` selftest 27/27; deterministic release archive
 - Источник: https://github.com/Vladimir-Human/humanizer-ru
+
+## [2026-07-30] ingest | Cobalt
+- Создано: `raw/entries/2026-07-30_cobalt-github.md`, [[Cobalt]]
+- Обновлено: [[Coolify]], [[OpenScreen]], [[Video Summary]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Верифицированы: Node syntax checks для core API files и JSON manifest parsing; end-to-end service suite не запускался, так как обращается к live media services
+- Источник: https://github.com/imputnet/cobalt

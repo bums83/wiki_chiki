@@ -721,7 +721,8 @@
       "Penpot",
       "Mermaid",
       "OculiX",
-      "Video Summary"
+      "Video Summary",
+      "Cobalt"
     ],
     "incoming": [
       "HyperFrames",
@@ -740,7 +741,8 @@
       "Antfarm",
       "cmux-ssh-here",
       "Boring Computers",
-      "ru-marketplace-mcp"
+      "ru-marketplace-mcp",
+      "Cobalt"
     ],
     "incoming": [
       "Directus",
@@ -767,7 +769,8 @@
       "HyperFrames",
       "OpenScreen",
       "VoxCPM2 Portable",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Cobalt"
     ],
     "incoming": [
       "HyperFrames",
@@ -819,6 +822,18 @@
       "Agents.md",
       "Academic Research Skills",
       "OpenAI Privacy Filter"
+    ]
+  },
+  "cobalt.md": {
+    "outgoing": [
+      "Coolify",
+      "OpenScreen",
+      "Video Summary"
+    ],
+    "incoming": [
+      "Coolify",
+      "OpenScreen",
+      "Video Summary"
     ]
   }
 }
