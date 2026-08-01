@@ -306,3 +306,9 @@ Updated:
 - Обновлено: [[Coolify]], [[OpenScreen]], [[Video Summary]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Верифицированы: Node syntax checks для core API files и JSON manifest parsing; end-to-end service suite не запускался, так как обращается к live media services
 - Источник: https://github.com/imputnet/cobalt
+
+## [2026-08-01] ingest | UI/UX Pro Max
+- Создано: `raw/entries/2026-08-01_ui-ux-pro-max-skill-github.md`, [[UI/UX Pro Max]]
+- Обновлено: [[Agents.md]], [[Вайб-кодинг]], [[Penpot]], [[Prompt Master]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Верифицированы: 35 runtime CSV, 12/12 domain smoke, 22/22 stack smoke, 36 Python tests, design-system JSON smoke и CLI asset-sync check
+- Источник: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill

@@ -42,7 +42,8 @@
     "outgoing": [
       "Research org code",
       "Overnight experimentation",
-      "Autoresearch"
+      "Autoresearch",
+      "UI/UX Pro Max"
     ],
     "incoming": [
       "Agents.md",
@@ -167,7 +168,8 @@
       "Tolaria",
       "agent-aget",
       "Magpie",
-      "humanizer-ru"
+      "humanizer-ru",
+      "UI/UX Pro Max"
     ],
     "incoming": [
       "Academic Research Skills",
@@ -234,7 +236,8 @@
       "Вайб-кодинг",
       "Evolve",
       "The Agency / Agency Agents",
-      "humanizer-ru"
+      "humanizer-ru",
+      "UI/UX Pro Max"
     ],
     "incoming": [
       "Agents.md",
@@ -413,7 +416,8 @@
       "Mermaid",
       "HyperFrames",
       "Вайб-кодинг",
-      "OpenScreen"
+      "OpenScreen",
+      "UI/UX Pro Max"
     ],
     "incoming": [
       "HyperFrames",
@@ -834,6 +838,20 @@
       "Coolify",
       "OpenScreen",
       "Video Summary"
+    ]
+  },
+  "ui-ux-pro-max.md": {
+    "outgoing": [
+      "Agents.md",
+      "Вайб-кодинг",
+      "Penpot",
+      "Prompt Master"
+    ],
+    "incoming": [
+      "Agents.md",
+      "Вайб-кодинг",
+      "Penpot",
+      "Prompt Master"
     ]
   }
 }

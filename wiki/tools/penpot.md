@@ -4,7 +4,7 @@ type: technology
 created: 2026-05-03
 last_updated: 2026-06-07
 domain: tools
-related: ["Mermaid", "HyperFrames", "OpenScreen", "Вайб-кодинг"]
+related: ["Mermaid", "HyperFrames", "OpenScreen", "Вайб-кодинг", "UI/UX Pro Max"]
 tags: ["tools", "automation", "docker"]
 sources: ["github-penpot-penpot-2026-05-03"]
 ---
@@ -58,6 +58,9 @@ Penpot занимает нишу между классическими browser-b
 В описании репозитория отдельно подчёркнуты native design tokens, plugin system, API и MCP server.
 
 Это делает Penpot не только инструментом рисования экранов, но и платформой для масштабирования design system:
+
+[UI/UX Pro Max]({{ '/wiki/llm-agents/ui-ux-pro-max' | relative_url }}) полезен раньше, как локальный генератор design brief для coding-агента; Penpot должен оставаться source of truth для утверждённых экранов, компонентов и token-решений команды.
+
 - единый источник правды для компонентов и токенов,
 - автоматизация связки design ↔ code,
 - возможность подключать внешние workflow и AI-сценарии,

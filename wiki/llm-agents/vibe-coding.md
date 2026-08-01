@@ -4,7 +4,7 @@ type: practice
 created: 2026-04-13
 last_updated: 2026-04-13
 domain: llm-agents
-related: ["Research org code", "Overnight experimentation", "Autoresearch"]
+related: ["Research org code", "Overnight experimentation", "Autoresearch", "UI/UX Pro Max"]
 sources: ["doc-vibe-coder-50-prompts"]
 ---
 
@@ -86,6 +86,8 @@ sources: ["doc-vibe-coder-50-prompts"]
 - фронтенд-рефакторинг.
 
 Подход здесь тот же: сначала описывается целевая форма компонента и ограничения, потом агенту поручается реализация.
+
+[UI/UX Pro Max]({{ '/wiki/llm-agents/ui-ux-pro-max' | relative_url }}) может дать этому этапу локальный design brief: найденные паттерны, palette, a11y/motion ограничения и stack reminders. Но brief остаётся гипотезой до проверки в реальном продукте.
 
 ### 4. Дебаггинг и рефакторинг
 

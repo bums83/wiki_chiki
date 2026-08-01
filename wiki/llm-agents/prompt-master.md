@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-30
 last_updated: 2026-07-27
 domain: llm-agents
-related: ["Prompts.chat", "Вайб-кодинг", "Evolve", "The Agency / Agency Agents", "humanizer-ru"]
+related: ["Prompts.chat", "Вайб-кодинг", "Evolve", "The Agency / Agency Agents", "humanizer-ru", "UI/UX Pro Max"]
 tags: ["prompt-engineering", "claude-skills", "ai-tools", "prompt-generation"]
 sources: ["onlygithub-prompt-master-2026-04-30"]
 ---
@@ -59,6 +59,8 @@ Prompt Master логично дополняет уже существующие 
 - [The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }}) — не генератор промптов, а каталог готовых agent personas; его можно использовать как источник ролевых шаблонов для дальнейшей настройки.
 
 [humanizer-ru]({{ '/wiki/llm-agents/humanizer-ru' | relative_url }}) работает после Prompt Master: Prompt Master помогает подготовить instruction до вызова модели, а humanizer-ru проверяет готовую русскую прозу на штампы, чатовые артефакты и добавленные редактурой факты. Это разные контрольные точки одного content workflow.
+
+[UI/UX Pro Max]({{ '/wiki/llm-agents/ui-ux-pro-max' | relative_url }}) — соседний design workflow: Prompt Master формулирует instruction, а UI/UX Pro Max добавляет локальный search по design/UX данным. Ни один слой не оценивает автоматически собранный интерфейс — для этого нужны browser/a11y/visual checks.
 
 ## Ограничения
 

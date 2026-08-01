@@ -76,6 +76,7 @@
 - mcp
 - async-research
 - vibe-coding
+- design
 
 ## Tools / Platforms
 

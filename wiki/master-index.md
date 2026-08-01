@@ -216,6 +216,12 @@
 - **summary:** Best practices для написания Agents.md файлов: progressive disclosure, decision tables, numbered steps, dos/donts pairs, file-scoped commands, safety boundaries
 - **also:** agents.md, claude.md, ai coding standards, team lead, coding guidelines, augments
 
+### [UI/UX Pro Max]({{ '/wiki/llm-agents/ui-ux-pro-max' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Local design-recommendation skill suite для coding-агентов: BM25/CSV search, design-system JSON/Markdown, stack guides, template CLI и 7 bundled skills
+- **also:** ui ux pro max, ui ux skill, design system, bm25, agent skills, coding agents, accessibility, design tokens
+
 ## Tools
 
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})
