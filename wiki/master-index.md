@@ -38,6 +38,12 @@
 - **summary:** CLI proxy для сокращения потребления токенов LLM на 60-90% при dev-командах: smart filtering, grouping, truncation, deduplication
 - **also:** rtk, token saving, llm optimization, cli proxy, development tooling
 
+### [Прокси в веб-сборе данных]({{ '/wiki/infra/web-scraping-proxies' | relative_url }})
+- **type:** guide
+- **domain:** infra
+- **summary:** Выбор и проверка outbound proxy для разрешённого web data collection: datacenter/residential/mobile/ISP, valid-success, rate policy, cost per valid record, PII и границы anti-bot controls
+- **also:** web scraping proxy, HTTP proxy, SOCKS proxy, residential proxy, mobile proxy, rate limiting, data collection
+
 ### [PocketBase]({{ '/wiki/infra/pocketbase' | relative_url }})
 - **type:** technology
 - **domain:** infra

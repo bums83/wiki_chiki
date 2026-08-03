@@ -312,3 +312,9 @@ Updated:
 - Обновлено: [[Agents.md]], [[Вайб-кодинг]], [[Penpot]], [[Prompt Master]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Верифицированы: 35 runtime CSV, 12/12 domain smoke, 22/22 stack smoke, 36 Python tests, design-system JSON smoke и CLI asset-sync check
 - Источник: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+
+## [2026-08-03] ingest | Прокси в веб-сборе данных
+- Создано: `raw/entries/2026-08-03_habr-1066200-proxy-scraping.md`, [[Прокси в веб-сборе данных]]
+- Обновлено: [[agent-aget]], [[ru-marketplace-mcp]], [[ASSH]], [[OpenAI Privacy Filter]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Проверено: canonical Habr retrieval, publication metadata, semantic links, source claims separated from independently reproducible facts
+- Источник: https://habr.com/ru/articles/1066200/

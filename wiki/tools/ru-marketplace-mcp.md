@@ -4,7 +4,7 @@ type: technology
 created: 2026-07-27
 last_updated: 2026-07-27
 domain: tools
-related: ["MCPorter", "Trench", "Teable", "Coolify", "Antfarm"]
+related: ["MCPorter", "Trench", "Teable", "Coolify", "Antfarm", "Прокси в веб-сборе данных"]
 sources: ["github-vladimir-human-ru-marketplace-mcp-2026-07-27"]
 tags: ["tools", "mcp", "marketplace", "price-comparison", "automation", "self-hosted"]
 ---
@@ -100,6 +100,8 @@ tags: ["tools", "mcp", "marketplace", "price-comparison", "automation", "self-ho
 `ru-marketplace-mcp` полезен, когда LLM-агенту нужен проверяемый read-only доступ к российским marketplace catalogues: сравнить предложения, уточнить цену/наличие/рейтинг, проверить публичного продавца или собрать raw price observation для дальнейшей аналитики.
 
 Его сильная сторона — инженерная честность вокруг частичных результатов, anti-bot ограничений и data drift. Для продукта с регулярным мониторингом нужен следующий слой: scheduler, сохранение snapshots и правила валидации совпадения SKU.
+
+[Прокси в веб-сборе данных]({{ '/wiki/infra/web-scraping-proxies' | relative_url }}) даёт общий сетевой контекст: proxy route надо оценивать по valid record и явным outcome states, а не считать `200 OK` или отсутствие ответа доказательством наличия/отсутствия товара.
 
 ## Источники
 

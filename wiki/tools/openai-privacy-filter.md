@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-23
 last_updated: 2026-07-27
 domain: tools
-related: ["Directus", "PostgreSQL + VectorChord", "humanizer-ru"]
+related: ["Directus", "PostgreSQL + VectorChord", "humanizer-ru", "Прокси в веб-сборе данных"]
 tags: ["privacy", "pii", "data-protection", "openai"]
 sources: ["openai-privacy-filter-2026-04-23"]
 ---
@@ -63,6 +63,9 @@ Privacy Filter логично встраивается в tools-кластер:
 ## Ограничения
 
 Как и любая модель для классификации текста, Privacy Filter может иметь:
+
+[Прокси в веб-сборе данных]({{ '/wiki/infra/web-scraping-proxies' | relative_url }}) добавляет важную границу ingestion: публичный web source может содержать PII, поэтому route/proxy не отменяет data minimization и redaction перед внешней обработкой или индексированием.
+
 - false positives (ложные срабатывания)
 - false negatives (пропущенные PII)
 - ограничения по языкам и форматам данных

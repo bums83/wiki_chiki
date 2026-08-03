@@ -429,7 +429,8 @@
     "outgoing": [
       "Directus",
       "PostgreSQL + VectorChord",
-      "humanizer-ru"
+      "humanizer-ru",
+      "Прокси в веб-сборе данных"
     ],
     "incoming": []
   },
@@ -619,7 +620,8 @@
       "Tokentap",
       "OculiX",
       "ASSH",
-      "Boring Computers"
+      "Boring Computers",
+      "Прокси в веб-сборе данных"
     ],
     "incoming": [
       "ASSH",
@@ -691,7 +693,8 @@
       "OculiX",
       "agent-aget",
       "Coolify",
-      "cmux-ssh-here"
+      "cmux-ssh-here",
+      "Прокси в веб-сборе данных"
     ],
     "incoming": [
       "MCPorter",
@@ -804,7 +807,8 @@
       "Trench",
       "Teable",
       "Coolify",
-      "Antfarm"
+      "Antfarm",
+      "Прокси в веб-сборе данных"
     ],
     "incoming": [
       "MCPorter",
@@ -852,6 +856,20 @@
       "Вайб-кодинг",
       "Penpot",
       "Prompt Master"
+    ]
+  },
+  "web-scraping-proxies.md": {
+    "outgoing": [
+      "agent-aget",
+      "ru-marketplace-mcp",
+      "ASSH",
+      "OpenAI Privacy Filter"
+    ],
+    "incoming": [
+      "agent-aget",
+      "ru-marketplace-mcp",
+      "ASSH",
+      "OpenAI Privacy Filter"
     ]
   }
 }

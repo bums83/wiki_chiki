@@ -4,7 +4,7 @@ type: technology
 created: 2026-06-19
 last_updated: 2026-06-29
 domain: tools
-related: ["MCPorter", "Antfarm", "OculiX", "agent-aget", "Coolify", "cmux-ssh-here"]
+related: ["MCPorter", "Antfarm", "OculiX", "agent-aget", "Coolify", "cmux-ssh-here", "Прокси в веб-сборе данных"]
 sources: ["github-moul-assh-2026-06-19"]
 tags: ["tools", "cli", "automation", "shell", "linux"]
 ---
@@ -125,6 +125,8 @@ ASSH полезен, когда:
 - не хранить secrets в YAML, если их можно вынести в SSH agent, keychain или отдельный секретный слой.
 
 Также важно не путать ASSH с secret manager или полноценным inventory/CMDB. Он решает SSH config и routing, но не заменяет управление правами, аудит ключей и lifecycle серверов.
+
+[Прокси в веб-сборе данных]({{ '/wiki/infra/web-scraping-proxies' | relative_url }}) использует слово «proxy» в другом смысле: это outbound HTTP(S)/SOCKS routing к web source, а не SSH gateway через `ProxyCommand`. Смешивать эти два контура в policy и troubleshooting не стоит.
 
 ## Практический вывод
 

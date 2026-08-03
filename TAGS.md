@@ -47,6 +47,9 @@
 - api-platform
 - admin-panel
 - headless-cms
+- proxy
+- web-scraping
+- rate-limiting
 
 ## Management
 

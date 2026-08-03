@@ -4,7 +4,7 @@ type: technology
 created: 2026-05-28
 last_updated: 2026-07-13
 domain: tools
-related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie", "Tokentap", "OculiX", "ASSH", "Boring Computers"]
+related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie", "Tokentap", "OculiX", "ASSH", "Boring Computers", "Прокси в веб-сборе данных"]
 sources: ["github-izzzzzi-agent-aget-2026-05-28", "github-izzzzzi-agent-aget-refresh-2026-06-18"]
 tags: ["tools", "cli", "agents", "automation", "workflow"]
 ---
@@ -96,6 +96,8 @@ tags: ["tools", "cli", "agents", "automation", "workflow"]
 - запускать `aget doctor`, если проблема похожа на runtime/browser failure, а не на ошибку сценария.
 
 Stealth Chromium помогает с совместимостью сайтов, но не отменяет необходимость соблюдать правила сервисов и не превращает browser automation в универсальный обход ограничений.
+
+[Прокси в веб-сборе данных]({{ '/wiki/infra/web-scraping-proxies' | relative_url }}) отделяет outbound network routing от права доступа: HTTP(S)/SOCKS route может быть частью разрешённого workflow, но `429`, CAPTCHA или block page требуют снизить нагрузку, сменить официальный канал или остановиться, а не усиливать маскировку.
 
 [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) показывает похожий CLI-first подход для code review: вместо браузерной сессии он упаковывает multi-AI PR review в команды, конфиг и структурированный pipeline.
 

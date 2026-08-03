@@ -19,6 +19,7 @@ layout: home
 | [RTK]({{ '/wiki/infra/rtk' | relative_url }}) | CLI proxy, который сокращает потребление токенов LLM на 60-90% при dev-командах: smart filtering, grouping, truncation, deduplication |
 | [PocketBase]({{ '/wiki/infra/pocketbase' | relative_url }}) | Open-source бэкенд на Go в одном файле: SQLite realtime, авторизация, файловый storage, админ-панель и REST API — для быстрых прототипов |
 | [SurrealDB]({{ '/wiki/infra/surrealdb' | relative_url }}) | Multi-model database на Rust: document, graph, relational, time-series, geospatial и key-value модели с realtime, hybrid search и BaaS-подобным backend layer |
+| [Прокси в веб-сборе данных]({{ '/wiki/infra/web-scraping-proxies' | relative_url }}) | Guide по выбору и честному тестированию outbound proxy для разрешённого web data collection: типы IP, valid-success, rate policy, cost per valid record и границы доступа |
 
 ## Менеджмент
 
