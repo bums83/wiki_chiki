@@ -23,7 +23,8 @@
       "Autoresearch",
       "Вайб-кодинг",
       "Academic Research Skills",
-      "The Agency / Agency Agents"
+      "The Agency / Agency Agents",
+      "Searcharvester"
     ],
     "incoming": [
       "Academic Research Skills",
@@ -85,7 +86,8 @@
       "Agents.md",
       "The Agency / Agency Agents",
       "Autoresearch",
-      "humanizer-ru"
+      "humanizer-ru",
+      "Searcharvester"
     ],
     "incoming": [
       "Research org code",
@@ -388,7 +390,8 @@
       "OculiX",
       "ASSH",
       "Boring Computers",
-      "ru-marketplace-mcp"
+      "ru-marketplace-mcp",
+      "Searcharvester"
     ],
     "incoming": [
       "ASSH",
@@ -749,7 +752,8 @@
       "cmux-ssh-here",
       "Boring Computers",
       "ru-marketplace-mcp",
-      "Cobalt"
+      "Cobalt",
+      "Searcharvester"
     ],
     "incoming": [
       "Directus",
@@ -870,6 +874,20 @@
       "ru-marketplace-mcp",
       "ASSH",
       "OpenAI Privacy Filter"
+    ]
+  },
+  "searcharvester.md": {
+    "outgoing": [
+      "Research org code",
+      "Academic Research Skills",
+      "Antfarm",
+      "Coolify"
+    ],
+    "incoming": [
+      "Research org code",
+      "Academic Research Skills",
+      "Antfarm",
+      "Coolify"
     ]
   }
 }

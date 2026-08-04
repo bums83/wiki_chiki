@@ -2,9 +2,9 @@
 title: Academic Research Skills
 type: technology
 created: 2026-06-18
-last_updated: 2026-07-27
+last_updated: 2026-08-04
 domain: llm-agents
-related: ["Research org code", "Prompts.chat", "Agents.md", "The Agency / Agency Agents", "Autoresearch", "humanizer-ru"]
+related: ["Research org code", "Prompts.chat", "Agents.md", "The Agency / Agency Agents", "Autoresearch", "humanizer-ru", "Searcharvester"]
 sources: ["github-imbad0202-academic-research-skills-2026-06-18"]
 tags: ["llm", "agents", "prompt-engineering", "eval", "workflow", "research"]
 ---
@@ -121,6 +121,8 @@ ARS is strongest when the goal is disciplined academic workflow support:
 - keeping human checkpoints visible instead of pretending the agent can own the work.
 
 It is weaker if the actual need is quick generic summarization, commercial paper-production automation, or fully autonomous research. In those cases its gate-heavy design is intentional friction, not overhead.
+
+[Searcharvester]({{ '/wiki/tools/searcharvester' | relative_url }}) близок по части search/extract и role-based research, но его storage URL/extract artifacts не заменяет ARS integrity gates: существование extract-файла не доказывает корректную интерпретацию, академическую пригодность источника или ответственность автора за citation.
 
 ## Источники
 

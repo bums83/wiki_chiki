@@ -86,6 +86,7 @@ layout: home
 | [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) | Visual automation IDE/runtime: GUI-автоматизация по screenshots, OpenCV matching, OCR, VNC/remote desktop и JVM scripting |
 | [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }}) | Open-source recorder/editor для polished product demos: screen/window capture, webcam PiP, auto-zooms, cursor effects, captions, annotations и MP4/GIF export |
 | [Cobalt]({{ '/wiki/tools/cobalt' | relative_url }}) | Self-hosted media downloader для свободно доступного публичного контента: API с redirect/tunnel/local processing, Svelte frontend, Docker, rate limits и access controls |
+| [Searcharvester]({{ '/wiki/tools/searcharvester' | relative_url }}) | Private research stack: SearXNG + extract-to-Markdown + Tavily-shaped API + Hermes ACP jobs; требует auth, egress policy и review artifacts |
 
 ## Полный список
 

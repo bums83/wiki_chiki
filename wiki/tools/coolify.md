@@ -2,9 +2,9 @@
 title: Coolify
 type: technology
 created: 2026-06-21
-last_updated: 2026-07-30
+last_updated: 2026-08-04
 domain: tools
-related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers", "ru-marketplace-mcp", "Cobalt"]
+related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers", "ru-marketplace-mcp", "Cobalt", "Searcharvester"]
 sources: ["github-coollabsio-coolify-2026-06-21"]
 tags: ["tools", "docker", "self-hosted", "paas", "deployment", "backend"]
 ---
@@ -102,6 +102,8 @@ README подчёркивает отсутствие vendor lock-in: конфи�
 `Coolify` полезен как middle path между “всё руками через SSH/Docker Compose” и “полностью уйти в облачный PaaS”. Он даёт self-hosted control plane для приложений, баз и сервисов, сохраняя инфраструктуру у владельца.
 
 Его стоит рассматривать там, где нужны простота деплоя и контроль над серверами одновременно. Если же команда не готова обслуживать Docker hosts, backups и сетевой слой, hosted PaaS может быть честнее.
+
+[Searcharvester]({{ '/wiki/tools/searcharvester' | relative_url }}) можно развернуть как private compose workload, но его adapter/search/UI ports нельзя публиковать как public service по умолчанию: встроенной user-level auth нет, `/extract` делает server-side fetch URL, а research artifacts и logs требуют отдельной сетевой и retention-политики.
 
 ## Источники
 

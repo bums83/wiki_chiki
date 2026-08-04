@@ -373,3 +373,9 @@
 - **domain:** tools
 - **summary:** Self-hosted processing API и static web client для сохранения свободно доступных публичных media links: redirect/tunnel/local processing/picker, Docker deployment, short-lived stream state, rate limits и optional access controls
 - **also:** cobalt, cobalt.tools, media downloader, video downloader, self-hosted downloader, media tunnel, ffmpeg proxy, public media
+
+### [Searcharvester]({{ '/wiki/tools/searcharvester' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Private web-research stack: SearXNG, HTML-to-Markdown extraction, Tavily-shaped API, UI и Hermes ACP research jobs; требует auth, egress policy, limits и review evidence
+- **also:** searcharvester, searxng, tavily api, web search, trafilatura, hermes acp, deep research, self-hosted

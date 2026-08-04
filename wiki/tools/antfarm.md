@@ -2,9 +2,9 @@
 title: Antfarm
 type: technology
 created: 2026-04-21
-last_updated: 2026-07-27
+last_updated: 2026-08-04
 domain: tools
-related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX", "ASSH", "Boring Computers", "ru-marketplace-mcp"]
+related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX", "ASSH", "Boring Computers", "ru-marketplace-mcp", "Searcharvester"]
 sources: ["workspace-tools-md-antfarm-2026-04-21"]
 ---
 
@@ -141,3 +141,5 @@ sources: ["workspace-tools-md-antfarm-2026-04-21"]
 Если автоматизация живёт долго, ветвится и должна продолжаться сама, без такого слоя система быстро начинает ломаться об собственную сложность.
 
 Такой движок особенно полезен, когда один из шагов workflow опирается на retrieval или поиск по локальной базе, как в [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}). Тогда retrieval перестаёт быть разовым запросом и становится стабильным этапом длинной автоматизации.
+
+[Searcharvester]({{ '/wiki/tools/searcharvester' | relative_url }}) может быть отдельным discovery/extract/research step, но его API jobs не являются заменой durable workflow state. Когда нужны retry policy, расписание и продолжение после рестарта, state следует держать в workflow engine, а не считать host-mounted report полноценной оркестрацией.

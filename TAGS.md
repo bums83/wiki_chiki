@@ -102,6 +102,7 @@
 - screen-recording
 - open-source
 - self-hosted
+- web-search
 - paas
 - deployment
 - git

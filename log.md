@@ -318,3 +318,10 @@ Updated:
 - Обновлено: [[agent-aget]], [[ru-marketplace-mcp]], [[ASSH]], [[OpenAI Privacy Filter]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Проверено: canonical Habr retrieval, publication metadata, semantic links, source claims separated from independently reproducible facts
 - Источник: https://habr.com/ru/articles/1066200/
+
+## [2026-08-04] ingest | Searcharvester
+- Создано: `raw/entries/2026-08-04_searcharvester-github.md`, [[Searcharvester]]
+- Обновлено: [[Research org code]], [[Academic Research Skills]], [[Antfarm]], [[Coolify]], `TAGS.md`, `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Верифицированы: `docker compose config`, Python compileall, isolated suite `17 passed, 1 skipped`; реальный E2E намеренно не запускался — он требует Docker stack, Hermes и model endpoint
+- Зафиксированы: API/auth/egress риски, documentation drift и конфликт README-license statement с root AGPL-3.0
+- Источник: https://github.com/vakovalskii/searcharvester
