@@ -56,6 +56,7 @@ layout: home
 | [Prompt Master]({{ '/wiki/llm-agents/prompt-master' | relative_url }}) | Claude skill для генерации оптимизированных промптов под 20+ AI-инструментов: Midjourney, Cursor, ChatGPT, Gemini и другие |
 | [humanizer-ru]({{ '/wiki/llm-agents/humanizer-ru' | relative_url }}) | Agent Skill для осторожной проверки и правки русской прозы: 37 паттернов, class A/B артефакты, запрет на дописывание фактов и offline eval/validators |
 | [Agents.md]({{ '/wiki/llm-agents/agents-md' | relative_url }}) | Best practices для написания Agents.md файлов: progressive disclosure, decision tables, numbered steps, dos/donts pairs, file-scoped commands, safety boundaries |
+| [ProcessForge]({{ '/wiki/llm-agents/processforge' | relative_url }}) | File-first framework для AI-assisted процессов: versioned context, assignments, artifacts, gates, handoffs и optional runtime drivers; не заменяет scheduler/daemon |
 | [UI/UX Pro Max]({{ '/wiki/llm-agents/ui-ux-pro-max' | relative_url }}) | Local BM25-backed design-recommendation skill suite для coding-агентов: CSV data, design-system output, stack guides, template CLI и строгие границы валидации UI |
 
 ## Tools

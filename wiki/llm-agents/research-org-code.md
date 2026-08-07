@@ -2,9 +2,9 @@
 title: Research org code
 type: concept
 created: 2026-04-13
-last_updated: 2026-08-04
+last_updated: 2026-08-07
 domain: llm-agents
-related: ["Autoresearch", "Вайб-кодинг", "Academic Research Skills", "The Agency / Agency Agents", "Searcharvester"]
+related: ["Autoresearch", "Вайб-кодинг", "Academic Research Skills", "The Agency / Agency Agents", "Searcharvester", "ProcessForge"]
 sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 ---
 
@@ -65,6 +65,8 @@ sources: ["github-karpathy-autoresearch", "x-karpathy-2029701092347630069"]
 
 [Searcharvester]({{ '/wiki/tools/searcharvester' | relative_url }}) — прикладная реализация такой рамки для web research: skills задают роли исследователя, критика и fact-checker, а service layer сохраняет job artifacts. Но это не отменяет ownership человека за policy, credentials, границы источников и финальные claims.
 
+
+[ProcessForge]({{ '/wiki/llm-agents/processforge' | relative_url }}) — конкретный file-first вариант части этой рамки: policies, context sources, assignments, outputs и handoffs становятся versioned process assets. Но framework не доказывает качество исследований сам по себе: критерии, evidence и финальные решения остаются ответственностью человека.
 ## Источники
 
 - [karpathy/autoresearch](https://github.com/karpathy/autoresearch?tab=readme-ov-file)

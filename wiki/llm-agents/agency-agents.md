@@ -2,9 +2,9 @@
 title: The Agency / Agency Agents
 type: technology
 created: 2026-06-19
-last_updated: 2026-06-19
+last_updated: 2026-08-07
 domain: llm-agents
-related: ["Agents.md", "Academic Research Skills", "Research org code", "Prompt Master", "Prompts.chat"]
+related: ["Agents.md", "Academic Research Skills", "Research org code", "Prompt Master", "Prompts.chat", "ProcessForge"]
 sources: ["github-msitarzewski-agency-agents-2026-06-19"]
 tags: ["llm", "agents", "prompt-engineering", "workflow", "automation"]
 ---
@@ -128,6 +128,8 @@ tags: ["llm", "agents", "prompt-engineering", "workflow", "automation"]
 
 Сильный сценарий — выбрать небольшой набор ролей под конкретный workflow и встроить их в дисциплинированный pipeline. Слабый сценарий — установить всё и надеяться, что сама масса агентов создаст порядок.
 
+
+[ProcessForge]({{ '/wiki/llm-agents/processforge' | relative_url }}) закрывает недостающий operational слой для такого roster: он фиксирует assignment scope, context capsule, expected outputs, evidence и handoff. При этом ProcessForge не поставляет широкую библиотеку персонажей, а Agency не становится scheduler или доказательством корректного handoff только из-за наличия ролей.
 ## Источники
 
 - [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)

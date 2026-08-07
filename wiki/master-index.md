@@ -204,6 +204,12 @@
 - **summary:** SKILL.md-набор для LLM с 90+ OSINT-модулями, 48 паттернами поиска секретов и 80+ dorks для профессиональных расследований
 - **also:** claude-osint, osint, llm skills, cybersecurity, reconnaissance, bug bounty
 
+### [ProcessForge]({{ '/wiki/llm-agents/processforge' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** File-first framework для воспроизводимых AI-assisted процессов: workplace/project `.pf/`, context snapshots, assignments, artifacts, gates, handoffs и optional runtime drivers без обязательного SaaS
+- **also:** processforge, process forge, file-first workflow, assignment capsules, context snapshots, agent orchestration, workplace
+
 ### [Prompt Master]({{ '/wiki/llm-agents/prompt-master' | relative_url }})
 - **type:** technology
 - **domain:** llm-agents

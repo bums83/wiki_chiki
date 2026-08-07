@@ -2,9 +2,9 @@
 title: Agents.md
 type: best practices
 created: 2026-05-01
-last_updated: 2026-07-27
+last_updated: 2026-08-07
 domain: llm-agents
-related: ["Вайб-кодинг", "Evolve", "Prompt Master", "Academic Research Skills", "The Agency / Agency Agents", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie", "humanizer-ru", "UI/UX Pro Max"]
+related: ["Вайб-кодинг", "Evolve", "Prompt Master", "Academic Research Skills", "The Agency / Agency Agents", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie", "humanizer-ru", "UI/UX Pro Max", "ProcessForge"]
 tags: ["ai-coding", "team-lead", "coding-standards", "prompting", "development-tooling"]
 sources: ["augmentcode-2026-05-01", "agentsmd-io-2026-05-01"]
 ---
@@ -247,6 +247,8 @@ my-project/
 - [agents.md](https://agents.md) — открытый стандарт, поддерживается Cursor, Sourcegraph, Augment, OpenAI
 - [Augment Guidelines](https://docs.augmentcode.com/setup-augment/guidelines) — иерархические правила, workspace-level и user-level guidelines
 
+
+[ProcessForge]({{ '/wiki/llm-agents/processforge' | relative_url }}) берёт полезную дисциплину инструкций дальше: `.pf/AGENTS.md` остаётся Markdown-guidance для человека и агента, но machine parameters, provenance, conflicts и context snapshots живут в отдельных typed files. Это полезно, когда одного статичного AGENTS.md уже мало; для небольшой кодовой базы такой дополнительный слой может быть избыточен.
 ## Источники
 
 - https://x.com/augmentcode/status/2047164534310494709

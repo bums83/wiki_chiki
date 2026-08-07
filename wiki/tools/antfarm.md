@@ -2,9 +2,9 @@
 title: Antfarm
 type: technology
 created: 2026-04-21
-last_updated: 2026-08-04
+last_updated: 2026-08-07
 domain: tools
-related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX", "ASSH", "Boring Computers", "ru-marketplace-mcp", "Searcharvester"]
+related: ["Autoresearch", "MCPorter", "ServiceDesk Plus Operator", "agent-aget", "OculiX", "ASSH", "Boring Computers", "ru-marketplace-mcp", "Searcharvester", "ProcessForge"]
 sources: ["workspace-tools-md-antfarm-2026-04-21"]
 ---
 
@@ -143,3 +143,5 @@ sources: ["workspace-tools-md-antfarm-2026-04-21"]
 Такой движок особенно полезен, когда один из шагов workflow опирается на retrieval или поиск по локальной базе, как в [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}). Тогда retrieval перестаёт быть разовым запросом и становится стабильным этапом длинной автоматизации.
 
 [Searcharvester]({{ '/wiki/tools/searcharvester' | relative_url }}) может быть отдельным discovery/extract/research step, но его API jobs не являются заменой durable workflow state. Когда нужны retry policy, расписание и продолжение после рестарта, state следует держать в workflow engine, а не считать host-mounted report полноценной оркестрацией.
+
+[ProcessForge]({{ '/wiki/llm-agents/processforge' | relative_url }}) похож file-first traceability: assignments, artifacts, reviews и handoffs сохраняются в Git-аудируемом виде. Но его current core не имеет daemon, background scheduler или network delivery; для self-advancing цепочек с retry и продолжением после рестарта нужен внешний workflow engine вроде Antfarm либо другой scheduler.

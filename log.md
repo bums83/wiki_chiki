@@ -325,3 +325,9 @@ Updated:
 - Верифицированы: `docker compose config`, Python compileall, isolated suite `17 passed, 1 skipped`; реальный E2E намеренно не запускался — он требует Docker stack, Hermes и model endpoint
 - Зафиксированы: API/auth/egress риски, documentation drift и конфликт README-license statement с root AGPL-3.0
 - Источник: https://github.com/vakovalskii/searcharvester
+
+## [2026-08-07] ingest | ProcessForge
+- Создано: `raw/entries/2026-08-07_habr-1066916-processforge.md`, [[ProcessForge]]
+- Обновлено: [[Agents.md]], [[Research org code]], [[The Agency / Agency Agents]], [[Antfarm]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Верифицированы: Python compileall, schema validation, public cleanliness и release-check; checksum validator и `release-test --public --fail-fast` не прошли из-за рассинхронизации `checksums/processforge.sha256` с текущим tree
+- Источники: https://habr.com/ru/articles/1066916/ ; https://github.com/WebTolk/process-forge
