@@ -2,9 +2,9 @@
 title: Boring Computers
 type: technology
 created: 2026-07-13
-last_updated: 2026-07-13
+last_updated: 2026-08-10
 domain: llm-agents
-related: ["OculiX", "agent-aget", "MCPorter", "Coolify", "Antfarm"]
+related: ["OculiX", "agent-aget", "MCPorter", "Coolify", "Antfarm", "AI Factory"]
 sources: ["github-michaelshimeles-boring-computers-2026-07-13"]
 tags: ["llm", "agents", "mcp", "automation", "virtualization", "self-hosted"]
 ---
@@ -112,6 +112,8 @@ Boring Computers уместен, когда агенту нужен не оди�
 `Boring Computers` — сильная идея для agent infrastructure: агентам всё чаще нужен не абстрактный sandbox, а настоящая временная машина с shell, browser, display, files и preview URL. Firecracker даёт правильную изоляционную границу, а MCP/SDK превращают microVM lifecycle в reusable capability.
 
 Пока это стоит рассматривать как перспективный self-hosted substrate для AI-компьютеров и sandboxed execution, а не как готовый публичный multi-tenant cloud без дополнительного hardening.
+
+[AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }}) может распараллеливать задачи через git worktrees и runtime-native helpers, но это не isolation boundary. Когда агенту требуется disposable OS, сеть и процессная изоляция, нужен execution substrate вроде Boring Computers, а не только project-local skills.
 
 ## Источники
 

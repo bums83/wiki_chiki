@@ -180,6 +180,12 @@
 - **summary:** Claude Code skill suite for academic research workflows: deep research, paper writing, peer review, revision, integrity gates, citation checks and final formatting with human checkpoints
 - **also:** academic research skills, ARS, Claude Code skills, academic writing, peer review, citation checking
 
+### [AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** npm CLI и project-local skill/runtime layer для AI-assisted разработки: setup, plans, gates, managed agent assets и MCP templates; не самостоятельный autonomous developer
+- **also:** ai factory, ai coding workflow, agent skills, project context, managed agent files, quality gates, MCP setup
+
 ### [The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }})
 - **type:** technology
 - **domain:** llm-agents

@@ -2,9 +2,9 @@
 title: Agents.md
 type: best practices
 created: 2026-05-01
-last_updated: 2026-08-07
+last_updated: 2026-08-10
 domain: llm-agents
-related: ["Вайб-кодинг", "Evolve", "Prompt Master", "Academic Research Skills", "The Agency / Agency Agents", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie", "humanizer-ru", "UI/UX Pro Max", "ProcessForge"]
+related: ["Вайб-кодинг", "Evolve", "Prompt Master", "Academic Research Skills", "The Agency / Agency Agents", "CLAUDE.md", "Tolaria", "agent-aget", "Magpie", "humanizer-ru", "UI/UX Pro Max", "ProcessForge", "AI Factory"]
 tags: ["ai-coding", "team-lead", "coding-standards", "prompting", "development-tooling"]
 sources: ["augmentcode-2026-05-01", "agentsmd-io-2026-05-01"]
 ---
@@ -249,6 +249,8 @@ my-project/
 
 
 [ProcessForge]({{ '/wiki/llm-agents/processforge' | relative_url }}) берёт полезную дисциплину инструкций дальше: `.pf/AGENTS.md` остаётся Markdown-guidance для человека и агента, но machine parameters, provenance, conflicts и context snapshots живут в отдельных typed files. Это полезно, когда одного статичного AGENTS.md уже мало; для небольшой кодовой базы такой дополнительный слой может быть избыточен.
+[AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }}) использует `AGENTS.md` как один из generated project artifacts, но добавляет installer, runtime-specific skill files, `.ai-factory` state и gate workflow. Это не улучшает сами инструкции автоматически: repository rules всё равно надо держать короткими, проверяемыми и принадлежащими конкретной команде.
+
 ## Источники
 
 - https://x.com/augmentcode/status/2047164534310494709

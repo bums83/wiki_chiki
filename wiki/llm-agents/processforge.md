@@ -2,9 +2,9 @@
 title: ProcessForge
 type: technology
 created: 2026-08-07
-last_updated: 2026-08-07
+last_updated: 2026-08-10
 domain: llm-agents
-related: ["Agents.md", "Research org code", "The Agency / Agency Agents", "Antfarm"]
+related: ["Agents.md", "Research org code", "The Agency / Agency Agents", "Antfarm", "AI Factory"]
 tags: ["llm", "agents", "workflow", "automation", "mcp", "open-source"]
 sources: ["habr-1066916-2026-08-07", "github-webtolk-process-forge-2026-08-07"]
 ---
@@ -120,6 +120,8 @@ Upstream предлагает установить инструмент отде
 Использовать ProcessForge имеет смысл, если нужно превратить повторяющиеся AI-задачи в Git-аудируемые файлы: чётко фиксировать context, approvals, expected outputs, handoffs и провалы. Особенно полезно в командах, где агентные сессии сменяются, а ответственность не должна исчезать вместе с чатом.
 
 Не стоит выбирать его как готовый «AI operating system» для полностью автономных процессов. На текущем `v1.0.2` не хватает scheduler/daemon/network delivery, и release checksum gate уже не проходит. Сначала починить release integrity, затем внедрять маленьким ограниченным процессом, а не раздувать `.pf/` в новую бюрократию.
+
+[AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }}) решает соседнюю задачу: bootstrap конкретных coding-agent runtimes, project-local skills и MCP templates. ProcessForge сильнее в provenance, assignment/capsule и file-first process contracts; AI Factory не заменяет эти границы одной установкой workflow assets.
 
 ## Источники
 

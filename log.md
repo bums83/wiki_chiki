@@ -331,3 +331,10 @@ Updated:
 - Обновлено: [[Agents.md]], [[Research org code]], [[The Agency / Agency Agents]], [[Antfarm]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Верифицированы: Python compileall, schema validation, public cleanliness и release-check; checksum validator и `release-test --public --fail-fast` не прошли из-за рассинхронизации `checksums/processforge.sha256` с текущим tree
 - Источники: https://habr.com/ru/articles/1066916/ ; https://github.com/WebTolk/process-forge
+
+## [2026-08-10] ingest | AI Factory
+- Создано: `raw/entries/2026-08-10_ai-factory-github.md`, [[AI Factory]]
+- Обновлено: [[Agents.md]], [[ProcessForge]], [[The Agency / Agency Agents]], [[MCPorter]], [[Boring Computers]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Верифицированы: `npm ci --ignore-scripts`, TypeScript build, lint, `npm test` (145 passed, 0 failed), init/update smoke suites и internal security self-scan; реальные LLM/MCP/browser/extension paths не запускались
+- Зафиксированы: package branch `2.18.0` опережает последний GitHub release `v2.17.0`; README/package MIT claim не подтверждён root `LICENSE` или GitHub license metadata
+- Источник: https://github.com/lee-to/ai-factory

@@ -99,11 +99,12 @@
   },
   "agency-agents.md": {
     "outgoing": [
-      "Agents.md",
       "Academic Research Skills",
-      "Research org code",
+      "Agents.md",
+      "AI Factory",
       "Prompt Master",
-      "Prompts.chat"
+      "Prompts.chat",
+      "Research org code"
     ],
     "incoming": [
       "Academic Research Skills",
@@ -163,17 +164,18 @@
   },
   "agents-md.md": {
     "outgoing": [
-      "Вайб-кодинг",
-      "Evolve",
-      "Prompt Master",
       "Academic Research Skills",
-      "The Agency / Agency Agents",
-      "CLAUDE.md",
-      "Tolaria",
       "agent-aget",
-      "Magpie",
+      "AI Factory",
+      "CLAUDE.md",
+      "Evolve",
       "humanizer-ru",
-      "UI/UX Pro Max"
+      "Magpie",
+      "Prompt Master",
+      "The Agency / Agency Agents",
+      "Tolaria",
+      "UI/UX Pro Max",
+      "Вайб-кодинг"
     ],
     "incoming": [
       "Academic Research Skills",
@@ -443,13 +445,14 @@
   },
   "mcporter.md": {
     "outgoing": [
-      "Telegram Client Operator",
-      "Antfarm",
-      "Вайб-кодинг",
       "agent-aget",
+      "AI Factory",
+      "Antfarm",
       "ASSH",
       "Boring Computers",
-      "ru-marketplace-mcp"
+      "ru-marketplace-mcp",
+      "Telegram Client Operator",
+      "Вайб-кодинг"
     ],
     "incoming": [
       "ASSH",
@@ -795,11 +798,12 @@
   },
   "boring-computers.md": {
     "outgoing": [
-      "OculiX",
       "agent-aget",
-      "MCPorter",
+      "AI Factory",
+      "Antfarm",
       "Coolify",
-      "Antfarm"
+      "MCPorter",
+      "OculiX"
     ],
     "incoming": [
       "OculiX",
@@ -897,9 +901,20 @@
   "processforge.md": {
     "outgoing": [
       "Agents.md",
+      "AI Factory",
+      "Antfarm",
       "Research org code",
+      "The Agency / Agency Agents"
+    ],
+    "incoming": []
+  },
+  "ai-factory.md": {
+    "outgoing": [
+      "Agents.md",
+      "ProcessForge",
       "The Agency / Agency Agents",
-      "Antfarm"
+      "MCPorter",
+      "Boring Computers"
     ],
     "incoming": []
   }

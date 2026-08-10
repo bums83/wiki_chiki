@@ -39,6 +39,7 @@ layout: home
 | Статья | О чём |
 |--------|-------|
 | [Autoresearch]({{ '/wiki/llm-agents/autoresearch' | relative_url }}) | Single-GPU framework для автономного research-цикла: агент меняет `train.py`, человек задаёт `program.md` |
+| [AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }}) | npm CLI и project-local skill/runtime layer для AI-assisted разработки: setup, планы, gates, managed assets и MCP templates; не самостоятельный autonomous developer |
 | [Research org code]({{ '/wiki/llm-agents/research-org-code' | relative_url }}) | Идея проектирования исследовательской организации через prompt/policy layer |
 | [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) | Практика разработки, где человек управляет агентом через рамки, контекст и stage-specific промпты |
 | [Nanochat]({{ '/wiki/llm-agents/nanochat' | relative_url }}) | Базовый LLM training harness Карпаты, из которого вырос autoresearch |

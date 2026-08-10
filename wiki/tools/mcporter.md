@@ -2,9 +2,9 @@
 title: MCPorter
 type: technology
 created: 2026-04-21
-last_updated: 2026-07-27
+last_updated: 2026-08-10
 domain: tools
-related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp"]
+related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp", "AI Factory"]
 sources: ["workspace-tools-md-2026-04-21"]
 ---
 
@@ -126,3 +126,5 @@ MCP звучит просто, пока сервер один и всё рабо
 Если у тебя живой agent stack с несколькими интеграциями, он быстро становится необходимым слоем, потому что снижает хаос, ускоряет отладку и отделяет реальные серверные проблемы от ошибок orchestration-уровня.
 
 В этом смысле он хорошо сочетается и с [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}): там нужен служебный operational layer вокруг retrieval-системы и базы, здесь вокруг MCP-интеграций и tool runtime.
+
+[AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }}) может записать ограниченный набор MCP templates во время project setup, но не заменяет операционный слой MCPorter: инвентаризацию servers, auth, прямые tool calls и диагностику реального runtime. После bootstrap особенно важно проверить итоговый config и permissions независимо.
