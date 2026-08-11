@@ -345,3 +345,10 @@ Updated:
 - Источники: публичный Telegram-пост `@becaps/1956` и проверенный upstream `schollz/croc`
 - Верифицированы: `go vet`, static Linux build и CLI version `11.0.3`; полный `go test ./...` не прошёл из-за воспроизводимо environment-dependent DNS expectation в `src/models/TestRemoteLookupIPTimeout`, остальные пакеты прошли
 - Зафиксированы: normal live transfer relay-based; `--store` — отдельный encrypted async storage mode с bearer link/token, а не обычный peer flow
+
+## [2026-08-11] ingest | Mobbin public product pages
+
+- **source:** https://mobbin.com/
+- **created:** `wiki/tools/mobbin.md`, `raw/entries/2026-08-11_mobbin-public-pages.md`
+- **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, `wiki/llm-agents/ui-ux-pro-max.md`, `wiki/tools/penpot.md`, `wiki/tools/mcporter.md`
+- **summary:** Mobbin is documented as a commercial design-reference library and paid account/OAuth MCP, not an open dataset or a visual editor. Terms boundaries on copying, repositories and ML use are explicit.

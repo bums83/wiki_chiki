@@ -82,6 +82,7 @@ layout: home
 | [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }}) | Client-side code intelligence engine и knowledge graph creator для репозиториев: CLI + MCP, Web UI, Graph RAG Agent и bridge mode |
 | [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}) | Desktop-приложение для markdown knowledge bases: files-first, git-first, offline-first vaults и AI-friendly контекст для людей и агентов |
 | [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) | Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, открытые стандарты, design tokens, collaboration и design-to-code handoff |
+| [Mobbin]({{ '/wiki/tools/mobbin' | relative_url }}) | Коммерческая библиотека shipped UI screens/flows для design research: поиск реальных паттернов, paid MCP/OAuth для agent reference lookup и жёсткие ограничения на копирование, dataset и ML-использование |
 | [Trench]({{ '/wiki/tools/trench' | relative_url }}) | Self-hosted event analytics infrastructure на Kafka, ClickHouse и Node.js; подходит как журнал событий для проверки сигналов и outcome-аналитики |
 | [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) | CLI-помощник для браузерных сценариев LLM-агентов: stealth Chromium, persistent profiles/cookies, device emulation, snapshot refs, batch-команды и JSON-ответы |
 | [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) | Multi-AI adversarial PR review tool: параллельные AI-reviewers, debate rounds и code-aware verify+audit для PR findings |

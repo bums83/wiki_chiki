@@ -2,9 +2,9 @@
 title: UI/UX Pro Max
 type: technology
 created: 2026-08-01
-last_updated: 2026-08-01
+last_updated: 2026-08-11
 domain: llm-agents
-related: ["Agents.md", "Вайб-кодинг", "Penpot", "Prompt Master"]
+related: ["Agents.md", "Вайб-кодинг", "Penpot", "Prompt Master", "Mobbin"]
 sources: ["github-nextlevelbuilder-ui-ux-pro-max-skill-2026-08-01"]
 tags: ["agents", "design", "workflow", "prompt-engineering", "vibe-coding"]
 ---
@@ -128,6 +128,8 @@ python3 skills/ui-ux-pro-max/scripts/search.py \
 5. **Есть риск «дизайн-театра».** Много токенов, рекомендаций и motion-snippets могут сделать результат визуально сложнее без улучшения понятности. Особенно опасно это для dashboards и workflow-интерфейсов.
 
 [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) решает другую задачу: это визуальная среда, где команда хранит реальные экраны, компоненты и handoff. Skill может помочь сформулировать начальный system brief, но Penpot или другой design source of truth должен удерживать утверждённые решения.
+
+[Mobbin]({{ '/wiki/tools/mobbin' | relative_url }}) может добавить к локальным эвристикам реальные shipped references: не «сгенерируй красивый checkout», а «сопоставь механики checkout в нескольких существующих продуктах». Но это закрытая, account-bound библиотека с запретом на построение копий, dataset и ML-training из контента; агент должен сохранять собственные выводы и ссылки, а не выкачивать изображения в проект.
 
 [Prompt Master]({{ '/wiki/llm-agents/prompt-master' | relative_url }}) работает на уровне формулировки instruction. UI/UX Pro Max добавляет локальные данные и search path после этой формулировки. Ни один из них сам по себе не заменяет проверку интерфейса в браузере.
 

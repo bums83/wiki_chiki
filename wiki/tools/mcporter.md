@@ -2,9 +2,9 @@
 title: MCPorter
 type: technology
 created: 2026-04-21
-last_updated: 2026-08-10
+last_updated: 2026-08-11
 domain: tools
-related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp", "AI Factory"]
+related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp", "AI Factory", "Mobbin"]
 sources: ["workspace-tools-md-2026-04-21"]
 ---
 
@@ -128,3 +128,5 @@ MCP звучит просто, пока сервер один и всё рабо
 В этом смысле он хорошо сочетается и с [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }}): там нужен служебный operational layer вокруг retrieval-системы и базы, здесь вокруг MCP-интеграций и tool runtime.
 
 [AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }}) может записать ограниченный набор MCP templates во время project setup, но не заменяет операционный слой MCPorter: инвентаризацию servers, auth, прямые tool calls и диагностику реального runtime. После bootstrap особенно важно проверить итоговый config и permissions независимо.
+
+[Mobbin]({{ '/wiki/tools/mobbin' | relative_url }}) — пример remote, account-bound MCP: статический ключ в клиентский config не нужен, но требуется browser OAuth и paid access. Перед использованием в agent workflow здесь особенно полезно отделить transport/OAuth/tool discovery от policy: проверять read-only запросы, не сохранять session artifacts в repo и не превращать полученные референсы в локальную копию библиотеки.

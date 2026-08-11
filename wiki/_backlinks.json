@@ -426,12 +426,14 @@
       "HyperFrames",
       "Вайб-кодинг",
       "OpenScreen",
-      "UI/UX Pro Max"
+      "UI/UX Pro Max",
+      "Mobbin"
     ],
     "incoming": [
       "HyperFrames",
       "Mermaid",
-      "OpenScreen"
+      "OpenScreen",
+      "Mobbin"
     ]
   },
   "openai-privacy-filter.md": {
@@ -452,7 +454,8 @@
       "Boring Computers",
       "ru-marketplace-mcp",
       "Telegram Client Operator",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Mobbin"
     ],
     "incoming": [
       "ASSH",
@@ -464,7 +467,8 @@
       "Prompts.chat",
       "ServiceDesk Plus Operator",
       "Telegram Client Operator",
-      "agent-aget"
+      "agent-aget",
+      "Mobbin"
     ]
   },
   "servicedesk-plus-operator.md": {
@@ -864,13 +868,15 @@
       "Agents.md",
       "Вайб-кодинг",
       "Penpot",
-      "Prompt Master"
+      "Prompt Master",
+      "Mobbin"
     ],
     "incoming": [
       "Agents.md",
       "Вайб-кодинг",
       "Penpot",
-      "Prompt Master"
+      "Prompt Master",
+      "Mobbin"
     ]
   },
   "web-scraping-proxies.md": {
@@ -928,5 +934,17 @@
       "Cobalt"
     ],
     "incoming": []
+  },
+  "mobbin.md": {
+    "outgoing": [
+      "UI/UX Pro Max",
+      "Penpot",
+      "MCPorter"
+    ],
+    "incoming": [
+      "UI/UX Pro Max",
+      "Penpot",
+      "MCPorter"
+    ]
   }
 }

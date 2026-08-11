@@ -2,9 +2,9 @@
 title: Penpot
 type: technology
 created: 2026-05-03
-last_updated: 2026-06-07
+last_updated: 2026-08-11
 domain: tools
-related: ["Mermaid", "HyperFrames", "OpenScreen", "Вайб-кодинг", "UI/UX Pro Max"]
+related: ["Mermaid", "HyperFrames", "OpenScreen", "Вайб-кодинг", "UI/UX Pro Max", "Mobbin"]
 tags: ["tools", "automation", "docker"]
 sources: ["github-penpot-penpot-2026-05-03"]
 ---
@@ -67,6 +67,8 @@ Penpot занимает нишу между классическими browser-b
 - более программируемая среда по сравнению с чисто GUI-ориентированными редакторами.
 
 В этом смысле Penpot соседствует с [Mermaid]({{ '/wiki/tools/mermaid' | relative_url }}): Mermaid превращает диаграммы в кодоподобный артефакт, а Penpot пытается сделать более программируемым сам слой продуктового дизайна и handoff между дизайном и разработкой.
+
+[Mobbin]({{ '/wiki/tools/mobbin' | relative_url }}) находится раньше по цепочке: это библиотека внешних shipped examples для research, а не место, где команда утверждает свой компонент. Полезный маршрут: собрать и разобрать несколько референсов в Mobbin → принять решение с учётом собственного продукта → зафиксировать компонент, flow и tokens в Penpot. Скриншот референса не становится reusable team asset только потому, что его можно увидеть или скачать в платном плане.
 
 ## Развёртывание
 

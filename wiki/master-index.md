@@ -350,6 +350,12 @@
 - **summary:** Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, collaboration, design systems, design tokens и работа через открытые стандарты
 - **also:** penpot, open-source figma alternative, ui ux design, self-hosted design tool, design tokens, design to code
 
+### [Mobbin]({{ '/wiki/tools/mobbin' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Коммерческая библиотека shipped UI screens, flows и design patterns: evidence layer для research, paid remote MCP/OAuth для controlled agent lookup и Terms-границы против массового копирования, самостоятельных repositories и ML use
+- **also:** mobbin, design inspiration, ui pattern library, ux research, app screenshots, design flows, mobbin mcp, design reference
+
 ### [Trench]({{ '/wiki/tools/trench' | relative_url }})
 - **type:** technology
 - **domain:** tools
