@@ -2,9 +2,9 @@
 title: ASSH
 type: technology
 created: 2026-06-19
-last_updated: 2026-06-29
+last_updated: 2026-08-11
 domain: tools
-related: ["MCPorter", "Antfarm", "OculiX", "agent-aget", "Coolify", "cmux-ssh-here", "Прокси в веб-сборе данных"]
+related: ["MCPorter", "Antfarm", "OculiX", "agent-aget", "Coolify", "cmux-ssh-here", "Прокси в веб-сборе данных", "Croc"]
 sources: ["github-moul-assh-2026-06-19"]
 tags: ["tools", "cli", "automation", "shell", "linux"]
 ---
@@ -127,6 +127,8 @@ ASSH полезен, когда:
 Также важно не путать ASSH с secret manager или полноценным inventory/CMDB. Он решает SSH config и routing, но не заменяет управление правами, аудит ключей и lifecycle серверов.
 
 [Прокси в веб-сборе данных]({{ '/wiki/infra/web-scraping-proxies' | relative_url }}) использует слово «proxy» в другом смысле: это outbound HTTP(S)/SOCKS routing к web source, а не SSH gateway через `ProxyCommand`. Смешивать эти два контура в policy и troubleshooting не стоит.
+
+[Croc]({{ '/wiki/tools/croc' | relative_url }}) не управляет SSH identities, bastions или постоянным server access: это одноразовый encrypted file handoff через code phrase. Для регулярного server-to-server обмена `scp`/`rsync` поверх правильно описанного ASSH/OpenSSH контура дают ownership, audit и устойчивые маршруты; Croc полезнее, когда такого контура нет или он избыточен.
 
 ## Практический вывод
 

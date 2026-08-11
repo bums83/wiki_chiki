@@ -2,9 +2,9 @@
 title: cmux-ssh-here
 type: technology
 created: 2026-06-29
-last_updated: 2026-06-29
+last_updated: 2026-08-11
 domain: tools
-related: ["ASSH", "Coolify", "OculiX", "agent-aget"]
+related: ["ASSH", "Coolify", "OculiX", "agent-aget", "Croc"]
 sources: ["telegram-deksden-notes-909-cmux-ssh-here-2026-06-29"]
 tags: ["tools", "cli", "automation", "shell", "ssh"]
 ---
@@ -66,6 +66,8 @@ npx cmux-ssh-here
 - временного доступа с телефона через SSH client;
 - ситуации, где поднимать постоянный `sshd` ради пары команд избыточно;
 - локального troubleshooting, когда нужна одноразовая дверь, а не новый постоянный сервис.
+
+[Croc]({{ '/wiki/tools/croc' | relative_url }}) закрывает соседнюю, но другую задачу: одноразово передать selected artifact code phrase-ом через encrypted relay, не создавая SSH endpoint. `cmux-ssh-here` лучше, когда нужен временный shell/`scp`/SFTP в доверенной LAN; Croc — когда нужен только file handoff между двумя peers, включая разные сети.
 
 ## Ограничения и безопасность
 

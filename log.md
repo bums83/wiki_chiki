@@ -338,3 +338,10 @@ Updated:
 - Верифицированы: `npm ci --ignore-scripts`, TypeScript build, lint, `npm test` (145 passed, 0 failed), init/update smoke suites и internal security self-scan; реальные LLM/MCP/browser/extension paths не запускались
 - Зафиксированы: package branch `2.18.0` опережает последний GitHub release `v2.17.0`; README/package MIT claim не подтверждён root `LICENSE` или GitHub license metadata
 - Источник: https://github.com/lee-to/ai-factory
+
+## [2026-08-11] ingest | Croc
+- Создано: `raw/entries/2026-08-11_becaps-1956-croc.md`, [[Croc]]
+- Обновлено: [[cmux-ssh-here]], [[ASSH]], [[Cobalt]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источники: публичный Telegram-пост `@becaps/1956` и проверенный upstream `schollz/croc`
+- Верифицированы: `go vet`, static Linux build и CLI version `11.0.3`; полный `go test ./...` не прошёл из-за воспроизводимо environment-dependent DNS expectation в `src/models/TestRemoteLookupIPTimeout`, остальные пакеты прошли
+- Зафиксированы: normal live transfer relay-based; `--store` — отдельный encrypted async storage mode с bearer link/token, а не обычный peer flow

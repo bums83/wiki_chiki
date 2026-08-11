@@ -69,6 +69,7 @@ layout: home
 | [ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) | Read-only MCP-серверы для WB, Ozon, Яндекс Маркета и Детского мира: цены, наличие, отзывы и честное cross-marketplace сравнение |
 | [ASSH]({{ '/wiki/tools/assh' | relative_url }}) | Advanced SSH config manager: YAML для `~/.ssh/config`, aliases, gateway chains, hooks, Graphviz и control sockets |
 | [cmux-ssh-here]({{ '/wiki/tools/cmux-ssh-here' | relative_url }}) | Одноразовый token-auth SSH-сервер для LAN: `npx` запуск, cmux/ssh ссылки, QR, auto-rotation token и shell без постоянного sshd |
+| [Croc]({{ '/wiki/tools/croc' | relative_url }}) | Open-source Go CLI для разовой передачи файлов между peers: code phrase/PAKE, encrypted relay, resume, optional self-hosted relay и encrypted 24-hour store; не замена постоянному storage/SSH |
 | [Coolify]({{ '/wiki/tools/coolify' | relative_url }}) | Self-hosted PaaS/control plane: деплой приложений, баз данных и 280+ Docker Compose сервисов на своих серверах через SSH/Docker |
 | [Telegram Client Operator]({{ '/wiki/tools/telegram-client-operator' | relative_url }}) | MTProto-слой для чтения диалогов, тем, сообщений и поиска внутри агентных сценариев |
 | [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) | Workflow-движок поверх cron и agent jobs для многошаговых автоматизаций и self-advancing цепочек |

@@ -2,9 +2,9 @@
 title: Cobalt
 type: technology
 created: 2026-07-30
-last_updated: 2026-07-30
+last_updated: 2026-08-11
 domain: tools
-related: ["Coolify", "OpenScreen", "Video Summary"]
+related: ["Coolify", "OpenScreen", "Video Summary", "Croc"]
 sources: ["github-imputnet-cobalt-2026-07-30"]
 tags: ["tools", "video", "self-hosted", "open-source", "docker", "api-platform"]
 ---
@@ -75,6 +75,8 @@ API для сторонних проектов не предоставляетс
 [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }}) и Cobalt не дублируют друг друга. OpenScreen записывает и редактирует собственный экранный demo; Cobalt сохраняет уже опубликованный публичный медиа-объект. Один производит оригинальный evidence/demo artifact, другой получает доступный исходный artifact.
 
 [Video Summary]({{ '/wiki/llm-agents/video-summary' | relative_url }}) идёт в другую сторону: превращает текст, URL или PDF в короткий объясняющий MP4. Cobalt может дать локальный видеофайл для отдельного шага транскрибации или извлечения фрагментов, но текущий Video Summary напрямую принимает не video input, а текстовый источник и готовый JSON-сценарий. Связка требует явного промежуточного шага, а не магического «скачай и суммируй».
+
+[Croc]({{ '/wiki/tools/croc' | relative_url }}) находится на следующем, но не автоматическом шаге: Cobalt получает свободно доступный public-media artifact по URL, а Croc передаёт уже выбранный локальный artifact между людьми или машинами. Cobalt не является generic file-transfer сервисом, а Croc не извлекает media из платформ.
 
 ## Ограничения
 

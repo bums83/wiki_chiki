@@ -272,6 +272,12 @@
 - **summary:** Одноразовый token-auth SSH-сервер для LAN: `npx` запуск, cmux/ssh deep links, QR, token rotation, PTY/SFTP и shell без постоянного sshd
 - **also:** cmux-ssh-here, cmux, temporary ssh server, token auth ssh, lan shell, disposable ssh
 
+### [Croc]({{ '/wiki/tools/croc' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Open-source Go CLI для передачи выбранных файлов между двумя peers: code phrase/PAKE, зашифрованный relay, resume, self-hosted relay и opt-in encrypted store; не постоянный storage или SSH control plane
+- **also:** croc, encrypted file transfer, code phrase, PAKE, relay, resume transfer, croc-web, self-hosted relay
+
 ### [Coolify]({{ '/wiki/tools/coolify' | relative_url }})
 - **type:** technology
 - **domain:** tools

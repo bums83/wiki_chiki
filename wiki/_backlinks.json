@@ -698,12 +698,13 @@
   },
   "assh.md": {
     "outgoing": [
-      "MCPorter",
-      "Antfarm",
-      "OculiX",
       "agent-aget",
-      "Coolify",
+      "Antfarm",
       "cmux-ssh-here",
+      "Coolify",
+      "Croc",
+      "MCPorter",
+      "OculiX",
       "Прокси в веб-сборе данных"
     ],
     "incoming": [
@@ -772,10 +773,11 @@
   },
   "cmux-ssh-here.md": {
     "outgoing": [
+      "agent-aget",
       "ASSH",
       "Coolify",
-      "OculiX",
-      "agent-aget"
+      "Croc",
+      "OculiX"
     ],
     "incoming": [
       "ASSH",
@@ -847,6 +849,7 @@
   "cobalt.md": {
     "outgoing": [
       "Coolify",
+      "Croc",
       "OpenScreen",
       "Video Summary"
     ],
@@ -915,6 +918,14 @@
       "The Agency / Agency Agents",
       "MCPorter",
       "Boring Computers"
+    ],
+    "incoming": []
+  },
+  "croc.md": {
+    "outgoing": [
+      "cmux-ssh-here",
+      "ASSH",
+      "Cobalt"
     ],
     "incoming": []
   }
