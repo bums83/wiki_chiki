@@ -352,3 +352,10 @@ Updated:
 - **created:** `wiki/tools/mobbin.md`, `raw/entries/2026-08-11_mobbin-public-pages.md`
 - **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, `wiki/llm-agents/ui-ux-pro-max.md`, `wiki/tools/penpot.md`, `wiki/tools/mcporter.md`
 - **summary:** Mobbin is documented as a commercial design-reference library and paid account/OAuth MCP, not an open dataset or a visual editor. Terms boundaries on copying, repositories and ML use are explicit.
+
+## [2026-08-15] ingest | slidevjs/slidev
+
+- **source:** https://github.com/slidevjs/slidev
+- **created:** `wiki/tools/slidev.md`, `raw/entries/2026-08-15_slidev-github.md`
+- **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, `wiki/tools/mermaid.md`, `wiki/tools/mcporter.md`, `wiki/tools/openscreen.md`, `wiki/llm-agents/hyperframes.md`
+- **summary:** Slidev is documented as a Markdown/Vite/Vue developer presentation runtime with interactive SPA/export/presenter workflows and a local file-mutating MCP surface; upstream CI succeeded at reviewed HEAD, while local clone/test was blocked by reproducible Git transport timeouts.

@@ -332,6 +332,12 @@
 - **summary:** Open-source инструмент для создания диаграмм из текстового описания: flowchart, sequence, Gantt, ER и другие типы — LLM-friendly, встраивается в Markdown
 - **also:** mermaid, diagrams, flowcharts, documentation, technical graphics, mermaid diagrams
 
+### [Slidev]({{ '/wiki/tools/slidev' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Open-source Markdown/Vite/Vue presentation framework для developer decks: Git-native source, code/diagrams/interactive components, SPA/PDF/PPTX delivery, presenter tools и built-in MCP that writes slide files
+- **also:** slidev, developer slides, markdown slides, vite presentation, vue slides, speaker notes, presentation mcp, interactive tech talk
+
 ### [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }})
 - **type:** technology
 - **domain:** tools

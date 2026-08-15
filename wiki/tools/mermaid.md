@@ -2,9 +2,9 @@
 title: Mermaid
 type: technology
 created: 2026-04-30
-last_updated: 2026-06-07
+last_updated: 2026-08-15
 domain: tools
-related: ["Вайб-кодинг", "Диаграмма Исикавы", "Методология A3", "Penpot", "OculiX", "OpenScreen"]
+related: ["Вайб-кодинг", "Диаграмма Исикавы", "Методология A3", "Penpot", "OculiX", "OpenScreen", "Slidev"]
 tags: ["diagrams", "flowcharts", "mermaid", "documentation", "technical-graphics"]
 sources: ["mermaideditor-com-2026-04-30"]
 ---
@@ -81,6 +81,8 @@ Mermaid естественно дополняет несколько уже су
 Для UI/UX-команд Mermaid не заменяет полноценный визуальный редактор, но хорошо дополняет [Penpot]({{ '/wiki/tools/penpot' | relative_url }}): в Penpot проектируют интерфейсы и design system, а в Mermaid фиксируют процессы, user flows, архитектурные схемы и сопроводительную документацию рядом с кодом.
 
 [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) даёт пример сценариев, где диаграммы особенно полезны: visual automation flows с несколькими GUI, ожиданиями, remote sessions и fallback-ветками удобнее проектировать и документировать через sequence или flowchart diagrams. [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }}) закрывает соседний формат объяснения: Mermaid даёт схему процесса, а OpenScreen — видео того же workflow.
+
+[Slidev]({{ '/wiki/tools/slidev' | relative_url }}) использует Mermaid внутри developer presentation deck: диаграмма остаётся text-based и reviewable, но появляется рядом с narration, click steps, code и presenter notes. Для standalone docs Mermaid проще; для technical talk Slidev добавляет delivery/presenter layer.
 
 ## Редакторы
 

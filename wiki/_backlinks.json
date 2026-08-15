@@ -193,13 +193,15 @@
       "Research org code",
       "Penpot",
       "OpenScreen",
-      "Video Summary"
+      "Video Summary",
+      "Slidev"
     ],
     "incoming": [
       "Penpot",
       "VoxCPM2 Portable",
       "OpenScreen",
-      "Video Summary"
+      "Video Summary",
+      "Slidev"
     ]
   },
   "asynchronous-research-swarms.md": {
@@ -370,12 +372,14 @@
       "Методология A3",
       "Penpot",
       "OculiX",
-      "OpenScreen"
+      "OpenScreen",
+      "Slidev"
     ],
     "incoming": [
       "Penpot",
       "OculiX",
-      "OpenScreen"
+      "OpenScreen",
+      "Slidev"
     ]
   },
   "grizzly-sms-mcp.md": {
@@ -455,7 +459,8 @@
       "ru-marketplace-mcp",
       "Telegram Client Operator",
       "Вайб-кодинг",
-      "Mobbin"
+      "Mobbin",
+      "Slidev"
     ],
     "incoming": [
       "ASSH",
@@ -468,7 +473,8 @@
       "ServiceDesk Plus Operator",
       "Telegram Client Operator",
       "agent-aget",
-      "Mobbin"
+      "Mobbin",
+      "Slidev"
     ]
   },
   "servicedesk-plus-operator.md": {
@@ -744,14 +750,16 @@
       "Mermaid",
       "OculiX",
       "Video Summary",
-      "Cobalt"
+      "Cobalt",
+      "Slidev"
     ],
     "incoming": [
       "HyperFrames",
       "Penpot",
       "Mermaid",
       "OculiX",
-      "Video Summary"
+      "Video Summary",
+      "Slidev"
     ]
   },
   "coolify.md": {
@@ -944,6 +952,20 @@
     "incoming": [
       "UI/UX Pro Max",
       "Penpot",
+      "MCPorter"
+    ]
+  },
+  "slidev.md": {
+    "outgoing": [
+      "Mermaid",
+      "HyperFrames",
+      "OpenScreen",
+      "MCPorter"
+    ],
+    "incoming": [
+      "Mermaid",
+      "HyperFrames",
+      "OpenScreen",
       "MCPorter"
     ]
   }

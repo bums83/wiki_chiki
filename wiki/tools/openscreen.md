@@ -2,9 +2,9 @@
 title: OpenScreen
 type: technology
 created: 2026-06-07
-last_updated: 2026-07-30
+last_updated: 2026-08-15
 domain: tools
-related: ["HyperFrames", "Video Summary", "Penpot", "Mermaid", "OculiX", "Cobalt"]
+related: ["HyperFrames", "Video Summary", "Penpot", "Mermaid", "OculiX", "Cobalt", "Slidev"]
 sources: ["github-siddharthvaddem-openscreen-2026-06-07"]
 tags: ["tools", "video", "screen-recording", "workflow", "open-source"]
 ---
@@ -80,6 +80,8 @@ OpenScreen дополняет [Mermaid]({{ '/wiki/tools/mermaid' | relative_url 
 С [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) связь через экран как интерфейс. OculiX автоматизирует GUI по визуальным признакам, а OpenScreen записывает и полирует этот GUI-flow для человека. В связке visual automation может исполнять сценарий, а screen recorder — сохранять демонстрацию или evidence trail.
 
 [Cobalt]({{ '/wiki/tools/cobalt' | relative_url }}) закрывает обратный media path: он получает свободно доступный уже опубликованный файл через self-hosted API, тогда как OpenScreen создаёт собственную запись экрана и полирует её. Это не замена друг другу: в первом случае важны platform rules, access control и трафик processing instance, во втором — capture permissions и монтаж.
+
+[Slidev]({{ '/wiki/tools/slidev' | relative_url }}) создаёт другой первичный артефакт — интерактивную Markdown/Vue-презентацию с presenter notes, code и diagrams. Его встроенная запись удобна для фиксации самого talk, но OpenScreen остаётся сильнее для capture готового приложения: multiple takes, cursor treatment, crop/zoom и финальный product demo edit.
 
 ## Ограничения
 

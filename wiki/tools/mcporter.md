@@ -2,9 +2,9 @@
 title: MCPorter
 type: technology
 created: 2026-04-21
-last_updated: 2026-08-11
+last_updated: 2026-08-15
 domain: tools
-related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp", "AI Factory", "Mobbin"]
+related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp", "AI Factory", "Mobbin", "Slidev"]
 sources: ["workspace-tools-md-2026-04-21"]
 ---
 
@@ -130,3 +130,5 @@ MCP звучит просто, пока сервер один и всё рабо
 [AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }}) может записать ограниченный набор MCP templates во время project setup, но не заменяет операционный слой MCPorter: инвентаризацию servers, auth, прямые tool calls и диагностику реального runtime. После bootstrap особенно важно проверить итоговый config и permissions независимо.
 
 [Mobbin]({{ '/wiki/tools/mobbin' | relative_url }}) — пример remote, account-bound MCP: статический ключ в клиентский config не нужен, но требуется browser OAuth и paid access. Перед использованием в agent workflow здесь особенно полезно отделить transport/OAuth/tool discovery от policy: проверять read-only запросы, не сохранять session artifacts в repo и не превращать полученные референсы в локальную копию библиотеки.
+
+[Slidev]({{ '/wiki/tools/slidev' | relative_url }}) показывает другой класс: local MCP, который читает и изменяет Markdown deck, а в dev-server режиме ещё и управляет навигацией подключённых browser clients. Его `update`/`insert`/`remove`/`move` tools требуют repository-level guardrails: test deck, Git diff, backup и явное разрешение destructive операций, а не только успешного MCP handshake.

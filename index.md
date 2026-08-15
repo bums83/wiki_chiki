@@ -79,6 +79,7 @@ layout: home
 | [Teable]({{ '/wiki/tools/teable' | relative_url }}) | Open-source no-code Postgres/Airtable alternative: spreadsheet-like UI, realtime collaboration, multiple views, plugins, SQL query и self-hosted Docker deployment |
 | [OpenAI Privacy Filter]({{ '/wiki/tools/openai-privacy-filter' | relative_url }}) | Open-source модель для обнаружения и маскировки PII в тексте |
 | [Mermaid]({{ '/wiki/tools/mermaid' | relative_url }}) | Open-source инструмент для создания диаграмм и блок-схем из текстового описания: LLM-friendly, Git-версионирование, 21 тип диаграмм |
+| [Slidev]({{ '/wiki/tools/slidev' | relative_url }}) | Open-source Markdown/Vite/Vue presentation framework для developer decks: code, diagrams, presenter/recording, SPA/PDF/PPTX export и built-in MCP с write-операциями по slides |
 | [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }}) | Client-side code intelligence engine и knowledge graph creator для репозиториев: CLI + MCP, Web UI, Graph RAG Agent и bridge mode |
 | [Tolaria]({{ '/wiki/tools/tolaria' | relative_url }}) | Desktop-приложение для markdown knowledge bases: files-first, git-first, offline-first vaults и AI-friendly контекст для людей и агентов |
 | [Penpot]({{ '/wiki/tools/penpot' | relative_url }}) | Open-source платформа для UI/UX-дизайна и прототипирования: self-hosted, открытые стандарты, design tokens, collaboration и design-to-code handoff |
