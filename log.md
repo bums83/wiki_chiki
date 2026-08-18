@@ -367,3 +367,11 @@ Updated:
 - **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[Tokentap]], [[Evolve]], [[RTK]], [[ProcessForge]]
 - **summary:** Reasoning effort is recorded as a model-specific routing parameter, not a universal quality slider: distinguish model/mode/effort/output budget, observe accepted outcome, escalate only failed cases and retain explicit external-action gates.
 - **verified:** canonical Habr retrieval plus OpenAI reasoning/GPT-5.6 docs, gpt-oss model card, Qwen3 report/docs and DeepSeek-R1 upstream README; no local model runtime or benchmark was claimed.
+
+## [2026-08-18] ingest | firecracker-microvm/firecracker
+
+- **source:** https://github.com/firecracker-microvm/firecracker
+- **created:** `wiki/infra/firecracker.md`, `raw/entries/2026-08-18_firecracker-microvm-firecracker.md`
+- **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[Boring Computers]], [[Coolify]], [[AI Factory]]
+- **summary:** Firecracker is documented as a Linux/KVM VMM for one microVM per process, not a ready-made control plane: the article distinguishes the VMM/API/jailer/seccomp/snapshot substrate from the image, egress, quota, lifecycle and observability responsibilities of an integrator.
+- **verified:** revision-pinned sparse checkout at `95e08ae`; GitHub API current checks observed as success. Local `tools/devtool checkenv` found no `/dev/kvm` access for this user, and Rust `cargo` was absent, so no microVM/integration/performance test is claimed.

@@ -20,6 +20,12 @@
 - **summary:** Стратегии продления жизни старого оборудования
 - **also:** legacy hardware, старое железо
 
+### [Firecracker]({{ '/wiki/infra/firecracker' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** Linux/KVM VMM для одной microVM на процесс: Unix-socket API, jailer/seccomp, snapshots и явная граница между execution substrate и внешним control plane
+- **also:** firecracker, microvm, kvm, vmm, jailer, seccomp, snapshotting, virtio, sandbox
+
 ### [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }})
 - **type:** technology
 - **domain:** infra

@@ -2,16 +2,16 @@
 title: Boring Computers
 type: technology
 created: 2026-07-13
-last_updated: 2026-08-10
+last_updated: 2026-08-18
 domain: llm-agents
-related: ["OculiX", "agent-aget", "MCPorter", "Coolify", "Antfarm", "AI Factory"]
+related: ["OculiX", "agent-aget", "MCPorter", "Coolify", "Antfarm", "AI Factory", "Firecracker"]
 sources: ["github-michaelshimeles-boring-computers-2026-07-13"]
 tags: ["llm", "agents", "mcp", "automation", "virtualization", "self-hosted"]
 ---
 
 # Boring Computers
 
-`Boring Computers` — open-source self-hosted платформа для disposable Linux computers, которые можно отдавать AI-агентам как полноценную рабочую машину. Внутри это Firecracker microVM: отдельное ядро, serial shell, опциональный desktop/VNC, coding agents, preview ports, volumes и API для запуска/остановки/fork.
+`Boring Computers` — open-source self-hosted платформа для disposable Linux computers, которые можно отдавать AI-агентам как полноценную рабочую машину. Внутри это [Firecracker]({{ '/wiki/infra/firecracker' | relative_url }}) microVM: отдельное ядро, serial shell, опциональный desktop/VNC, coding agents, preview ports, volumes и API для запуска/остановки/fork.
 
 Коротко: **не браузерный helper и не очередной контейнерный sandbox, а управляемый парк короткоживущих microVM-компьютеров для агентных задач**.
 
@@ -101,7 +101,7 @@ Boring Computers уместен, когда агенту нужен не оди�
 Нужно учитывать:
 
 - нужен Linux/KVM или рабочая nested virtualization среда;
-- Firecracker сильнее containers, но production posture всё равно требует jailer/seccomp/cgroups/network policy;
+- [Firecracker]({{ '/wiki/infra/firecracker' | relative_url }}) даёт VM boundary сильнее shared containers, но production posture всё равно требует jailer/seccomp/cgroups/network policy;
 - README/runbook прямо рекомендуют держать prototype за localhost/SSH tunnel и включать token;
 - публичное multi-tenant использование требует egress controls, quotas, billing/metering и наблюдаемости;
 - bare-metal host стоит денег даже когда microVMs простаивают;
@@ -109,7 +109,7 @@ Boring Computers уместен, когда агенту нужен не оди�
 
 ## Практический вывод
 
-`Boring Computers` — сильная идея для agent infrastructure: агентам всё чаще нужен не абстрактный sandbox, а настоящая временная машина с shell, browser, display, files и preview URL. Firecracker даёт правильную изоляционную границу, а MCP/SDK превращают microVM lifecycle в reusable capability.
+`Boring Computers` — сильная идея для agent infrastructure: агентам всё чаще нужен не абстрактный sandbox, а настоящая временная машина с shell, browser, display, files и preview URL. [Firecracker]({{ '/wiki/infra/firecracker' | relative_url }}) даёт VMM boundary, а MCP/SDK Boring Computers превращают microVM lifecycle в reusable capability.
 
 Пока это стоит рассматривать как перспективный self-hosted substrate для AI-компьютеров и sandboxed execution, а не как готовый публичный multi-tenant cloud без дополнительного hardening.
 

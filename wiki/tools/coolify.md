@@ -2,9 +2,9 @@
 title: Coolify
 type: technology
 created: 2026-06-21
-last_updated: 2026-08-04
+last_updated: 2026-08-18
 domain: tools
-related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers", "ru-marketplace-mcp", "Cobalt", "Searcharvester"]
+related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers", "Firecracker", "ru-marketplace-mcp", "Cobalt", "Searcharvester"]
 sources: ["github-coollabsio-coolify-2026-06-21"]
 tags: ["tools", "docker", "self-hosted", "paas", "deployment", "backend"]
 ---
@@ -77,7 +77,7 @@ Coolify полезен, когда нужно:
 - сохранить больше контроля над конфигурацией, volumes и окружением;
 - развернуть внутренние tools вроде Directus/Teable/Gitea/Grafana/Immich без отдельного платформенного проекта под каждый сервис.
 
-Для длинных операционных процессов Coolify может быть deployment target внутри [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) или другого workflow engine: workflow решает, что и когда выкатывать, а Coolify держит инфраструктурный слой приложений и сервисов. [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) похож по self-hosted/control-plane ответственности, но управляет не приложениями, а disposable Firecracker microVM-компьютерами для AI-агентов.
+Для длинных операционных процессов Coolify может быть deployment target внутри [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}) или другого workflow engine: workflow решает, что и когда выкатывать, а Coolify держит инфраструктурный слой приложений и сервисов. [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) похож по self-hosted/control-plane ответственности, но управляет не приложениями, а disposable [Firecracker]({{ '/wiki/infra/firecracker' | relative_url }}) microVM-компьютерами для AI-агентов.
 
 [ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) можно развернуть как private HTTP MCP stack через Docker/Compose, но это не повод открывать scraper port напрямую: у серверов нет встроенной auth. Coolify может держать app/process layer, а reverse proxy и network policy должны оставлять MCP endpoint за authentication и rate limits.
 

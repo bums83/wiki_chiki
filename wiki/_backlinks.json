@@ -777,6 +777,7 @@
       "Antfarm",
       "cmux-ssh-here",
       "Boring Computers",
+      "Firecracker",
       "ru-marketplace-mcp",
       "Cobalt",
       "Searcharvester"
@@ -786,7 +787,8 @@
       "Teable",
       "PocketBase",
       "ASSH",
-      "cmux-ssh-here"
+      "cmux-ssh-here",
+      "Firecracker"
     ]
   },
   "cmux-ssh-here.md": {
@@ -823,14 +825,16 @@
       "Antfarm",
       "Coolify",
       "MCPorter",
-      "OculiX"
+      "OculiX",
+      "Firecracker"
     ],
     "incoming": [
       "OculiX",
       "agent-aget",
       "MCPorter",
       "Coolify",
-      "Antfarm"
+      "Antfarm",
+      "Firecracker"
     ]
   },
   "ru-marketplace-mcp.md": {
@@ -954,9 +958,12 @@
       "ProcessForge",
       "The Agency / Agency Agents",
       "MCPorter",
-      "Boring Computers"
+      "Boring Computers",
+      "Firecracker"
     ],
-    "incoming": []
+    "incoming": [
+      "Firecracker"
+    ]
   },
   "croc.md": {
     "outgoing": [
@@ -990,6 +997,18 @@
       "HyperFrames",
       "OpenScreen",
       "MCPorter"
+    ]
+  },
+  "firecracker.md": {
+    "outgoing": [
+      "Boring Computers",
+      "Coolify",
+      "AI Factory"
+    ],
+    "incoming": [
+      "Boring Computers",
+      "Coolify",
+      "AI Factory"
     ]
   }
 }

@@ -2,9 +2,9 @@
 title: AI Factory
 type: technology
 created: 2026-08-10
-last_updated: 2026-08-10
+last_updated: 2026-08-18
 domain: llm-agents
-related: ["Agents.md", "ProcessForge", "The Agency / Agency Agents", "MCPorter", "Boring Computers"]
+related: ["Agents.md", "ProcessForge", "The Agency / Agency Agents", "MCPorter", "Boring Computers", "Firecracker"]
 tags: ["llm", "agents", "workflow", "automation", "mcp", "open-source"]
 sources: ["github-lee-to-ai-factory-2026-08-10"]
 ---
@@ -56,7 +56,7 @@ sources: ["github-lee-to-ai-factory-2026-08-10"]
 - parallel worktrees снижают конфликты файлов, но **не** дают container/VM sandbox и не изолируют сеть или секреты;
 - runtime model, доступные инструменты и реальная permission policy принадлежат выбранному внешнему агенту, не AI Factory.
 
-Если требуется disposable execution environment, нужен отдельный слой вроде [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}), а не только worktree orchestration.
+Если требуется disposable execution environment, нужен отдельный слой вроде [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) поверх [Firecracker]({{ '/wiki/infra/firecracker' | relative_url }}), а не только worktree orchestration.
 
 ## MCP и extensions: полезно, но это supply-chain boundary
 
