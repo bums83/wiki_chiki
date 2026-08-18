@@ -87,6 +87,8 @@ RTK работает с локальными LLM-инструментами, ч�
 
 [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) находится рядом, но решает обратную задачу: RTK уменьшает и структурирует token load до передачи в LLM, а Tokentap наблюдает фактический LLM API traffic, token usage и context-window pressure во время сессии.
 
+[Reasoning effort в LLM]({{ '/wiki/llm-agents/reasoning-effort' | relative_url }}) отделяет ещё одну ось: RTK сжимает входной/tool payload, но не управляет internal reasoning budget. Эти слои нужно измерять раздельно: экономия входного контекста не доказывает, что можно без потери качества понизить effort.
+
 ## Ограничения
 
 - На Windows работает в fallback-режиме (CLAUDE.md injection) без auto-rewrite hook

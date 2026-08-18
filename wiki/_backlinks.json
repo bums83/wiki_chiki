@@ -132,7 +132,8 @@
       "Research org code",
       "Prompts.chat",
       "Magpie",
-      "Tokentap"
+      "Tokentap",
+      "Reasoning effort в LLM"
     ],
     "incoming": [
       "Agents.md",
@@ -140,7 +141,8 @@
       "Prompt Master",
       "ThreatSwarm",
       "Magpie",
-      "Tokentap"
+      "Tokentap",
+      "Reasoning effort в LLM"
     ]
   },
   "validation-bits-per-byte.md": {
@@ -580,11 +582,13 @@
     "outgoing": [
       "PowerInfer",
       "Вайб-кодинг",
-      "Tokentap"
+      "Tokentap",
+      "Reasoning effort в LLM"
     ],
     "incoming": [
       "PocketBase",
-      "Tokentap"
+      "Tokentap",
+      "Reasoning effort в LLM"
     ]
   },
   "legacy-hardware.md": {
@@ -678,13 +682,15 @@
       "Magpie",
       "RTK",
       "Evolve",
-      "Agents.md"
+      "Agents.md",
+      "Reasoning effort в LLM"
     ],
     "incoming": [
       "agent-aget",
       "Magpie",
       "RTK",
-      "Evolve"
+      "Evolve",
+      "Reasoning effort в LLM"
     ]
   },
   "oculix.md": {
@@ -921,9 +927,26 @@
       "AI Factory",
       "Antfarm",
       "Research org code",
-      "The Agency / Agency Agents"
+      "The Agency / Agency Agents",
+      "Reasoning effort в LLM"
     ],
-    "incoming": []
+    "incoming": [
+      "Reasoning effort в LLM"
+    ]
+  },
+  "reasoning-effort.md": {
+    "outgoing": [
+      "Tokentap",
+      "Evolve",
+      "RTK",
+      "ProcessForge"
+    ],
+    "incoming": [
+      "Tokentap",
+      "Evolve",
+      "RTK",
+      "ProcessForge"
+    ]
   },
   "ai-factory.md": {
     "outgoing": [

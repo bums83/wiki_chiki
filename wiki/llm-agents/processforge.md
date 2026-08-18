@@ -123,6 +123,8 @@ Upstream предлагает установить инструмент отде
 
 [AI Factory]({{ '/wiki/llm-agents/ai-factory' | relative_url }}) решает соседнюю задачу: bootstrap конкретных coding-agent runtimes, project-local skills и MCP templates. ProcessForge сильнее в provenance, assignment/capsule и file-first process contracts; AI Factory не заменяет эти границы одной установкой workflow assets.
 
+[Reasoning effort в LLM]({{ '/wiki/llm-agents/reasoning-effort' | relative_url }}) добавляет runtime policy: в assignment разумно явно фиксировать model/snapshot, mode, effort, context/output budget, ожидаемый output и quality gate. ProcessForge хранит этот контракт и evidence trail, но сам не выбирает режим и не доказывает, что высокий effort лучше baseline.
+
 ## Источники
 
 - [Habr: «Process Forge — фреймворк для создания AI-процессов»](https://habr.com/ru/articles/1066916/)

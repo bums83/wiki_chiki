@@ -359,3 +359,11 @@ Updated:
 - **created:** `wiki/tools/slidev.md`, `raw/entries/2026-08-15_slidev-github.md`
 - **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, `wiki/tools/mermaid.md`, `wiki/tools/mcporter.md`, `wiki/tools/openscreen.md`, `wiki/llm-agents/hyperframes.md`
 - **summary:** Slidev is documented as a Markdown/Vite/Vue developer presentation runtime with interactive SPA/export/presenter workflows and a local file-mutating MCP surface; upstream CI succeeded at reviewed HEAD, while local clone/test was blocked by reproducible Git transport timeouts.
+
+## [2026-08-18] ingest | Habr 1071250: Reasoning effort в LLM
+
+- **source:** https://habr.com/ru/articles/1071250/
+- **created:** `wiki/llm-agents/reasoning-effort.md`, `raw/entries/2026-08-18_habr-1071250-reasoning-effort.md`
+- **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[Tokentap]], [[Evolve]], [[RTK]], [[ProcessForge]]
+- **summary:** Reasoning effort is recorded as a model-specific routing parameter, not a universal quality slider: distinguish model/mode/effort/output budget, observe accepted outcome, escalate only failed cases and retain explicit external-action gates.
+- **verified:** canonical Habr retrieval plus OpenAI reasoning/GPT-5.6 docs, gpt-oss model card, Qwen3 report/docs and DeepSeek-R1 upstream README; no local model runtime or benchmark was claimed.

@@ -198,6 +198,12 @@
 - **summary:** Пассивный A/B-тестирование AI-ассистентов в фоне реальных сессий: эмпирический подбор лучшего промпта, модели и провайдера для Claude Code, Cursor и Aider
 - **also:** evolve, a-b testing, prompt optimization, ai coding, claude code, cursor, aider
 
+### [Reasoning effort в LLM]({{ '/wiki/llm-agents/reasoning-effort' | relative_url }})
+- **type:** practice
+- **domain:** llm-agents
+- **summary:** Управление model/mode/effort/context budget как измеряемой routing policy: outcome gates, контроль стоимости принятого результата и безопасная эскалация только проигравших кейсов
+- **also:** reasoning effort, reasoning budget, thinking mode, inference-time scaling, reasoning tokens, model routing, token budget
+
 ### [ThreatSwarm]({{ '/wiki/llm-agents/threatswarm' | relative_url }})
 - **type:** technology
 - **domain:** llm-agents

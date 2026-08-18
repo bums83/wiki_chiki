@@ -52,6 +52,7 @@ layout: home
 | [Academic Research Skills]({{ '/wiki/llm-agents/academic-research-skills' | relative_url }}) | Claude Code skill suite для academic research workflow: research → write → review → revise → finalize, с human checkpoints и integrity gates |
 | [The Agency / Agency Agents]({{ '/wiki/llm-agents/agency-agents' | relative_url }}) | Cross-functional библиотека AI-agent ролей: 232 Markdown agents в 16 divisions плюс convert/install tooling для Claude Code, Cursor, OpenClaw, Codex и других runtimes |
 | [Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }}) | Пассивное A/B-тестирование AI-ассистентов в фоне: эмпирический подбор лучшего промпта и модели |
+| [Reasoning effort в LLM]({{ '/wiki/llm-agents/reasoning-effort' | relative_url }}) | Практика управления model/mode/effort/context budget: измеримый routing parameter, outcome gates, эскалация только проигравших кейсов и границы reasoning tokens |
 | [ThreatSwarm]({{ '/wiki/llm-agents/threatswarm' | relative_url }}) | Claude Code plugin с 27 AI-агентами для полной автоматизации пентеста: разведка → эксплуатация → закрепление → отчёт |
 | [Claude-OSINT]({{ '/wiki/llm-agents/claude-osint' | relative_url }}) | SKILL.md-набор для LLM с 90+ OSINT-модулями, 48 паттернами поиска секретов и 80+ dorks для профессиональных расследований |
 | [Prompt Master]({{ '/wiki/llm-agents/prompt-master' | relative_url }}) | Claude skill для генерации оптимизированных промптов под 20+ AI-инструментов: Midjourney, Cursor, ChatGPT, Gemini и другие |

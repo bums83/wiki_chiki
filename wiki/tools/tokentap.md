@@ -66,6 +66,8 @@ Tokentap полезен в AI-assisted development workflow, где важно �
 
 Для практик из [Agents.md]({{ '/wiki/llm-agents/agents-md' | relative_url }}) Tokentap важен как проверка реальности: даже хороший project instruction может разрастись или попасть в запрос в неожиданной форме. Prompt archive позволяет увидеть фактический payload, а не предполагать его по файлам правил.
 
+[Reasoning effort в LLM]({{ '/wiki/llm-agents/reasoning-effort' | relative_url }}) использует Tokentap как observability layer: decision о model/mode/effort нельзя принимать только по впечатлению от ответа. Нужны фактический usage, context pressure, latency и outcome gate. Сам Tokentap не знает внутренних reasoning tokens всех providers и не заменяет provider usage telemetry.
+
 ## Ограничения и осторожность
 
 Главный риск Tokentap — приватность prompt archive. Инструмент сохраняет raw prompts и JSON request bodies, поэтому туда могут попасть приватный код, секреты, user data, cookies из tool outputs или внутренние инструкции. Каталог archive нужно выбирать осознанно, не коммитить в репозитории и не отправлять в публичные отчёты без очистки.

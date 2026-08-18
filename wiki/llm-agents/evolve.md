@@ -77,6 +77,7 @@ Evolve естественно дополняет уже существующие
 - [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}) — это про накопление и переиспользование промптов; Evolve про проверку, какой из них реально работает.
 - [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) — соседний multi-AI подход: не пассивное A/B-тестирование сессий, а явный adversarial debate нескольких reviewers вокруг PR или технического вопроса.
 - [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) — observability слой для LLM CLI sessions: показывает token usage и сохраняет prompt archive, который помогает разбирать стоимость и состав контекста.
+- [Reasoning effort в LLM]({{ '/wiki/llm-agents/reasoning-effort' | relative_url }}) — policy layer для model/mode/effort/context budget. Evolve может проверить, окупает ли более дорогой effort реальные quality gates, а не сделать высокий режим религией.
 
 ## Ограничения
 
