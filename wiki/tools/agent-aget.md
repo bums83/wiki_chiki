@@ -2,9 +2,9 @@
 title: agent-aget
 type: technology
 created: 2026-05-28
-last_updated: 2026-07-13
+last_updated: 2026-08-26
 domain: tools
-related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie", "Tokentap", "OculiX", "ASSH", "Boring Computers", "Прокси в веб-сборе данных"]
+related: ["Agents.md", "MCPorter", "Antfarm", "GitNexus", "Magpie", "Tokentap", "OculiX", "ASSH", "Boring Computers", "Прокси в веб-сборе данных", "nuphus-mcp"]
 sources: ["github-izzzzzi-agent-aget-2026-05-28", "github-izzzzzi-agent-aget-refresh-2026-06-18"]
 tags: ["tools", "cli", "agents", "automation", "workflow"]
 ---
@@ -13,7 +13,7 @@ tags: ["tools", "cli", "agents", "automation", "workflow"]
 
 `agent-aget` — CLI-помощник для браузерных сценариев LLM-агентов. Он запускает управляемый stealth Chromium на базе CloakBrowser, хранит локальные браузерные сессии и возвращает машинно-читаемый JSON, чтобы terminal agents могли выполнять web workflow без отдельного GUI-оператора.
 
-Внутри Wiki Chiki это практический tool-layer рядом с [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}) и [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }}): не «агент сам по себе», а повторяемый интерфейс к capability, которую агент может использовать в ходе работы.
+Внутри Wiki Chiki это практический tool-layer рядом с [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}) и [GitNexus]({{ '/wiki/tools/gitnexus' | relative_url }}): не «агент сам по себе», а повторяемый интерфейс к capability, которую агент может использовать в ходе работы. [nuphus-mcp]({{ '/wiki/tools/nuphus-mcp' | relative_url }}) пересекается с ним по Chrome/CDP automation, но вместо CLI/session-id surface выдаёт capability через MCP и дополнительно управляет desktop; поэтому его trust boundary шире.
 
 ## Что делает
 

@@ -2,9 +2,9 @@
 title: OculiX
 type: technology
 created: 2026-06-05
-last_updated: 2026-07-13
+last_updated: 2026-08-26
 domain: tools
-related: ["agent-aget", "Antfarm", "Mermaid", "MCPorter", "OpenScreen", "ASSH", "Boring Computers"]
+related: ["agent-aget", "Antfarm", "Mermaid", "MCPorter", "OpenScreen", "ASSH", "Boring Computers", "nuphus-mcp"]
 sources: ["github-oculix-org-oculix-2026-06-05"]
 tags: ["tools", "automation", "workflow", "computer-vision", "ocr"]
 ---
@@ -34,7 +34,7 @@ OculiX продолжает lineage Sikuli / SikuliX и даёт пользов�
 
 Такой подход особенно полезен для legacy и enterprise-сценариев, где приложение может быть старым, закрытым, виртуализированным или canvas-rendered. Там, где Playwright/Selenium/Appium требуют DOM, accessibility tree или стабильные selectors, OculiX может работать по картинке.
 
-С [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) связь концептуальная: agent-aget даёт LLM-агенту CLI-доступ к браузерному workflow, а OculiX решает более широкий visual automation слой — не только web page, но и desktop/remote/mobile GUI. [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) находится уровнем ниже: он может выделять disposable Linux desktop/VNC microVM, а OculiX уже автоматизирует видимый экран такой машины или любого другого удалённого GUI.
+С [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) связь концептуальная: agent-aget даёт LLM-агенту CLI-доступ к браузерному workflow, а OculiX решает более широкий visual automation слой — не только web page, но и desktop/remote/mobile GUI. [nuphus-mcp]({{ '/wiki/tools/nuphus-mcp' | relative_url }}) находится между этими слоями: он отдаёт MCP tools для desktop/browser, сочетает OCR/vision с CDP, но без image-template workflow OculiX и без отдельной machine isolation. [Boring Computers]({{ '/wiki/llm-agents/boring-computers' | relative_url }}) находится уровнем ниже: он может выделять disposable Linux desktop/VNC microVM, а OculiX уже автоматизирует видимый экран такой машины или любого другого удалённого GUI.
 
 ## OCR и remote execution
 

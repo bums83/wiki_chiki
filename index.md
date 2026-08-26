@@ -68,6 +68,7 @@ layout: home
 |--------|-------|
 | [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |
 | [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}) | CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций |
+| [nuphus-mcp]({{ '/wiki/tools/nuphus-mcp' | relative_url }}) | Stdio MCP-server для desktop/browser computer use: screen/windows/input, CDP, local OCR и BYOK vision; требует отдельной trust boundary и strict confirmation |
 | [ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) | Read-only MCP-серверы для WB, Ozon, Яндекс Маркета и Детского мира: цены, наличие, отзывы и честное cross-marketplace сравнение |
 | [ASSH]({{ '/wiki/tools/assh' | relative_url }}) | Advanced SSH config manager: YAML для `~/.ssh/config`, aliases, gateway chains, hooks, Graphviz и control sockets |
 | [cmux-ssh-here]({{ '/wiki/tools/cmux-ssh-here' | relative_url }}) | Одноразовый token-auth SSH-сервер для LAN: `npx` запуск, cmux/ssh ссылки, QR, auto-rotation token и shell без постоянного sshd |

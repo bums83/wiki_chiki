@@ -2,9 +2,9 @@
 title: MCPorter
 type: technology
 created: 2026-04-21
-last_updated: 2026-08-15
+last_updated: 2026-08-26
 domain: tools
-related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp", "AI Factory", "Mobbin", "Slidev"]
+related: ["Telegram Client Operator", "Antfarm", "Вайб-кодинг", "agent-aget", "ASSH", "Boring Computers", "ru-marketplace-mcp", "AI Factory", "Mobbin", "Slidev", "nuphus-mcp"]
 sources: ["workspace-tools-md-2026-04-21"]
 ---
 
@@ -28,6 +28,8 @@ sources: ["workspace-tools-md-2026-04-21"]
 Для SSH-доступа похожую operator-layer роль играет [ASSH]({{ '/wiki/tools/assh' | relative_url }}): он не работает с MCP, но делает управляемыми SSH aliases, gateways, `ProxyCommand`, hooks и итоговый `~/.ssh/config`.
 
 [ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) — ещё один практический пример: пять независимых stdio MCP servers, общая runtime policy и source-specific errors. В такой связке MCPorter полезен до подключения к агенту: проверить transport, список tools и то, что диагностика не попала в JSON-RPC stdout.
+
+[nuphus-mcp]({{ '/wiki/tools/nuphus-mcp' | relative_url }}) показывает противоположный по риску пример stdio surface: transport можно проверить MCPorter, но desktop/browser control остаётся capability той машины, где server запущен. Для такого server inventory инструментов и schema недостаточно — нужна отдельная policy для trust boundary и write confirmation.
 
 ## Что это за класс инструмента
 

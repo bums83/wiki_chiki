@@ -2,9 +2,9 @@
 title: Boring Computers
 type: technology
 created: 2026-07-13
-last_updated: 2026-08-18
+last_updated: 2026-08-26
 domain: llm-agents
-related: ["OculiX", "agent-aget", "MCPorter", "Coolify", "Antfarm", "AI Factory", "Firecracker"]
+related: ["OculiX", "agent-aget", "MCPorter", "Coolify", "Antfarm", "AI Factory", "Firecracker", "nuphus-mcp"]
 sources: ["github-michaelshimeles-boring-computers-2026-07-13"]
 tags: ["llm", "agents", "mcp", "automation", "virtualization", "self-hosted"]
 ---
@@ -68,6 +68,7 @@ Boring Computers пересекается с [OculiX]({{ '/wiki/tools/oculix' | 
 
 - [OculiX]({{ '/wiki/tools/oculix' | relative_url }}) автоматизирует уже существующий экран через screenshots, OCR и visual matching.
 - [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) даёт CLI/JSON-интерфейс к управляемому браузеру.
+- [nuphus-mcp]({{ '/wiki/tools/nuphus-mcp' | relative_url }}) даёт MCP surface для desktop/browser control внутри той machine/session, где он запущен; strict confirmation полезен, но не заменяет сам disposable execution boundary.
 - Boring Computers создаёт саму disposable машину, внутри которой может жить браузер, терминал, VNC desktop, coding agent и артефакты задачи.
 
 То есть Boring Computers отвечает на вопрос «где безопасно и быстро дать агенту реальный компьютер?», а OculiX/agent-aget — «как агенту управлять конкретной GUI/browser поверхностью?».

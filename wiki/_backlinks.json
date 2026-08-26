@@ -462,7 +462,8 @@
       "Telegram Client Operator",
       "Вайб-кодинг",
       "Mobbin",
-      "Slidev"
+      "Slidev",
+      "nuphus-mcp"
     ],
     "incoming": [
       "ASSH",
@@ -476,7 +477,8 @@
       "Telegram Client Operator",
       "agent-aget",
       "Mobbin",
-      "Slidev"
+      "Slidev",
+      "nuphus-mcp"
     ]
   },
   "servicedesk-plus-operator.md": {
@@ -645,7 +647,8 @@
       "OculiX",
       "ASSH",
       "Boring Computers",
-      "Прокси в веб-сборе данных"
+      "Прокси в веб-сборе данных",
+      "nuphus-mcp"
     ],
     "incoming": [
       "ASSH",
@@ -656,7 +659,8 @@
       "Magpie",
       "Tokentap",
       "OculiX",
-      "cmux-ssh-here"
+      "cmux-ssh-here",
+      "nuphus-mcp"
     ]
   },
   "magpie.md": {
@@ -701,7 +705,8 @@
       "MCPorter",
       "OpenScreen",
       "ASSH",
-      "Boring Computers"
+      "Boring Computers",
+      "nuphus-mcp"
     ],
     "incoming": [
       "ASSH",
@@ -709,7 +714,8 @@
       "Antfarm",
       "Mermaid",
       "OpenScreen",
-      "cmux-ssh-here"
+      "cmux-ssh-here",
+      "nuphus-mcp"
     ]
   },
   "assh.md": {
@@ -826,7 +832,8 @@
       "Coolify",
       "MCPorter",
       "OculiX",
-      "Firecracker"
+      "Firecracker",
+      "nuphus-mcp"
     ],
     "incoming": [
       "OculiX",
@@ -834,7 +841,8 @@
       "MCPorter",
       "Coolify",
       "Antfarm",
-      "Firecracker"
+      "Firecracker",
+      "nuphus-mcp"
     ]
   },
   "ru-marketplace-mcp.md": {
@@ -1009,6 +1017,20 @@
       "Boring Computers",
       "Coolify",
       "AI Factory"
+    ]
+  },
+  "nuphus-mcp.md": {
+    "outgoing": [
+      "MCPorter",
+      "agent-aget",
+      "OculiX",
+      "Boring Computers"
+    ],
+    "incoming": [
+      "MCPorter",
+      "agent-aget",
+      "OculiX",
+      "Boring Computers"
     ]
   }
 }

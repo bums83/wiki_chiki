@@ -375,3 +375,11 @@ Updated:
 - **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[Boring Computers]], [[Coolify]], [[AI Factory]]
 - **summary:** Firecracker is documented as a Linux/KVM VMM for one microVM per process, not a ready-made control plane: the article distinguishes the VMM/API/jailer/seccomp/snapshot substrate from the image, egress, quota, lifecycle and observability responsibilities of an integrator.
 - **verified:** revision-pinned sparse checkout at `95e08ae`; GitHub API current checks observed as success. Local `tools/devtool checkenv` found no `/dev/kvm` access for this user, and Rust `cargo` was absent, so no microVM/integration/performance test is claimed.
+
+## [2026-08-26] ingest | mrpulor-gh/nuphus-mcp
+
+- **source:** https://github.com/mrpulor-gh/nuphus-mcp
+- **created:** `wiki/tools/nuphus-mcp.md`, `raw/entries/2026-08-26_nuphus-mcp-github.md`
+- **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[MCPorter]], [[agent-aget]], [[OculiX]], [[Boring Computers]]
+- **summary:** Nuphus MCP is documented as a local stdio computer-use layer with desktop/browser/CDP/OCR capabilities, not an isolation boundary; strict confirmation is opt-in and does not replace a trusted MCP client or separate desktop session.
+- **verified:** direct official GitHub/API/raw source review at `9817ef7`, npm/release `0.1.13`, and eight successful upstream checks. Sparse checkout matches reviewed SHA; Cargo is absent locally, so no source build, Chrome integration or desktop action is claimed.

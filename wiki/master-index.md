@@ -260,6 +260,12 @@
 - **summary:** Portable Windows-обвязка вокруг VoxCPM2 с TTS, voice cloning, voice design и авто-пайплайном обучения LoRA из видео или аудио
 - **also:** voxcpm2, voxcpm2 portable, tts, voice cloning, lora voice training, local voice tool
 
+### [nuphus-mcp]({{ '/wiki/tools/nuphus-mcp' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Локальный stdio MCP-server для управления desktop/browser: screen/windows/input, Chrome CDP, local OCR и BYOK vision; `destructiveHint` не заменяет strict confirmation, host trust boundary и OS isolation
+- **also:** nuphus-mcp, desktop automation, computer use, browser automation, stdio mcp, cdp, ocr, strict confirmation
+
 ### [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }})
 - **type:** technology
 - **domain:** tools
