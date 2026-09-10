@@ -786,7 +786,8 @@
       "Firecracker",
       "ru-marketplace-mcp",
       "Cobalt",
-      "Searcharvester"
+      "Searcharvester",
+      "Invidious"
     ],
     "incoming": [
       "Directus",
@@ -794,7 +795,8 @@
       "PocketBase",
       "ASSH",
       "cmux-ssh-here",
-      "Firecracker"
+      "Firecracker",
+      "Invidious"
     ]
   },
   "cmux-ssh-here.md": {
@@ -881,12 +883,14 @@
       "Coolify",
       "Croc",
       "OpenScreen",
-      "Video Summary"
+      "Video Summary",
+      "Invidious"
     ],
     "incoming": [
       "Coolify",
       "OpenScreen",
-      "Video Summary"
+      "Video Summary",
+      "Invidious"
     ]
   },
   "ui-ux-pro-max.md": {
@@ -910,13 +914,15 @@
       "agent-aget",
       "ru-marketplace-mcp",
       "ASSH",
-      "OpenAI Privacy Filter"
+      "OpenAI Privacy Filter",
+      "Invidious"
     ],
     "incoming": [
       "agent-aget",
       "ru-marketplace-mcp",
       "ASSH",
-      "OpenAI Privacy Filter"
+      "OpenAI Privacy Filter",
+      "Invidious"
     ]
   },
   "searcharvester.md": {
@@ -1031,6 +1037,18 @@
       "agent-aget",
       "OculiX",
       "Boring Computers"
+    ]
+  },
+  "invidious.md": {
+    "outgoing": [
+      "Cobalt",
+      "Coolify",
+      "Прокси в веб-сборе данных"
+    ],
+    "incoming": [
+      "Cobalt",
+      "Coolify",
+      "Прокси в веб-сборе данных"
     ]
   }
 }

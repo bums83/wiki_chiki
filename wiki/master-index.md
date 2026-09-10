@@ -416,6 +416,12 @@
 - **summary:** Open-source recorder/editor для polished product demos: screen/window capture, webcam PiP, auto-zooms, cursor effects, captions, annotations и MP4/GIF export
 - **also:** openscreen, screen studio alternative, screen recording, product demo, video editor, electron recorder
 
+### [Invidious]({{ '/wiki/tools/invidious' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Self-hosted alternative frontend/API для YouTube на Crystal: PostgreSQL state, companion для playback, reverse proxy и внешний YouTube-dependent data path; не самостоятельная видео-платформа и не сервис без доверия к оператору
+- **also:** invidious, youtube alternative, self-hosted youtube frontend, youtube api, crystal, invidious companion
+
 ### [Cobalt]({{ '/wiki/tools/cobalt' | relative_url }})
 - **type:** technology
 - **domain:** tools

@@ -2,9 +2,9 @@
 title: Прокси в веб-сборе данных
 type: guide
 created: 2026-08-03
-last_updated: 2026-08-03
+last_updated: 2026-09-10
 domain: infra
-related: ["agent-aget", "ru-marketplace-mcp", "ASSH", "OpenAI Privacy Filter"]
+related: ["agent-aget", "ru-marketplace-mcp", "ASSH", "OpenAI Privacy Filter", "Invidious"]
 sources: ["habr-1066200-2026-08-03"]
 tags: ["proxy", "web-scraping", "rate-limiting"]
 ---
@@ -72,6 +72,8 @@ tags: ["proxy", "web-scraping", "rate-limiting"]
 - **Данные** должны быть минимизированы. Публичная страница не означает, что любые собранные персональные данные можно бесконечно хранить или пересылать; [OpenAI Privacy Filter]({{ '/wiki/tools/openai-privacy-filter' | relative_url }}) может быть отдельным PII-redaction шагом до внешней LLM или индексации.
 
 [agent-aget]({{ '/wiki/tools/agent-aget' | relative_url }}) может быть browser-capability в разрешённом workflow, но persistent profile, cookies и stealth-compatible browser не отменяют правила target. Прокси не превращает automation в универсальный обход ограничений.
+
+[Invidious]({{ '/wiki/tools/invidious' | relative_url }}) использует outbound HTTP/SOCKS5 configuration и отдельно переносит video-stream path в companion. Это инфраструктурная настройка availability/egress, а не механизм гарантированного доступа к YouTube: rate limit, geography, provider policy и условия платформы остаются внешними ограничениями.
 
 ## Не путать с SSH proxy
 

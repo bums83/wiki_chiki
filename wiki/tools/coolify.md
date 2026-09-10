@@ -2,9 +2,9 @@
 title: Coolify
 type: technology
 created: 2026-06-21
-last_updated: 2026-08-18
+last_updated: 2026-09-10
 domain: tools
-related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers", "Firecracker", "ru-marketplace-mcp", "Cobalt", "Searcharvester"]
+related: ["Directus", "Teable", "PocketBase", "ASSH", "Antfarm", "cmux-ssh-here", "Boring Computers", "Firecracker", "ru-marketplace-mcp", "Cobalt", "Searcharvester", "Invidious"]
 sources: ["github-coollabsio-coolify-2026-06-21"]
 tags: ["tools", "docker", "self-hosted", "paas", "deployment", "backend"]
 ---
@@ -82,6 +82,8 @@ Coolify полезен, когда нужно:
 [ru-marketplace-mcp]({{ '/wiki/tools/ru-marketplace-mcp' | relative_url }}) можно развернуть как private HTTP MCP stack через Docker/Compose, но это не повод открывать scraper port напрямую: у серверов нет встроенной auth. Coolify может держать app/process layer, а reverse proxy и network policy должны оставлять MCP endpoint за authentication и rate limits.
 
 [Cobalt]({{ '/wiki/tools/cobalt' | relative_url }}) — ещё один уместный private Docker workload: Coolify может держать container/proxy/deployment lifecycle, но API нельзя открывать бездумно. Cobalt defaults к широкому listen/CORS и требует отдельно настроить reverse proxy, rate limits, Turnstile/API keys, secrets и cookies policy.
+
+[Invidious]({{ '/wiki/tools/invidious' | relative_url }}) также можно разместить как Compose workload, но это stateful и bandwidth-sensitive сервис: PostgreSQL volumes/backups, companion, reverse proxy/TLS, keys, traffic и restart policy остаются операционной ответственностью. Coolify снижает ручной deployment overhead, но не превращает YouTube-dependent public service в безопасный managed product.
 
 ## Ограничения
 

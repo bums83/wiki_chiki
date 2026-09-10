@@ -383,3 +383,11 @@ Updated:
 - **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[MCPorter]], [[agent-aget]], [[OculiX]], [[Boring Computers]]
 - **summary:** Nuphus MCP is documented as a local stdio computer-use layer with desktop/browser/CDP/OCR capabilities, not an isolation boundary; strict confirmation is opt-in and does not replace a trusted MCP client or separate desktop session.
 - **verified:** direct official GitHub/API/raw source review at `9817ef7`, npm/release `0.1.13`, and eight successful upstream checks. Sparse checkout matches reviewed SHA; Cargo is absent locally, so no source build, Chrome integration or desktop action is claimed.
+
+## [2026-09-10] ingest | iv-org/invidious
+
+- **source:** https://github.com/iv-org/invidious
+- **created:** `wiki/tools/invidious.md`, `raw/entries/2026-09-10_invidious-github.md`
+- **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[Cobalt]], [[Coolify]], [[Прокси в веб-сборе данных]]
+- **summary:** Invidious описан как self-hosted frontend/API для YouTube с PostgreSQL и отдельным companion для playback, а не как независимая, постоянная или не требующая доверия video platform; приватность и доступность зависят от оператора и YouTube-facing runtime path.
+- **verified:** sparse checkout на `049d591d`; прямой GitHub/docs/API review. В текущем CI Docker checks и stable Crystal 1.14–1.20 успешны, но stable Crystal 1.21.0 завершился failure. Локального Crystal нет; source build, migration, companion, playback и API E2E не заявлены как выполненные.

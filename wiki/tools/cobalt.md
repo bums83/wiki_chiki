@@ -2,9 +2,9 @@
 title: Cobalt
 type: technology
 created: 2026-07-30
-last_updated: 2026-08-11
+last_updated: 2026-09-10
 domain: tools
-related: ["Coolify", "OpenScreen", "Video Summary", "Croc"]
+related: ["Coolify", "OpenScreen", "Video Summary", "Croc", "Invidious"]
 sources: ["github-imputnet-cobalt-2026-07-30"]
 tags: ["tools", "video", "self-hosted", "open-source", "docker", "api-platform"]
 ---
@@ -73,6 +73,8 @@ API для сторонних проектов не предоставляетс
 ## Cobalt рядом с media-инструментами
 
 [OpenScreen]({{ '/wiki/tools/openscreen' | relative_url }}) и Cobalt не дублируют друг друга. OpenScreen записывает и редактирует собственный экранный demo; Cobalt сохраняет уже опубликованный публичный медиа-объект. Один производит оригинальный evidence/demo artifact, другой получает доступный исходный artifact.
+
+[Invidious]({{ '/wiki/tools/invidious' | relative_url }}) пересекается с Cobalt только внешним media-path. Invidious — interactive frontend/API для YouTube с subscriptions и server state; Cobalt получает свободно доступный файл по URL. Оба зависят от изменений внешних площадок и должны иметь ограничения public abuse, но не заменяют друг друга.
 
 [Video Summary]({{ '/wiki/llm-agents/video-summary' | relative_url }}) идёт в другую сторону: превращает текст, URL или PDF в короткий объясняющий MP4. Cobalt может дать локальный видеофайл для отдельного шага транскрибации или извлечения фрагментов, но текущий Video Summary напрямую принимает не video input, а текстовый источник и готовый JSON-сценарий. Связка требует явного промежуточного шага, а не магического «скачай и суммируй».
 
