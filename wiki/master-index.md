@@ -204,6 +204,12 @@
 - **summary:** Пассивный A/B-тестирование AI-ассистентов в фоне реальных сессий: эмпирический подбор лучшего промпта, модели и провайдера для Claude Code, Cursor и Aider
 - **also:** evolve, a-b testing, prompt optimization, ai coding, claude code, cursor, aider
 
+### [Snowball — обучающийся агент скидок FMCG]({{ '/wiki/llm-agents/snowball' | relative_url }})
+- **type:** technology
+- **domain:** llm-agents
+- **summary:** Kotlin-прототип, где LLM выбирает скидку, а immutable counterfactual cases и детерминированные lessons из persistent memory измеримо меняют последующие решения в изолированном benchmark
+- **also:** snowball, fmcg promotion, learning memory, counterfactual evaluation, regret, xmemory
+
 ### [Reasoning effort в LLM]({{ '/wiki/llm-agents/reasoning-effort' | relative_url }})
 - **type:** practice
 - **domain:** llm-agents

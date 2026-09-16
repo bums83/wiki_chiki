@@ -91,6 +91,7 @@ README заявляет ориентир порядка **~12 экспериме
 - [Validation bits per byte]({{ '/wiki/llm-agents/validation-bits-per-byte' | relative_url }}) — быстрая метрика обратной связи;
 - [Overnight experimentation]({{ '/wiki/llm-agents/overnight-experimentation' | relative_url }}) — operational pattern пакетного ночного поиска;
 - [Asynchronous research swarms]({{ '/wiki/llm-agents/asynchronous-research-swarms' | relative_url }}) — следующий шаг от одного агента к распределённому research community.
+- [Snowball — обучающийся агент скидок FMCG]({{ '/wiki/llm-agents/snowball' | relative_url }}) — похожая экспериментальная дисциплина для policy agent: fixed simulator, train/benchmark split и counterfactual evidence вместо самооценки модели.
 
 ## Практический вывод
 

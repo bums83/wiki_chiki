@@ -93,7 +93,7 @@ Habr-статья [«Как управлять reasoning effort в LLM»](https:
 
 [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) полезен как слой наблюдаемости traffic, prompt archive и context pressure, но его архив может содержать приватные prompts, tool outputs и секреты. Не коммитить его как evidence без redaction.
 
-[Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }}) полезен для медленного A/B-сравнения конфигураций AI-coding сессий. Он не доказывает, что одинаковая настройка будет лучшей для research, support или внешних операций. [RTK]({{ '/wiki/infra/rtk' | relative_url }}) решает другую задачу: сжимает входящий tool/context payload, но не заменяет управление reasoning budget.
+[Evolve]({{ '/wiki/llm-agents/evolve' | relative_url }}) полезен для медленного A/B-сравнения конфигураций AI-coding сессий. Он не доказывает, что одинаковая настройка будет лучшей для research, support или внешних операций. [Snowball — обучающийся агент скидок FMCG]({{ '/wiki/llm-agents/snowball' | relative_url }}) иллюстрирует другой слой: counterfactual cases, schema и изолированный benchmark доказывают изменение policy лучше, чем повышение effort без доказательной петли. [RTK]({{ '/wiki/infra/rtk' | relative_url }}) решает другую задачу: сжимает входящий tool/context payload, но не заменяет управление reasoning budget.
 
 ## Границы
 

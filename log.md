@@ -391,3 +391,11 @@ Updated:
 - **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[Cobalt]], [[Coolify]], [[Прокси в веб-сборе данных]]
 - **summary:** Invidious описан как self-hosted frontend/API для YouTube с PostgreSQL и отдельным companion для playback, а не как независимая, постоянная или не требующая доверия video platform; приватность и доступность зависят от оператора и YouTube-facing runtime path.
 - **verified:** sparse checkout на `049d591d`; прямой GitHub/docs/API review. В текущем CI Docker checks и stable Crystal 1.14–1.20 успешны, но stable Crystal 1.21.0 завершился failure. Локального Crystal нет; source build, migration, companion, playback и API E2E не заявлены как выполненные.
+
+## [2026-09-16] ingest | bums83/snowball
+
+- **source:** https://github.com/bums83/snowball
+- **created:** `wiki/llm-agents/snowball.md`, `raw/entries/2026-09-16_snowball.md`
+- **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[Evolve]], [[Reasoning effort в LLM]], [[Autoresearch]]
+- **summary:** Kotlin/JVM prototype for a self-learning FMCG promotion agent: a deterministic simulator and counterfactual replay create immutable evidence; deterministic lessons from persistent memory are retrieved before later constrained LLM decisions.
+- **verified:** cloned revision `b055f34b781def1400bf05845b91118c4fa36e4d`, reviewed build/runtime/test structure and benchmark/xmemory documents. `./gradlew spotlessCheck build` did not start because this host lacks Java/JAVA_HOME; no local build or test result is claimed.

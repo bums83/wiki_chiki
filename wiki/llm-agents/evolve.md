@@ -78,6 +78,7 @@ Evolve естественно дополняет уже существующие
 - [Magpie]({{ '/wiki/tools/magpie' | relative_url }}) — соседний multi-AI подход: не пассивное A/B-тестирование сессий, а явный adversarial debate нескольких reviewers вокруг PR или технического вопроса.
 - [Tokentap]({{ '/wiki/tools/tokentap' | relative_url }}) — observability слой для LLM CLI sessions: показывает token usage и сохраняет prompt archive, который помогает разбирать стоимость и состав контекста.
 - [Reasoning effort в LLM]({{ '/wiki/llm-agents/reasoning-effort' | relative_url }}) — policy layer для model/mode/effort/context budget. Evolve может проверить, окупает ли более дорогой effort реальные quality gates, а не сделать высокий режим религией.
+- [Snowball — обучающийся агент скидок FMCG]({{ '/wiki/llm-agents/snowball' | relative_url }}) — другой, более контролируемый эксперимент: сравнивает чистую и обученную memory на фиксированных сценариях, а не конфигурации в реальных coding sessions.
 
 ## Ограничения
 

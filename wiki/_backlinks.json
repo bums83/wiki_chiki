@@ -5,7 +5,8 @@
       "Nanochat",
       "Validation bits per byte",
       "Overnight experimentation",
-      "Asynchronous research swarms"
+      "Asynchronous research swarms",
+      "Snowball — обучающийся агент скидок FMCG"
     ],
     "incoming": [
       "Academic Research Skills",
@@ -15,7 +16,8 @@
       "Overnight experimentation",
       "Research org code",
       "Validation bits per byte",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Snowball — обучающийся агент скидок FMCG"
     ]
   },
   "research-org-code.md": {
@@ -133,7 +135,8 @@
       "Prompts.chat",
       "Magpie",
       "Tokentap",
-      "Reasoning effort в LLM"
+      "Reasoning effort в LLM",
+      "Snowball — обучающийся агент скидок FMCG"
     ],
     "incoming": [
       "Agents.md",
@@ -142,7 +145,8 @@
       "ThreatSwarm",
       "Magpie",
       "Tokentap",
-      "Reasoning effort в LLM"
+      "Reasoning effort в LLM",
+      "Snowball — обучающийся агент скидок FMCG"
     ]
   },
   "validation-bits-per-byte.md": {
@@ -957,13 +961,15 @@
       "Tokentap",
       "Evolve",
       "RTK",
-      "ProcessForge"
+      "ProcessForge",
+      "Snowball — обучающийся агент скидок FMCG"
     ],
     "incoming": [
       "Tokentap",
       "Evolve",
       "RTK",
-      "ProcessForge"
+      "ProcessForge",
+      "Snowball — обучающийся агент скидок FMCG"
     ]
   },
   "ai-factory.md": {
@@ -1049,6 +1055,18 @@
       "Cobalt",
       "Coolify",
       "Прокси в веб-сборе данных"
+    ]
+  },
+  "snowball.md": {
+    "outgoing": [
+      "Evolve",
+      "Reasoning effort в LLM",
+      "Autoresearch"
+    ],
+    "incoming": [
+      "Evolve",
+      "Reasoning effort в LLM",
+      "Autoresearch"
     ]
   }
 }
