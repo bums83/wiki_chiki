@@ -4,7 +4,7 @@ type: technology
 created: 2026-05-07
 last_updated: 2026-06-18
 domain: infra
-related: ["PostgreSQL + VectorChord", "Directus", "PocketBase", "Teable"]
+related: ["Milvus", "PostgreSQL + VectorChord", "Directus", "PocketBase", "Teable"]
 tags: ["surrealdb", "database", "graph-db", "document-db", "realtime", "multi-model", "backend"]
 sources: ["github-surrealdb-surrealdb-2026-05-07"]
 ---
@@ -67,6 +67,7 @@ SurrealDB особенно уместна там, где обычная связ
 - **Directus** — это control layer и админка поверх SQL-базы.
 - **PocketBase** — лёгкий single-binary backend для быстрых прототипов.
 - **SurrealDB** — база, которая пытается сама быть и storage, и query layer, и частью backend experience.
+- **Milvus** — специализированный distributed vector-search service с отдельными metadata, object-storage и WAL layers; он сильнее для самостоятельного масштабирования retrieval, но не заменяет general-purpose data model.
 - **Teable** — no-code application layer поверх PostgreSQL, где главным интерфейсом становится spreadsheet-like UI и набор views для команды.
 
 То есть это не замена всем сразу, а отдельный класс системы: более амбициозный, чем лёгкий embedded backend, но и более цельный, чем чисто админский слой поверх SQL.

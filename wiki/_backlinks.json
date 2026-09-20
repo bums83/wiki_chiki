@@ -544,19 +544,22 @@
       "Coolify"
     ],
     "incoming": [
+      "Coolify",
+      "Milvus",
       "SurrealDB",
-      "Teable",
-      "Coolify"
+      "Teable"
     ]
   },
   "postgresql-vectorchord-hybrid-search.md": {
     "outgoing": [
+      "Antfarm",
       "Directus",
       "MCPorter",
-      "Antfarm"
+      "Milvus"
     ],
     "incoming": [
       "Directus",
+      "Milvus",
       "OpenAI Privacy Filter",
       "PowerInfer",
       "SurrealDB",
@@ -565,12 +568,14 @@
   },
   "surrealdb.md": {
     "outgoing": [
-      "PostgreSQL + VectorChord",
       "Directus",
+      "Milvus",
       "PocketBase",
+      "PostgreSQL + VectorChord",
       "Teable"
     ],
     "incoming": [
+      "Milvus",
       "Teable"
     ]
   },
@@ -752,11 +757,12 @@
       "ru-marketplace-mcp"
     ],
     "incoming": [
+      "Coolify",
       "Directus",
+      "Milvus",
       "PocketBase",
       "SurrealDB",
-      "Trench",
-      "Coolify"
+      "Trench"
     ]
   },
   "openscreen.md": {
@@ -1067,6 +1073,18 @@
       "Evolve",
       "Reasoning effort в LLM",
       "Autoresearch"
+    ]
+  },
+  "milvus.md": {
+    "outgoing": [
+      "PostgreSQL + VectorChord",
+      "SurrealDB",
+      "PocketBase",
+      "Teable"
+    ],
+    "incoming": [
+      "PostgreSQL + VectorChord",
+      "SurrealDB"
     ]
   }
 }

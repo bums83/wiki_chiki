@@ -26,6 +26,12 @@
 - **summary:** Linux/KVM VMM для одной microVM на процесс: Unix-socket API, jailer/seccomp, snapshots и явная граница между execution substrate и внешним control plane
 - **also:** firecracker, microvm, kvm, vmm, jailer, seccomp, snapshotting, virtio, sandbox
 
+### [Milvus]({{ '/wiki/infra/milvus' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** Специализированная distributed vector database: dense/sparse vectors, BM25/full-text и hybrid search, отдельные etcd/object storage/WAL layers и Kubernetes scaling; не замена SQL-базе по умолчанию
+- **also:** milvus, vector database, ANN, HNSW, IVF, DiskANN, BM25, hybrid retrieval, etcd, object storage
+
 ### [PostgreSQL + VectorChord]({{ '/wiki/infra/postgresql-vectorchord-hybrid-search' | relative_url }})
 - **type:** technology
 - **domain:** infra

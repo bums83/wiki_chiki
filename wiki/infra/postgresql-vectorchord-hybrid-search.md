@@ -4,7 +4,7 @@ type: technology
 created: 2026-04-21
 last_updated: 2026-04-21
 domain: infra
-related: ["Directus", "MCPorter", "Antfarm"]
+related: ["Milvus", "Directus", "MCPorter", "Antfarm"]
 sources: ["habr-postgresql-vectorchord-hybrid-search-part-1", "habr-postgresql-vectorchord-hybrid-search-part-2"]
 ---
 
@@ -236,6 +236,10 @@ sources: ["habr-postgresql-vectorchord-hybrid-search-part-1", "habr-postgresql-v
 Если же нужен именно offline retrieval с перспективой роста, это уже выглядит как нормальная база, а не просто демо.
 
 Если такой стек становится частью длинного data pipeline, его удобно рассматривать рядом с [Antfarm]({{ '/wiki/tools/antfarm' | relative_url }}), где многошаговые workflow могут использовать retrieval как один из устойчивых этапов общей автоматизации.
+
+## Граница с Milvus
+
+[Milvus]({{ '/wiki/infra/milvus' | relative_url }}) даёт отдельный distributed vector-search service с собственными etcd, object-storage и WAL layers. Этот Postgres-паттерн проще, когда документы, транзакционные данные и retrieval должны оставаться в одном SQL-контуре. Milvus становится обоснованнее при доказанной потребности в самостоятельном read/write scaling и большом vector workload; до этого отдельный cluster — лишняя operational complexity.
 
 ## Вывод
 

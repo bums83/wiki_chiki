@@ -399,3 +399,9 @@ Updated:
 - **updated:** `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, [[Evolve]], [[Reasoning effort в LLM]], [[Autoresearch]]
 - **summary:** Kotlin/JVM prototype for a self-learning FMCG promotion agent: a deterministic simulator and counterfactual replay create immutable evidence; deterministic lessons from persistent memory are retrieved before later constrained LLM decisions.
 - **verified:** cloned revision `b055f34b781def1400bf05845b91118c4fa36e4d`, reviewed build/runtime/test structure and benchmark/xmemory documents. `./gradlew spotlessCheck build` did not start because this host lacks Java/JAVA_HOME; no local build or test result is claimed.
+
+## [2026-09-20] ingest | Milvus
+- Создано: [[Milvus]], `raw/entries/2026-09-20_github-milvus-io-milvus.md`
+- Обновлено: [[PostgreSQL + VectorChord]], [[SurrealDB]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/milvus-io/milvus (reviewed SHA `9fcbbec31bba4958e6642f7c0109257207e591fe`, release `v3.0.2`)
+- Проверка: `docker compose config -q` successful; full build/test не запускались.
