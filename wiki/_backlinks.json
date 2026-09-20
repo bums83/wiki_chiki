@@ -536,18 +536,20 @@
   },
   "pocketbase.md": {
     "outgoing": [
+      "Coolify",
       "Directus",
-      "Teable",
       "PowerInfer",
       "RTK",
-      "Вайб-кодинг",
-      "Coolify"
+      "Teable",
+      "filesql",
+      "Вайб-кодинг"
     ],
     "incoming": [
       "Coolify",
       "Milvus",
       "SurrealDB",
-      "Teable"
+      "Teable",
+      "filesql"
     ]
   },
   "postgresql-vectorchord-hybrid-search.md": {
@@ -1085,6 +1087,16 @@
     "incoming": [
       "PostgreSQL + VectorChord",
       "SurrealDB"
+    ]
+  },
+  "filesql.md": {
+    "outgoing": [
+      "PocketBase",
+      "PostgreSQL + VectorChord",
+      "Teable"
+    ],
+    "incoming": [
+      "PocketBase"
     ]
   }
 }

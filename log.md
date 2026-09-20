@@ -405,3 +405,9 @@ Updated:
 - Обновлено: [[PostgreSQL + VectorChord]], [[SurrealDB]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/milvus-io/milvus (reviewed SHA `9fcbbec31bba4958e6642f7c0109257207e591fe`, release `v3.0.2`)
 - Проверка: `docker compose config -q` successful; full build/test не запускались.
+
+## [2026-09-20] ingest | filesql
+- Создано: [[filesql]], `raw/entries/2026-09-20_github-nao1215-filesql.md`
+- Обновлено: [[PocketBase]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
+- Источник: https://github.com/nao1215/filesql (reviewed SHA `034d8e8d60adfe3fddcaa96ddc862c0ec524c62f`)
+- Проверка: `make test` successful (`go test -cover ./...`).

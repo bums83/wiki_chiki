@@ -26,6 +26,12 @@
 - **summary:** Linux/KVM VMM для одной microVM на процесс: Unix-socket API, jailer/seccomp, snapshots и явная граница между execution substrate и внешним control plane
 - **also:** firecracker, microvm, kvm, vmm, jailer, seccomp, snapshotting, virtio, sandbox
 
+### [filesql]({{ '/wiki/infra/filesql' | relative_url }})
+- **type:** technology
+- **domain:** infra
+- **summary:** Go file-to-SQL adapter: CSV/TSV/LTSV/JSON/Parquet/XLSX и другие файлы загружаются в in-memory SQLite для SQL joins и анализа без отдельного сервера
+- **also:** filesql, Go, SQLite, CSV, Parquet, XLSX, file SQL
+
 ### [Milvus]({{ '/wiki/infra/milvus' | relative_url }})
 - **type:** technology
 - **domain:** infra
