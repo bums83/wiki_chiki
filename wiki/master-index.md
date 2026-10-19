@@ -272,6 +272,12 @@
 
 ## Tools
 
+### [Build Your Own X — русский каталог]({{ '/wiki/tools/build-your-own-x-ru' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Навигатор по 359 учебным проектам в 30 категориях: русские обзоры и ссылки на оригиналы; статический сайт с поиском, не полный перевод всех курсов
+- **also:** BYOX, build-your-own-x-ru, build your own x, программирование с нуля, учебные проекты
+
 ### [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }})
 - **type:** technology
 - **domain:** tools

@@ -69,6 +69,7 @@ layout: home
 
 | Статья | О чём |
 |--------|-------|
+| [Build Your Own X — русский каталог]({{ '/wiki/tools/build-your-own-x-ru' | relative_url }}) | 359 учебных проектов: русские обзоры, ссылки на оригиналы и реализация технологий с нуля |
 | [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |
 | [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}) | CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций |
 | [nuphus-mcp]({{ '/wiki/tools/nuphus-mcp' | relative_url }}) | Stdio MCP-server для desktop/browser computer use: screen/windows/input, CDP, local OCR и BYOK vision; требует отдельной trust boundary и strict confirmation |

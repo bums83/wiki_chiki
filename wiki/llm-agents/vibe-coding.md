@@ -2,9 +2,9 @@
 title: Вайб-кодинг
 type: practice
 created: 2026-04-13
-last_updated: 2026-04-13
+last_updated: 2026-10-19
 domain: llm-agents
-related: ["Research org code", "Overnight experimentation", "Autoresearch", "UI/UX Pro Max"]
+related: ["Research org code", "Overnight experimentation", "Autoresearch", "UI/UX Pro Max", "Build Your Own X — русский каталог"]
 sources: ["doc-vibe-coder-50-prompts"]
 ---
 
@@ -168,6 +168,10 @@ sources: ["doc-vibe-coder-50-prompts"]
 Разница в том, что `autoresearch` заточен под research loop, а `vibe coding` — под прикладную разработку и интеграции.
 
 В этом смысле полезно смотреть и на [Prompts.chat]({{ '/wiki/llm-agents/prompts-chat' | relative_url }}): если `вaйб-кодинг` описывает discipline постановки задач агенту, то prompts.chat показывает, как prompt patterns могут превращаться в общую библиотеку и reusable operational asset.
+
+## Обучение и понимание механизма
+
+[Build Your Own X — русский каталог]({{ '/wiki/tools/build-your-own-x-ru' | relative_url }}) даёт задачи для самостоятельной реализации технологий. В учебном режиме агенту лучше поручать объяснение ошибок, ревью и проверку тестов, а не незаметно подменять им весь процесс: сгенерированная работающая программа не доказывает понимания её инвариантов.
 
 ## Практический вывод
 

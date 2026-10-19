@@ -47,7 +47,8 @@
       "Research org code",
       "Overnight experimentation",
       "Autoresearch",
-      "UI/UX Pro Max"
+      "UI/UX Pro Max",
+      "Build Your Own X — русский каталог"
     ],
     "incoming": [
       "Agents.md",
@@ -63,7 +64,8 @@
       "RTK",
       "Research org code",
       "VoxCPM2 Portable",
-      "Video Summary"
+      "Video Summary",
+      "Build Your Own X — русский каталог"
     ]
   },
   "prompts-chat.md": {
@@ -120,12 +122,14 @@
     "outgoing": [
       "Autoresearch",
       "Validation bits per byte",
-      "Overnight experimentation"
+      "Overnight experimentation",
+      "Build Your Own X — русский каталог"
     ],
     "incoming": [
       "Autoresearch",
       "Overnight experimentation",
-      "Validation bits per byte"
+      "Validation bits per byte",
+      "Build Your Own X — русский каталог"
     ]
   },
   "evolve.md": {
@@ -542,14 +546,16 @@
       "RTK",
       "Teable",
       "filesql",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Build Your Own X — русский каталог"
     ],
     "incoming": [
       "Coolify",
       "Milvus",
       "SurrealDB",
       "Teable",
-      "filesql"
+      "filesql",
+      "Build Your Own X — русский каталог"
     ]
   },
   "postgresql-vectorchord-hybrid-search.md": {
@@ -1097,6 +1103,18 @@
     ],
     "incoming": [
       "PocketBase"
+    ]
+  },
+  "build-your-own-x-ru.md": {
+    "outgoing": [
+      "Nanochat",
+      "PocketBase",
+      "Вайб-кодинг"
+    ],
+    "incoming": [
+      "Nanochat",
+      "PocketBase",
+      "Вайб-кодинг"
     ]
   }
 }

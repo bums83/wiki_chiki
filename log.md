@@ -411,3 +411,11 @@ Updated:
 - Обновлено: [[PocketBase]], `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`
 - Источник: https://github.com/nao1215/filesql (reviewed SHA `034d8e8d60adfe3fddcaa96ddc862c0ec524c62f`)
 - Проверка: `make test` successful (`go test -cover ./...`).
+
+## [2026-10-19] ingest | Build Your Own X — русский каталог
+
+- Источник: https://github.com/Hordekiller/build-your-own-x-ru, ревизия `405fedc956856069e661fd900abb8dab69fb9984`.
+- Создано: `wiki/tools/build-your-own-x-ru.md`, `raw/entries/2026-10-19_build-your-own-x-ru-github.md`.
+- Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, Nanochat, PocketBase, Вайб-кодинг.
+- Содержание: каталог русских обзоров учебных реализаций; отделены навигация и обзоры от полного содержания оригиналов. Отмечены отсутствие заявленных Python-аудитора/генератора и отдельного файла лицензии в проверенном дереве.
+- Проверка: 359 записей/уникальных ID/HTML-страниц, 30 категорий, 41 языковая метка; совпадение JSON-реестров, H1/URL оригиналов и локальные href. JS syntax, 4 проверки фильтрации и 4 loopback HTTP smoke-запроса прошли. Переводы, внешние ссылки, примеры кода и браузерное E2E целиком не проверялись.

@@ -2,9 +2,9 @@
 title: Nanochat
 type: technology
 created: 2026-04-13
-last_updated: 2026-04-13
+last_updated: 2026-10-19
 domain: llm-agents
-related: ["Autoresearch", "Validation bits per byte", "Overnight experimentation"]
+related: ["Autoresearch", "Validation bits per byte", "Overnight experimentation", "Build Your Own X — русский каталог"]
 sources: ["github-karpathy-nanochat"]
 ---
 
@@ -52,6 +52,10 @@ sources: ["github-karpathy-nanochat"]
 ## Связь с autoresearch
 
 [Autoresearch]({{ '/wiki/llm-agents/autoresearch' | relative_url }}) — это по сути выделенный из `nanochat` автономный research-loop. Если `nanochat` — это общий research harness, то `autoresearch` — это агентная надстройка для автоматического поиска улучшений внутри этого контура.
+
+## Учебный вход
+
+[Build Your Own X — русский каталог]({{ '/wiki/tools/build-your-own-x-ru' | relative_url }}) помогает выбрать отдельный материал о LLM или нейросетях и перейти к оригиналу. Это навигатор по учебным задачам, тогда как Nanochat — конкретный training/evaluation pipeline. Русский обзор не заменяет код и требования исходного урока.
 
 ## Практический вывод
 

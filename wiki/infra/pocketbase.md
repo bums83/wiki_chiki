@@ -2,9 +2,9 @@
 title: PocketBase
 type: technology
 created: 2026-05-01
-last_updated: 2026-06-21
+last_updated: 2026-10-19
 domain: infra
-related: ["filesql", "Directus", "Teable", "Coolify", "PowerInfer", "RTK", "Вайб-кодинг"]
+related: ["filesql", "Directus", "Teable", "Coolify", "PowerInfer", "RTK", "Вайб-кодинг", "Build Your Own X — русский каталог"]
 tags: ["backend", "go", "sqlite", "realtime", "open-source", "prototyping"]
 sources: ["github-pocketbase-pocketbase-2026-05-01"]
 ---
@@ -148,6 +148,8 @@ onRecordCreateRequest((e) => {
 - [Coolify]({{ '/wiki/tools/coolify' | relative_url }}) — deployment/control plane для запуска PocketBase-подобных single-service backends, databases и compose-сервисов на своих Docker-хостах
 - [filesql]({{ '/wiki/infra/filesql' | relative_url }}) — in-memory SQL-слой для controlled ad-hoc обработки CSV/Parquet/XLSX; не persistent backend и не замена PocketBase API.
 - [Вайб-кодинг]({{ '/wiki/llm-agents/vibe-coding' | relative_url }}) — PocketBase удобен для быстрого прототипирования AI-фич: собрал схему, описал API-контракт, отдал агенту
+
+[Build Your Own X — русский каталог]({{ '/wiki/tools/build-your-own-x-ru' | relative_url }}) предлагает другой маршрут: учебные реализации базы данных, Redis и других механизмов с нуля. Это полезно для понимания хранения и индексов, но не замена готовому backend для прикладного проекта.
 
 ## Ресурсы
 
