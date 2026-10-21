@@ -69,6 +69,7 @@ layout: home
 
 | Статья | О чём |
 |--------|-------|
+| [Remade]({{ '/wiki/tools/remade' | relative_url }}) | Каталог независимых реализаций ПО: поиск по оригиналу, статусу и совместимости; карточки — кандидаты для проверки, не сертифицированные замены |
 | [Build Your Own X — русский каталог]({{ '/wiki/tools/build-your-own-x-ru' | relative_url }}) | 359 учебных проектов: русские обзоры, ссылки на оригиналы и реализация технологий с нуля |
 | [VoxCPM2 Portable]({{ '/wiki/tools/voxcpm2-portable' | relative_url }}) | Portable Windows-обвязка вокруг VoxCPM2: TTS, voice cloning, voice design и авто-пайплайн обучения LoRA из видео/аудио |
 | [MCPorter]({{ '/wiki/tools/mcporter' | relative_url }}) | CLI-оператор для MCP-серверов: конфиг, auth, прямые вызовы tools и отладка интеграций |

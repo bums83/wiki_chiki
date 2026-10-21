@@ -272,6 +272,12 @@
 
 ## Tools
 
+### [Remade]({{ '/wiki/tools/remade' | relative_url }})
+- **type:** technology
+- **domain:** tools
+- **summary:** Community-каталог независимых реализаций ПО и supporting tools; фильтры, публичный JSON и maintainer-reported compatibility, без гарантии готовности или безопасности
+- **also:** remade.wiki, replicraft, software reimplementation, альтернативы ПО, clean-room, software directory
+
 ### [Build Your Own X — русский каталог]({{ '/wiki/tools/build-your-own-x-ru' | relative_url }})
 - **type:** technology
 - **domain:** tools

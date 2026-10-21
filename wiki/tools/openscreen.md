@@ -2,9 +2,9 @@
 title: OpenScreen
 type: technology
 created: 2026-06-07
-last_updated: 2026-08-15
+last_updated: 2026-10-21
 domain: tools
-related: ["HyperFrames", "Video Summary", "Penpot", "Mermaid", "OculiX", "Cobalt", "Slidev"]
+related: ["HyperFrames", "Video Summary", "Penpot", "Mermaid", "OculiX", "Cobalt", "Slidev", "Remade"]
 sources: ["github-siddharthvaddem-openscreen-2026-06-07"]
 tags: ["tools", "video", "screen-recording", "workflow", "open-source"]
 ---
@@ -93,6 +93,8 @@ README честно предупреждает: проект вырос из sid
 - OS-specific проблемы с native capture;
 - разная зрелость функций на Linux относительно macOS/Windows;
 - монтажный слой достаточен для demo/walkthrough, но не заменяет профессиональный NLE для сложного видеопроизводства.
+
+[Remade]({{ '/wiki/tools/remade' | relative_url }}) служит дополнительным источником кандидатов на замену знакомых capture/editor-приложений. Его статусы и совместимость заявлены сопровождающими, поэтому выбор требует своего теста записи, audio/cursor capture и export; карточка каталога не заменяет проверку конкретного инструмента вроде OpenScreen.
 
 ## Практический вывод
 

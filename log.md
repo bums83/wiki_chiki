@@ -419,3 +419,11 @@ Updated:
 - Обновлено: `index.md`, `wiki/master-index.md`, `wiki/_backlinks.json`, Nanochat, PocketBase, Вайб-кодинг.
 - Содержание: каталог русских обзоров учебных реализаций; отделены навигация и обзоры от полного содержания оригиналов. Отмечены отсутствие заявленных Python-аудитора/генератора и отдельного файла лицензии в проверенном дереве.
 - Проверка: 359 записей/уникальных ID/HTML-страниц, 30 категорий, 41 языковая метка; совпадение JSON-реестров, H1/URL оригиналов и локальные href. JS syntax, 4 проверки фильтрации и 4 loopback HTTP smoke-запроса прошли. Переводы, внешние ссылки, примеры кода и браузерное E2E целиком не проверялись.
+
+## [2026-10-21] ingest | Remade
+
+- Источник: https://remade.wiki/explore/; документация replicraft/remade на SHA `2c61c92847ace6947a91c8713c82c8e67c836b06`.
+- Создано: `wiki/tools/remade.md`, `raw/entries/2026-10-21_remade-wiki-explore.md`.
+- Обновлено: индексы, граф связей, Build Your Own X — русский каталог, Penpot и OpenScreen.
+- Содержание: originals/projects/tools/suites/requests, поиск, заявленная совместимость, public JSON и редакционная policy. Лицензия каталога отделена от лицензий приложений; запись не является security/legal/compatibility certification.
+- Проверка: HTML и JSON согласованы по 123 projects + 13 tools = 136 уникальным записям; уникальность slug и project/tool/suite/featured references прошли. Приложения не устанавливались; локальная сборка сайта и браузерное E2E не выполнялись.

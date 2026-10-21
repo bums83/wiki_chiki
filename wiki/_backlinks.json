@@ -441,13 +441,15 @@
       "Вайб-кодинг",
       "OpenScreen",
       "UI/UX Pro Max",
-      "Mobbin"
+      "Mobbin",
+      "Remade"
     ],
     "incoming": [
       "HyperFrames",
       "Mermaid",
       "OpenScreen",
-      "Mobbin"
+      "Mobbin",
+      "Remade"
     ]
   },
   "openai-privacy-filter.md": {
@@ -781,7 +783,8 @@
       "OculiX",
       "Video Summary",
       "Cobalt",
-      "Slidev"
+      "Slidev",
+      "Remade"
     ],
     "incoming": [
       "HyperFrames",
@@ -789,7 +792,8 @@
       "Mermaid",
       "OculiX",
       "Video Summary",
-      "Slidev"
+      "Slidev",
+      "Remade"
     ]
   },
   "coolify.md": {
@@ -1109,12 +1113,26 @@
     "outgoing": [
       "Nanochat",
       "PocketBase",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Remade"
     ],
     "incoming": [
       "Nanochat",
       "PocketBase",
-      "Вайб-кодинг"
+      "Вайб-кодинг",
+      "Remade"
+    ]
+  },
+  "remade.md": {
+    "outgoing": [
+      "Build Your Own X — русский каталог",
+      "Penpot",
+      "OpenScreen"
+    ],
+    "incoming": [
+      "Build Your Own X — русский каталог",
+      "Penpot",
+      "OpenScreen"
     ]
   }
 }

@@ -2,9 +2,9 @@
 title: Penpot
 type: technology
 created: 2026-05-03
-last_updated: 2026-08-11
+last_updated: 2026-10-21
 domain: tools
-related: ["Mermaid", "HyperFrames", "OpenScreen", "Вайб-кодинг", "UI/UX Pro Max", "Mobbin"]
+related: ["Mermaid", "HyperFrames", "OpenScreen", "Вайб-кодинг", "UI/UX Pro Max", "Mobbin", "Remade"]
 tags: ["tools", "automation", "docker"]
 sources: ["github-penpot-penpot-2026-05-03"]
 ---
@@ -97,6 +97,8 @@ Penpot полезен не всем одинаково.
 - оценку зрелости конкретных функций относительно привычного SaaS-инструмента.
 
 То есть Penpot — это не «бесплатная Figma без компромиссов», а открытая стратегическая альтернатива для команд, которым важны владение, интеграция и инфраструктурный контроль.
+
+[Remade]({{ '/wiki/tools/remade' | relative_url }}) помогает составлять список альтернатив знакомому ПО, а Penpot — конкретная design-платформа для предметной оценки. Фильтры каталога не заменяют проверку migration, collaboration, plugins и handoff на своих проектах; эта связь не утверждает наличие Penpot в самом каталоге.
 
 ## Практический вывод
 
